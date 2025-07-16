@@ -1,0 +1,413 @@
+/* Global Styles */
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #b6894b;
+}
+
+.mainContent {
+  padding-top: 80px; /* Space for fixed header */
+}
+
+/* Section Styles */
+.section {
+  margin: 0;
+  padding: 0;
+}
+
+/* A Propos Section */
+.sectionApropos {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('/assets/image/apropos.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 100px 40px 40px;
+  color: white;
+  overflow: hidden;
+}
+
+.sectionApropos::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.493);
+  z-index: 0;
+}
+
+.sectionTitle {
+  font-size: 36px;
+  color: #ffffff;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  margin-bottom: 20px;
+  text-align: left;
+  padding-left: 10px;
+  z-index: 1;
+  position: relative;
+}
+
+.sectionText {
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px 10px 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.aproposContainer {
+  margin: 0 auto;
+  padding: 120px 40px 40px;
+  max-width: 1000px;
+  text-align: justify;
+  line-height: 1.6;
+  z-index: 1;
+  position: relative;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: normal;
+  color: #ffffffcc;
+  margin-left: 10px;
+}
+
+/* Nos Formations Section */
+.sectionFormations {
+  padding: 40px 0;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.horizontalContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 40px;
+  width: 100%;
+  padding: 40px 20px;
+}
+
+.leftSection {
+  flex: 1 1 30%;
+}
+
+.rightSection {
+  flex: 1 1 65%;
+}
+
+.formationsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  perspective: 1000px;
+  margin-top: 30px;
+}
+
+.formationCard {
+  background: white;
+  border-radius: 16px;
+  padding: 25px 15px;
+  width: 200px;
+  min-height: 200px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.formationCard:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px rgba(189, 96, 53, 0.719);
+}
+
+.formationIcon {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.formationTitle {
+  font-size: 18px;
+  font-weight: 600;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+/* ========== REFERENCES SECTION ========== */
+.sectionReferences {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.referencesSliderContainer {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 20px 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  background-color: white;
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.slideImg {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.slideImg:hover {
+  transform: scale(1.05);
+}
+
+.sliderArrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #004080;
+  border: none;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s;
+}
+
+.sliderArrow:hover {
+  background: #0066cc;
+}
+
+.prevArrow {
+  left: 10px;
+}
+
+.nextArrow {
+  right: 10px;
+}
+
+.sliderDots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dotActive {
+  background: #004080;
+  transform: scale(1.3);
+}
+
+/* ========== CONTACT SECTION ========== */
+.sectionContact {
+  padding: 60px 20px;
+  background-color: #fdfdfd;
+  width: 100%;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.contactHeader {
+  flex: 1 1 300px;
+  background: #eee8e2;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.contactFormWrapper,
+.contactMap {
+  flex: 1 1 48%;
+  min-width: 300px;
+}
+
+.contactForm {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 64, 128, 0.1);
+}
+
+.formRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.formGroup {
+  flex: 1;
+  min-width: 250px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitButton {
+  background-color: #004080;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitButton:hover {
+  background-color: #0066cc;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+@media (max-width: 768px) {
+  .contactInfo,
+  .contactContainer {
+    flex-direction: column;
+  }
+
+  .contactFormWrapper,
+  .contactMap {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+
+  .sectionContact {
+    padding: 40px 15px;
+  }
+
+  .slideImg {
+    width: 100%;
+    height: auto;
+  }
+
+  .sliderArrow {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }
+
+  .referencesSliderContainer {
+    padding: 10px 0;
+  }
+
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+.sectionContact {
+  padding: 60px 20px;
+  background-color: #fdfdfd;
+  width: 100%;
+}
+
+.contactInfo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+/* Each contact card (Téléphone, Email, Adresse) */
+.contactHeader {
+  flex: 1 1 calc(33.33% - 20px); /* 3 boxes in a row */
+  background: #eee8e2;
+  border-radius: 12px;
+  padding: 25px 20px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-width: 250px;
+}
+
+.contactTitle {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 600;
+  gap: 10px;
+  color: #004080;
+}
+
+.contactContent {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.6;
+}
+
+.contactTitle img {
+  width: 24px;
+  height: 24px;
+}
