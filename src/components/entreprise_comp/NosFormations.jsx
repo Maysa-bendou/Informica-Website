@@ -18,33 +18,11 @@ function NosFormations() {
 
           <div className={styles.formationsGrid}>
             <div className={styles.formationCard}>
-              <img src={management} alt="Management Icon" className={styles.formationIcon} />
-              <h3 className={styles.formationTitle}>Management / Développement Personnel</h3>
-              <Link to="/formations/management" className={styles.formationLink}>En savoir plus</Link>
+              <h3 className={styles.formationTitle}>HSE : Hygiène, Sécurité et Environnement</h3>
             </div>
 
             <div className={styles.formationCard}>
-              <img src={hr} alt="HR Icon" className={styles.formationIcon} />
-              <h3 className={styles.formationTitle}>GRH : Ressources Humaines</h3>
-              <Link to="/formations/grh" className={styles.formationLink}>En savoir plus</Link>
-            </div>
-
-            <div className={styles.formationCard}>
-              <img src={finance} alt="Compta Icon" className={styles.formationIcon} />
-              <h3 className={styles.formationTitle}>Comptabilité / Finance / Juridique</h3>
-              <Link to="/formations/comptabilite" className={styles.formationLink}>En savoir plus</Link>
-            </div>
-
-            <div className={styles.formationCard}>
-              <img src={marketing} alt="Marketing Icon" className={styles.formationIcon} />
-              <h3 className={styles.formationTitle}>Commercial / Marketing</h3>
-              <Link to="/formations/marketing" className={styles.formationLink}>En savoir plus</Link>
-            </div>
-
-            <div className={styles.formationCard}>
-              <img src={qhse} alt="QHSE Icon" className={styles.formationIcon} />
-              <h3 className={styles.formationTitle}>QHSE : Qualité, Sécurité, Environnement</h3>
-              <Link to="/formations/qhse" className={styles.formationLink}>En savoir plus</Link>
+              <h3 className={styles.formationTitle}>Catalogue général</h3>
             </div>
           </div>
         </div>
