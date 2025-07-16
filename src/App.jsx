@@ -14,7 +14,8 @@ function App() {
 
     <Route path="/entreprise" element={<PageEntreprise />} />
         <Route path="/formations/:categoryId" element={<FormationsPage />} />
-        <Route path="/formation/:categoryId/:subcategoryId/:formationId" element={<FormationDetailsPage />} />
+        <Route path="/formations/:categoryId/:subcategoryId/:formationId" element={<FormationDetailsPage />} />
+<Route path="/formations/:categoryId/:formationId" element={<FormationDetailsPage />} />
         <Route path="/public" element={<PagePublic />} />
 
       </Routes>

@@ -3,6 +3,8 @@
   "formations": [
     {
       "titreFormation": "Développer son Leadership",
+      "image": "/data/image/devlea.jpg",
+
       "objectifs": [
         "Améliorer les compétences en leadership.",
         "Renforcer la capacité à gérer les équipes de manière efficace.",

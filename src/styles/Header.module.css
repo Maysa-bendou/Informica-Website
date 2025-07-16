@@ -42,13 +42,12 @@
 
 .navLink:hover {
   color: #1388fd;
-  background-color: rgba(0, 64, 128, 0.1);
 }
 
 .navLink.active {
   color: #1388fd;
   font-weight: 600;
-  background-color: rgba(0, 64, 128, 0.1);
+
 }
 
 /* Responsive styles */
