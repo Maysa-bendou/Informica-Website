@@ -16,17 +16,19 @@ function NosFormations() {
         <div className={styles.leftSection}>
           <h2 className={styles.sectionTitle}>Savoir-faire de nos formateurs à travers nos catalogues</h2>
 
-          <div className={styles.formationsGrid}>
-            <div className={styles.formationCard}>
+          <div className={styles.formationsGridd}>
+         
+            <Link to="/" className={styles.formationCardd}>
               <h3 className={styles.formationTitle}>HSE : Hygiène, Sécurité et Environnement</h3>
-            </div>
+            </Link> 
 
-            <div className={styles.formationCard}>
+            <Link to="/" className={styles.formationCardd}>
               <h3 className={styles.formationTitle}>Catalogue général</h3>
-            </div>
+            </Link>
           </div>
-        </div>
-
+        </div>       
+          
+          
         <div className={styles.rightSection}>
           <h2 className={styles.sectionTitle}>Découvrez nos formations classées<br /> par domaine</h2>
 

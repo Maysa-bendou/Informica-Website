@@ -6,7 +6,7 @@
   width: 100%;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif;
-  background-color: #b6894b;
+  
 }
 
 .mainContent {
@@ -30,7 +30,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 100px 40px 40px;
+  padding: 20px 5px;
   color: white;
   overflow: hidden;
 }
@@ -46,7 +46,7 @@
 .sectionTitle {
   font-size: 25px;
   color: #1b502b;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
   padding-left: 10px;
   z-index: 1;
@@ -78,9 +78,16 @@
   margin-left: 10px;
 }
 
+
+
+
+
+
+
+
 /* Nos Formations Section */
 .sectionFormations {
-  padding: 40px 0;
+  padding: 30px 10px;
   text-align: center;
   background-color: #f9f9f9;
 }
@@ -91,9 +98,10 @@
   justify-content: space-between;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 20px;
   width: 100%;
-  padding: 40px 20px;
+  padding: 10px 20px;
+  margin: -12px;
 }
 
 .leftSection {
@@ -113,15 +121,16 @@
   max-width: 1200px;
   margin: 0 auto;
   perspective: 1000px;
-  margin-top: 30px;
+  margin-top: 52px;
+  
 }
 
 .formationCard {
   background: white;
   padding: 25px 15px;
-  width: 200px;
-  min-height: 200px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 190px;
+  min-height: 150px;
+  box-shadow: 0 4px 15px rgba(22, 20, 20, 0.632);
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   cursor: pointer;
@@ -130,11 +139,12 @@
 .formationCard:hover {
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
+  background-color:rgb(182, 194, 207);
 }
 
 .formationIcon {
-  width: 60px;
-  height: 60px;
+  width: 50px;
+  height: 50px;
   margin-bottom: 15px;
 }
 
@@ -145,21 +155,85 @@
   margin-bottom: 10px;
 }
 
-/* ========== REFERENCES SECTION ========== */
-.sectionReferences {
-  padding: 60px 20px;
-  background-color: #f5f5f5;
-  text-align: center;
+
+/* Grid of formations - vertical stack with horizontal spacing */
+.formationsGridd {
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  gap: 20px;               /* Space between cards vertically */
+  padding: 0 20px;         /* Space on left and right (your sketch) */
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40px;
 }
 
+/* Formation Card Style - full width, tall rectangle */
+.formationCardd {
+  background: white;
+  padding: 25px 15px;
+  width: 100%;               /* Full width inside the 20px padded parent */
+  min-height: 227px;
+  display: flex;
+  align-items: center;
+  
+  gap: 15px;
+  box-shadow: 0 4px 15px rgba(22, 20, 20, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;     /* Remove underline if it's a Link */
+  color: inherit;            /* Inherit text color */
+}
+
+.formationCardd:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
+  background-color:rgb(182, 194, 207);
+
+}
+
+
+/* Optional: Make it mobile responsive */
+@media (max-width: 768px) {
+  .formationsGridd {
+    padding: 0 15px;
+  }
+  .formationCardd {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+
+/* ========== REFERENCES SECTION ========== */
+.sectionReferences {
+  padding: 30px 35px;
+  background-color: #f5f5f5;
+  text-align: center;
+   margin-bottom: 0px;
+}
+
+
+.referencesSlider {
+  max-width: 960px; /* or any size */
+    flex: 1; /* Take up remaining space */
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+}
 .referencesSliderContainer {
   position: relative;
   width: 100%;
   margin: 0 auto;
   overflow: hidden;
-  padding: 10px;
+  padding: 80px;
   border-radius: 12px;
-
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  gap : 1rem;
+ 
 
 }
 
@@ -170,18 +244,17 @@
 
 .slide {
   min-width: 100%;
-  display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
 }
 
 .slideImg {
-  max-width: 100%;
-  height: auto;
+ width: 700px;
+  height: 180px;
   object-fit: contain;
-  border-radius: 10px;
-  transition: transform 0.3s ease;
+display: block;
+margin: 0 auto ;
 }
 
 .slideImg:hover {
@@ -212,11 +285,11 @@
 }
 
 .prevArrow {
-  left: 10px;
+  left: 35px;
 }
 
 .nextArrow {
-  right: 10px;
+  right: 35px;
 }
 
 .sliderDots {
@@ -246,7 +319,9 @@
   background-color: #fdfdfd;
   width: 100%;
 }
-
+.sectionTitle{
+  margin-bottom: 80px;
+}
 .contactInfo {
   display: flex;
   justify-content: space-between;
@@ -261,6 +336,7 @@
   border-radius: 12px;
   padding: 30px;
   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.05);
+  
 }
 
 .contactContainer {
@@ -268,31 +344,54 @@
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
+  height: 600px;
+  
+}
+
+.contactFormWrapper {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  height: 100%; /* allow full height */
 }
 
 .contactFormWrapper,
 .contactMap {
   flex: 1 1 48%;
   min-width: 300px;
+  height: 100%; 
 }
 
 .contactForm {
-  background: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 64, 128, 0.1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* spread fields + submit btn */
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  background-color: #e5f0f1; 
+
 }
 
+.contactForm h3{
+  margin-top: -10px;
+}
+
+/* One row in the form */
 .formRow {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
+/* Form group: label + input */
 .formGroup {
-  flex: 1;
-  min-width: 250px;
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 input[type="text"],
@@ -311,8 +410,9 @@ textarea {
 }
 
 .submitButton {
-  background-color: #004080;
+  background-color: #456a6ce6;
   color: white;
+  width: 200px;
   border: none;
   padding: 12px 24px;
   border-radius: 30px;
@@ -322,8 +422,17 @@ textarea {
   transition: background-color 0.3s ease;
 }
 
+.formGroup input,
+.formGroup textarea {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+
 .submitButton:hover {
-  background-color: #0066cc;
+  background-color: #a5c5c5;
 }
 
 /* ========== RESPONSIVE DESIGN ========== */
@@ -332,7 +441,7 @@ textarea {
   .contactContainer {
     flex-direction: column;
   }
-
+   
   .contactFormWrapper,
   .contactMap {
     flex: 1 1 100%;
@@ -364,7 +473,7 @@ textarea {
   }
 }
 .sectionContact {
-  padding: 60px 20px;
+  padding: 30px 35px;
   background-color: #fdfdfd;
   width: 100%;
 }
@@ -374,9 +483,16 @@ textarea {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 30px;
-  margin-bottom: 40px;
+  margin-bottom: 80px;
+  height: 220px;
+  width: 1000px;
+  padding: 20px 10px;
+  padding-left: 147px;
 }
 
+.contactInfo  p{
+  text-align: left;
+}
 /* Each contact card (Téléphone, Email, Adresse) */
 .contactHeader {
   flex: 1 1 calc(33.33% - 20px); /* 3 boxes in a row */
@@ -387,7 +503,8 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  min-width: 250px;
+  min-width: 10px;
+  height: 180px;
 }
 
 .contactTitle {
@@ -397,12 +514,15 @@ textarea {
   font-weight: 600;
   gap: 10px;
   color: #004080;
+  margin-bottom: -5px;
+  margin-top: 0px;
 }
 
 .contactContent {
   font-size: 16px;
   color: #333;
   line-height: 1.6;
+  
 }
 
 .contactTitle img {
