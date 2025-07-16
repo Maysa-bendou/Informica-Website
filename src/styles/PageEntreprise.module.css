@@ -44,11 +44,10 @@
 }
 
 .sectionTitle {
-  font-size: 36px;
-  color: #ffffff;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+  font-size: 25px;
+  color: #1b502b;
   margin-bottom: 20px;
-  text-align: left;
+  text-align: center;
   padding-left: 10px;
   z-index: 1;
   position: relative;
@@ -119,7 +118,6 @@
 
 .formationCard {
   background: white;
-  border-radius: 16px;
   padding: 25px 15px;
   width: 200px;
   min-height: 200px;
@@ -131,7 +129,7 @@
 
 .formationCard:hover {
   transform: scale(1.05) translateY(-10px);
-  box-shadow: 0 20px 40px rgba(189, 96, 53, 0.719);
+  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
 }
 
 .formationIcon {
@@ -253,7 +251,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 20px;
   margin-bottom: 40px;
 }
 
