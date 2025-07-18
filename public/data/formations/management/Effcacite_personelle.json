@@ -3,6 +3,7 @@
   "formations": [
     {
       "titreFormation": "Gérer son Temps et Organiser ses Priorités",
+        "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/4. Efficacité personnelle/1.Gerer_Son_Temps_Et_Organiser_Ses_Priorites.pdf",
       "objectifs": [
         "Optimiser la gestion du temps pour améliorer l'efficacité au travail.",
         "Apprendre à prioriser les tâches de manière stratégique.",
@@ -61,6 +62,7 @@
     },
     {
       "titreFormation": "Perfectionner ses Pratiques Managériales",
+              "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/4. Efficacité personnelle/2.Perfectionner_Ses_Pratiques_Manageriales.pdf",
       "objectifs": [
         "Améliorer les compétences en management.",
         "Développer des techniques avancées pour la gestion des équipes.",
@@ -126,6 +128,7 @@
     },
     {
       "titreFormation": "Attitude, Comportement et Postures du Manager",
+              "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/4. Efficacité personnelle/3.Fiche_Technique_Attitude_Comportement_Et_Postures_Du_Manager.pdf",
       "objectifs": [
         "Comprendre l'importance de l'attitude et du comportement dans le management.",
         "Développer des postures managériales efficaces.",

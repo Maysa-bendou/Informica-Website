@@ -3,8 +3,7 @@
   "formations": [
     {
       "titreFormation": "Développer son Leadership",
-      "image": "/data/image/devlea.jpg",
-
+   "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/1.Developper_Son_Leadership.pdf",
       "objectifs": [
         "Améliorer les compétences en leadership.",
         "Renforcer la capacité à gérer les équipes de manière efficace.",
@@ -54,6 +53,7 @@
     },
     {
       "titreFormation": "Développer son Intelligence Émotionnelle",
+      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/2.Developper_Son_Intelligence_Emotionnelle.pdf",
       "objectifs": [
         "Comprendre les principes de l'intelligence émotionnelle.",
         "Améliorer la gestion des émotions personnelles et professionnelles.",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "titreFormation": "Gérer son Stress et celui de ses Collaborateurs",
+      "titreFormation": "Gérer son Stress et celui de ses Collaborateurs","pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/3.Gerer_Son_Stress_Et_Celui_De_Ses_Collaborateurs.pdf",
       "objectifs": [
         "Identifier les sources de stress au travail.",
         "Apprendre des techniques efficaces pour gérer le stress personnel.",
@@ -148,6 +148,7 @@
     },
     {
       "titreFormation": "S'affirmer dans la Vie Professionnelle",
+      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/4.S_Affirmer_Dans_La_Vie_Professionnelle.pdf",
       "objectifs": [
         "Développer la confiance en soi et l'assertivité au travail.",
         "Apprendre à exprimer ses opinions et besoins de manière claire et respectueuse.",
@@ -194,6 +195,7 @@
     },
     {
       "titreFormation": "Développer sa Créativité",
+      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/5.Technique_Developper_Sa_Creativite.pdf",
       "objectifs": [
         "Stimuler la pensée créative et l'innovation.",
         "Apprendre des techniques pour générer de nouvelles idées.",
@@ -248,6 +250,7 @@
     },
     {
       "titreFormation": "Prévenir et Gérer les Situations Difficiles",
+      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/6.Prevenir_Et_Gerer_Les_Situations_Difficiles.pdf",
       "objectifs": [
         "Identifier les situations difficiles et les anticiper.",
         "Développer des compétences pour gérer efficacement les conflits et les crises.",

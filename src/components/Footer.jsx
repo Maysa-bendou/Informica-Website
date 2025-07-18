@@ -76,7 +76,7 @@ function Footer() {
         </div>
       </div>
       <div style={footerStyles.footerBottom}>
-        © 2025 INFORMICA. Tous droits réservés. Projet réalisé par les étudiants.
+        © 2025 INFORMICA. Tous droits réservés.
       </div>
     </footer>
   );

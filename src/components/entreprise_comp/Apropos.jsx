@@ -5,7 +5,7 @@ function Apropos() {
   return (
     <section id="A_propos" className={styles.sectionApropos}>
       <div className={styles.aproposContainer}>
-        <h2 className={styles.sectionTittle}> | EFP INFORMICA</h2>
+        <h2 className={styles.aproposTittle}> | EFP INFORMICA</h2>
         <p className={styles.sectionText}>
           Une école de formation professionnelle agréée par l'État, située à Boumerdès et proche de toutes commodités.
           Notre équipe, composée d'environ une centaine de collaborateurs, comprend des experts, consultants formateurs

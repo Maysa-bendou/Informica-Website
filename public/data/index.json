@@ -29,11 +29,11 @@
 
 
 
-  "grh": {
-    "id": "grh",
-    "title": "GRH : Gestion des Ressources Humaines",
-    "hasSubcategories": false
-  },
+ "grh": {
+  "id": "grh",
+  "title": "GRH : Gestion des Ressources Humaines",
+  "hasSubcategories": false
+},
 
 
 
@@ -184,5 +184,21 @@
     "id": "langues",
     "title": "LES LANGUES À DES FINS SPÉCIFIQUES",
     "hasSubcategories": false
+  },
+   "catalogue": {
+    "title": "Catalogues",
+    "isCatalogue": true,
+    "items": [
+      {
+        "id": "hse",
+        "title": "HSE : Hygiène, Sécurité et Environnement",
+        "pdf": "/pdf/catalogues/Catalogue de formations HSE.pdf"
+      },
+      {
+        "id": "general",
+        "title": "Catalogue général",
+        "pdf": "/pdf/catalogues/Catalogue de formations M.D.C.pdf"
+      }
+    ]
   }
 }

@@ -1,0 +1,243 @@
+/* FormationsPage.module.css */
+:root {
+  --primary-orange: #fe8718;
+  --secondary-orange: #ffb547;
+  --accent-blue: #3498db;
+  --sub-header-bg: #cde1f4;
+  --border-gray: #e0e0e0;
+  --text-primary: #2c3e50;
+  --text-dark: #1a2a3a;
+  --white: #ffffff;
+  --light-gray: #f8f9fa;
+
+  --header-bg: linear-gradient(90deg, var(--secondary-orange), var(--primary-orange));
+  --card-bg: rgba(255, 255, 255, 0.95);
+
+  --shadow-light: 0 2px 8px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 4px 12px rgba(0, 0, 0, 0.15);
+
+  --transition-fast: all 0.2s ease;
+  --transition-medium: all 0.3s ease;
+}
+
+.pageFormations {
+  background-image: url('/src/assets/image/bg_formations.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+
+.formationsContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+
+.formationsHeader {
+  background: var(--header-bg);
+  max-width: 1000px;
+  height: 130px;
+  margin: -30px 0 0;
+  padding: 20px 30px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  z-index: 1;
+}
+
+.categoryIcon {
+  width: 60px;
+  height: auto;
+  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.3));
+}
+
+.formationsMainTitle {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+.retourButton {
+  z-index: 1;
+  background: var(--white);
+  color: var(--primary-orange);
+  font-weight: 600;
+  padding: 8px 16px;
+  font-size: 14px;
+  border: 1px solid var(--primary-orange);
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: var(--shadow-light);
+}
+
+.retourButton:hover {
+  background: #fff3e4;
+  color: rgb(72, 148, 255);
+  transform: translateY(-2px);
+}
+
+.formationsContent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--card-bg);
+}
+
+.formationsCategory {
+  box-shadow: var(--shadow-light);
+  overflow: hidden;
+  transition: var(--transition-medium);
+  border: 1px solid var(--border-gray);
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 100%;
+  min-height: 230px;
+}
+
+.formationsSubtitle {
+  background: linear-gradient(135deg, #9abfe1, #4487c6, #9abfe1);
+  color: white;
+  padding: 14px 20px;
+  font-weight: 600;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--border-gray);
+  text-align: center;
+}
+
+.formationsSubtitle::before {
+  content: '';
+  display: block;
+  width: 8px;
+  height: 8px;
+  background: var(--primary-orange);
+  border-radius: 50%;
+}
+
+.formationsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: -10px;
+}
+
+.formationItem {
+  border-bottom: 1px solid var(--border-gray);
+  transition: var(--transition-fast);
+  
+}
+
+.formationItem:last-child {
+  border-bottom: none;
+}
+
+.formationLink {
+  display: flex;
+  align-items: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  color: var(--text-primary);
+  font-weight: 600;
+  font-size: 16px;
+  transition: var(--transition-fast);
+  background: #fffdfd;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.formationLink:hover {
+  transform: scale(1.02);
+  background-color: #e4e4e4;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  color: #3483ce;
+}
+
+.formationNumber {
+  font-weight: 700;
+  margin-right: 12px;
+  color: var(--primary-orange);
+  min-width: 30px;
+  font-feature-settings: "tnum";
+}
+
+.formationText {
+  flex: 1;
+}
+
+.loadingSpinner {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .formationsContainer {
+    padding: 15px;
+  }
+
+  .formationsHeader {
+    flex-direction: column;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .formationsMainTitle {
+    font-size: 22px;
+  }
+
+  .categoryIcon {
+    width: 50px;
+    margin-bottom: 10px;
+  }
+
+  .formationLink {
+    padding: 12px 15px;
+    font-size: 15px;
+  }
+
+  .formationsSubtitle {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .formationsHeader {
+    padding: 15px;
+    border-radius: 8px;
+  }
+
+  .formationsMainTitle {
+    font-size: 20px;
+  }
+
+  .formationLink {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .formationNumber {
+    min-width: 25px;
+    margin-right: 8px;
+  }
+}

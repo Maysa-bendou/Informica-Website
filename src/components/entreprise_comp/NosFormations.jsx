@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; 
 import { Link } from 'react-router-dom';
 import styles from '../../styles/PageEntreprise.module.css';
 import management from '../../assets/image/management-svgrepo-com (1).svg';
@@ -8,29 +8,17 @@ import marketing from '../../assets/image/marketing-bill-payment-invoice-receipt
 import it from '../../assets/image/computer-14-svgrepo-com.svg';
 import qhse from '../../assets/image/environment-nature-environmental-protection-trees-svgrepo-com.svg';
 import langues from '../../assets/image/language-translation-svgrepo-com (1).svg';
+import catalogueIcon from '../../assets/image/icons/catalog2.svg';
 
 function NosFormations() {
   return (
     <section id="Nos_formations" className={styles.sectionFormations}>
       <div className={styles.horizontalContainer}>
+
         <div className={styles.leftSection}>
-          <h2 className={styles.sectionTitle}>Savoir-faire de nos formateurs à travers nos catalogues</h2>
-
-          <div className={styles.formationsGridd}>
-         
-            <Link to="/" className={styles.formationCardd}>
-              <h3 className={styles.formationTitle}>HSE : Hygiène, Sécurité et Environnement</h3>
-            </Link> 
-
-            <Link to="/" className={styles.formationCardd}>
-              <h3 className={styles.formationTitle}>Catalogue général</h3>
-            </Link>
-          </div>
-        </div>       
-          
-          
-        <div className={styles.rightSection}>
-          <h2 className={styles.sectionTitle}>Découvrez nos formations classées<br /> par domaine</h2>
+          <h2 className={styles.formationsSubtitle}>
+            Découvrez Nos Formations Classées Par Domaine
+          </h2>
 
           <div className={styles.formationsGrid}>
             <Link to="/formations/management" className={styles.formationCard}>
@@ -63,12 +51,34 @@ function NosFormations() {
               <h3 className={styles.formationTitle}>QHSE : Qualité, Sécurité, Environnement</h3>
             </Link>
 
-            <Link to="/formations/langues" className={styles.formationCard}>
-              <img src={langues} alt="Langues Icon" className={styles.formationIcon} />
-              <h3 className={styles.formationTitle}>Langues à des fins spécifiques</h3>
-            </Link>
+            <div className={styles.singleCardWrapper}>
+              <Link to="/formations/langues" className={styles.formationCard}>
+                <img src={langues} alt="Langues Icon" className={styles.formationIcon} />
+                <h3 className={styles.formationTitle}>Langues à des fins spécifiques</h3>
+              </Link>
+            </div>
           </div>
         </div>
+      
+        <div className={styles.rightSection}>
+          <h2 className={styles.formationsSubtitle1}>
+             Savoir-Faire De Nos Formateurs à Travers Nos Catalogues
+          </h2>
+          <div className={styles.formationsGridd}>
+  <Link  to="/formations/catalogues/hse" className={styles.formationCardd}>
+    <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon1} />
+    <h3 className={styles.formationTitle1}>HSE : Hygiène, Sécurité et Environnement</h3>
+  </Link>
+<hr className={styles.separator} />
+  <Link to="/formations/catalogues/general" className={styles.formationCardd}>
+    <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon1} />
+    <h3 className={styles.formationTitle1}>Catalogue général</h3>
+  </Link>
+  <hr className={styles.separator} />
+</div>
+
+        </div>
+
       </div>
     </section>
   );

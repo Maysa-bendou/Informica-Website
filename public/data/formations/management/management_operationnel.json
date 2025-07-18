@@ -3,6 +3,7 @@
   "formations": [
     {
       "titreFormation": "Système de Management Intégré (SMI)",
+       "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/5. Management opérationnel/1.Systeme_De_Management_Integre_SMI.pdf",
       "objectifs": [
         "Comprendre les principes et les avantages d'un système de management intégré.",
         "Apprendre à concevoir et à mettre en œuvre un SMI efficace.",
@@ -61,6 +62,7 @@
     },
     {
       "titreFormation": "Les ERP de la Gestion Opérationnelle (Progiciels de Gestion Intégrée PGI)",
+        "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/5. Management opérationnel/2.Les_ERP_De_La_Gestion_Operationnelle_PGI.pdf",
       "objectifs": [
         "Comprendre les principes et les avantages des ERP dans la gestion opérationnelle.",
         "Apprendre à utiliser les principaux modules d'un ERP.",
@@ -121,6 +123,7 @@
     },
     {
       "titreFormation": "Les Fondamentaux du Management de Projet",
+        "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/5. Management opérationnel/3.Les_Fondamentaux_Du_Management_De_Projet.pdf",
       "objectifs": [
         "Comprendre les principes et les étapes clés du management de projet.",
         "Développer des compétences pour planifier, exécuter et clôturer des projets.",
@@ -188,6 +191,7 @@
     },
     {
       "titreFormation": "Gestion de projets avec MS Project et Primavera",
+        "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/5. Management opérationnel/4.Gestion de Projets Avec MS Project - Primavira.pdf",
       "objectifs": [
         "Élaborer un planning de projet structuré avec MS Project et/ou Primavera",
         "Affecter les ressources et suivre les coûts et délais",
@@ -249,6 +253,7 @@
     },
     {
       "titreFormation": "Maîtriser les Coûts et les Délais des Projets",
+        "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/5. Management opérationnel/5.Maitriser_Les_Couts_Et_Les_Delais_Des_Projets.pdf",
       "objectifs": [
         "Apprendre à estimer et contrôler les coûts des projets.",
         "Développer des compétences pour planifier et gérer les délais de manière efficace.",
@@ -317,6 +322,7 @@
     },
     {
       "titreFormation": "La Gestion des Risques du Projet",
+        "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/5. Management opérationnel/6.La_Gestion_Des_Risques_Du_Projet.pdf",
       "objectifs": [
         "Comprendre les principes de la gestion des risques.",
         "Identifier, évaluer et gérer les risques dans les projets.",

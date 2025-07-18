@@ -3,6 +3,7 @@
   "formations": [
     {
       "titreFormation": "Bâtir et Piloter ses Tableaux de Bord",
+       "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/1.Batir_Et_Piloter_Ses_Tableaux_De_Bord.pdf",
       "objectifs": [
         "Concevoir et utiliser des tableaux de bord efficaces.",
         "Améliorer la prise de décision grâce aux indicateurs de performance.",
@@ -54,6 +55,7 @@
     },
     {
       "titreFormation": "Déléguer Efficacement",
+             "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/2.Deleguer_Efficacement.pdf",
       "objectifs": [
         "Comprendre les principes de la délégation efficace.",
         "Développer des compétences pour identifier les tâches à déléguer.",
@@ -112,6 +114,7 @@
     },
     {
       "titreFormation": "Organiser Efficacement une Réunion",
+             "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/3.Organiser_Efficacement_Une_Reunion.pdf",
       "objectifs": [
         "Apprendre à planifier et organiser des réunions efficaces.",
         "Développer des compétences pour conduire des réunions productives.",
@@ -170,6 +173,7 @@
     },
     {
       "titreFormation": "Accompagner son Équipe au Changement",
+             "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/4.Accompagner_Son_Equipe_Au_Changement.pdf",
       "objectifs": [
         "Comprendre les dynamiques du changement organisationnel.",
         "Développer des compétences pour accompagner efficacement les équipes lors de transitions.",
@@ -228,6 +232,7 @@
     },
     {
       "titreFormation": "Travailler en Équipe et Développer sa Flexibilité Relationnelle",
+             "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/5.Travailler_En_Equipe_Et_Developper_Sa_Flexibilite_Relationnelle.pdf",
       "objectifs": [
         "Améliorer les compétences de travail en équipe.",
         "Développer la flexibilité relationnelle pour mieux collaborer.",
@@ -286,6 +291,7 @@
     },
     {
       "titreFormation": "Développer des Relations Constructives",
+             "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/6.Developper_Des_Relations_Constructives.pdf",
       "objectifs": [
         "Améliorer les compétences en communication interpersonnelle.",
         "Apprendre à établir et maintenir des relations professionnelles positives.",

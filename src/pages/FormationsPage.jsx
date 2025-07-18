@@ -1,106 +1,115 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import '../styles/formations.css';
-import logo from '../assets/image/new_logo.png';  // assuming this is a png file
+import styles from '../styles/FormationsPage.module.css';
+import logo from '../assets/image/new_logo.png';
 
 export default function FormationsPage() {
   const { categoryId } = useParams();
-  const [categoryData, setCategoryData] = useState(null);
-  const [formationsData, setFormationsData] = useState({});
+  const [category, setCategory] = useState(null);
+  const [formations, setFormations] = useState({});
   const [loading, setLoading] = useState(true);
 
+  // Load formations when categoryId changes
   useEffect(() => {
-    async function fetchData() {
+    async function loadFormations() {
       try {
         const indexRes = await fetch('/data/index.json');
-        const index = await indexRes.json();
+        const indexData = await indexRes.json();
 
-        const category = index[categoryId];
-        if (!category) throw new Error('Category not found');
+        const selectedCategory = indexData[categoryId];
+        if (!selectedCategory) throw new Error('Catégorie introuvable');
 
-        setCategoryData(category);
+        setCategory(selectedCategory);
 
-        if (category.hasSubcategories) {
-          const subcategoryPromises = category.subcategories.map(async (sub) => {
-            const subRes = await fetch(`/data/formations/${categoryId}/${sub.id}.json`);
-            const subData = await subRes.json();
-            return { id: sub.id, title: sub.title, formations: subData.formations };
+        if (selectedCategory.hasSubcategories) {
+          const subcategories = await Promise.all(
+            selectedCategory.subcategories.map(async (sub) => {
+              const res = await fetch(`/data/formations/${categoryId}/${sub.id}.json`);
+              const data = await res.json();
+              return { ...sub, formations: data.formations };
+            })
+          );
+
+          const structuredData = {};
+          subcategories.forEach((sub) => {
+            structuredData[sub.id] = sub;
           });
-
-          const results = await Promise.all(subcategoryPromises);
-          const data = {};
-          results.forEach(sub => {
-            data[sub.id] = sub;
-          });
-          setFormationsData(data);
+          setFormations(structuredData);
         } else {
           const res = await fetch(`/data/formations/${categoryId}/formations.json`);
           const data = await res.json();
-          setFormationsData({ formations: data.formations });
+          setFormations({ formations: data.formations });
         }
 
         setLoading(false);
-      } catch (error) {
-        console.error('Error loading data:', error);
+      } catch (err) {
+        console.error('Erreur lors du chargement des données:', err);
       }
     }
 
-    fetchData();
+    loadFormations();
   }, [categoryId]);
 
-  if (loading) return <div className="loading-spinner">Chargement...</div>;
+  if (loading) return <div className={styles.loadingSpinner}>Chargement...</div>;
 
   return (
-  <div className="page-formations">
-    <div className="formations-container">
-      <div className="formations-header">
-        <div className="header-left">
-          <img src={logo} alt="Category Logo" className="category-icon" />
-          <h1 className="formations-main-title">{categoryData.title}</h1>
+    <div className={styles.pageFormations}>
+      <div className={styles.formationsContainer}>
+        
+        <div className={styles.formationsHeader}>
+          <div className={styles.headerLeft}>
+            <img src={logo} alt="Logo" className={styles.categoryIcon} />
+            <h1 className={styles.formationsMainTitle}>{category.title}</h1>
+          </div>
+          <Link to="/entreprise#Nos_formations" className={styles.retourButton}>← Retour</Link>
         </div>
-        <Link to="/entreprise#NosFormations" className="retour-button">← Retour</Link>
-      </div>
 
-      <div className="formations-row">
-        <div className="formations-content">
-          {categoryData.hasSubcategories ? (
-            Object.values(formationsData).map(sub => (
-              <section key={sub.id} className="formations-category">
-                <h2 className="formations-subtitle">{sub.title}</h2>
-                <ul className="formations-list">
-                  {sub.formations.map((f, i) => (
-                    <li key={i} className="formation-item">
-                      <Link 
-                        to={`/formations/${categoryId}/${sub.id}/${i}`} 
-                        className="formation-link"
-                      >
-                        <span className="formation-number">{String(i + 1).padStart(2, '0')}.</span>
-                        <span className="formation-text">{f.titreFormation}</span>
-                      </Link>
-                    </li>
-                  ))}
+        {/* Formations Content */}
+        <div className={styles.formationsRow}>
+          <div className={styles.formationsContent}>
+            {category.hasSubcategories ? (
+              // If category has subcategories
+              Object.values(formations).map((sub) => (
+                <section key={sub.id} className={styles.formationsCategory}>
+                  <h2 className={styles.formationsSubtitle}>{sub.title}</h2>
+                  <ul className={styles.formationsList}>
+                    {sub.formations.map((f, i) => (
+                      <li key={i} className={styles.formationItem}>
+                        <Link to={`/formations/${categoryId}/${sub.id}/${i}`} className={styles.formationLink}>
+                          <span className={styles.formationNumber}>
+                            {String(i + 1).padStart(2, '0')}.
+                          </span>
+                          <span className={styles.formationText}>{f.titreFormation}</span>
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+              ))
+            ) : (
+              // If category has no subcategories
+              <section className={styles.formationsCategory}>
+                <ul className={styles.formationsList}>
+                  {formations.formations?.length > 0 ? (
+                    formations.formations.map((f, i) => (
+                      <li key={i} className={styles.formationItem}>
+                        <Link to={`/formations/${categoryId}/${i}`} className={styles.formationLink}>
+                          <span className={styles.formationNumber}>
+                            {String(i + 1).padStart(2, '0')}.
+                          </span>
+                          <span className={styles.formationText}>{f.titreFormation}</span>
+                        </Link>
+                      </li>
+                    ))
+                  ) : (
+                    <p>Aucune formation disponible.</p>
+                  )}
                 </ul>
               </section>
-            ))
-          ) : (
-            <ul className="formations-list">
-              {formationsData.formations.map((f, i) => (
-                <li key={i} className="formation-item">
-                  <Link 
-                    to={`/formations/${categoryId}/${i}`} 
-                    className="formation-link"
-                  >
-                    <span className="formation-number">{String(i + 1).padStart(2, '0')}.</span>
-                    <span className="formation-text">{f.titreFormation}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+            )}
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
-
+  );
 }

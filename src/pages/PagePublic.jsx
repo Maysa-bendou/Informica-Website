@@ -5,7 +5,7 @@ function PagePublic() {
     <div style={styles.container}>
       <h1 style={styles.text}>En maintenance</h1>
       <p style={styles.subtext}>Contactez-nous</p>
-    </div>
+      </div>
   );
 }
 
@@ -20,7 +20,7 @@ const styles = {
   },
   text: {
     fontSize: '2rem',
-    margin: 0,
+    marginTop:'230px',
   },
   subtext: {
     fontSize: '1.2rem',

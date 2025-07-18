@@ -7,34 +7,36 @@ function Accueil() {
   return (
     <div className={styles.container}>
       <Header page="accueil" />
-      
+
       <div className={styles.backgroundWrapper}>
-        <div className={styles.pageWrapper}>
-          <main>
-            <div className={styles.titleCenter}>
-              <h1>Bienvenue à INFORMICA</h1>  
-              <p>L'excellence en formation professionnelle</p>
+        <main className={styles.pageWrapper}>
+          <div className={styles.titleCenter}>
+            <h1>Bienvenue à INFORMICA</h1>
+            <p>L'excellence en formation professionnelle</p>
+          </div>
+
+          <section className={styles.buttonSection}>
+            <div
+              className={styles.btnBoxEnterprise}
+              onClick={() => (window.location.href = "/entreprise")}
+            >
+              <span className={styles.btnTitle}>Formation Entreprise</span>
+              <p className={styles.desc}>
+                Formations destinées aux personnels des entreprises
+              </p>
             </div>
 
-            <section className={styles.buttonSection}>
-              <div 
-                className={styles.btnBoxEnterprise}
-                onClick={() => window.location.href = "/entreprise"}
-              >
-                <span className={styles.btnTitle}>Formation Entreprise</span>
-                <p className={styles.desc}>Formations destinées aux personnels des entreprises</p>
-              </div>
-                        
-              <div 
-                className={styles.btnBoxPublic}
-                onClick={() => window.location.href = "/public"}
-              >
-                <span className={styles.btnTitle}>Formations Grand Public</span>     
-                <p className={styles.desc}>Formations ouvertes à tous destinées au développement des parcours personnels et professionnels.</p>
-              </div>
-            </section>
-          </main>
-        </div>
+            <div
+              className={styles.btnBoxPublic}
+              onClick={() => (window.location.href = "/public")}
+            >
+              <span className={styles.btnTitle}>Formations Grand Public</span>
+              <p className={styles.desc}>
+                Formations ouvertes à tous, pour le développement personnel et professionnel.
+              </p>
+            </div>
+          </section>
+        </main>
       </div>
 
       <Footer />
