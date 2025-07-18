@@ -1,22 +1,41 @@
+
+
 .pageContainer {
-  max-width: 1000px;
-  margin: 60px auto;
-  padding: 20px;
+  width: 100vw;
+  height: 100vh;
+  padding: 7px 15px;
   background-color: #fff;
-  border-radius: 16px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
   font-family: 'Poppins', sans-serif;
   animation: fadeIn 0.5s ease;
+  display: flex;
+  gap: 110px;
+  background-color: #E5E5E5;
+  flex-direction:row;
+}
+
+.pdfWrapper {
+  flex: 1;
+}
+
+iframe {
+  width: 85%;
+  min-height: 100%;
+  border: none;
+  overflow: auto;
 }
 
 .backButton {
-  background-color: #0057a4;
+  background-color: #F26722;
   color: #fff;
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 10px 8px;
   border: none;
-  border-radius: 8px;
+  border-radius: 3px;
   cursor: pointer;
+  display: flex;
+  height: 60px;
+  width: 150px;
+  gap: 10px;
+  align-items: center;
   margin-bottom: 20px;
   transition: background-color 0.3s ease, transform 0.2s ease;
 }
@@ -26,19 +45,15 @@
   transform: scale(1.03);
 }
 
-.pdfWrapper {
-  width: 100%;
-  height: auto;
-  overflow: hidden;
-  border-radius: 12px;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+.retourText {
+  font-size: 1.6rem;
+  width: 90px;
 }
 
-iframe {
-  width: 100%;
-  height: 600px;
-  border: none;
-  border-radius: 12px;
+.retourIcon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
 }
 
 .loading,
@@ -50,29 +65,39 @@ iframe {
   animation: fadeIn 0.4s ease;
 }
 
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .pageContainer {
-    margin: 20px;
-    padding: 15px;
+    flex-direction: column;
+    height: 100vh;
+    gap: 20px;
+    overflow: hidden; /* prevent outer scroll */
   }
 
-  .iframe {
-    height: 400px;
+  .pdfWrapper {
+    height: 100%;
+    overflow: auto; /* scroll only the iframe */
+    display: flex;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 800%;
+    height: 100%;
   }
 
   .backButton {
     width: 100%;
-    font-size: 0.95rem;
+    height: 50px;
+    font-size: 1rem;
+    justify-content: center;
+  }
+
+  .retourText {
+    font-size: 1rem;
+  }
+
+  .retourIcon {
+    width: 20px;
+    height: 20px;
   }
 }

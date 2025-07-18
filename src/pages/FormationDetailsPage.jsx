@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import styles from '../styles/FormationDetails.module.css';
+import retourIcon from '../assets/image/icons/back2.svg';
 
 export default function FormationDetailsPage() {
   const { categoryId, subcategoryId, formationId } = useParams();
@@ -57,8 +58,9 @@ export default function FormationDetailsPage() {
     }
   }}
   className={styles.backButton}
->
-  Retour
+ > 
+  <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
+  <div className={styles.retourText}>Retour</div>
 </button>
 
 
@@ -66,13 +68,6 @@ export default function FormationDetailsPage() {
         <iframe
           src={pdfUrl + '#toolbar=0'}
           title="PDF Formation"
-          style={{
-            width: '100%',
-            height: '600px',
-            border: 'none',
-            borderRadius: '8px',
-            boxShadow: '0 2px 10px rgba(0, 0, 0, 0.2)',
-          }}
         />
       </div>
     </div>
