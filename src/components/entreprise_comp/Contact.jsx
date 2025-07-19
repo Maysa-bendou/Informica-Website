@@ -18,24 +18,57 @@ function Contact() {
       lot no 1, 2ième étage,<br />
       Boumerdès 35000
     </p>
+      <a
+    href="https://maps.app.goo.gl/uPSx7eH8Z2ApDGsQA"
+    className={styles.mapLink}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    View en map  
+  </a>
   </div>
 
   <div className={styles.contactHeader}>
     <img src={telephoneIcon} alt="Téléphone" className={styles.contactIcon} />
     <h3 className={styles.contactTitle}>Téléphone</h3>
-    <p className={styles.contactContent}>
-      0661 83 23 78<br />
-      0661 57 93 35<br />
-      0774 37 32 71
-    </p>
+     <div className={styles.contactContent}>
+  <p
+    className={styles.copyPhone}
+    onClick={() => navigator.clipboard.writeText('0661 83 23 78')}
+    title="Cliquez pour copier"
+  >
+    0661 83 23 78
+  </p>
+  <p
+    className={styles.copyPhone}
+    onClick={() => navigator.clipboard.writeText('0661 57 93 35')}
+    title="Cliquez pour copier"
+  >
+    0661 57 93 35
+  </p>
+  <p
+    className={styles.copyPhone}
+    onClick={() => navigator.clipboard.writeText('0774 37 32 71')}
+    title="Cliquez pour copier"
+  >
+    0774 37 32 71
+  </p>
+</div>
+
   </div>
 
   <div className={styles.contactHeader}>
     <img src={emailIcon} alt="Email" className={styles.contactIcon} />
     <h3 className={styles.contactTitle}>Email</h3>
-    <p className={styles.contactContent}>
-      efp.informica@gmail.com
-    </p>
+<a
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=efp.informica@gmail.com"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={styles.emailLink}
+  title="Cliquez pour envoyer un email"
+>
+  efp.informica@gmail.com
+</a>
   </div>
       </div>
 
