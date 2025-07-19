@@ -4,7 +4,7 @@ import styles from '../styles/Header.module.css';
 
 function Header({ page, activeSection }) {
   const navItems = [
-    { id: 'A_propos', label: 'A propos' },
+    { id: 'A_propos', label: 'À propos' },
     { id: 'Nos_formations', label: 'Nos Formations' },
     { id: 'Nos_Références', label: 'Nos Références' },
     { id: 'Contact', label: 'Contact' },

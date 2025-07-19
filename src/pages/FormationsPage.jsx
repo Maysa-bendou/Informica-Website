@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styles from '../styles/FormationsPage.module.css';
 import logo from '../assets/image/new_logo.png';
+import retourIcon from '../assets/image/icons/back2.svg';
 
 export default function FormationsPage() {
   const { categoryId } = useParams();
@@ -55,58 +56,66 @@ export default function FormationsPage() {
   return (
     <div className={styles.pageFormations}>
       <div className={styles.formationsContainer}>
-        
-        <div className={styles.formationsHeader}>
-          <div className={styles.headerLeft}>
-            <img src={logo} alt="Logo" className={styles.categoryIcon} />
-            <h1 className={styles.formationsMainTitle}>{category.title}</h1>
+        <div className={styles.layoutContainer}>
+          <div className={styles.leftColumn}>
+            <Link to="/entreprise#Nos_formations" className={styles.backButton}>
+              <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
+              <span className={styles.retourText}>Retour</span>
+            </Link>
           </div>
-          <Link to="/entreprise#Nos_formations" className={styles.retourButton}>← Retour</Link>
-        </div>
+          
+          <div className={styles.rightColumn}>
+            <div className={styles.formationsHeader}>
+              <div className={styles.headerLeft}>
+                <h1 className={styles.formationsMainTitle}>{category.title}</h1>
+              </div>
+            </div>
 
-        {/* Formations Content */}
-        <div className={styles.formationsRow}>
-          <div className={styles.formationsContent}>
-            {category.hasSubcategories ? (
-              // If category has subcategories
-              Object.values(formations).map((sub) => (
-                <section key={sub.id} className={styles.formationsCategory}>
-                  <h2 className={styles.formationsSubtitle}>{sub.title}</h2>
-                  <ul className={styles.formationsList}>
-                    {sub.formations.map((f, i) => (
-                      <li key={i} className={styles.formationItem}>
-                        <Link to={`/formations/${categoryId}/${sub.id}/${i}`} className={styles.formationLink}>
-                          <span className={styles.formationNumber}>
-                            {String(i + 1).padStart(2, '0')}.
-                          </span>
-                          <span className={styles.formationText}>{f.titreFormation}</span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </section>
-              ))
-            ) : (
-              // If category has no subcategories
-              <section className={styles.formationsCategory}>
-                <ul className={styles.formationsList}>
-                  {formations.formations?.length > 0 ? (
-                    formations.formations.map((f, i) => (
-                      <li key={i} className={styles.formationItem}>
-                        <Link to={`/formations/${categoryId}/${i}`} className={styles.formationLink}>
-                          <span className={styles.formationNumber}>
-                            {String(i + 1).padStart(2, '0')}.
-                          </span>
-                          <span className={styles.formationText}>{f.titreFormation}</span>
-                        </Link>
-                      </li>
-                    ))
-                  ) : (
-                    <p>Aucune formation disponible.</p>
-                  )}
-                </ul>
-              </section>
-            )}
+            {/* Formations Content */}
+            <div className={styles.formationsRow}>
+              <div className={styles.formationsContent}>
+                {category.hasSubcategories ? (
+                  // If category has subcategories
+                  Object.values(formations).map((sub) => (
+                    <section key={sub.id} className={styles.formationsCategory}>
+                      <h2 className={styles.formationsSubtitle}>{sub.title}</h2>
+                      <ul className={styles.formationsList}>
+                        {sub.formations.map((f, i) => (
+                          <li key={i} className={styles.formationItem}>
+                            <Link to={`/formations/${categoryId}/${sub.id}/${i}`} className={styles.formationLink}>
+                              <span className={styles.formationNumber}>
+                                {String(i + 1).padStart(2, '0')}.
+                              </span>
+                              <span className={styles.formationText}>{f.titreFormation}</span>
+                            </Link>
+                          </li>
+                        ))}
+                      </ul>
+                    </section>
+                  ))
+                ) : (
+                  // If category has no subcategories
+                  <section className={styles.formationsCategory}>
+                    <ul className={styles.formationsList}>
+                      {formations.formations?.length > 0 ? (
+                        formations.formations.map((f, i) => (
+                          <li key={i} className={styles.formationItem}>
+                            <Link to={`/formations/${categoryId}/${i}`} className={styles.formationLink}>
+                              <span className={styles.formationNumber}>
+                                {String(i + 1).padStart(2, '0')}.
+                              </span>
+                              <span className={styles.formationText}>{f.titreFormation}</span>
+                            </Link>
+                          </li>
+                        ))
+                      ) : (
+                        <p>Aucune formation disponible.</p>
+                      )}
+                    </ul>
+                  </section>
+                )}
+              </div>
+            </div>
           </div>
         </div>
       </div>

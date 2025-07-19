@@ -9,55 +9,146 @@
 }
 
 .mainContent {
-  padding-top: 80px;
+  padding-top: 60px;
+  margin: 0;
+  
 }
 /* A Propos Section */
-.sectionApropos {
-  position: relative;
-  height: 90vh;
-  width: 100vw;
+/* Apropos Page Styles */
+.aproposPage {
+  width: 100%;
+}
+
+/* Hero Image Section */
+.heroImage {
+  width: 100vw; 
+  margin-left: -55px;
+  height: 400px;
   background-image: url('/assets/image/entreprise.jpg');
   background-size: cover;
   background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px 5px;
-  color: white;
-  overflow: hidden;
-}
-
-.sectionApropos::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.493);
-  z-index: 0;
-}
-
-.sectionText {
-  padding: 0;              
-  margin: 0;              
-  line-height: 1.9; 
-  z-index: 1;
   position: relative;
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroTitle {
+  color: white;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Content Section */
+.sectionApropos {
+  padding: 60px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .aproposContainer {
-  margin: 0 40px;
-  padding: 40px 5px  40px;
-  max-width: 1020px;
-  text-align: justify;
-  line-height: 1.7;
-  z-index: 1;
-  position: relative;
-  font-weight: 500;
-
+  background-color: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-.aproposTittle{
- font-size: 55px;
- margin-bottom: 10px;
+
+.aproposTittle {
+  font-size: 2.5rem;
+  color: #032047;
+  margin-bottom: 30px;
+  position: relative;
+  padding-left: 15px;
+}
+
+.aproposTittle::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background-color: #F26722;
+}
+
+.sectionText {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* Responsive Styles */
+@media (max-width: 992px) {
+  .heroImage {
+    height: 350px;
+  }
+  
+  .heroTitle {
+    font-size: 3.5rem;
+  }
+  
+  .sectionApropos {
+    padding: 50px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroImage {
+    height: 300px;
+  }
+  
+  .heroTitle {
+    font-size: 3rem;
+  }
+  
+  .aproposContainer {
+    padding: 30px;
+  }
+  
+  .aproposTittle {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .heroImage {
+    height: 250px;
+  }
+  
+  .heroTitle {
+    font-size: 2.5rem;
+  }
+  
+  .sectionApropos {
+    padding: 30px 15px;
+  }
+  
+  .aproposContainer {
+    padding: 25px;
+  }
+  
+  .aproposTittle {
+    font-size: 1.8rem;
+  }
+  
+  .sectionText {
+    font-size: 1rem;
+  }
 }
 
 /* Nos Formations Section */

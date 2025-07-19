@@ -1,8 +1,8 @@
 /* FormationsPage.module.css */
 :root {
-  --primary-orange: #fe8718;
+  --primary-orange: #ffb703;
   --secondary-orange: #ffb547;
-  --accent-blue: #3498db;
+  --accent-blue: #219EBC;
   --sub-header-bg: #cde1f4;
   --border-gray: #e0e0e0;
   --text-primary: #2c3e50;
@@ -19,27 +19,80 @@
   --transition-fast: all 0.2s ease;
   --transition-medium: all 0.3s ease;
 }
+.layoutContainer {
+  display: flex;
+  gap: 100px;
+}
+
+.leftColumn {
+  width: 170px;
+  flex-shrink: 0;
+}
+
+.rightColumn {
+  flex-grow: 1;
+}
 
 .pageFormations {
-  background-image: url('/src/assets/image/bg_formations.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  width: 100vw;
   min-height: 100vh;
-  position: relative;
+  padding: 7px 15px;
+  font-family: 'Poppins', sans-serif;
+  animation: fadeIn 0.5s ease;
+  display: flex;
+  gap: 110px;
+  background-color: #E5E5E5;
 }
 
 .formationsContainer {
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 20px;
-  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 110px;
+}
+
+.leftColumn {
+  width: 150px;
+  flex-shrink: 0;
+}
+
+.rightColumn {
+  flex-grow: 1;
+}
+
+.backButton {
+  background-color: #F26722;
+  color: #fff;
+  padding: 10px 8px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: flex;
+  height: 60px;
+  width: 150px;
+  gap: 10px;
+  align-items: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.backButton:hover {
+  background-color: #003f7f;
+  transform: scale(1.03);
+}
+
+.retourText {
+  font-size: 1.6rem;
+  width: 90px;
+}
+
+.retourIcon {
+  width: 30px;
+  height: 30px;
+  flex-shrink: 0;
 }
 
 .formationsHeader {
   background: var(--header-bg);
-  max-width: 1000px;
-  height: 130px;
-  margin: -30px 0 0;
+  height: 100px;
   padding: 20px 30px;
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
   display: flex;
@@ -56,15 +109,8 @@
   z-index: 1;
 }
 
-.categoryIcon {
-  width: 60px;
-  height: auto;
-  filter: drop-shadow(0 3px 4px rgba(0, 0, 0, 0.3));
-}
-
 .formationsMainTitle {
-  margin: 0;
-  font-size: 26px;
+  font-size: 28px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -72,38 +118,15 @@
   text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
 }
 
-.retourButton {
-  z-index: 1;
-  background: var(--white);
-  color: var(--primary-orange);
-  font-weight: 600;
-  padding: 8px 16px;
-  font-size: 14px;
-  border: 1px solid var(--primary-orange);
-  border-radius: 6px;
-  text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: var(--shadow-light);
-}
-
-.retourButton:hover {
-  background: #fff3e4;
-  color: rgb(72, 148, 255);
-  transform: translateY(-2px);
-}
-
 .formationsContent {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  background: var(--card-bg);
+  gap: 5px;
 }
 
 .formationsCategory {
-  box-shadow: var(--shadow-light);
   overflow: hidden;
   transition: var(--transition-medium);
-  border: 1px solid var(--border-gray);
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -112,7 +135,7 @@
 }
 
 .formationsSubtitle {
-  background: linear-gradient(135deg, #9abfe1, #4487c6, #9abfe1);
+  background: linear-gradient(135deg, #9abfe1, #032047, #9abfe1);
   color: white;
   padding: 14px 20px;
   font-weight: 600;
@@ -123,6 +146,7 @@
   gap: 10px;
   border-bottom: 1px solid var(--border-gray);
   text-align: center;
+  margin-top: -5px;
 }
 
 .formationsSubtitle::before {
@@ -138,13 +162,12 @@
   list-style: none;
   padding: 0;
   margin: 0;
-  margin-top: -10px;
+  margin-top: -12px;
 }
 
 .formationItem {
   border-bottom: 1px solid var(--border-gray);
   transition: var(--transition-fast);
-  
 }
 
 .formationItem:last-child {
@@ -190,11 +213,37 @@
   color: #555;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
+  .pageFormations,
   .formationsContainer {
-    padding: 15px;
+    flex-direction: column;
+    gap: 20px;
   }
 
+  .leftColumn {
+    width: 100%;
+  }
+
+  .backButton {
+    width: 100%;
+    height: 50px;
+  }
+
+  .retourText {
+    font-size: 1rem;
+  }
+
+  .retourIcon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .formationsHeader {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 768px) {
   .formationsHeader {
     flex-direction: column;
     padding: 20px;
@@ -205,11 +254,6 @@
     font-size: 22px;
   }
 
-  .categoryIcon {
-    width: 50px;
-    margin-bottom: 10px;
-  }
-
   .formationLink {
     padding: 12px 15px;
     font-size: 15px;
@@ -218,6 +262,8 @@
   .formationsSubtitle {
     font-size: 16px;
     padding: 12px 15px;
+  flex-direction: column;
+    gap: 5px;
   }
 }
 
