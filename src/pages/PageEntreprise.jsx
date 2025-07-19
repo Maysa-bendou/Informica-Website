@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import Apropos from '../components/entreprise_comp/Apropos';
-import NosFormations from '../components/entreprise_comp/NosFormations';
-import NosReferences from '../components/entreprise_comp/References';
-import Contact from '../components/entreprise_comp/Contact';
+import Apropos from './Entreprise/Apropos';  
+import NosFormations from './Entreprise/NosFormations';
+import NosReferences from './Entreprise/References';
+import Contact from './Entreprise/Contact';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import styles from '../styles/PageEntreprise.module.css';
+
 
 const sections = ['A_propos', 'Nos_formations', 'Nos_Références', 'Contact'];
 

@@ -60,24 +60,31 @@ function NosFormations() {
           </div>
         </div>
       
+
+
+       
+
+
+
+
         <div className={styles.rightSection}>
           <h2 className={styles.formationsSubtitle1}>
              Savoir-Faire De Nos Formateurs à Travers Nos Catalogues
           </h2>
           <div className={styles.formationsGridd}>
-  <Link  to="/formations/catalogues/hse" className={styles.formationCardd}>
-    <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon1} />
-    <h3 className={styles.formationTitle1}>HSE : Hygiène, Sécurité et Environnement</h3>
-  </Link>
-<hr className={styles.separator} />
-  <Link to="/formations/catalogues/general" className={styles.formationCardd}>
-    <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon1} />
-    <h3 className={styles.formationTitle1}>Management & Leadership<br/>
-Développement Personnel et Professionnel<br/>
- Gestion Commerciale & Relation Client</h3>
-  </Link>
-  <hr className={styles.separator} />
-</div>
+              <Link  to="/formations/catalogues/hse" className={styles.formationCardd}>
+              <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon} />
+              <h3 className={styles.formationTitle}>HSE : Hygiène, Sécurité et Environnement</h3>
+              </Link>
+             
+              <Link to="/formations/catalogues/general" className={styles.formationCardd}>
+              <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon} />
+              <h3 className={styles.formationTitle}>Management & Leadership<br/>
+                Développement Personnel et Professionnel<br/>
+                Gestion Commerciale & Relation Client</h3>
+              </Link>
+            
+          </div>
 
         </div>
 

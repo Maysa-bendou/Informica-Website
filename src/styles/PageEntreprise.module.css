@@ -160,7 +160,7 @@
 
 .rightSection {
   flex: 1;
-  max-width: 400px;
+  max-width: 500px;
 }
 
 .leftSection {
@@ -185,12 +185,6 @@
   gap: 20px;
 }
 
-.formationsGridd {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  padding-top: 20px;
-}
 
 .formationCard{
   display: flex;
@@ -202,18 +196,53 @@
   text-decoration: none;
   max-width: 230px;
   height: 180px;
-
+border-radius: 12px;
   transition: transform 0.2s ease, box-shadow 0.4s ease;
 }
+
+.formationCard:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
+  background-color:rgb(182, 194, 207);
+}
+
+
+
+
+.formationsGridd {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding-top: 20px;
+}
+
 .formationCardd {
   display: flex;
-  flex-direction: row; 
-  align-items: center;
-  gap: 15px; 
-  text-align: left; 
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+  background: transparent;
   text-decoration: none;
+  padding: 20px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* border: 1px solid #ddd; */
+  border-radius: 12px;
+  width: 100%;
+  max-width: 600px;
 }
+
+.formationCardd:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
+  background-color:rgb(182, 194, 207);
+}
+
+
+
+
+
+
+
 .separator {
   margin-top: 5px;
   height: 2px;
@@ -224,15 +253,7 @@
 }
 
 
-.formationCard:hover {
-  transform: scale(1.05) translateY(-10px);
-  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
-  background-color:rgb(182, 194, 207);
-}
-.formationCardd:hover {
-  transform: scale(1.05) translateY(-10px);
 
-}
 
 
 .formationTitle {
@@ -241,22 +262,13 @@
   color: #333;
   margin-top: 10px;
 }
-.formationTitle1{
-   font-size: 14px;
-  font-weight: 400;
-  color: #333;
-  margin-top: 10px;
-}
+
 
 .formationIcon {
   width: 50px;
   height: 50px;
 }
-.formationIcon1{
-width: 30px;
-  height: 30px;
-  flex-shrink: 0;
-}
+
 
 .singleCardWrapper {
   grid-column: 1 / -1; 
