@@ -17,7 +17,7 @@ function NosFormations() {
 
         <div className={styles.leftSection}>
           <h2 className={styles.formationsSubtitle}>
-            Découvrez Nos Formations Classées Par Domaine
+            Formations Par Domaine - Fiches techniques Standard, modulables selon les besoins de votre entreprise
           </h2>
 
           <div className={styles.formationsGrid}>
@@ -72,7 +72,9 @@ function NosFormations() {
 <hr className={styles.separator} />
   <Link to="/formations/catalogues/general" className={styles.formationCardd}>
     <img src={catalogueIcon} alt="Catalogue Icon" className={styles.formationIcon1} />
-    <h3 className={styles.formationTitle1}>Catalogue général</h3>
+    <h3 className={styles.formationTitle1}>Management & Leadership<br/>
+Développement Personnel et Professionnel<br/>
+ Gestion Commerciale & Relation Client</h3>
   </Link>
   <hr className={styles.separator} />
 </div>

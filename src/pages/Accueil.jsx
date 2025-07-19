@@ -32,7 +32,7 @@ function Accueil() {
             >
               <span className={styles.btnTitle}>Formations Grand Public</span>
               <p className={styles.desc}>
-                Formations ouvertes à tous, pour le développement personnel et professionnel.
+                Formations ouvertes à tous: apprenez et évoluez-personnellement et professionnellement.
               </p>
             </div>
           </section>

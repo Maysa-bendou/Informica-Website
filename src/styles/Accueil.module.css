@@ -74,7 +74,7 @@
 /* ========== BUTTON SECTION ========== */
 .buttonSection {
   display: flex;
-  gap: 150px;
+  gap: 100px;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
@@ -117,7 +117,7 @@
 .btnBox:hover {
   align-items: flex-start;
   text-align: left;
-  padding-top: 15px;
+  padding-top: 7px;
   transform: scale(1.15);
 }
 
@@ -132,7 +132,7 @@
   transform: translateY(-4px);
   font-size: 16px;
   font-weight: 700;
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
 /* Description */
@@ -140,12 +140,12 @@
   max-height: 0;
   opacity: 0;
   overflow: hidden;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 1.4;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
   transition: max-height 0.3s ease, opacity 0.3s ease;
-  margin-bottom: 12px;
-  align-self: flex-start;
+  margin-bottom: 10px;
+  align-self: flex-start2
 }
 
 .btnBox:hover .desc {
