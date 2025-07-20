@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import styles from '../../styles/PageEntreprise.module.css';
+import styles from '../../styles/NosReferences.module.css';
 
 // Images
 import rrrr1 from '../../assets/image/colab/rrrr1.png';
@@ -125,3 +125,4 @@ export default function NosReferencesPage() {
     </>
   );
 }
+

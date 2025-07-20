@@ -1,18 +1,24 @@
 import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import styles from '../../styles/PageEntreprise.module.css';
+
+import aproposStyles from '../../styles/Apropos.module.css';
+import contactStyles from '../../styles/Contact.module.css';
+import referencesStyles from '../../styles/NosReferences.module.css';
+import formationsStyles from '../../styles/NosFormations.module.css';
+
+
 
 export default function AproposPage() {
   return (
-    <div className={styles.container}>
+    <div className={aproposStyles.container}>
       <Header page="entreprise" />
       
-      <main className={styles.sectionApropos}>
-        <div className={styles.aproposPage}>    
-          <div className={styles.aproposContainer}>
-            <h2 className={styles.aproposTittle}>EFP INFORMICA</h2>
-            <p className={styles.sectionText}>
+      <main className={aproposStyles.sectionApropos}>
+        <div className={aproposStyles.aproposPage}>    
+          <div className={aproposStyles.aproposContainer}>
+            <h2 className={aproposStyles.aproposTittle}>EFP INFORMICA</h2>
+            <p className={aproposStyles.sectionText}>
               Une école de formation professionnelle agréée par l'État, située à Boumerdès et proche de toutes commodités.
               Notre équipe, composée d'environ une centaine de collaborateurs, comprend des experts, consultants formateurs
               hautement qualifiés, anciens cadres du milieu professionnel, enseignants universitaires et autres professionnels

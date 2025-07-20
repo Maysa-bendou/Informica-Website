@@ -2,16 +2,30 @@
 import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
-import styles from '../../styles/PageEntreprise.module.css';
+
+// Import all section styles
+import aproposStyles from '../../styles/Apropos.module.css';
+import contactStyles from '../../styles/Contact.module.css';
+import referencesStyles from '../../styles/NosReferences.module.css';
+import formationsStyles from '../../styles/NosFormations.module.css';
+
 
 import telephoneIcon from '../../assets/image/icons/telephone-svgrepo-com.svg';
 import emailIcon from '../../assets/image/icons/gmail-svgrepo-com.svg';
 import locationIcon from '../../assets/image/icons/location-pin-svgrepo-com.svg';
 
+// Merge all styles into one object
+const styles = {
+  ...aproposStyles,
+  ...contactStyles,
+  ...referencesStyles,
+  ...formationsStyles,
+};
+
 export default function ContactPage() {
   return (
     <>
-      <Header page="entreprise"/>
+      <Header page="entreprise" />
 
       <main className={styles.mainContent}>
         <section id="Contact" className={styles.sectionContact}>
@@ -139,3 +153,4 @@ export default function ContactPage() {
     </>
   );
 }
+
