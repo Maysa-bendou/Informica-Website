@@ -17,15 +17,14 @@ function Accueil() {
           </div>
 
           <section className={styles.buttonSection}>
-            <Link to="/entreprise/a-propos" className={`${styles.btnBox} ${styles.btnBoxEnterprise}`}>
+            <Link to="/entreprise/a-propos" className={styles.btnBoxEnterprise}>
               <span className={styles.btnTitle}>Formation Entreprise</span>
               <p className={styles.desc}>
                 Formations destinées aux personnels des entreprises
               </p>
             </Link>
 
-            <Link to="/public" className={`${styles.btnBox} ${styles.btnBoxPublic}`}>
-
+            <Link to="/public" className={styles.btnBoxPublic}>
               <span className={styles.btnTitle}>Formations Grand Public</span>
               <p className={styles.desc}>
                 Formations ouvertes à tous : apprenez et évoluez personnellement et professionnellement.

@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   width: 100%;
-  min-height: 100vh;
+  height: 100%;
   overflow-x: hidden;
 }
 
@@ -15,12 +15,12 @@
     url('../assets/image/formation1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   padding: 110px 0;
   width: 100%;
-  min-height: calc(100vh - 10px); /* Adjusted to fill viewport */
+  min-height: calc(102vh - 10px); /* Adjust based on header/footer height */
+
 }
 
 /* ========== PAGE WRAPPER ========== */
@@ -58,10 +58,11 @@
   margin-bottom: 12px;
   font-size: 40px;
   color: #162757;
-  text-shadow: 1px 0px 1px rgba(106, 106, 236, 0.783),
-               -1px 0px 1px rgba(106, 106, 236, 0.783),
-                0px 1px 1px rgba(106, 106, 236, 0.783),
-                0px -1px 1px rgba(106, 106, 236, 0.783);
+  text-shadow:
+    1px 0px 1px rgba(106, 106, 236, 0.783),
+   -1px 0px 1px rgba(106, 106, 236, 0.783),
+    0px 1px 1px rgba(106, 106, 236, 0.783),
+    0px -1px 1px rgba(106, 106, 236, 0.783);
 }
 
 .titleCenter p {
@@ -73,31 +74,33 @@
 /* ========== BUTTON SECTION ========== */
 .buttonSection {
   display: flex;
-  gap: 60px;
+  gap: 100px;
   flex-wrap: wrap;
   justify-content: center;
   margin: 0 auto;
 }
 
 .btnBox {
-  width: 360px;
-  height: auto;
+  position: relative;
+  width: 380px;
+  height: 120px;
   padding: 20px 30px;
   border-radius: 12px;
   color: white;
   box-shadow: 0 6px 20px rgba(7, 34, 78, 0.5);
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  text-align: left;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   overflow: hidden;
   transition: transform 0.3s ease;
   cursor: pointer;
 }
 
-/* Reuse style with multiple classes using @apply if using Tailwind or duplicate manually */
+/* First button (Entreprise) */
 .btnBoxEnterprise {
+  composes: btnBox;
   background: linear-gradient(135deg, #0049be, #023e8a);
 }
 
@@ -105,34 +108,51 @@
   background: linear-gradient(135deg, #2563eb, #1d4ed8);
 }
 
+/* Second button (Grand Public) */
 .btnBoxPublic {
+  composes: btnBox;
   background: linear-gradient(135deg, #f59e0b, #ef4444);
 }
 
 .btnBox:hover {
-  transform: scale(1.05);
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 7px;
+  transform: scale(1.15);
 }
 
 .btnTitle {
-  font-size: 22px;
+  font-size: 23px;
   font-weight: 600;
   color: white;
-  margin-bottom: 6px;
   transition: all 0.3s ease;
 }
 
 .btnBox:hover .btnTitle {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
 }
 
+/* Description */
 .desc {
-  font-size: 14px;
-  line-height: 1.5;
-  opacity: 1;
-  transition: all 0.3s ease;
-  color: #f0f0f0;
+  max-height: 0;
+  opacity: 0;
+  color: white;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.4;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  margin-bottom: 10px;
+  align-self: flex-start2
 }
 
+.btnBox:hover .desc {
+  max-height: 80px;
+  opacity: 1;
+}
 /* ========== RESPONSIVE ========== */
 @media (max-width: 900px) {
   .buttonSection {
