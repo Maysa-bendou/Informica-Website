@@ -1,4 +1,9 @@
 /* === A PROPOS SECTION === */
+html, body {
+  scroll-behavior: auto !important;
+}
+
+
 .aproposPage {
   width: 100%;
   min-height: 100vh;
@@ -17,15 +22,16 @@
   padding: 40px;
   border-radius: 8px;
   color: #031b3a;
-  margin: 0 30px;
+  margin: 0 10px;
 }
 
 .aproposTittle {
   font-size: 48px;
   color: #032047;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   position: relative;
   padding-left: 15px;
+  margin-top: 3px;
 }
 
 .aproposTittle::before {
@@ -39,9 +45,9 @@
 }
 
 .sectionText {
-  line-height: 1.8;
+  line-height: 1.7;
   color: #333;
-  margin-top: 10px;
+  margin-top: 0px;
   font-size: 18px;
 }
 

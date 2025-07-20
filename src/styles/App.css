@@ -1,10 +1,10 @@
-/* App.css */
-html,
-body {
-  scroll-behavior: auto !important; /* 🛑 This disables smooth scroll */
+/* index.css or App.css */
+html, body {
+  scroll-behavior: auto !important; /* Force instant scroll (no animation) */
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 

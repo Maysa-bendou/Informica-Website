@@ -1,8 +1,12 @@
 /* ========== REFERENCES SECTION ========== */
+html, body {
+  scroll-behavior: auto !important;
+}
+
 .sectionReferences {
   padding: 30px 35px;
   text-align: center;
-   margin-bottom: 0px;
+   margin-bottom: 60px;
 }
 
 

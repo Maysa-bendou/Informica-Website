@@ -1,4 +1,9 @@
 /* Nos Formations Section */
+html, body {
+  scroll-behavior: auto !important;
+}
+
+
 .sectionFormations {
   padding: 120px 20px;
    position: relative;
