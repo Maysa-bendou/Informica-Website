@@ -15,7 +15,9 @@
 }
 /* A Propos Section */
 
-
+html, body {
+  scroll-behavior: auto !important;
+}
 
 
 
