@@ -33,7 +33,7 @@
   background-image: linear-gradient(to right, rgba(170, 170, 170, 0.95) 40%, rgba(0, 0.1, 0.2, 0.3) 100%), url('/assets/image/entreprise1.jpg');
   background-size: cover;
   background-position: center;
-  padding: 60px 20px;
+  padding: 120px 20px;
 }
 
 
@@ -141,7 +141,7 @@
 
 /* Nos Formations Section */
 .sectionFormations {
-  padding: 30px 20px;
+  padding: 120px 20px;
    position: relative;
   background-size: cover;
   background-position: center;
@@ -239,6 +239,15 @@
 }
 
 
+.active {
+  background-color: #f0f8ff;
+  border: 2px solid #007bff;
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+
 
 
 
@@ -301,9 +310,10 @@
 
 
 
+
 /* ========== REFERENCES SECTION ========== */
 .sectionReferences {
-  padding: 30px 35px;
+  padding: 90px 35px;
   text-align: center;
    margin-bottom: 0px;
 }
@@ -334,6 +344,7 @@
 .sectionTitleref{
   font-size: 28px;
   color: #333;
+  margin-top: 3rem;
 }
 
 .sliderTrack {
@@ -450,9 +461,10 @@ margin: 0 auto ;
 }
 
 .sectionTitle {
+  margin-top: 3rem;
   font-size: 1.7rem;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   color: #1a1a1a;
 }
 
@@ -650,6 +662,7 @@ textarea:focus {
 .submitButton:hover {
   background-color: #005bb5;
 }
+
 
 
 

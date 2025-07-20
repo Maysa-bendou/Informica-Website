@@ -60,7 +60,7 @@ export default function FormationDetailsPage() {
   className={styles.backButton}
  > 
   <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-  <div className={styles.retourText}>Retour</div>
+
 </button>
 
 

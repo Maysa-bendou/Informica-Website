@@ -58,9 +58,9 @@ export default function FormationsPage() {
       <div className={styles.formationsContainer}>
         <div className={styles.layoutContainer}>
           <div className={styles.leftColumn}>
-            <Link to="/entreprise#Nos_formations" className={styles.backButton}>
+            <Link to="/entreprise/nos-formations" className={styles.backButton}>
               <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-              <span className={styles.retourText}>Retour</span>
+              
             </Link>
           </div>
           

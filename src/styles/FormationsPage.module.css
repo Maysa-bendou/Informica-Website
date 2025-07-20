@@ -60,7 +60,7 @@
 }
 
 .backButton {
-  background-color: #F26722;
+  /*background-color: #F26722; */
   color: #fff;
   padding: 10px 8px;
   border: none;
@@ -75,7 +75,6 @@
 }
 
 .backButton:hover {
-  background-color: #003f7f;
   transform: scale(1.03);
 }
 

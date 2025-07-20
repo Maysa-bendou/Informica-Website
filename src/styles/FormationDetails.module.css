@@ -24,8 +24,8 @@ iframe {
 }
 
 .backButton {
-  background-color: #F26722;
-  color: #fff;
+ background-color: transparent;
+ 
   padding: 10px 8px;
   border: none;
   border-radius: 3px;
@@ -36,11 +36,11 @@ iframe {
   gap: 10px;
   align-items: center;
   margin-bottom: 20px;
-  transition: background-color 0.3s ease, transform 0.2s ease;
+  
 }
 
 .backButton:hover {
-  background-color: #003f7f;
+
   transform: scale(1.03);
 }
 
