@@ -1,7 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from '../../styles/PageEntreprise.module.css';
 
-// Images for references
+import Header from '../../components/Header';
+import Footer from '../../components/Footer';
+
+// Images
 import rrrr1 from '../../assets/image/colab/rrrr1.png';
 import rrrr2 from '../../assets/image/colab/rrrr2.png';
 import rrrr3 from '../../assets/image/colab/rrrr3.png';
@@ -13,13 +16,12 @@ import fef22 from '../../assets/image/colab/fef2_2.png';
 import fef23 from '../../assets/image/colab/fef2_3.png';
 import fef24 from '../../assets/image/colab/fef2_4.png';
 
-// Arrow icons
 import leftArrow from '../../assets/image/icons/before.svg';
 import rightArrow from '../../assets/image/icons/next.svg';
 
 const images = [rrrr1, rrrr2, rrrr3, rrr4, rrr5, rrr6, fef21, fef22, fef23, fef24];
 
-function NosReferences() {
+export default function NosReferencesPage() {
   const trackRef = useRef(null);
   const [current, setCurrent] = useState(0);
   const [autoSlide, setAutoSlide] = useState(null);
@@ -72,51 +74,55 @@ function NosReferences() {
   }, [current]);
 
   return (
-    <section id="Nos_Références" className={styles.sectionReferences}>
-      <h2 className={styles.sectionTitleref}>Nos Références</h2>
+    <>
+      <Header />
+      <div className={styles.pageContainer}>
+        <section id="Nos_Références" className={styles.sectionReferences}>
+          <h2 className={styles.sectionTitleref}>Nos Références</h2>
 
-      <div className={styles.referencesSliderContainer}>
-        {current > 0 && (
-          <button className={`${styles.sliderArrow} ${styles.prevArrow}`} onClick={prev}>
-            <img src={leftArrow} alt="Previous" className={styles.arrowIcon}/>
-          </button>
-        )}
+          <div className={styles.referencesSliderContainer}>
+            {current > 0 && (
+              <button className={`${styles.sliderArrow} ${styles.prevArrow}`} onClick={prev}>
+                <img src={leftArrow} alt="Previous" className={styles.arrowIcon} />
+              </button>
+            )}
 
-        <div
-          className={styles.referencesSlider}
-          onMouseEnter={stopAutoSlide}
-          onMouseLeave={startAutoSlide}
-        >
-          <div className={styles.sliderTrack} ref={trackRef}>
-            {images.map((img, i) => (
-              <div key={i} className={styles.slide}>
-                <img src={img} alt={`Référence ${i + 1}`} className={styles.slideImg} />
+            <div
+              className={styles.referencesSlider}
+              onMouseEnter={stopAutoSlide}
+              onMouseLeave={startAutoSlide}
+            >
+              <div className={styles.sliderTrack} ref={trackRef}>
+                {images.map((img, i) => (
+                  <div key={i} className={styles.slide}>
+                    <img src={img} alt={`Référence ${i + 1}`} className={styles.slideImg} />
+                  </div>
+                ))}
               </div>
+            </div>
+
+            {current < images.length - 1 && (
+              <button className={`${styles.sliderArrow} ${styles.nextArrow}`} onClick={next}>
+                <img src={rightArrow} alt="Next" className={styles.arrowIcon} />
+              </button>
+            )}
+          </div>
+
+          <div className={styles.sliderDots}>
+            {images.map((_, i) => (
+              <div
+                key={i}
+                className={`${styles.dot} ${i === current ? styles.dotActive : ''}`}
+                onClick={() => {
+                  setCurrent(i);
+                  pauseThenResume();
+                }}
+              />
             ))}
           </div>
-        </div>
-
-        {current < images.length - 1 && (
-          <button className={`${styles.sliderArrow} ${styles.nextArrow}`} onClick={next}>
-            <img src={rightArrow} alt="Next" className={styles.arrowIcon}/>
-          </button>
-        )}
+        </section>
       </div>
-
-      <div className={styles.sliderDots}>
-        {images.map((_, i) => (
-          <div
-            key={i}
-            className={`${styles.dot} ${i === current ? styles.dotActive : ''}`}
-            onClick={() => {
-              setCurrent(i);
-              pauseThenResume();
-            }}
-          />
-        ))}
-      </div>
-    </section>
+      <Footer />
+    </>
   );
 }
-
-export default NosReferences;

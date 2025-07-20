@@ -3,13 +3,6 @@ import logo from '../assets/image/new_logo.png';
 import styles from '../styles/Header.module.css'; 
 
 function Header({ page, activeSection }) {
-  const navItems = [
-    { id: 'A_propos', label: 'À propos' },
-    { id: 'Nos_formations', label: 'Nos Formations' },
-    { id: 'Nos_Références', label: 'Nos Références' },
-    { id: 'Contact', label: 'Contact' },
-  ];
-
   return (
     <header
       className={`${styles.mainHeader} ${page === 'accueil' ? styles.accueilHeader : ''}`}
@@ -20,15 +13,30 @@ function Header({ page, activeSection }) {
         {page === 'entreprise' && (
           <>
             <Link to="/" className={styles.navLink}>Accueil</Link>
-            {navItems.map(({ id, label }) => (
-              <a
-                key={id}
-                href={`#${id}`}
-                className={`${styles.navLink} ${activeSection === id ? styles.active : ''}`}
-              >
-                {label}
-              </a>
-            ))}
+            <Link
+              to="/entreprise/a-propos"
+              className={`${styles.navLink} ${activeSection === 'A_propos' ? styles.active : ''}`}
+            >
+              À propos
+            </Link>
+            <Link
+              to="/entreprise/nos-formations"
+              className={`${styles.navLink} ${activeSection === 'Nos_formations' ? styles.active : ''}`}
+            >
+              Nos Formations
+            </Link>
+            <Link
+              to="/entreprise/nos-references"
+              className={`${styles.navLink} ${activeSection === 'Nos_Références' ? styles.active : ''}`}
+            >
+              Nos Références
+            </Link>
+            <Link
+              to="/entreprise/contact"
+              className={`${styles.navLink} ${activeSection === 'Contact' ? styles.active : ''}`}
+            >
+              Contact
+            </Link>
           </>
         )}
       </nav>

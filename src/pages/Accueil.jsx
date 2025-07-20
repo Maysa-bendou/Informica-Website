@@ -1,3 +1,4 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
@@ -16,25 +17,19 @@ function Accueil() {
           </div>
 
           <section className={styles.buttonSection}>
-            <div
-              className={styles.btnBoxEnterprise}
-              onClick={() => (window.location.href = "/entreprise")}
-            >
+            <Link to="/entreprise/a-propos" className={styles.btnBoxEnterprise}>
               <span className={styles.btnTitle}>Formation Entreprise</span>
               <p className={styles.desc}>
                 Formations destinées aux personnels des entreprises
               </p>
-            </div>
+            </Link>
 
-            <div
-              className={styles.btnBoxPublic}
-              onClick={() => (window.location.href = "/public")}
-            >
+            <Link to="/public" className={styles.btnBoxPublic}>
               <span className={styles.btnTitle}>Formations Grand Public</span>
               <p className={styles.desc}>
-                Formations ouvertes à tous: apprenez et évoluez-personnellement et professionnellement.
+                Formations ouvertes à tous : apprenez et évoluez personnellement et professionnellement.
               </p>
-            </div>
+            </Link>
           </section>
         </main>
       </div>
