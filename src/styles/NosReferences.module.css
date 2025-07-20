@@ -1,0 +1,164 @@
+/* ========== REFERENCES SECTION ========== */
+html, body {
+  scroll-behavior: auto !important;
+}
+
+.sectionReferences {
+  padding: 30px 35px;
+  text-align: center;
+   margin-bottom: 60px;
+}
+
+
+.referencesSlider {
+  max-width: 1200px; 
+  flex: 1; 
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+
+}
+.referencesSliderContainer {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 30px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap : 1rem;
+
+
+}
+.sectionTitleref{
+  margin-top: 7rem;
+  font-size: 28px;
+  color: #333;
+}
+
+.sliderTrack {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+.arrowIcon {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  transition: transform 0.2s ease;
+}
+
+
+.slide {
+  min-width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.slideImg {
+ width: 900px;
+height: 200px;
+ object-fit: contain;
+display: block;
+margin: 0 auto ;
+}
+
+.slideImg:hover {
+  transform: scale(1.05);
+}
+
+
+.sliderArrow {
+  background: none;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.prevArrow {
+  left: 10px;
+}
+
+.nextArrow {
+  right: 10px;
+}
+
+
+/* Dots – modernize */
+.sliderDots {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #cbd5e1;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.dotActive {
+  background: #004080;
+  transform: scale(1.4);
+}
+
+.dotActive::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: -4px;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid #004080;
+  opacity: 0.3;
+}
+
+
+@media (max-width: 1200px) {
+  .referencesSliderContainer {
+    padding: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .slideImg {
+    width: 700px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 768px) {
+  .slideImg {
+    width: 500px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .referencesSliderContainer {
+    padding: 20px 10px;
+  }
+
+  .slideImg {
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+  }
+
+  .arrowIcon {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+

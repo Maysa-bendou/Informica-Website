@@ -1,0 +1,169 @@
+/* Nos Formations Section */
+html, body {
+  scroll-behavior: auto !important;
+}
+
+
+.sectionFormations {
+  padding: 120px 20px;
+   position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  background-color: #f1f5f9;
+
+}
+
+.horizontalContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.rightSection {
+  flex: 1;
+  max-width: 500px;
+}
+
+.leftSection {
+  flex: 1;
+  max-width: 700px;
+}
+
+.formationsSubtitle {
+  font-size: 24px;
+  margin-bottom: 25px;
+  color: #222;
+ 
+}
+.formationsSubtitle1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #222;
+}
+.formationsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+
+}
+
+
+.formationCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+  background: transparent;
+  text-decoration: none;
+  max-width: 230px;
+  height: 180px;
+
+  transition: transform 0.2s ease, box-shadow 0.4s ease;
+}
+
+.formationCard:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
+  background-color:rgb(182, 194, 207);
+}
+
+
+
+
+.formationsGridd {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding-top: 20px;
+}
+
+.formationCardd {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 15px;
+  background: transparent;
+  text-decoration: none;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  /* border: 1px solid #ddd; */
+ 
+  width: 100%;
+  max-width: 600px;
+}
+
+.formationCardd:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
+  background-color:rgb(182, 194, 207);
+}
+
+
+.active {
+  background-color: #f0f8ff;
+  border: 2px solid #007bff;
+  transform: scale(1.03);
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+.separator {
+  margin-top: 5px;
+  height: 2px;
+  width: 100%;
+  background: linear-gradient(to right, #ccc, #eee, #ccc); /* Soft gradient line */
+  border: none;
+  border-radius: 2px;
+}
+
+
+
+
+
+.formationTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+  margin-top: 10px;
+}
+
+
+.formationIcon {
+  width: 50px;
+  height: 50px;
+}
+
+
+.singleCardWrapper {
+  grid-column: 1 / -1; 
+  display: flex;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .formationsGrid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .formationsSubtitle,
+  .formationsSubtitle1 {
+    font-size: 20px;
+  }
+}
+
+
