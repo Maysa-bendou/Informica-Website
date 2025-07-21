@@ -1,42 +1,45 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import logo from '../assets/image/new_logo.png';
-import styles from '../styles/Header.module.css'; 
+import styles from '../styles/Header.module.css';
 
-function Header({ page, activeSection }) {
+function Header({ page }) {
   return (
-    <header
-      className={`${styles.mainHeader} ${page === 'accueil' ? styles.accueilHeader : ''}`}
-    >
+    <header className={`${styles.mainHeader} ${page === 'accueil' ? styles.accueilHeader : ''}`}>
       <img src={logo} alt="Logo Informica" className={styles.logo} />
 
       <nav className={styles.nav}>
         {page === 'entreprise' && (
           <>
-            <Link to="/" className={styles.navLink}>Accueil</Link>
-            <Link
+            <NavLink
+              to="/"
+              className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
+            >
+              Accueil
+            </NavLink>
+            <NavLink
               to="/entreprise/a-propos"
-              className={`${styles.navLink} ${activeSection === 'A_propos' ? styles.active : ''}`}
+              className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
               À propos
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/entreprise/nos-formations"
-              className={`${styles.navLink} ${activeSection === 'Nos_formations' ? styles.active : ''}`}
+              className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
               Nos Formations
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/entreprise/nos-references"
-              className={`${styles.navLink} ${activeSection === 'Nos_Références' ? styles.active : ''}`}
+              className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
               Nos Références
-            </Link>
-            <Link
+            </NavLink>
+            <NavLink
               to="/entreprise/contact"
-              className={`${styles.navLink} ${activeSection === 'Contact' ? styles.active : ''}`}
+              className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
               Contact
-            </Link>
+            </NavLink>
           </>
         )}
       </nav>

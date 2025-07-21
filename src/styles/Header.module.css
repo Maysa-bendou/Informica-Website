@@ -16,6 +16,8 @@ background: linear-gradient(to right, #f8fafc, #e2e8f0);
   flex-wrap: wrap;
 }
 
+
+
 .mainHeader.scrolled {
   padding: 10px 40px;
 }
@@ -127,5 +129,10 @@ background: linear-gradient(to right, #f8fafc, #e2e8f0);
   .navLink {
     font-size: 15px;
     padding: 5px 8px;
+  }
+}
+@media (max-width: 600px) {
+  header {
+    height: 100px;
   }
 }

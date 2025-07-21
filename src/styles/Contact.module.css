@@ -200,4 +200,27 @@ textarea:focus {
 }
 
 
+.inputError {
+  border: 2px solid #e74c3c !important;
+  outline: none;
+}
+
+.errorText {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  margin-top: 4px;
+  font-weight: 500;
+}
+
+/* Add pointer cursor for clickable phones */
+.copyPhone {
+  cursor: pointer;
+  user-select: none;
+  color: #1877f2;
+  transition: color 0.2s ease;
+}
+
+.copyPhone:hover {
+  color: #0f4bbf;
+}
 
