@@ -2,7 +2,7 @@
   "title": "Acquisition des Connaissances Fondamentales",
   "formations": [
     {
-      "titreFormation": "Fondamentaux du Marketing",
+      "titreFormation": "Fiche Technique de Formation : Fondamentaux du Marketing",
       "objectifs": [
         "Comprendre les principes de base du marketing.",
         "Développer des compétences pour analyser le marché et le comportement des consommateurs.",
@@ -66,8 +66,16 @@
         }
       ]
     },
+
+
+
+
+
+
+
+
     {
-      "titreFormation": "Segmentation des Marchés",
+      "titreFormation": "Fiche Technique de Formation : Segmentation des Marchés",
       "objectifs": [
         "Comprendre les principes et les techniques de segmentation des marchés.",
         "Développer des compétences pour identifier et analyser les segments de marché.",

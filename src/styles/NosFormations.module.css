@@ -5,7 +5,7 @@ html, body {
 
 
 .sectionFormations {
-  padding: 120px 20px;
+  padding: 140px 20px;
    position: relative;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,7 @@ html, body {
 
 .formationsSubtitle {
   font-size: 24px;
-  margin-bottom: 25px;
+  margin-bottom: 30px;
   color: #222;
  
 }

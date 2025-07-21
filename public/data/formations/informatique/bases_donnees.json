@@ -2,151 +2,382 @@
   "title": "basses de données",
   "formations":[
 {
-  "titreFormation": "Administration MySQL Avancée",
+  "titreFormation": "Fiche Technique de Formation : MySQL",
   "objectifs": [
-    "Maîtriser l'architecture et les composants MySQL",
-    "Optimiser les performances des bases de données",
-    "Implémenter des solutions de haute disponibilité"
+    "Apprendre les concepts de base et avancés de MySQL.",
+    "Développer des compétences pour créer et gérer des bases de données MySQL.",
+    "Maîtriser les techniques d’optimisation et de sécurisation des bases de données."
   ],
   "publicCible": [
+    "Développeurs",
     "Administrateurs de bases de données",
-    "Développeurs back-end",
-    "Architectes de données"
+    "Toute personne utilisant MySQL pour la gestion des données."
   ],
-  "prerequis": "Connaissances de base en SQL",
+  "prerequis":  "Connaissances de base en SQL recommandées.",
   "duree": "4 jours (28 heures)",
   "programme": [
     {
-      "module": 1,
-      "titre": "Architecture MySQL",
+      "titre": "1. Introduction à MySQL",
       "contenu": [
-        "Moteurs de stockage (InnoDB, MyISAM)",
-        "Structure des fichiers de données",
-        "Gestion de la mémoire"
+        "Concepts de Base : Comprendre les principes fondamentaux de MySQL.",
+        "Installation et Configuration : Techniques pour installer et configurer MySQL."
       ]
     },
     {
-      "module": 2,
-      "titre": "Optimisation Avancée",
+      "titre": "2. Création et Gestion des Bases de Données",
       "contenu": [
-        "Analyse EXPLAIN",
-        "Optimisation des schémas",
-        "Configuration du buffer pool"
+        "Création de Bases de Données : Techniques pour créer et configurer des bases de données.",
+        "Tables et Schémas : Création et gestion des tables et des schémas."
       ]
     },
     {
-      "module": 3,
-      "titre": "Haute Disponibilité",
+      "titre": "3. Manipulation des Données",
       "contenu": [
-        "Réplication MySQL",
-        "Cluster MySQL InnoDB",
-        "Sauvegardes logiques et physiques"
+        "Requêtes SQL de Base : Techniques pour insérer, mettre à jour, supprimer et sélectionner des données.",
+        "Fonctions SQL : Utilisation des fonctions SQL pour manipuler les données."
       ]
+    },
+    {
+      "titre": "4. Optimisation des Bases de Données",
+      "contenu": [
+        "Indexation : Techniques pour créer et gérer les index pour améliorer les performances.",
+        "Optimisation des Requêtes : Stratégies pour optimiser les requêtes SQL."
+      ]
+    },
+    {
+      "titre": "5. Sécurité des Bases de Données",
+      "contenu": [
+        "Gestion des Utilisateurs et des Droits : Techniques pour gérer les utilisateurs et les privilèges.",
+        "Sécurisation des Données : Stratégies pour sécuriser les bases de données contre les menaces."
+      ]
+    },
+    {
+      "titre": "6. Sauvegarde et Récupération",
+      "contenu": [
+        "Sauvegarde des Données : Techniques pour sauvegarder les bases de données.",
+        "Récupération des Données : Méthodes pour restaurer les bases de données en cas de perte de données."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Création de Bases de Données : Exercices pratiques pour créer et configurer des bases de données.",
+        "Simulations d’Optimisation : Jeux de rôle pour pratiquer l’optimisation des bases de données."
+      ]
+    },
+    {
+      "titre": "8. Outils et Extensions MySQL",
+      "contenu": [
+        "MySQL Workbench : Utilisation de MySQL Workbench pour administrer et visualiser les bases de données.",
+        "Extensions et Plugins : Introduction aux extensions et plugins pour étendre les fonctionnalités de MySQL."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
   ]
 },
+
+
+
+
+
+
+
 {
-  "titreFormation": "SQL Expert",
+  "titreFormation": "Fiche Technique de Formation : SQL",
   "objectifs": [
-    "Maîtriser les requêtes complexes",
-    "Optimiser les performances SQL",
-    "Gérer les transactions avancées"
+      "Comprendre les principes du langage SQL.",
+      "Développer des compétences pour créer, manipuler et interroger des bases de données relationnelles.",
+      "Maîtriser les techniques d’optimisation des requêtes SQL."
   ],
   "publicCible": [
-    "Développeurs SQL",
-    "Analystes de données",
-    "Administrateurs de bases de données"
+      "Développeurs",
+      "Analystes de données",
+      "Administrateurs de bases de données",
+      "Toute personne utilisant SQL pour la gestion des données."
   ],
-  "prerequis": "Bases de SQL",
-  "duree": "3 jours (21 heures)",
+  "prerequis": "Aucun prérequis spécifique.",
   "programme": [
-    {
-      "module": 1,
-      "titre": "Requêtes Avancées",
-      "contenu": [
-        "Common Table Expressions (CTE)",
-        "Fenêtrage (Window Functions)",
-        "Requêtes récursives"
-      ]
-    },
-    {
-      "module": 2,
-      "titre": "Performance SQL",
-      "contenu": [
-        "Indexation avancée",
-        "Partitionnement",
-        "Plan d'exécution détaillé"
-      ]
-    }
+      {
+        "titre": "1. Introduction au SQL",
+        "contenu": [
+          "Concepts de Base : Comprendre les principes fondamentaux du SQL.",
+          "Types de SGBD : Introduction aux systèmes de gestion de bases de données relationnelles."
+        ]
+      },
+      {
+        "titre": "2. Création et Gestion des Bases de Données",
+        "contenu": [
+          "Création de Tables : Techniques pour créer et structurer les tables.",
+          "Définition des Schémas : Méthodes pour définir les schémas de bases de données."
+        ]
+      },
+      {
+        "titre": "3. Manipulation des Données",
+        "contenu": [
+          "Requêtes de Sélection : Techniques pour sélectionner et interroger les données.",
+          "Requêtes de Modification : Utilisation des commandes INSERT, UPDATE et DELETE pour manipuler les données."
+        ]
+      },
+      {
+        "titre": "4. Fonctions SQL",
+        "contenu": [
+          "Fonctions de Base : Utilisation des fonctions SQL de base pour les calculs et les transformations.",
+          "Fonctions Avancées : Techniques pour utiliser les fonctions avancées (agrégation, chaîne de caractères, date)."
+        ]
+      },
+      {
+        "titre": "5. Jointures et Sous-requêtes",
+        "contenu": [
+          "Jointures SQL : Techniques pour effectuer des jointures entre les tables (INNER, LEFT, RIGHT, FULL).",
+          "Sous-requêtes : Utilisation des sous-requêtes pour des interrogations complexes."
+        ]
+      },
+      {
+        "titre": "6. Optimisation des Requêtes",
+        "contenu": [
+          "Indexation : Techniques pour créer et utiliser des index pour améliorer les performances.",
+          "Analyse des Plans d’Exécution : Utilisation des plans d’exécution pour optimiser les requêtes."
+        ]
+      },
+      {
+        "titre": "7. Sécurité et Gestion des Accès",
+        "contenu": [
+          "Gestion des Privilèges : Techniques pour gérer les privilèges des utilisateurs.",
+          "Sécurisation des Données : Stratégies pour protéger les données sensibles."
+        ]
+      },
+      {
+        "titre": "8. Applications Pratiques",
+        "contenu": [
+          "Ateliers de Requêtes SQL : Exercices pratiques pour écrire et optimiser des requêtes SQL.",
+          "Simulations de Jointures et Sous-requêtes : Jeux de rôle pour pratiquer les jointures et les sous-requêtes."
+        ]
+      },
+      {
+        "titre": "9. Outils SQL",
+        "contenu": [
+          "Outils d’Administration SQL : Introduction aux outils d’administration des bases de données (pgAdmin, SQL Server Management Studio).",
+          "Scripts SQL : Techniques pour automatiser les tâches avec des scripts SQL."
+        ]
+      },
+      {
+        "titre": "10. Évaluation Finale",
+        "contenu": []
+      }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "NoSQL - Approche Polyglotte",
+  "titreFormation": "Fiche Technique de Formation : NoSQL ",
   "objectifs": [
-    "Comprendre les différents modèles NoSQL",
-    "Choisir la solution adaptée aux cas d'usage",
-    "Implémenter des solutions scalables"
+"Comprendre les principes des bases de données NoSQL.",
+    "Développer des compétences pour travailler avec différents types de bases de données NoSQL.",
+    "Maîtriser les techniques de modélisation des données et d’interrogation dans un environnement NoSQL."
   ],
   "publicCible": [
-    "Architectes de données",
-    "Développeurs full-stack",
-    "Data engineers"
+    "Développeurs",
+    "Architectes de bases de données",
+    "Data engineers",
+    "Toute personne utilisant des bases de données NoSQL pour la gestion des données."
   ],
-  "prerequis": "Connaissances de base en bases de données",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Connaissances de base en gestion des bases de données recommandées.",
+  
   "programme": [
     {
-      "module": 1,
-      "titre": "Modèles NoSQL",
+      "titre": "1. Introduction au NoSQL",
       "contenu": [
-        "Clé-valeur (Redis, DynamoDB)",
-        "Document (MongoDB, Couchbase)",
-        "Graphes (Neo4j, JanusGraph)"
+        "Concepts de Base : Comprendre les principes fondamentaux des bases de données NoSQL.",
+        "Types de Bases NoSQL : Présentation des différents types de bases de données NoSQL (clé-valeur, document, colonne, graphe)."
       ]
     },
     {
-      "module": 2,
-      "titre": "Patterns de Modélisation",
+      "titre": "2. Bases de Données Clé-Valeur",
       "contenu": [
-        "Denormalisation stratégique",
-        "Design pour les requêtes",
-        "Gestion des relations"
+        "Introduction aux Bases Clé-Valeur : Concepts et cas d’utilisation.",
+        "Interrogation des Données : Techniques pour stocker et interroger les données dans les bases clé-valeur (ex. Redis)."
       ]
+    },
+    {
+      "titre": "3. Bases de Données Document",
+      "contenu": [
+        "Introduction aux Bases Document : Concepts et cas d’utilisation.",
+        "Manipulation des Documents : Techniques pour stocker et interroger les données dans les bases documentaires (ex. MongoDB)."
+      ]
+    },
+    {
+      "titre": "4. Bases de Données en Colonnes",
+      "contenu": [
+        "Introduction aux Bases en Colonnes : Concepts et cas d’utilisation.",
+        "Manipulation des Colonnes : Techniques pour stocker et interroger les données dans les bases en colonnes (ex. Cassandra)."
+      ]
+    },
+    {
+      "titre": "5. Bases de Données Graphe",
+      "contenu": [
+        "Introduction aux Bases Graphe : Concepts et cas d’utilisation.",
+        "Manipulation des Graphes : Techniques pour stocker et interroger les données dans les bases de graphes (ex. Neo4j)."
+      ]
+    },
+    {
+      "titre": "6. Modélisation des Données NoSQL",
+      "contenu": [
+        "Techniques de Modélisation : Stratégies pour modéliser les données en fonction des types de bases NoSQL.",
+        "Cas Pratiques de Modélisation : Exercices pratiques de modélisation de données NoSQL."
+      ]
+    },
+    {
+      "titre": "7. Performance et Scalabilité",
+      "contenu": [
+        "Optimisation des Performances : Techniques pour optimiser les performances des bases NoSQL.",
+        "Scalabilité : Stratégies pour assurer la scalabilité des bases de données NoSQL."
+      ]
+    },
+    {
+      "titre": "8. Sécurité et Gestion des Accès",
+      "contenu": [
+        "Sécurisation des Données : Stratégies pour sécuriser les bases de données NoSQL.",
+        "Gestion des Accès : Techniques pour gérer les accès et les permissions."
+      ]
+    },
+    {
+      "titre": "9. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Manipulation des Données NoSQL : Exercices pratiques pour travailler avec différents types de bases NoSQL.",
+        "Simulations de Modélisation : Jeux de rôle pour pratiquer la modélisation des données NoSQL."
+      ]
+    },
+    {
+      "titre": "10. Outils NoSQL",
+      "contenu": [
+        "Outils d’Administration NoSQL : Introduction aux outils d’administration des bases NoSQL (MongoDB Compass, Neo4j Browser).",
+        "Scripts et Automatisation : Techniques pour automatiser les tâches avec des scripts NoSQL."
+      ]
+    },
+    {
+      "titre": "11. Évaluation Finale",
+      "contenu": []
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Ingénierie Big Data",
+  "titreFormation": "Fiche Technique de Formation : Big Data",
   "objectifs": [
-    "Maîtriser l'écosystème Hadoop/Spark",
-    "Concevoir des pipelines de données",
-    "Optimiser les traitements distribués"
+ "Comprendre les concepts et les technologies du Big Data.",
+    "Développer des compétences pour manipuler et analyser de grandes quantités de données.",
+    "Maîtriser les outils et les techniques pour le traitement et l’analyse des données à grande échelle."
   ],
   "publicCible": [
     "Data engineers",
-    "Architectes Big Data",
-    "DevOps data"
+    "Data scientists",
+    "Analystes de données",
+    "Architectes de données",
+    "Toute personne travaillant avec des données volumineuses."
   ],
-  "prerequis": "Bases de programmation et bases de données",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Connaissances de base en gestion des données et en programmation recommandées.",
   "programme": [
-    {
-      "module": 1,
-      "titre": "Écosystème Hadoop",
+   {
+      "titre": "1. Introduction au Big Data",
       "contenu": [
-        "HDFS architecture",
-        "YARN resource management",
-        "Hive/Impala pour le SQL"
+        "Concepts de Base : Comprendre les principes fondamentaux du Big Data.",
+        "Enjeux et Applications : Exploration des enjeux et des applications du Big Data dans différents secteurs."
       ]
     },
     {
-      "module": 2,
-      "titre": "Traitement avec Spark",
+      "titre": "2. Écosystème Big Data",
       "contenu": [
-        "DataFrames API",
-        "Streaming structuré",
-        "Optimisation des jobs"
+        "Technologies Clés : Présentation des technologies clés du Big Data (Hadoop, Spark).",
+        "Architecture Big Data : Concepts d’architecture pour le traitement des données à grande échelle."
       ]
+    },
+    {
+      "titre": "3. Traitement des Données avec Hadoop",
+      "contenu": [
+        "HDFS (Hadoop Distributed File System) : Introduction et utilisation de HDFS pour le stockage distribué.",
+        "MapReduce : Concepts et mise en œuvre de MapReduce pour le traitement des données."
+      ]
+    },
+    {
+      "titre": "4. Analyse des Données avec Spark",
+      "contenu": [
+        "Introduction à Apache Spark : Concepts et fonctionnalités de Spark.",
+        "RDD et DataFrames : Utilisation des RDD (Resilient Distributed Datasets) et DataFrames pour l’analyse des données."
+      ]
+    },
+    {
+      "titre": "5. Gestion des Données avec NoSQL",
+      "contenu": [
+        "Intégration NoSQL : Techniques pour intégrer les bases de données NoSQL dans les environnements Big Data.",
+        "Cas Pratiques d’Intégration : Exercices pratiques pour intégrer les bases NoSQL avec Hadoop et Spark."
+      ]
+    },
+    {
+      "titre": "6. Stream Processing",
+      "contenu": [
+        "Traitement en Temps Réel : Concepts et outils pour le traitement des données en temps réel (Kafka, Flink).",
+        "Applications de Stream Processing : Cas d’utilisation du traitement en temps réel."
+      ]
+    },
+    {
+      "titre": "7. Outils d’Analyse Big Data",
+      "contenu": [
+        "Machine Learning avec Spark MLlib : Utilisation de Spark MLlib pour le machine learning.",
+        "Visualisation des Données : Techniques pour visualiser les données Big Data (Tableau, Power BI)."
+      ]
+    },
+    {
+      "titre": "8. Performance et Optimisation",
+      "contenu": [
+        "Optimisation des Performances : Stratégies pour optimiser les performances des traitements Big Data.",
+        "Scalabilité et Résilience : Techniques pour assurer la scalabilité et la résilience des systèmes Big Data."
+      ]
+    },
+    {
+      "titre": "9. Sécurité et Conformité",
+      "contenu": [
+        "Sécurisation des Données Big Data : Stratégies pour sécuriser les environnements Big Data.",
+        "Conformité Réglementaire : Techniques pour assurer la conformité avec les régulations sur les données."
+      ]
+    },
+    {
+      "titre": "10. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Traitement des Données : Exercices pratiques pour manipuler et analyser les données avec Hadoop et Spark.",
+        "Simulations de Machine Learning : Jeux de rôle pour pratiquer le machine learning avec Spark MLlib."
+      ]
+    },
+    {
+      "titre": "11. Outils et Frameworks Big Data",
+      "contenu": [
+        "Outils de Gestion Big Data : Introduction aux outils de gestion et d’administration des environnements Big Data (Ambari, Cloudera Manager).",
+        "Scripts et Automatisation : Techniques pour automatiser les tâches avec des scripts Big Data."
+      ]
+    },
+    {
+      "titre": "12. Évaluation Finale",
+      "contenu": []
     }
   ]
 }

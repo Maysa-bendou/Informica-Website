@@ -153,25 +153,36 @@
   max-height: 80px;
   opacity: 1;
 }
-
 /* ========== RESPONSIVE ========== */
 @media (max-width: 900px) {
   .buttonSection {
-    gap: 40px;
+    gap: 30px;
   }
 
   .btnBox {
-    width: 300px;
+    width: 280px;
   }
 }
 
 @media (max-width: 600px) {
   .titleCenter h1 {
-    font-size: 32px;
+    font-size: 28px;
+  }
+
+  .titleCenter p {
+    font-size: 16px;
   }
 
   .btnBox {
-    width: 280px;
-    height: 100px;
+    width: 90%;
+    padding: 18px;
+  }
+
+  .btnTitle {
+    font-size: 20px;
+  }
+
+  .desc {
+    font-size: 13px;
   }
 }

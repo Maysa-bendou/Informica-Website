@@ -2,7 +2,7 @@
   "title": "Maîtrise des Techniques Opérationnelles",
   "formations": [
     {
-      "titreFormation": "Maîtriser les Techniques d'Entretien et de Négociation Commerciale",
+      "titreFormation": "Fiche Technique de Formation :  Maîtriser les Techniques d'Entretien et de Négociation Commerciale",
       "objectifs": [
         "Acquérir les compétences nécessaires pour préparer et conduire des entretiens commerciaux efficaces.",
         "Développer des techniques de négociation pour conclure des accords avantageux.",
@@ -66,8 +66,14 @@
         }
       ]
     },
+
+
+
+
+
+
     {
-      "titreFormation": "Maîtriser l'Accueil et Traiter les Insatisfactions des Clients",
+      "titreFormation": "Fiche Technique de Formation : Maîtriser l'Accueil et Traiter les Insatisfactions des Clients",
       "objectifs": [
         "Apprendre à accueillir les clients de manière professionnelle.",
         "Développer des compétences pour identifier et traiter les insatisfactions des clients.",
@@ -131,8 +137,15 @@
         }
       ]
     },
+
+
+
+
+
+
+
     {
-      "titreFormation": "Maîtriser le Recouvrement des Créances",
+      "titreFormation": "Fiche Technique de Formation : Maîtriser le Recouvrement des Créances",
       "objectifs": [
         "Comprendre les principes et les techniques du recouvrement des créances.",
         "Développer des compétences pour gérer les relances et les négociations de paiement.",

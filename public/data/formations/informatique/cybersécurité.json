@@ -1,869 +1,887 @@
 {
   "title": "Cybersécurité et Sécurité de l'Information",
   "formations": [
+{
+  "titreFormation": "Fiche Technique de Formation : Introduction à la Cybersécurité",
+  "objectifs": [
+    "Comprendre les concepts fondamentaux de la cybersécurité.",
+    "Développer des compétences pour identifier et gérer les menaces de cybersécurité.",
+    "Maîtriser les principes et les pratiques de base pour sécuriser les systèmes et les données."
+  ],
+  "publicCible": "Responsables IT, administrateurs réseau, développeurs, toute personne souhaitant comprendre les bases de la cybersécurité.",
+  "prerequis": "Connaissances de base en informatique.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
     {
-      "titreFormation": "Introduction à la Cybersécurité",
-      "objectifs": [
-        "Comprendre les concepts fondamentaux de la cybersécurité",
-        "Développer des compétences pour identifier et gérer les menaces",
-        "Maîtriser les principes de base pour sécuriser les systèmes et données"
-      ],
-      "publicCible": [
-        "Responsables IT",
-        "Administrateurs réseau",
-        "Développeurs",
-        "Personnes souhaitant comprendre les bases de cybersécurité"
-      ],
-      "prerequis": "Connaissances de base en informatique",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Menaces et Attaques"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Mesures de Sécurité",
-          "contenu": [
-            "Politiques de Sécurité",
-            "Contrôles de Sécurité"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Sécurisation des Systèmes",
-          "contenu": [
-            "Protection des Systèmes",
-            "Sécurisation des Réseaux"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Gestion des Accès",
-          "contenu": [
-            "Gestion des Identités",
-            "Authentification et Autorisation"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Cryptographie de Base",
-          "contenu": [
-            "Concepts de Cryptographie",
-            "Applications Pratiques"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Surveillance et Détection",
-          "contenu": [
-            "Outils de Surveillance",
-            "Détection des Intrusions"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Réponse aux Incidents",
-          "contenu": [
-            "Plan de Réponse",
-            "Gestion des Incidents"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Sécurisation",
-            "Simulations de Réponse"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Normes et Régulations",
-          "contenu": [
-            "Introduction aux Normes",
-            "Conformité Réglementaire"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "1.Introduction à la Cybersécurité",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes fondamentaux de la cybersécurité.",
+        "Menaces et Attaques : Identification des principales menaces et types d’attaques."
       ]
     },
     {
-      "titreFormation": "Analyse des Risques",
-      "objectifs": [
-        "Comprendre les principes de l'analyse des risques",
-        "Développer des compétences pour identifier, évaluer et gérer les risques",
-        "Maîtriser les techniques pour une gestion efficace des risques"
-      ],
-      "publicCible": [
-        "Responsables de la sécurité",
-        "Gestionnaires de risques",
-        "Consultants en sécurité"
-      ],
-      "prerequis": "Connaissances de base en cybersécurité",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Cycle de Vie de la Gestion des Risques"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Identification des Risques",
-          "contenu": [
-            "Techniques d'Identification",
-            "Sources de Risques"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Évaluation des Risques",
-          "contenu": [
-            "Méthodes d'Évaluation",
-            "Matrice de Risques"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Traitement des Risques",
-          "contenu": [
-            "Options de Traitement",
-            "Plans de Traitement"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Surveillance des Risques",
-          "contenu": [
-            "Surveillance Continue",
-            "Revue et Mise à Jour"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Outils d'Analyse",
-          "contenu": [
-            "Logiciels d'Analyse",
-            "Méthodes Qualitatives et Quantitatives"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Communication des Risques",
-          "contenu": [
-            "Rapports de Risques",
-            "Sensibilisation et Formation"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers d'Identification",
-            "Simulations d'Évaluation"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Normes et Cadres",
-          "contenu": [
-            "ISO 31000 et ISO 27005",
-            "Conformité et Gouvernance"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "2.Mesures de Sécurité",
+      "contenu": [
+        "Politiques de Sécurité : Développement de politiques de sécurité de l’information.",
+        "Contrôles de Sécurité : Présentation des contrôles de sécurité techniques et organisationnels."
       ]
     },
     {
-      "titreFormation": "Cryptographie",
-      "objectifs": [
-        "Comprendre les concepts et techniques de cryptographie",
-        "Développer des compétences pour sécuriser les données",
-        "Maîtriser les outils pour implémenter la cryptographie"
-      ],
-      "publicCible": [
-        "Ingénieurs en sécurité",
-        "Développeurs",
-        "Administrateurs réseau"
-      ],
-      "prerequis": "Connaissances de base en cybersécurité et mathématiques",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Historique de la Cryptographie"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Chiffrement Symétrique",
-          "contenu": [
-            "Algorithmes Symétriques (AES, DES)",
-            "Techniques de Chiffrement"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Chiffrement Asymétrique",
-          "contenu": [
-            "Algorithmes Asymétriques (RSA, ECC)",
-            "Techniques de Chiffrement"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Hachage et Intégrité",
-          "contenu": [
-            "Algorithmes de Hachage (SHA-256, MD5)",
-            "Techniques d'Intégrité"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Signature Numérique et PKI",
-          "contenu": [
-            "Signatures Numériques",
-            "Infrastructure à Clé Publique (PKI)"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Protocoles de Sécurité",
-          "contenu": [
-            "SSL/TLS",
-            "Sécurité des E-mails (PGP, S/MIME)"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Cryptographie Quantique",
-          "contenu": [
-            "Concepts Quantiques",
-            "Algorithmes Post-quantiques"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Chiffrement",
-            "Simulations de Sécurisation"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Outils",
-          "contenu": [
-            "OpenSSL, GnuPG",
-            "Automatisation des Tâches"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "3.Sécurisation des Systèmes et Réseaux",
+      "contenu": [
+        "Protection des Systèmes : Techniques pour protéger les systèmes d’information.",
+        "Sécurisation des Réseaux : Stratégies pour sécuriser les réseaux informatiques."
       ]
     },
     {
-      "titreFormation": "Pentesting (Tests d'Intrusion)",
-      "objectifs": [
-        "Comprendre les méthodologies des tests d'intrusion",
-        "Développer des compétences pour identifier et exploiter les vulnérabilités",
-        "Maîtriser les outils pour réaliser des tests efficaces"
-      ],
-      "publicCible": [
-        "Ingénieurs en sécurité",
-        "Pentesters",
-        "Consultants en sécurité"
-      ],
-      "prerequis": "Connaissances de base en réseaux et cybersécurité",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Éthique et Législation"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Préparation des Tests",
-          "contenu": [
-            "Planification des Tests",
-            "Collecte d'Informations"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Analyse des Vulnérabilités",
-          "contenu": [
-            "Scanning des Réseaux",
-            "Évaluation des Vulnérabilités"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Exploitation",
-          "contenu": [
-            "Techniques d'Exploitation",
-            "Scripts et Exploits"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Post-Exploitation",
-          "contenu": [
-            "Maintien de l'Accès",
-            "Escalade des Privilèges"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Rapports",
-          "contenu": [
-            "Documentation des Résultats",
-            "Recommandations de Sécurité"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Scanning",
-            "Simulations de Post-Exploitation"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils",
-          "contenu": [
-            "Metasploit, Nmap, Burp Suite",
-            "Automatisation des Tests"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "4.Gestion des Identités et des Accès",
+      "contenu": [
+        "Gestion des Identités : Techniques pour gérer les identités et les accès.",
+        "Authentification et Autorisation : Présentation des méthodes d’authentification et d’autorisation."
       ]
     },
     {
-      "titreFormation": "Réponse aux Incidents",
-      "objectifs": [
-        "Comprendre les méthodologies de réponse aux incidents",
-        "Développer des compétences pour détecter et répondre aux incidents",
-        "Maîtriser les techniques pour une gestion efficace"
-      ],
-      "publicCible": [
-        "Responsables de la sécurité",
-        "Administrateurs réseau",
-        "Analystes SOC"
-      ],
-      "prerequis": "Connaissances de base en cybersécurité et gestion des SI",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Cycle de Vie des Incidents"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Préparation",
-          "contenu": [
-            "Plan de Réponse",
-            "Équipe de Réponse (IRT)"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Détection",
-          "contenu": [
-            "Techniques de Détection",
-            "Outils de Surveillance (SIEM, IDS)"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Analyse",
-          "contenu": [
-            "Techniques d'Analyse",
-            "Analyse Forensique"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Containment et Récupération",
-          "contenu": [
-            "Containment des Incidents",
-            "Eradication des Menaces"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Communication",
-          "contenu": [
-            "Rapports d'Incidents",
-            "Communication avec les Parties Prenantes"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Amélioration",
-          "contenu": [
-            "Analyse Post-Incident",
-            "Amélioration Continue"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Détection",
-            "Simulations de Réponse"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Outils",
-          "contenu": [
-            "Outils Forensiques",
-            "Automatisation de la Réponse"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "5.Cryptographie de Base",
+      "contenu": [
+        "Concepts de Cryptographie : Introduction aux concepts de cryptographie.",
+        "Applications Pratiques : Utilisation de la cryptographie pour sécuriser les données."
       ]
     },
     {
-      "titreFormation": "Gouvernance en Cybersécurité",
-      "objectifs": [
-        "Comprendre les principes de gouvernance",
-        "Développer des compétences pour élaborer des stratégies",
-        "Maîtriser les techniques pour aligner la cybersécurité"
-      ],
-      "publicCible": [
-        "Responsables de la sécurité",
-        "DSI",
-        "Consultants en gouvernance"
-      ],
-      "prerequis": "Connaissances de base en gestion des SI et cybersécurité",
-      "methodologie": "Exposés théoriques, études de cas, ateliers interactifs, simulations",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Rôles et Responsabilités"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Stratégie",
-          "contenu": [
-            "Élaboration de la Stratégie",
-            "Cadres de Référence (NIST, ISO)"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Politiques",
-          "contenu": [
-            "Développement des Politiques",
-            "Mise en Œuvre des Procédures"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Gestion des Risques",
-          "contenu": [
-            "Identification et Évaluation",
-            "Plans de Gestion"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Conformité",
-          "contenu": [
-            "Exigences Réglementaires",
-            "Gestion de la Conformité"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Surveillance",
-          "contenu": [
-            "Surveillance de la Cybersécurité",
-            "Reporting de la Sécurité"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Formation",
-          "contenu": [
-            "Programmes de Formation",
-            "Campagnes de Sensibilisation"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Stratégie",
-            "Simulations de Gouvernance"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Outils",
-          "contenu": [
-            "Outils de Gestion des Risques",
-            "Automatisation de la Gouvernance"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "6.Surveillance et Détection",
+      "contenu": [
+        "Outils de Surveillance : Introduction aux outils de surveillance de la sécurité.",
+        "Détection des Intrusions : Techniques pour détecter les intrusions et les activités suspectes."
       ]
     },
     {
-      "titreFormation": "ISO 27001: Gestion de la Sécurité de l'Information",
-      "objectifs": [
-        "Comprendre les exigences de la norme ISO 27001",
-        "Développer des compétences pour établir un SGSI",
-        "Maîtriser les techniques pour assurer la conformité"
-      ],
-      "publicCible": [
-        "Responsables de la sécurité",
-        "Auditeurs internes",
-        "Consultants en sécurité"
-      ],
-      "prerequis": "Connaissances de base en gestion des SI et cybersécurité",
-      "methodologie": "Exposés théoriques, études de cas, ateliers interactifs, simulations",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Objectifs et Bénéfices"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "SGSI",
-          "contenu": [
-            "Élaboration du SGSI",
-            "Politiques et Procédures"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Analyse de Risques",
-          "contenu": [
-            "Identification des Risques",
-            "Évaluation et Traitement"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Contrôles de Sécurité",
-          "contenu": [
-            "Annexe A de ISO 27001",
-            "Mise en Œuvre des Contrôles"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Surveillance",
-          "contenu": [
-            "Audit Interne",
-            "Revue de Direction"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Amélioration",
-          "contenu": [
-            "Processus d'Amélioration",
-            "Gestion des Non-conformités"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Certification",
-          "contenu": [
-            "Processus de Certification",
-            "Préparation à l'Audit"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Mise en Œuvre",
-            "Simulations d'Audit"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Outils",
-          "contenu": [
-            "Outils de Gestion du SGSI",
-            "Automatisation des Processus"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "7.Réponse aux Incidents",
+      "contenu": [
+        "Plan de Réponse aux Incidents : Élaboration d’un plan de réponse aux incidents de sécurité.",
+        "Gestion des Incidents : Techniques pour gérer les incidents de cybersécurité."
       ]
     },
     {
-      "titreFormation": "ISO 27002: Contrôles de Sécurité",
-      "objectifs": [
-        "Comprendre les recommandations d'ISO 27002",
-        "Développer des compétences pour mettre en œuvre les contrôles",
-        "Maîtriser les techniques pour améliorer la sécurité"
-      ],
-      "publicCible": [
-        "Responsables de la sécurité",
-        "Consultants en sécurité",
-        "Auditeurs"
-      ],
-      "prerequis": "Connaissances de base en sécurité de l'information",
-      "methodologie": "Exposés théoriques, études de cas, ateliers interactifs, simulations",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Objectifs et Bénéfices"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Cadre des Contrôles",
-          "contenu": [
-            "Structure de ISO 27002",
-            "Relation avec ISO 27001"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Contrôles Organisationnels",
-          "contenu": [
-            "Politiques de Sécurité",
-            "Gestion des Actifs"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Contrôles Humains",
-          "contenu": [
-            "Formation et Sensibilisation",
-            "Sécurité des Ressources Humaines"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Contrôles Physiques",
-          "contenu": [
-            "Protection Physique",
-            "Gestion des Risques Environnementaux"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Contrôles Techniques",
-          "contenu": [
-            "Contrôles d'Accès",
-            "Sécurisation des Communications"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Sécurité des Systèmes",
-          "contenu": [
-            "Sécurité des Applications",
-            "Gestion des Incidents"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Mise en Œuvre",
-            "Simulations de Gestion"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Outils",
-          "contenu": [
-            "Outils de Mise en Œuvre",
-            "Automatisation des Contrôles"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "8.Applications Pratiques",
+      "contenu": [
+        "Ateliers de Sécurisation : Exercices pratiques pour sécuriser les systèmes et les réseaux.",
+        "Simulations de Réponse aux Incidents : Jeux de rôle pour pratiquer la réponse aux incidents."
       ]
     },
     {
-      "titreFormation": "PCI DSS: Sécurité des Transactions par Carte",
-      "objectifs": [
-        "Comprendre les exigences PCI DSS",
-        "Développer des compétences pour sécuriser les transactions",
-        "Maîtriser les techniques pour assurer la conformité"
-      ],
-      "publicCible": [
-        "Responsables de la sécurité",
-        "Gestionnaires de la conformité",
-        "Administrateurs réseau"
-      ],
-      "prerequis": "Connaissances de base en sécurité et transactions électroniques",
-      "methodologie": "Exposés théoriques, études de cas, ateliers interactifs, simulations",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Objectifs et Bénéfices"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Exigences PCI DSS",
-          "contenu": [
-            "Structure des Exigences",
-            "Contrôles de Sécurité"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Sécurisation des Réseaux",
-          "contenu": [
-            "Firewalls et Routage",
-            "Segmentations Réseau"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Protection des Données",
-          "contenu": [
-            "Chiffrement des Données",
-            "Stockage Sécurisé"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Gestion des Vulnérabilités",
-          "contenu": [
-            "Mises à Jour et Correctifs",
-            "Tests de Vulnérabilité"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Contrôles d'Accès",
-          "contenu": [
-            "Gestion des Identifiants",
-            "Authentification Forte"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Surveillance et Tests",
-          "contenu": [
-            "Surveillance Continue",
-            "Test de Pénétration"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Politique de Sécurité",
-          "contenu": [
-            "Développement des Politiques",
-            "Formation et Sensibilisation"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Mise en Conformité",
-            "Simulations de Gestion"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Outils",
-          "contenu": [
-            "Outils de Conformité",
-            "Automatisation des Contrôles"
-          ]
-        },
-        {
-          "module": 11,
-          "titre": "Préparation à l'Audit",
-          "contenu": [
-            "Processus d'Audit",
-            "Préparation et Documentation"
-          ]
-        },
-        {
-          "module": 12,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "9.Normes et Régulations",
+      "contenu": [
+        "Introduction aux Normes : Présentation des normes et régulations en cybersécurité.",
+        "Conformité Réglementaire : Techniques pour assurer la conformité avec les régulations."
       ]
+    },
+    {
+      "titre": "10.Évaluation Finale",
+      "contenu": []
     }
+  ]
+},
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Fiche Technique de Formation : Analyse des Risques",
+  "objectifs": [
+    "Comprendre les principes de l’analyse des risques en cybersécurité.",
+    "Développer des compétences pour identifier, évaluer et gérer les risques.",
+    "Maîtriser les techniques et les outils pour une gestion efficace des risques."
+  ],
+  "publicCible": "Responsables de la sécurité, gestionnaires de risques, consultants en sécurité, toute personne impliquée dans la gestion des risques.",
+  "prerequis": "Connaissances de base en cybersécurité.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1.Introduction à l’Analyse des Risques",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de l’analyse des risques.",
+        "Cycle de Vie de la Gestion des Risques : Présentation des étapes du cycle de vie de la gestion des risques."
+      ]
+    },
+    {
+      "titre": "2.Identification des Risques",
+      "contenu": [
+        "Techniques d’Identification : Utilisation des techniques pour identifier les risques potentiels.",
+        "Sources de Risques : Exploration des sources courantes de risques en cybersécurité."
+      ]
+    },
+    {
+      "titre": "3.Évaluation des Risques",
+      "contenu": [
+        "Méthodes d’Évaluation : Techniques pour évaluer la probabilité et l’impact des risques.",
+        "Matrice de Risques : Création et utilisation des matrices de risques pour évaluer les menaces."
+      ]
+    },
+    {
+      "titre": "4.Traitement des Risques",
+      "contenu": [
+        "Options de Traitement : Stratégies pour traiter les risques identifiés (évitement, transfert, atténuation, acceptation).",
+        "Plans de Traitement des Risques : Élaboration de plans pour traiter les risques."
+      ]
+    },
+    {
+      "titre": "5.Surveillance et Revue des Risques",
+      "contenu": [
+        "Surveillance Continue : Techniques pour surveiller les risques en continu.",
+        "Revue et Mise à Jour : Stratégies pour la revue et la mise à jour des évaluations des risques."
+      ]
+    },
+    {
+      "titre": "6.Outils et Techniques d’Analyse des Risques",
+      "contenu": [
+        "Logiciels d’Analyse des Risques : Introduction aux logiciels et outils d’analyse des risques.",
+        "Méthodes Qualitatives et Quantitatives : Utilisation des méthodes qualitatives et quantitatives pour l’analyse des risques."
+      ]
+    },
+    {
+      "titre": "7.Communication des Risques",
+      "contenu": [
+        "Rapports de Risques : Techniques pour rédiger des rapports de risques efficaces.",
+        "Sensibilisation et Formation : Stratégies pour sensibiliser et former le personnel à la gestion des risques."
+      ]
+    },
+    {
+      "titre": "8.Applications Pratiques",
+      "contenu": [
+        "Ateliers d’Identification des Risques : Exercices pratiques pour identifier les risques.",
+        "Simulations d’Évaluation des Risques : Jeux de rôle pour pratiquer l’évaluation des risques."
+      ]
+    },
+    {
+      "titre": "9.Normes et Cadres de Gestion des Risques",
+      "contenu": [
+        "Normes ISO 31000 et ISO 27005 : Présentation des normes et cadres pour la gestion des risques.",
+        "Conformité et Gouvernance : Techniques pour assurer la conformité et la gouvernance en gestion des risques."
+      ]
+    },
+    {
+      "titre": "10.Évaluation Finale",
+      "contenu": []
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+ {
+  "titreFormation": "Fiche Technique de Formation : Cryptographie",
+  "objectif": [
+    "Comprendre les concepts et les techniques de la cryptographie.",
+    "Développer des compétences pour sécuriser les données avec des méthodes cryptographiques.",
+    "Maîtriser les outils et les pratiques pour implémenter la cryptographie dans les systèmes d’information."
+  ],
+  "publicCible": "Ingénieurs en sécurité, développeurs, administrateurs réseau, toute personne impliquée dans la sécurisation des données.",
+  "prerequis": "Connaissances de base en cybersécurité et en mathématiques.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction à la Cryptographie",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la cryptographie.",
+        "Historique de la Cryptographie : Exploration de l’évolution et des applications de la cryptographie."
+      ]
+    },
+    {
+      "titre": "2. Chiffrement Symétrique",
+      "contenu": [
+        "Algorithmes Symétriques : Présentation des algorithmes de chiffrement symétrique (AES, DES).",
+        "Techniques de Chiffrement : Techniques pour implémenter le chiffrement symétrique."
+      ]
+    },
+    {
+      "titre": "3. Chiffrement Asymétrique",
+      "contenu": [
+        "Algorithmes Asymétriques : Exploration des algorithmes de chiffrement asymétrique (RSA, ECC).",
+        "Techniques de Chiffrement : Méthodes pour implémenter le chiffrement asymétrique."
+      ]
+    },
+    {
+      "titre": "4. Hachage et Intégrité des Données",
+      "contenu": [
+        "Algorithmes de Hachage : Présentation des algorithmes de hachage (SHA-256, MD5).",
+        "Techniques d’Intégrité : Techniques pour assurer l’intégrité des données."
+      ]
+    },
+    {
+      "titre": "5. Signature Numérique et PKI",
+      "contenu": [
+        "Signatures Numériques : Utilisation des signatures numériques pour authentifier les données.",
+        "Infrastructure à Clé Publique (PKI) : Concepts et mise en œuvre de la PKI."
+      ]
+    },
+    {
+      "titre": "6. Protocoles de Sécurité",
+      "contenu": [
+        "Protocoles SSL/TLS : Exploration des protocoles SSL/TLS pour sécuriser les communications.",
+        "Protocoles de Sécurité des E-mails : Présentation des protocoles pour sécuriser les e-mails (PGP, S/MIME)."
+      ]
+    },
+    {
+      "titre": "7. Cryptographie Quantique et Post-quantique",
+      "contenu": [
+        "Concepts de Cryptographie Quantique : Introduction aux principes de la cryptographie quantique.",
+        "Algorithmes Post-quantiques : Exploration des algorithmes de cryptographie post-quantique."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Chiffrement et Hachage : Exercices pratiques pour implémenter des techniques de chiffrement et de hachage.",
+        "Simulations de Sécurisation des Communications : Jeux de rôle pour pratiquer la sécurisation des communications."
+      ]
+    },
+    {
+      "titre": "9. Outils de Cryptographie",
+      "contenu": [
+        "Outils Logiciels : Introduction aux outils logiciels pour la cryptographie (OpenSSL, GnuPG).",
+        "Automatisation des Tâches de Cryptographie : Techniques pour automatiser les tâches de cryptographie."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "FICHE TECHNIQUE DE FORMATION : Pentesting (Tests d’Intrusion)",
+  "objectifs": [
+    "Comprendre les principes et les méthodologies des tests d’intrusion.",
+    "Développer des compétences pour identifier et exploiter les vulnérabilités des systèmes.",
+    "Maîtriser les outils et les techniques pour réaliser des tests d’intrusion efficaces."
+  ],
+  "publicCible": "Ingénieurs en sécurité, pentesters, consultants en sécurité, toute personne impliquée dans la sécurité des systèmes d’information.",
+  "prerequis": "Connaissances de base en réseaux et en cybersécurité.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction aux Tests d’Intrusion",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes des tests d’intrusion.",
+        "Éthique et Législation : Exploration des considérations éthiques et légales des tests d’intrusion."
+      ]
+    },
+    {
+      "titre": "2. Préparation des Tests d’Intrusion",
+      "contenu": [
+        "Planification des Tests : Techniques pour planifier et organiser les tests d’intrusion.",
+        "Collecte d’Informations : Méthodes pour collecter des informations sur la cible."
+      ]
+    },
+    {
+      "titre": "3. Analyse des Vulnérabilités",
+      "contenu": [
+        "Scanning des Réseaux : Utilisation des outils de scanning pour identifier les vulnérabilités.",
+        "Évaluation des Vulnérabilités : Techniques pour évaluer et prioriser les vulnérabilités découvertes."
+      ]
+    },
+    {
+      "titre": "4. Exploitation des Vulnérabilités",
+      "contenu": [
+        "Techniques d’Exploitation : Présentation des techniques pour exploiter les vulnérabilités.",
+        "Scripts et Exploits : Utilisation des scripts et des exploits pour compromettre les systèmes."
+      ]
+    },
+    {
+      "titre": "5. Post-Exploitation",
+      "contenu": [
+        "Maintien de l’Accès : Techniques pour maintenir l’accès aux systèmes compromis.",
+        "Escalade des Privilèges : Stratégies pour escalader les privilèges sur les systèmes compromis."
+      ]
+    },
+    {
+      "titre": "6. Rapports et Recommandations",
+      "contenu": [
+        "Documentation des Résultats : Techniques pour documenter les résultats des tests d’intrusion.",
+        "Recommandations de Sécurité : Élaboration de recommandations pour corriger les vulnérabilités."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Scanning et Exploitation : Exercices pratiques pour scanner et exploiter les vulnérabilités.",
+        "Simulations de Post-Exploitation : Jeux de rôle pour pratiquer les techniques de post-exploitation."
+      ]
+    },
+    {
+      "titre": "8. Outils de Pentesting",
+      "contenu": [
+        "Introduction à Metasploit et autres Outils : Présentation des outils de pentesting (Metasploit, Nmap, Burp Suite).",
+        "Automatisation des Tests d’Intrusion : Techniques pour automatiser les tests d’intrusion."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Fiche Technique de Formation : Réponse aux Incidents",
+  "objectifs": [
+    "Comprendre les principes et les méthodologies de réponse aux incidents.",
+    "Développer des compétences pour détecter, analyser et répondre aux incidents de sécurité.",
+    "Maîtriser les techniques et les outils pour une gestion efficace des incidents."
+  ],
+  "publicCible": [
+    "Responsables de la sécurité",
+    "Administrateurs réseau",
+    "Analystes SOC",
+    "Toute personne impliquée dans la gestion des incidents de sécurité"
+  ],
+  "prerequis": [
+    "Connaissances de base en cybersécurité et en gestion des systèmes d’information."
+  ],
+  "methodologie": [
+    "Exposés théoriques",
+    "Démonstrations pratiques",
+    "Ateliers interactifs",
+    "Études de cas"
+  ],
+  "programme": [
+    {
+      "titre": "1.Introduction à la Réponse aux Incidents",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la réponse aux incidents.",
+        "Cycle de Vie des Incidents : Présentation des étapes du cycle de vie de la réponse aux incidents."
+      ]
+    },
+    {
+      "titre": "2.Préparation à la Réponse aux Incidents",
+      "contenu": [
+        "Plan de Réponse aux Incidents : Élaboration d’un plan de réponse aux incidents.",
+        "Équipe de Réponse aux Incidents (IRT) : Formation et organisation de l’équipe de réponse."
+      ]
+    },
+    {
+      "titre": "3.Détection des Incidents",
+      "contenu": [
+        "Techniques de Détection : Utilisation des techniques pour détecter les incidents de sécurité.",
+        "Outils de Surveillance : Introduction aux outils de surveillance pour la détection des incidents (SIEM, IDS)."
+      ]
+    },
+    {
+      "titre": "4.Analyse des Incidents",
+      "contenu": [
+        "Techniques d’Analyse : Techniques pour analyser et comprendre les incidents.",
+        "Analyse Forensique : Utilisation des techniques forensiques pour l’analyse des incidents."
+      ]
+    },
+    {
+      "titre": "5.Containment, Eradication et Récupération",
+      "contenu": [
+        "Containment des Incidents : Stratégies pour contenir les incidents.",
+        "Eradication des Menaces : Techniques pour éradiquer les menaces et récupérer les systèmes compromis."
+      ]
+    },
+    {
+      "titre": "6.Communication des Incidents",
+      "contenu": [
+        "Rapports d’Incidents : Techniques pour rédiger des rapports d’incidents.",
+        "Communication avec les Parties Prenantes : Stratégies pour communiquer avec les parties prenantes pendant un incident."
+      ]
+    },
+    {
+      "titre": "7.Leçons Apprises et Amélioration",
+      "contenu": [
+        "Analyse Post-Incident : Techniques pour analyser les incidents après leur résolution.",
+        "Amélioration Continue : Stratégies pour améliorer les processus de réponse aux incidents."
+      ]
+    },
+    {
+      "titre": "8.Applications Pratiques",
+      "contenu": [
+        "Ateliers de Détection et Analyse : Exercices pratiques pour détecter et analyser les incidents.",
+        "Simulations de Réponse aux Incidents : Jeux de rôle pour pratiquer la réponse aux incidents."
+      ]
+    },
+    {
+      "titre": "9.Outils de Réponse aux Incidents",
+      "contenu": [
+        "Introduction aux Outils Forensiques : Présentation des outils forensiques pour l’analyse des incidents.",
+        "Automatisation de la Réponse aux Incidents : Techniques pour automatiser la réponse aux incidents."
+      ]
+    },
+    {
+      "titre": "10.Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Fiche Technique de Formation : Gouvernance en Matière de Cybersécurité",
+  "objectifs": [
+    "Comprendre les principes de gouvernance en cybersécurité.",
+    "Développer des compétences pour élaborer et mettre en œuvre des stratégies de gouvernance.",
+    "Maîtriser les techniques pour aligner la cybersécurité avec les objectifs stratégiques de l’entreprise."
+  ],
+  "publicCible": [
+    "Responsables de la sécurité",
+    "DSI",
+    "Consultants en gouvernance",
+    "Toute personne impliquée dans la gouvernance de la cybersécurité"
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion des systèmes d’information et en cybersécurité."
+  ],
+  "methodePedagogique": [
+    "Exposés théoriques",
+    "Études de cas",
+    "Ateliers interactifs",
+    "Simulations"
+  ],
+  "programme": [
+    {
+      "titre": "1. Introduction à la Gouvernance en Cybersécurité",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la gouvernance en cybersécurité.",
+        "Rôles et Responsabilités : Définition des rôles et responsabilités en matière de gouvernance."
+      ]
+    },
+    {
+      "titre": "2. Stratégie de Cybersécurité",
+      "contenu": [
+        "Élaboration de la Stratégie : Techniques pour élaborer une stratégie de cybersécurité alignée avec les objectifs de l’entreprise.",
+        "Cadres de Référence : Présentation des cadres de référence pour la gouvernance en cybersécurité (NIST, ISO)."
+      ]
+    },
+    {
+      "titre": "3. Politiques et Procédures de Sécurité",
+      "contenu": [
+        "Développement des Politiques : Techniques pour développer des politiques de sécurité efficaces.",
+        "Mise en Œuvre des Procédures : Stratégies pour mettre en œuvre et maintenir les procédures de sécurité."
+      ]
+    },
+    {
+      "titre": "4. Gestion des Risques de Cybersécurité",
+      "contenu": [
+        "Identification et Évaluation des Risques : Techniques pour identifier et évaluer les risques de cybersécurité.",
+        "Plans de Gestion des Risques : Élaboration de plans pour gérer les risques identifiés."
+      ]
+    },
+    {
+      "titre": "5. Conformité et Régulations",
+      "contenu": [
+        "Exigences Réglementaires : Exploration des exigences réglementaires en cybersécurité.",
+        "Gestion de la Conformité : Techniques pour assurer la conformité avec les régulations."
+      ]
+    },
+    {
+      "titre": "6. Surveillance et Reporting",
+      "contenu": [
+        "Surveillance de la Cybersécurité : Techniques pour surveiller les activités de cybersécurité.",
+        "Reporting de la Sécurité : Stratégies pour rapporter les activités et incidents de cybersécurité."
+      ]
+    },
+    {
+      "titre": "7. Formation et Sensibilisation",
+      "contenu": [
+        "Programmes de Formation : Développement de programmes de formation en cybersécurité.",
+        "Campagnes de Sensibilisation : Techniques pour sensibiliser le personnel aux enjeux de la cybersécurité."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Développement de Stratégie : Exercices pratiques pour élaborer des stratégies de cybersécurité.",
+        "Simulations de Gouvernance : Jeux de rôle pour pratiquer la gouvernance en cybersécurité."
+      ]
+    },
+    {
+      "titre": "9. Outils de Gouvernance en Cybersécurité",
+      "contenu": [
+        "Outils de Gestion des Risques : Introduction aux outils de gestion des risques et de la conformité.",
+        "Automatisation de la Gouvernance : Techniques pour automatiser les processus de gouvernance."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Fiche Technique de Formation : ISO 27001 - Gestion de la Sécurité de l'Information",
+  "objectifs": [
+    "Comprendre les exigences de la norme ISO 27001.",
+    "Développer des compétences pour établir et maintenir un système de gestion de la sécurité de l’information (SGSI).",
+    "Maîtriser les techniques pour assurer la conformité et améliorer la sécurité de l’information."
+  ],
+  "publicCible": [
+    "Responsables de la sécurité",
+    "Auditeurs internes",
+    "Consultants en sécurité",
+    "Toute personne impliquée dans la gestion de la sécurité de l’information"
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion des systèmes d’information et en cybersécurité."
+  ],
+  "methodePedagogique": [
+    "Exposés théoriques",
+    "Études de cas",
+    "Ateliers interactifs",
+    "Simulations"
+  ],
+  "programme": [
+    {
+      "titre": "1. Introduction à ISO 27001",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la norme ISO 27001.",
+        "Objectifs et Bénéfices : Exploration des objectifs et des bénéfices de la norme ISO 27001."
+      ]
+    },
+    {
+      "titre": "2. Système de Gestion de la Sécurité de l’Information (SGSI)",
+      "contenu": [
+        "Élaboration du SGSI : Techniques pour établir un SGSI conforme à ISO 27001.",
+        "Politiques et Procédures : Développement des politiques et procédures pour le SGSI."
+      ]
+    },
+    {
+      "titre": "3. Analyse de Risques selon ISO 27001",
+      "contenu": [
+        "Identification des Risques : Techniques pour identifier les risques de sécurité de l’information.",
+        "Évaluation et Traitement des Risques : Méthodes pour évaluer et traiter les risques identifiés."
+      ]
+    },
+    {
+      "titre": "4. Contrôles de Sécurité",
+      "contenu": [
+        "Annexe A de ISO 27001 : Présentation des contrôles de sécurité de l’annexe A.",
+        "Mise en Œuvre des Contrôles : Techniques pour mettre en œuvre les contrôles de sécurité."
+      ]
+    },
+    {
+      "titre": "5. Surveillance et Revue du SGSI",
+      "contenu": [
+        "Audit Interne : Techniques pour réaliser des audits internes du SGSI.",
+        "Revue de Direction : Stratégies pour effectuer des revues de direction efficaces."
+      ]
+    },
+    {
+      "titre": "6. Amélioration Continue",
+      "contenu": [
+        "Processus d’Amélioration : Techniques pour améliorer continuellement le SGSI.",
+        "Gestion des Non-conformités : Stratégies pour gérer et corriger les non-conformités."
+      ]
+    },
+    {
+      "titre": "7. Préparation à la Certification ISO 27001",
+      "contenu": [
+        "Processus de Certification : Présentation du processus de certification ISO 27001.",
+        "Préparation à l’Audit Externe : Techniques pour se préparer à l’audit de certification."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Mise en Œuvre du SGSI : Exercices pratiques pour établir et maintenir un SGSI.",
+        "Simulations d’Audit Interne : Jeux de rôle pour pratiquer les audits internes du SGSI."
+      ]
+    },
+    {
+      "titre": "9. Outils pour ISO 27001",
+      "contenu": [
+        "Outils de Gestion du SGSI : Introduction aux outils pour la gestion du SGSI.",
+        "Automatisation des Processus ISO 27001 : Techniques pour automatiser les processus du SGSI."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Fiche Technique de Formation : ISO 27002 – Contrôles de Sécurité de l'Information en Cybersécurité",
+  "objectifs": [
+    "Comprendre les recommandations de la norme ISO 27002 pour les contrôles de sécurité.",
+    "Développer des compétences pour mettre en œuvre les contrôles de sécurité de l’information.",
+    "Maîtriser les techniques pour améliorer la posture de sécurité de l’organisation."
+  ],
+  "publicCible": [
+    "Responsables de la sécurité",
+    "Consultants en sécurité",
+    "Auditeurs",
+    "Toute personne impliquée dans la mise en œuvre des contrôles de sécurité"
+  ],
+  "prerequis": "Connaissances de base en gestion de la sécurité de l’information et en cybersécurité.",
+  "methodologie": [
+    "Exposés théoriques",
+    "Études de cas",
+    "Ateliers interactifs",
+    "Simulations"
+  ],
+  "programme": [
+    {
+      "titre": "1. Introduction à ISO 27002",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la norme ISO 27002.",
+        "Objectifs et Bénéfices : Exploration des objectifs et des bénéfices de la norme ISO 27002."
+      ]
+    },
+    {
+      "titre": "2. Cadre des Contrôles de Sécurité",
+      "contenu": [
+        "Structure de ISO 27002 : Présentation de la structure et des domaines de contrôle.",
+        "Relation avec ISO 27001 : Comprendre l’interconnexion entre ISO 27001 et ISO 27002."
+      ]
+    },
+    {
+      "titre": "3. Contrôles de Sécurité Organisationnels",
+      "contenu": [
+        "Politiques de Sécurité : Élaboration des politiques de sécurité de l’information.",
+        "Gestion des Actifs : Techniques pour gérer et protéger les actifs informationnels."
+      ]
+    },
+    {
+      "titre": "4. Contrôles de Sécurité Humains",
+      "contenu": [
+        "Formation et Sensibilisation : Développement de programmes de formation en sécurité.",
+        "Sécurité des Ressources Humaines : Stratégies pour sécuriser les ressources humaines."
+      ]
+    },
+    {
+      "titre": "5. Contrôles de Sécurité Physiques et Environnementaux",
+      "contenu": [
+        "Protection Physique : Techniques pour protéger les installations et les équipements.",
+        "Gestion des Risques Environnementaux : Méthodes pour gérer les risques environnementaux."
+      ]
+    },
+    {
+      "titre": "6. Contrôles de Sécurité Techniques",
+      "contenu": [
+        "Contrôles d’Accès : Mise en œuvre des contrôles d’accès logiques et physiques.",
+        "Sécurisation des Communications : Techniques pour sécuriser les communications et les échanges d’informations."
+      ]
+    },
+    {
+      "titre": "7. Contrôles de Sécurité des Systèmes d’Information",
+      "contenu": [
+        "Sécurité des Applications : Techniques pour sécuriser les applications et les systèmes.",
+        "Gestion des Incidents de Sécurité : Stratégies pour détecter, gérer et résoudre les incidents de sécurité."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Mise en Œuvre des Contrôles : Exercices pratiques pour mettre en œuvre les contrôles de sécurité.",
+        "Simulations de Gestion des Incidents : Jeux de rôle pour pratiquer la gestion des incidents de sécurité."
+      ]
+    },
+    {
+      "titre": "9. Outils pour ISO 27002",
+      "contenu": [
+        "Outils de Mise en Œuvre des Contrôles : Introduction aux outils pour la mise en œuvre des contrôles ISO 27002.",
+        "Automatisation des Contrôles de Sécurité : Techniques pour automatiser les contrôles de sécurité."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Fiche Technique de Formation : PCI DSS – Normes de Sécurité des Données pour les Transactions par Carte de Crédit",
+  "objectifs": [
+    "Comprendre les exigences des normes PCI DSS.",
+    "Développer des compétences pour sécuriser les transactions par carte de crédit.",
+    "Maîtriser les techniques pour assurer la conformité aux normes PCI DSS."
+  ],
+  "publicCible": [
+    "Responsables de la sécurité",
+    "Gestionnaires de la conformité",
+    "Administrateurs réseau",
+    "Toute personne impliquée dans la gestion des paiements par carte"
+  ],
+  "prerequis": "Connaissances de base en sécurité des systèmes d’information et en transactions électroniques.",
+  "methodologie": [
+    "Exposés théoriques",
+    "Études de cas",
+    "Ateliers interactifs",
+    "Simulations"
+  ],
+  "programme": [
+    {
+      "titre": "1. Introduction à PCI DSS",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes des normes PCI DSS.",
+        "Objectifs et Bénéfices : Exploration des objectifs et des bénéfices de PCI DSS."
+      ]
+    },
+    {
+      "titre": "2. Exigences PCI DSS",
+      "contenu": [
+        "Structure des Exigences : Présentation des 12 exigences de PCI DSS.",
+        "Contrôles de Sécurité : Détails des contrôles de sécurité requis par PCI DSS."
+      ]
+    },
+    {
+      "titre": "3. Sécurisation des Réseaux",
+      "contenu": [
+        "Firewalls et Routage : Techniques pour configurer les firewalls et sécuriser le routage.",
+        "Segmentations Réseau : Stratégies pour segmenter les réseaux de paiement."
+      ]
+    },
+    {
+      "titre": "4. Protection des Données des Titulaires de Carte",
+      "contenu": [
+        "Chiffrement des Données : Techniques pour chiffrer les données des titulaires de carte.",
+        "Stockage Sécurisé : Méthodes pour stocker les données de paiement de manière sécurisée."
+      ]
+    },
+    {
+      "titre": "5. Gestion des Vulnérabilités",
+      "contenu": [
+        "Mises à Jour et Correctifs : Stratégies pour maintenir les systèmes à jour.",
+        "Tests de Vulnérabilité : Techniques pour réaliser des tests de vulnérabilité réguliers."
+      ]
+    },
+    {
+      "titre": "6. Contrôles d’Accès",
+      "contenu": [
+        "Gestion des Identifiants : Techniques pour gérer les identifiants et les accès.",
+        "Authentification Forte : Mise en œuvre de l’authentification forte pour les utilisateurs."
+      ]
+    },
+    {
+      "titre": "7. Surveillance et Test des Réseaux",
+      "contenu": [
+        "Surveillance Continue : Techniques pour surveiller les réseaux et les transactions en continu.",
+        "Test de Pénétration : Réalisation de tests de pénétration pour évaluer la sécurité."
+      ]
+    },
+    {
+      "titre": "8. Politique de Sécurité de l’Information",
+      "contenu": [
+        "Développement des Politiques : Techniques pour développer et maintenir une politique de sécurité.",
+        "Formation et Sensibilisation : Stratégies pour former et sensibiliser le personnel à la sécurité PCI DSS."
+      ]
+    },
+    {
+      "titre": "9. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Mise en Conformité PCI DSS : Exercices pratiques pour se conformer aux normes PCI DSS.",
+        "Simulations de Gestion des Transactions : Jeux de rôle pour pratiquer la sécurisation des transactions par carte."
+      ]
+    },
+    {
+      "titre": "10. Outils pour PCI DSS",
+      "contenu": [
+        "Outils de Conformité PCI DSS : Introduction aux outils pour la gestion de la conformité PCI DSS.",
+        "Automatisation des Contrôles PCI DSS : Techniques pour automatiser les contrôles de sécurité PCI DSS."
+      ]
+    },
+    {
+      "titre": "11. Préparation à l’Audit PCI DSS",
+      "contenu": [
+        "Processus d’Audit : Présentation du processus d’audit PCI DSS.",
+        "Préparation et Documentation : Techniques pour se préparer à l’audit et documenter la conformité."
+      ]
+    },
+    {
+      "titre": "12. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+
   ]
 }
