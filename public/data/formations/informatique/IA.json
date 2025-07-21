@@ -1,118 +1,106 @@
 {
   "title": "Intelligence Artificielle et Technologies Avancées",
   "formations": [
+{
+  "titreFormation": "Fiche Technique de Formation : L'Intelligence Artificielle (IA) – Maîtrisez les Outils de Recherche",
+  "objectif": [
+    "Comprendre les principes fondamentaux de l’intelligence artificielle (IA).",
+    "Développer des compétences pour utiliser les outils de recherche en IA.",
+    "Maîtriser les techniques pour appliquer l’IA et transformer les visions en réalités connectées."
+  ],
+  "publicCible": [
+    "Data scientists",
+    "Ingénieurs en IA",
+    "Développeurs",
+    "Chercheurs",
+    "Toute personne intéressée par l’application de l’IA"
+  ],
+  "prerequis": "Connaissances de base en programmation et en mathématiques.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
     {
-      "titreFormation": "L'Intelligence Artificielle (IA) : Maîtrisez les Outils de Recherche",
-      "objectifs": [
-        "Comprendre les principes fondamentaux de l'intelligence artificielle (IA)",
-        "Développer des compétences pour utiliser les outils de recherche en IA",
-        "Maîtriser les techniques pour appliquer l'IA et transformer les visions en réalités connectées"
-      ],
-      "publicCible": [
-        "Data scientists",
-        "Ingénieurs en IA",
-        "Développeurs",
-        "Chercheurs",
-        "Personnes intéressées par l'application de l'IA"
-      ],
-      "prerequis": "Connaissances de base en programmation et en mathématiques",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "6 jours (42 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction à l'IA",
-          "contenu": [
-            "Concepts de Base",
-            "Historique et Évolution"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Types d'IA",
-          "contenu": [
-            "IA Faible vs IA Forte",
-            "Domaines d'Application (santé, finance, industrie)"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Outils et Techniques de Recherche",
-          "contenu": [
-            "Algorithmes de Machine Learning (régression, classification)",
-            "Deep Learning (réseaux neuronaux, CNN, RNN)"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Environnements de Développement",
-          "contenu": [
-            "Frameworks et Bibliothèques (TensorFlow, PyTorch, Keras)",
-            "Environnements (Jupyter Notebook, Google Colab)"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Préparation des Données",
-          "contenu": [
-            "Collecte des Données",
-            "Nettoyage et Préparation"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Modélisation et Entraînement",
-          "contenu": [
-            "Création de Modèles",
-            "Évaluation des Modèles"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Vision par Ordinateur (détection d'objets, reconnaissance faciale)",
-            "Traitement du Langage Naturel (chatbots, analyse de sentiment)"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Déploiement et Intégration",
-          "contenu": [
-            "Déploiement des Modèles",
-            "Intégration avec les Systèmes Existants"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Éthique et Gouvernance",
-          "contenu": [
-            "Considérations Éthiques",
-            "Gouvernance de l'IA"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Applications Pratiques Avancées",
-          "contenu": [
-            "Ateliers de Développement IA",
-            "Simulations de Déploiement"
-          ]
-        },
-        {
-          "module": 11,
-          "titre": "Visualisation et Analyse",
-          "contenu": [
-            "Visualisation des Résultats",
-            "Outils d'Analyse"
-          ]
-        },
-        {
-          "module": 12,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "1. Introduction à l’Intelligence Artificielle",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes fondamentaux de l’IA.",
+        "Historique et Évolution : Exploration de l’évolution et des applications de l’IA."
       ]
+    },
+    {
+      "titre": "2. Types d’IA",
+      "contenu": [
+        "IA Faible vs IA Forte : Différenciation entre IA faible (narrow AI) et IA forte (general AI).",
+        "Domaines d’Application : Exploration des domaines d’application de l’IA (santé, finance, industrie)."
+      ]
+    },
+    {
+      "titre": "3. Outils et Techniques de Recherche en IA",
+      "contenu": [
+        "Algorithmes de Machine Learning : Introduction aux principaux algorithmes de machine learning (régression, classification).",
+        "Deep Learning : Présentation des concepts et des architectures de deep learning (réseaux neuronaux, CNN, RNN)."
+      ]
+    },
+    {
+      "titre": "4. Environnements de Développement IA",
+      "contenu": [
+        "Frameworks et Bibliothèques : Introduction aux frameworks et bibliothèques IA (TensorFlow, PyTorch, Keras).",
+        "Environnements de Développement : Utilisation des environnements de développement pour l’IA (Jupyter Notebook, Google Colab)."
+      ]
+    },
+    {
+      "titre": "5. Préparation et Exploration des Données",
+      "contenu": [
+        "Collecte des Données : Techniques pour collecter des données pertinentes pour l’IA.",
+        "Nettoyage et Préparation : Méthodes pour nettoyer et préparer les données pour l’analyse."
+      ]
+    },
+    {
+      "titre": "6. Modélisation et Entraînement des Modèles",
+      "contenu": [
+        "Création de Modèles : Techniques pour créer et entraîner des modèles de machine learning et de deep learning.",
+        "Évaluation des Modèles : Stratégies pour évaluer et optimiser les performances des modèles IA."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques de l’IA",
+      "contenu": [
+        "Vision par Ordinateur : Utilisation de l’IA pour les applications de vision par ordinateur (détection d’objets, reconnaissance faciale).",
+        "Traitement du Langage Naturel (NLP) : Applications de l’IA pour le traitement du langage naturel (chatbots, analyse de sentiment)."
+      ]
+    },
+    {
+      "titre": "8. Déploiement et Intégration de l’IA",
+      "contenu": [
+        "Déploiement des Modèles IA : Techniques pour déployer les modèles IA dans des environnements de production.",
+        "Intégration avec les Systèmes Existants : Stratégies pour intégrer les solutions IA avec les systèmes existants."
+      ]
+    },
+    {
+      "titre": "9. Éthique et Gouvernance de l’IA",
+      "contenu": [
+        "Considérations Éthiques : Exploration des enjeux éthiques liés à l’utilisation de l’IA.",
+        "Gouvernance de l’IA : Techniques pour assurer la gouvernance et la conformité des solutions IA."
+      ]
+    },
+    {
+      "titre": "10. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Développement IA : Exercices pratiques pour développer et entraîner des modèles IA.",
+        "Simulations de Déploiement IA : Jeux de rôle pour pratiquer le déploiement et l’intégration des solutions IA."
+      ]
+    },
+    {
+      "titre": "11. Outils de Visualisation et d’Analyse",
+      "contenu": [
+        "Visualisation des Résultats : Techniques pour visualiser les résultats des modèles IA.",
+        "Outils d’Analyse : Utilisation des outils pour analyser et interpréter les données et les résultats IA."
+      ]
+    },
+    {
+      "titre": "12. Évaluation Finale",
+      "contenu": []
     }
+  ]
+}
+
   ]
 }

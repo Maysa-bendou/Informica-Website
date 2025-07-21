@@ -2,20 +2,21 @@
   "title": "LES LANGUES À DES FINS SPÉCIFIQUES",
   "formations": [
     {
-      "titreFormation": "Formation En Langues Professionnelles",
+      "titreFormation": "Fiche Technique de Formation : Formation En Langues Professionnelles",
       "objectifs": [
+        "Cette formation a pour objectif de permettre aux participants d'acquérir les compétences linguistiques nécessaires pour communiquer efficacement dans un contexte professionnel. À l'issue de cette formation, les participants seront capables de : ",
         "Maîtriser les bases de la langue cible (anglais, français, espagnol, etc.)",
         "Communiquer efficacement à l'oral et à l'écrit dans des situations professionnelles",
         "Comprendre et rédiger des documents professionnels (emails, rapports, présentations)",
         "Participer activement aux réunions et négociations en langue cible",
         "Utiliser un vocabulaire spécifique à leur secteur d'activité"
       ],
-      "publicCible": "Employés d'entreprises, managers, cadres, et tout professionnel souhaitant améliorer ses compétences linguistiques pour un usage professionnel",
+      "publicCible": "Cette formation s'adresse aux employés d'entreprises, managers, cadres, et tout professionnel souhaitant améliorer ses compétences linguistiques pour un usage professionnel.",
       "prerequis": [
         "Niveau de base en langue cible recommandé (A2 selon le CECRL)",
         "Motivation à apprendre et à pratiquer la langue cible"
       ],
-      "methodologie": "La formation combine des cours théoriques, des exercices pratiques, des études de cas et des simulations pour assurer une compréhension approfondie et une application pratique des compétences linguistiques. Des supports pédagogiques variés (documents écrits, vidéos, enregistrements audio) seront utilisés pour favoriser l'apprentissage.",
+      "methodologie": "La formation combine des cours théoriques, des exercices pratiques, des études de cas et des simulations pour assurer une compréhension approfondie et une application pratique des compétences linguistiques. Des supports pédagogiques variés (documents écrits, vidéos, enregistrements audio) seront utilisés pour favoriser l'apprentissage",
       "programme": [
         {
           "titre": "Module 1 : Bases de la Langue Professionnelle",

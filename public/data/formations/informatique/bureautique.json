@@ -2,72 +2,85 @@
   "title": "Bureautique",
   "formations":[
 {
-  "titreFormation": "Microsoft Word",
+  "titreFormation": "Fiche Technique de Formation : Microsoft Word",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Word.",
     "Développer des compétences pour créer, modifier et mettre en forme des documents professionnels.",
-    "Optimiser l'utilisation de Word pour la production de documents de qualité."
+    "Optimiser l’utilisation de Word pour la production de documents de qualité."
   ],
   "publicCible": "Assistants administratifs, secrétaires, responsables de communication, toute personne utilisant Word régulièrement.",
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "titre": "Introduction à Microsoft Word",
+      "titre": "1.Introduction à Microsoft Word",
       "contenu": [
         "Interface Utilisateur : Exploration de l'interface et des principales fonctionnalités.",
         "Création de Documents : Techniques pour créer et enregistrer des documents."
       ]
     },
     {
-      "titre": "Mise en Forme de Texte",
+      "titre": "2.Mise en Forme de Texte",
       "contenu": [
         "Styles et Thèmes : Utilisation des styles et des thèmes pour uniformiser la mise en forme.",
         "Listes et Paragraphes : Création de listes à puces et numérotées, gestion des paragraphes."
       ]
     },
     {
-      "titre": "Inclusion d'Objets",
+      "titre": "3.Inclusion d'Objets",
       "contenu": [
         "Images et Graphiques : Insertion et mise en forme des images et des graphiques.",
         "Tableaux : Création, mise en forme et manipulation des tableaux."
       ]
     },
     {
-      "titre": "Fonctionnalités Avancées",
+      "titre": "4.Fonctionnalités Avancées",
       "contenu": [
         "Révision et Commentaires : Utilisation des outils de révision et de commentaires pour collaborer sur des documents.",
         "Table des Matières et Index : Création de tables des matières et d'index automatiques."
       ]
     },
     {
-      "titre": "Gestion des Documents",
+      "titre": "5.Gestion des Documents",
       "contenu": [
         "Modèles et Formulaires : Utilisation des modèles et création de formulaires interactifs.",
         "Mailing : Techniques pour créer des publipostages et des lettres types."
       ]
     },
     {
-      "titre": "Applications Pratiques",
+      "titre": "6.Applications Pratiques",
       "contenu": [
         "Ateliers de Mise en Forme : Exercices pratiques pour appliquer les techniques de mise en forme.",
         "Simulations de Révision : Jeux de rôle pour pratiquer la révision et les commentaires."
       ]
     },
     {
-      "titre": "Outils de Productivité",
+      "titre": "7.Outils de Productivité",
       "contenu": [
         "Macros et Automatisation : Introduction à la création et à l'utilisation de macros pour automatiser les tâches répétitives.",
         "Intégration avec Office : Utilisation des fonctionnalités d'intégration avec d'autres applications Office."
       ]
     },
     {
-      "titre": "Évaluation Finale",
+      "titre": "8.Évaluation Finale",
       "contenu": ""
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Microsoft Excel",
+  "titreFormation": "Fiche Technique de Formation : Microsoft Excel",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Excel.",
     "Développer des compétences pour analyser, organiser et présenter des données.",
@@ -77,62 +90,71 @@
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "titre": "Introduction à Microsoft Excel",
+      "titre": "1.Introduction à Microsoft Excel",
       "contenu": [
         "Interface Utilisateur : Exploration de l'interface et des principales fonctionnalités.",
         "Création de Feuilles de Calcul : Techniques pour créer et enregistrer des feuilles de calcul."
       ]
     },
     {
-      "titre": "Gestion des Données",
+      "titre": "2.Gestion des Données",
       "contenu": [
         "Saisie et Formatage des Données : Techniques pour saisir, organiser et formater les données.",
         "Fonctions de Base : Utilisation des fonctions de base (somme, moyenne, etc.)."
       ]
     },
     {
-      "titre": "Formules et Fonctions Avancées",
+      "titre": "3.Formules et Fonctions Avancées",
       "contenu": [
         "Formules Conditionnelles : Utilisation des formules conditionnelles pour analyser les données.",
         "Fonctions de Recherche et de Référence : Techniques pour rechercher et référencer les données."
       ]
     },
     {
-      "titre": "Visualisation des Données",
+      "titre": "4.Visualisation des Données",
       "contenu": [
         "Graphiques et Diagrammes : Création et mise en forme des graphiques et des diagrammes.",
         "Tableaux Croisés Dynamiques : Utilisation des tableaux croisés dynamiques pour résumer et analyser les données."
       ]
     },
     {
-      "titre": "Analyse des Données",
+      "titre": "5.Analyse des Données",
       "contenu": [
         "Outils d'Analyse : Utilisation des outils d'analyse (analyse de scénario, recherche de solution).",
         "Macros et VBA : Introduction à la création de macros et à l'utilisation de VBA pour automatiser les tâches."
       ]
     },
     {
-      "titre": "Applications Pratiques",
+      "titre": "6.Applications Pratiques",
       "contenu": [
         "Ateliers de Gestion des Données : Exercices pratiques pour organiser et analyser les données.",
         "Simulations de Création de Tableaux : Jeux de rôle pour pratiquer la création de tableaux de bord."
       ]
     },
     {
-      "titre": "Outils de Collaboration",
+      "titre": "7.Outils de Collaboration",
       "contenu": [
         "Partage et Collaboration : Techniques pour partager des feuilles de calcul et collaborer en temps réel.",
         "Intégration avec Office : Utilisation des fonctionnalités d'intégration avec d'autres applications Office."
       ]
     },
     {
-      "titre": "Évaluation Finale",
+      "titre": "8.Évaluation Finale",
       "contenu": ""
     }
   ]
 },
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Microsoft PowerPoint",
+  "titreFormation": "Fiche Technique de Formation : Microsoft PowerPoint",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft PowerPoint.",
     "Développer des compétences pour créer des présentations professionnelles et impactantes.",
@@ -142,69 +164,85 @@
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "titre": "Introduction à Microsoft PowerPoint",
+      "titre": "1.Introduction à Microsoft PowerPoint",
       "contenu": [
         "Interface Utilisateur : Exploration de l'interface et des principales fonctionnalités.",
         "Création de Présentations : Techniques pour créer et enregistrer des présentations."
       ]
     },
     {
-      "titre": "Conception des Diapositives",
+      "titre": "2.Conception des Diapositives",
       "contenu": [
         "Mise en Page : Techniques pour créer des mises en page attrayantes.",
         "Styles et Thèmes : Utilisation des styles et des thèmes pour uniformiser les présentations."
       ]
     },
     {
-      "titre": "Inclusion de Contenu",
+      "titre": "3.Inclusion de Contenu",
       "contenu": [
         "Texte et Images : Insertion et mise en forme du texte et des images.",
         "Graphiques et Vidéos : Intégration de graphiques, vidéos et autres médias."
       ]
     },
     {
-      "titre": "Transitions et Animations",
+      "titre": "4.Transitions et Animations",
       "contenu": [
         "Transitions de Diapositives : Utilisation des transitions pour améliorer le flux des présentations.",
         "Animations d'Objets : Techniques pour animer les objets et créer des effets visuels dynamiques."
       ]
     },
     {
-      "titre": "Personnalisation et Collaboration",
+      "titre": "5.Personnalisation et Collaboration",
       "contenu": [
         "Modèles Personnalisés : Création et utilisation de modèles personnalisés.",
         "Partage et Collaboration : Techniques pour partager des présentations et collaborer en temps réel."
       ]
     },
     {
-      "titre": "Préparation et Présentation",
+      "titre": "6.Préparation et Présentation",
       "contenu": [
         "Mode Diaporama : Utilisation du mode diaporama pour présenter efficacement.",
         "Techniques de Présentation : Stratégies pour améliorer la présentation orale et visuelle."
       ]
     },
     {
-      "titre": "Applications Pratiques",
+      "titre": "7.Applications Pratiques",
       "contenu": [
         "Ateliers de Création de Présentations : Exercices pratiques pour créer des présentations complètes.",
         "Simulations de Présentation : Jeux de rôle pour pratiquer la présentation de diapositives."
       ]
     },
     {
-      "titre": "Outils de Productivité",
+      "titre": "8.Outils de Productivité",
       "contenu": [
         "Macros et Automatisation : Introduction à la création et à l'utilisation de macros pour automatiser les tâches répétitives.",
         "Intégration avec Office : Utilisation des fonctionnalités d'intégration avec d'autres applications Office."
       ]
     },
     {
-      "titre": "Évaluation Finale",
+      "titre": "9.Évaluation Finale",
       "contenu": ""
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Microsoft Outlook",
+  "titreFormation": "Fiche Technique de Formation : Microsoft Outlook",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Outlook.",
     "Développer des compétences pour gérer efficacement les courriels, les calendriers et les tâches.",
@@ -214,69 +252,80 @@
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "titre": "Introduction à Microsoft Outlook",
+      "titre": "1.Introduction à Microsoft Outlook",
       "contenu": [
         "Interface Utilisateur : Exploration de l'interface et des principales fonctionnalités.",
         "Configuration de Compte : Techniques pour configurer et gérer des comptes de messagerie."
       ]
     },
     {
-      "titre": "Gestion des Courriels",
+      "titre": "2.Gestion des Courriels",
       "contenu": [
         "Envoi et Réception de Courriels : Techniques pour envoyer, recevoir et organiser les courriels.",
         "Filtres et Règles : Utilisation des filtres et des règles pour automatiser la gestion des courriels."
       ]
     },
     {
-      "titre": "Organisation des Contacts",
+      "titre": "3.Organisation des Contacts",
       "contenu": [
         "Gestion des Contacts : Création et organisation des contacts.",
         "Groupes de Contacts : Techniques pour créer et gérer des groupes de contacts."
       ]
     },
     {
-      "titre": "Gestion des Calendriers",
+      "titre": "4.Gestion des Calendriers",
       "contenu": [
         "Création d'Événements : Techniques pour créer, modifier et gérer les événements.",
         "Partage de Calendriers : Stratégies pour partager et synchroniser les calendriers."
       ]
     },
     {
-      "titre": "Gestion des Tâches et Notes",
+      "titre": "5.Gestion des Tâches et Notes",
       "contenu": [
         "Création de Tâches : Techniques pour créer et gérer des tâches.",
         "Gestion des Notes : Utilisation des notes pour organiser les informations."
       ]
     },
     {
-      "titre": "Collaboration et Productivité",
+      "titre": "6.Collaboration et Productivité",
       "contenu": [
         "Réunions en Ligne : Organisation et gestion des réunions en ligne avec Teams ou Skype.",
         "Outils de Collaboration : Utilisation des fonctionnalités de collaboration pour améliorer la productivité."
       ]
     },
     {
-      "titre": "Applications Pratiques",
+      "titre": "7.Applications Pratiques",
       "contenu": [
         "Ateliers de Gestion de Courriels : Exercices pratiques pour gérer les courriels et les calendriers.",
         "Simulations de Planification : Jeux de rôle pour pratiquer la planification et la gestion des tâches."
       ]
     },
     {
-      "titre": "Outils de Productivité",
+      "titre": "8.Outils de Productivité",
       "contenu": [
         "Macros et Automatisation : Introduction à la création et à l'utilisation de macros pour automatiser les tâches répétitives.",
         "Intégration avec Office : Utilisation des fonctionnalités d'intégration avec d'autres applications Office."
       ]
     },
     {
-      "titre": "Évaluation Finale",
+      "titre": "9.Évaluation Finale",
       "contenu": ""
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Microsoft Access",
+  "titreFormation": "Fiche Technique de Formation : Microsoft Access",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Access.",
     "Développer des compétences pour créer et gérer des bases de données relationnelles.",
@@ -286,63 +335,63 @@
   "prerequis": "Connaissances de base en gestion des données.",
   "programme": [
     {
-      "titre": "Introduction à Microsoft Access",
+      "titre": "1.Introduction à Microsoft Access",
       "contenu": [
         "Interface Utilisateur : Exploration de l'interface et des principales fonctionnalités.",
         "Création de Bases de Données : Techniques pour créer et enregistrer des bases de données."
       ]
     },
     {
-      "titre": "Conception de Tables",
+      "titre": "2.Conception de Tables",
       "contenu": [
         "Création de Tables : Techniques pour créer et définir la structure des tables.",
         "Relations entre Tables : Gestion des relations entre les tables pour créer des bases de données relationnelles."
       ]
     },
     {
-      "titre": "Formulaires et Requêtes",
+      "titre": "3.Formulaires et Requêtes",
       "contenu": [
         "Création de Formulaires : Techniques pour créer des formulaires d'entrée de données.",
         "Création de Requêtes : Utilisation des requêtes pour extraire et analyser les données."
       ]
     },
     {
-      "titre": "Gestion des Données",
+      "titre": "4.Gestion des Données",
       "contenu": [
         "Saisie et Modification des Données : Techniques pour saisir et modifier les données.",
         "Filtrage et Tri des Données : Outils pour filtrer et trier les données de manière efficace."
       ]
     },
     {
-      "titre": "Rapports et Analyse",
+      "titre": "5.Rapports et Analyse",
       "contenu": [
         "Création de Rapports : Techniques pour créer des rapports détaillés et synthétiques.",
         "Analyse des Données : Utilisation des outils d'analyse pour interpréter les données."
       ]
     },
     {
-      "titre": "Automatisation et Macros",
+      "titre": "6.Automatisation et Macros",
       "contenu": [
         "Création de Macros : Introduction à la création de macros pour automatiser les tâches.",
         "VBA pour Access : Utilisation de VBA pour développer des fonctionnalités personnalisées."
       ]
     },
     {
-      "titre": "Applications Pratiques",
+      "titre": "7.Applications Pratiques",
       "contenu": [
         "Ateliers de Création de Bases de Données : Exercices pratiques pour créer et gérer des bases de données.",
         "Simulations d'Analyse de Données : Jeux de rôle pour pratiquer l'analyse des données."
       ]
     },
     {
-      "titre": "Outils de Collaboration",
+      "titre": "8.Outils de Collaboration",
       "contenu": [
         "Partage et Sécurisation des Données : Techniques pour partager et sécuriser les bases de données.",
         "Intégration avec Office : Utilisation des fonctionnalités d'intégration avec d'autres applications Office."
       ]
     },
     {
-      "titre": "Évaluation Finale",
+      "titre": "9.Évaluation Finale",
       "contenu": ""
     }
   ]
@@ -357,123 +406,77 @@
 
 
 
-
 {
-  "titreFormation": "Microsoft Access - Maîtrise des Bases de Données",
+  "titreFormation": "Fiche Technique de Formation : Google Workspace (Google Docs, Google Sheets, Google Slides, Gmail, Google Drive)",
   "objectifs": [
-    "Acquérir les compétences fondamentales et avancées de Microsoft Access",
-    "Développer des bases de données relationnelles professionnelles",
-    "Maîtriser les outils d'analyse et de gestion des données dans Access"
+    "Apprendre à utiliser les fonctionnalités des applications Google Workspace.",
+    "Développer des compétences pour collaborer et partager des documents en ligne.",
+    "Optimiser l’utilisation de Google Workspace pour améliorer la productivité et la collaboration."
   ],
-  "publicCible": [
-    "Développeurs de bases de données",
-    "Analystes de données",
-    "Gestionnaires de données",
-    "Professionnels utilisant Access régulièrement"
-  ],
-  "prerequis": "Connaissances élémentaires en gestion des données",
-  "duree": "5 jours (35 heures)",
+  "publicCible": "Responsables de communication, formateurs, commerciaux, toute personne utilisant Google Workspace pour le travail collaboratif.",
+  "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "module": 1,
-      "titre": "Fondamentaux d'Access",
-      "duree": "4 heures",
+      "titre": "1.Introduction à Google Workspace",
       "contenu": [
-        "Découverte de l'interface utilisateur",
-        "Création et gestion de fichiers de base de données",
-        "Principes de conception d'une base de données"
+        "Vue d’Ensemble : Exploration des principales applications et de leurs fonctionnalités.",
+        "Configuration de Compte : Techniques pour configurer et gérer des comptes Google Workspace."
       ]
     },
     {
-      "module": 2,
-      "titre": "Architecture des Tables",
-      "duree": "6 heures",
+      "titre": "2.Google Docs",
       "contenu": [
-        "Définition des structures de tables",
-        "Types de données et propriétés des champs",
-        "Établissement des relations entre tables"
+        "Création et Édition de Documents : Techniques pour créer, modifier et mettre en forme des documents.",
+        "Collaboration en Temps Réel : Utilisation des fonctionnalités de collaboration pour éditer des documents en temps réel."
       ]
     },
     {
-      "module": 3,
-      "titre": "Formulaires et Requêtes",
-      "duree": "8 heures",
+      "titre": "3.Google Sheets",
       "contenu": [
-        "Conception d'interfaces utilisateur avec les formulaires",
-        "Création de requêtes simples et complexes",
-        "Utilisation des paramètres dans les requêtes"
+        "Création de Feuilles de Calcul : Techniques pour créer et gérer des feuilles de calcul.",
+        "Fonctions et Formules : Utilisation des fonctions et formules pour analyser les données."
       ]
     },
     {
-      "module": 4,
-      "titre": "Manipulation des Données",
-      "duree": "6 heures",
+      "titre": "4.Google Slides",
       "contenu": [
-        "Techniques avancées de saisie de données",
-        "Méthodes de filtrage et tri optimisé",
-        "Import/Export de données depuis différentes sources"
+        "Création de Présentations : Techniques pour créer et modifier des présentations.",
+        "Animations et Transitions : Utilisation des animations et transitions pour améliorer les présentations."
       ]
     },
     {
-      "module": 5,
-      "titre": "Reporting et Analyse",
-      "duree": "5 heures",
+      "titre": "5.Gmail",
       "contenu": [
-        "Conception de rapports professionnels",
-        "Utilisation des outils d'analyse intégrés",
-        "Création de tableaux de bord"
+        "Gestion des Courriels : Techniques pour gérer les courriels et organiser la boîte de réception.",
+        "Filtres et Libellés : Utilisation des filtres et libellés pour organiser les courriels."
       ]
     },
     {
-      "module": 6,
-      "titre": "Automatisation",
-      "duree": "4 heures",
+      "titre": "6.Google Drive",
       "contenu": [
-        "Développement de macros simples",
-        "Introduction à VBA pour Access",
-        "Automatisation des tâches répétitives"
+        "Stockage et Partage de Fichiers : Techniques pour stocker et partager des fichiers de manière sécurisée.",
+        "Organisation des Dossiers : Stratégies pour organiser les dossiers et gérer les accès."
       ]
     },
     {
-      "module": 7,
-      "titre": "Ateliers Pratiques",
-      "duree": "8 heures",
+      "titre": "7.Applications Pratiques",
       "contenu": [
-        "Cas pratique: Création d'une base de données complète",
-        "Optimisation des performances",
-        "Résolution de problèmes courants"
-      ],
-      "modalite": "Travaux pratiques en binôme"
+        "Ateliers de Création de Documents : Exercices pratiques pour créer des documents, feuilles de calcul et présentations.",
+        "Simulations de Collaboration : Jeux de rôle pour pratiquer la collaboration en temps réel."
+      ]
     },
     {
-      "module": 8,
-      "titre": "Collaboration et Déploiement",
-      "duree": "4 heures",
+      "titre": "8.Outils de Productivité",
       "contenu": [
-        "Techniques de sécurisation des données",
-        "Partage et multi-utilisateurs",
-        "Intégration avec l'écosystème Office"
+        "Extensions et Add-ons : Introduction aux extensions et add-ons pour améliorer les fonctionnalités.",
+        "Intégration avec d’Autres Outils : Utilisation des intégrations avec d’autres outils et services."
       ]
+    },
+    {
+      "titre": "9.Évaluation Finale",
+      "contenu": []
     }
-  ],
-  "evaluation": {
-    "modalites": [
-      "Quiz théoriques hebdomadaires",
-      "Projet pratique final",
-      "Évaluation continue des travaux"
-    ],
-    "criteres": [
-      "Exactitude technique",
-      "Qualité de la conception",
-      "Efficacité des solutions"
-    ]
-  },
-  "materiel": [
-    "Poste informatique avec Access 2019 ou Office 365",
-    "Cas pratiques et jeux de données",
-    "Support de cours numérique"
-  ],
-  "certification": "Attestation de formation avec évaluation des compétences"
+  ]
 },
 
 
@@ -486,128 +489,77 @@
 
 
 
-
 {
-  "titreFormation": "Gestion Électronique de Documents et Archivage Électronique (GED/AE)",
+  "titreFormation": "Fiche Technique de Formation : Gestion Électronique de Documents et Archivage Électronique",
   "objectifs": [
-    "Maîtriser les principes fondamentaux de la GED et de l'archivage électronique",
-    "Acquérir les compétences pour déployer et administrer des solutions GED/AE",
-    "Optimiser les processus documentaires pour la conformité et l'efficacité organisationnelle"
+    "Comprendre les principes de la gestion électronique de documents (GED) et de l’archivage électronique (AE).",
+    "Apprendre à mettre en place et gérer des systèmes de GED et d’AE.",
+    "Optimiser l’utilisation des outils GED et AE pour améliorer l’efficacité et la conformité."
   ],
-  "publicCible": [
-    "Responsables documentaires",
-    "Archivistes numériques",
-    "Gestionnaires de l'information",
-    "Responsables conformité",
-    "Professionnels de la transformation digitale"
-  ],
-  "prerequis": "Connaissances de base en gestion documentaire ou systèmes d'information",
-  "duree": "4 jours (28 heures)",
+  "publicCible": "Responsables de la documentation, archivistes, gestionnaires de l’information, toute personne impliquée dans la gestion des documents.",
+  "prerequis": "Connaissances de base en gestion de l’information.",
   "programme": [
     {
-      "module": 1,
-      "titre": "Fondamentaux GED/AE",
-      "duree": "3 heures",
+      "module": "1.Introduction à la GED et AE",
       "contenu": [
-        "Définitions et enjeux de la dématérialisation",
-        "Cadre légal (RGPD, norme NF Z42-013)",
-        "Analyse coûts/bénéfices d'un projet GED"
+        "Concepts de Base : Comprendre les principes et les objectifs de la GED et de l’AE.",
+        "Cadre Réglementaire : Aperçu des régulations et des normes en matière de gestion et d’archivage électronique des documents."
       ]
     },
     {
-      "module": 2,
-      "titre": "Conception du Système",
-      "duree": "5 heures",
+      "module": "2.Mise en Place d’un Système de GED",
       "contenu": [
-        "Méthodologie d'analyse des besoins",
-        "Cartographie des flux documentaires",
-        "Critères de sélection des solutions logicielles"
-      ],
-      "atelier": "Étude de cas : Audit documentaire"
-    },
-    {
-      "module": 3,
-      "titre": "Gestion du Cycle Documentaire",
-      "duree": "6 heures",
-      "contenu": [
-        "Modélisation des métadonnées",
-        "Méthodes d'indexation (thésaurus, tags)",
-        "Gestion des versions et historiques"
+        "Évaluation des Besoins : Techniques pour évaluer les besoins en gestion de documents.",
+        "Choix des Outils : Critères pour choisir les outils et les logiciels de GED."
       ]
     },
     {
-      "module": 4,
-      "titre": "Archivage Légal",
-      "duree": "4 heures",
+      "module": "3.Gestion des Documents Électroniques",
       "contenu": [
-        "Politique de conservation (Dublin Core)",
-        "Systèmes d'archivage électronique (SAE)",
-        "Certification et preuve numérique"
+        "Cycle de Vie des Documents : Gestion du cycle de vie des documents, de la création à l’archivage.",
+        "Classement et Indexation : Techniques pour classer et indexer les documents de manière efficace."
       ]
     },
     {
-      "module": 5,
-      "titre": "Automatisation",
-      "duree": "4 heures",
+      "module": "4.Archivage Électronique",
       "contenu": [
-        "Workflows de validation",
-        "Signature électronique (eIDAS)",
-        "Connecteurs API avec les ERP"
+        "Politiques d’Archivage : Définition des politiques et des procédures d’archivage électronique.",
+        "Sécurité et Conformité : Stratégies pour assurer la sécurité et la conformité des archives électroniques."
       ]
     },
     {
-      "module": 6,
-      "titre": "Solutions Techniques",
-      "duree": "3 heures",
+      "module": "5.Automatisation des Processus Documentaires",
       "contenu": [
-        "Comparatif des solutions (SharePoint, OpenText, Alfresco)",
-        "Cloud vs On-Premise",
-        "Interopérabilité des systèmes"
-      ],
-      "demonstration": "Prise en main d'un logiciel GED"
-    },
-    {
-      "module": 7,
-      "titre": "Ateliers Pratiques",
-      "duree": "8 heures",
-      "contenu": [
-        "Scénario complet de gestion documentaire",
-        "Mise en situation d'archivage probant",
-        "Résolution des problèmes courants"
-      ],
-      "modalite": "Travaux en sous-groupes avec cas réels"
-    },
-    {
-      "module": 8,
-      "titre": "Pilotage de Projet",
-      "duree": "5 heures",
-      "contenu": [
-        "Plan de migration documentaire",
-        "Indicateurs de performance (KPI)",
-        "Gestion du changement organisationnel"
+        "Workflow Documentaire : Mise en place de workflows pour automatiser les processus de gestion documentaire.",
+        "Signatures Électroniques : Utilisation des signatures électroniques pour valider les documents."
       ]
+    },
+    {
+      "module": "6.Outils et Technologies GED/AE",
+      "contenu": [
+        "Solutions Logicielles : Introduction aux principales solutions logicielles de GED et d’AE.",
+        "Intégration avec d’Autres Systèmes : Techniques pour intégrer les systèmes GED/AE avec d’autres systèmes d’information."
+      ]
+    },
+    {
+      "module": "7.Applications Pratiques",
+      "contenu": [
+        "Ateliers de Mise en Place de GED : Exercices pratiques pour configurer et gérer des systèmes GED.",
+        "Simulations d’Archivage : Jeux de rôle pour pratiquer l’archivage et la gestion des documents électroniques."
+      ]
+    },
+    {
+      "module": "8.Gestion des Projets GED/AE",
+      "contenu": [
+        "Planification des Projets : Techniques pour planifier et gérer des projets de GED et d’AE.",
+        "Évaluation des Performances : Outils pour évaluer l’efficacité des systèmes GED/AE."
+      ]
+    },
+    {
+      "module": "9.Évaluation Finale",
+      "contenu": []
     }
-  ],
-  "evaluation": {
-    "modalites": [
-      "Quiz théorique sur la réglementation",
-      "Projet pratique de modélisation GED",
-      "Simulation d'archivage à valeur probante"
-    ],
-    "certification": "Attestation de compétences GED/AE"
-  },
-  "materiel": [
-    "Environnement de test GED",
-    "Jeux de documents types",
-    "Check-list de conformité",
-    "Modèles de politique d'archivage"
-  ],
-  "methodologie": [
-    "Alternance théorie/pratique (30/70)",
-    "Pédagogie par projets",
-    "Retours d'expérience sectoriels"
   ]
 }
-
   ]
 }

@@ -2,189 +2,433 @@
   "title": "devloppement Web",
   "formations":[
 {
-  "titreFormation": "Développement Web - HTML/CSS",
-  "objectifs": [
-    "Maîtriser les fondamentaux du HTML5 pour structurer le contenu web",
-    "Appliquer les techniques modernes de CSS3 pour le design responsive",
-    "Créer des interfaces web accessibles et optimisées pour le SEO"
+  "titreFormation": "Fiche Technique de Formation : HTML/CSS",
+  "objectif": [
+    "Apprendre à utiliser HTML pour structurer des pages web.",
+    "Maîtriser les techniques de CSS pour styliser et mettre en forme des pages web.",
+    "Développer des compétences pour créer des sites web attrayants et réactifs."
   ],
   "publicCible": [
-    "Débutants en développement web",
+    "Développeurs web débutants",
     "Designers web",
-    "Professionnels en reconversion"
+    "Toute personne souhaitant apprendre la création de sites web"
   ],
-  "prerequis": "Aucun prérequis technique",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "module": 1,
-      "titre": "Fondamentaux HTML5",
+      "titre": "1. Introduction à HTML",
       "contenu": [
-        "Structure sémantique (header, section, article, footer)",
-        "Formulaires HTML5 avancés",
-        "Validation native des données"
+        "Concepts de Base : Comprendre la structure et les éléments de base d’une page HTML.",
+        "Création de Pages Web : Techniques pour créer des pages web simples."
       ]
     },
     {
-      "module": 2,
-      "titre": "CSS Moderne",
+      "titre": "2. Éléments HTML",
       "contenu": [
-        "Flexbox et Grid Layout",
-        "Animations CSS",
-        "Variables CSS (Custom Properties)"
+        "Titres, Paragraphes et Listes : Utilisation des balises pour structurer le contenu.",
+        "Liens et Images : Insertion de liens hypertextes et d’images."
       ]
     },
     {
-      "module": 3,
-      "titre": "Responsive Design",
+      "titre": "3. Formulaires HTML",
       "contenu": [
-        "Media Queries avancées",
-        "Mobile-first vs Desktop-first",
-        "Images responsives (srcset)"
+        "Champs de Formulaire : Création de formulaires avec différents types de champs.",
+        "Validation des Formulaires : Techniques de base pour valider les données saisies."
       ]
+    },
+    {
+      "titre": "4. Introduction à CSS",
+      "contenu": [
+        "Concepts de Base : Comprendre la syntaxe et les règles CSS.",
+        "Sélecteurs CSS : Utilisation des sélecteurs pour cibler les éléments HTML."
+      ]
+    },
+    {
+      "titre": "5. Mise en Forme avec CSS",
+      "contenu": [
+        "Propriétés de Texte et de Couleur : Techniques pour styliser le texte et les couleurs.",
+        "Marges, Bordures et Espacement : Gestion des marges, des bordures et de l’espacement entre les éléments."
+      ]
+    },
+    {
+      "titre": "6. Mise en Page Avancée",
+      "contenu": [
+        "Flexbox et Grid : Utilisation de Flexbox et Grid pour créer des mises en page complexes et réactives.",
+        "Media Queries : Techniques pour rendre les sites web adaptatifs et réactifs."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Création de Pages Web : Exercices pratiques pour créer et styliser des pages web complètes.",
+        "Simulations de Mise en Page : Jeux de rôle pour pratiquer la création de mises en page réactives."
+      ]
+    },
+    {
+      "titre": "8. Outils et Techniques de Développement",
+      "contenu": [
+        "Inspecteur de Code : Utilisation des outils de développement des navigateurs pour inspecter et déboguer le code.",
+        "Frameworks CSS : Introduction aux frameworks CSS comme Bootstrap."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "JavaScript Moderne",
-  "objectifs": [
-    "Maîtriser ES6+ et les concepts fondamentaux",
-    "Manipuler le DOM efficacement",
-    "Implémenter des requêtes API asynchrones"
+  "titreFormation": "Fiche Technique de Formation : JavaScript",
+  "objectif": [
+    "Apprendre les concepts de base de JavaScript pour dynamiser les pages web.",
+    "Développer des compétences pour manipuler le DOM et interagir avec les utilisateurs.",
+    "Maîtriser les techniques de programmation asynchrone et les API web."
   ],
   "publicCible": [
-    "Développeurs front-end",
-    "Full-stack beginners",
-    "Designers interactifs"
+    "Développeurs web débutants",
+    "Designers web souhaitant ajouter de l’interactivité à leurs sites"
   ],
-  "prerequis": "Bases HTML/CSS",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Connaissances de base en HTML/CSS recommandées.",
   "programme": [
     {
-      "module": 1,
-      "titre": "JavaScript ES6+",
+      "titre": "1. Introduction à JavaScript",
       "contenu": [
-        "Let/const vs var",
-        "Arrow functions",
-        "Destructuring"
+        "Concepts de Base : Comprendre la syntaxe et les structures de base de JavaScript.",
+        "Insertion de JavaScript : Techniques pour inclure JavaScript dans les pages HTML."
       ]
     },
     {
-      "module": 2,
-      "titre": "DOM Manipulation",
+      "titre": "2. Variables et Types de Données",
       "contenu": [
-        "Event delegation",
-        "Performance optimization",
-        "Virtual DOM concepts"
+        "Déclaration de Variables : Utilisation des variables et des types de données.",
+        "Opérateurs et Expressions : Utilisation des opérateurs pour manipuler les données."
       ]
+    },
+    {
+      "titre": "3. Contrôle de Flux",
+      "contenu": [
+        "Structures Conditionnelles : Utilisation des structures conditionnelles pour le contrôle du flux.",
+        "Boucles et Itérations : Techniques pour itérer sur les données avec les boucles."
+      ]
+    },
+    {
+      "titre": "4. Fonctions",
+      "contenu": [
+        "Déclaration de Fonctions : Création et utilisation de fonctions.",
+        "Portée et Contexte : Comprendre la portée des variables et le contexte d’exécution."
+      ]
+    },
+    {
+      "titre": "5. Manipulation du DOM",
+      "contenu": [
+        "Sélection des Éléments : Techniques pour sélectionner et manipuler les éléments du DOM.",
+        "Événements : Gestion des événements pour interagir avec les utilisateurs."
+      ]
+    },
+    {
+      "titre": "6. Programmation Asynchrone",
+      "contenu": [
+        "Callbacks et Promises : Utilisation des callbacks et des promises pour la programmation asynchrone.",
+        "Fetch API : Techniques pour effectuer des requêtes HTTP avec Fetch API."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Programmation JavaScript : Exercices pratiques pour manipuler le DOM et gérer les événements.",
+        "Simulations de Programmation Asynchrone : Jeux de rôle pour pratiquer la programmation asynchrone."
+      ]
+    },
+    {
+      "titre": "8. Outils et Bibliothèques JavaScript",
+      "contenu": [
+        "Debugging JavaScript : Utilisation des outils de débogage pour résoudre les erreurs JavaScript.",
+        "Introduction à jQuery et autres Bibliothèques : Présentation des bibliothèques populaires pour simplifier le développement."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Développement Back-end PHP/MySQL",
-  "objectifs": [
-    "Créer des applications web dynamiques",
-    "Concevoir des bases de données relationnelles",
-    "Implémenter des solutions sécurisées"
+  "titreFormation": "Fiche Technique de Formation : PHP/MySQL",
+  "objectif": [
+    "Apprendre les concepts de base de PHP pour créer des pages web dynamiques.",
+    "Développer des compétences pour interagir avec des bases de données MySQL.",
+    "Maîtriser les techniques de gestion de sessions et de sécurité."
   ],
   "publicCible": [
-    "Développeurs back-end",
-    "Administrateurs de bases de données",
-    "Full-stack developers"
+    "Développeurs web débutants",
+    "Toute personne souhaitant créer des applications web dynamiques"
   ],
-  "prerequis": "Bases HTML/CSS/JS",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Connaissances de base en HTML/CSS et JavaScript recommandées.",
   "programme": [
     {
-      "module": 1,
-      "titre": "PHP Moderne",
+      "titre": "1. Introduction à PHP",
       "contenu": [
-        "Programmation orientée objet",
-        "Namespaces",
-        "Composer"
+        "Concepts de Base : Comprendre la syntaxe et les structures de base de PHP.",
+        "Insertion de PHP : Techniques pour intégrer PHP dans les pages HTML."
       ]
     },
     {
-      "module": 2,
-      "titre": "MySQL Avancé",
+      "titre": "2. Variables et Types de Données",
       "contenu": [
-        "Optimisation des requêtes",
-        "Transactions",
-        "Sécurité"
+        "Déclaration de Variables : Utilisation des variables et des types de données.",
+        "Opérateurs et Expressions : Manipulation des données avec les opérateurs."
       ]
+    },
+    {
+      "titre": "3. Contrôle de Flux",
+      "contenu": [
+        "Structures Conditionnelles : Utilisation des structures conditionnelles pour le contrôle du flux.",
+        "Boucles et Itérations : Techniques pour itérer sur les données avec les boucles."
+      ]
+    },
+    {
+      "titre": "4. Fonctions et Inclusion de Fichiers",
+      "contenu": [
+        "Déclaration de Fonctions : Création et utilisation de fonctions.",
+        "Inclusion de Fichiers : Techniques pour inclure des fichiers externes."
+      ]
+    },
+    {
+      "titre": "5. Interaction avec MySQL",
+      "contenu": [
+        "Connexion à MySQL : Techniques pour se connecter à une base de données MySQL.",
+        "Requêtes SQL : Création et exécution de requêtes SQL pour manipuler les données."
+      ]
+    },
+    {
+      "titre": "6. Gestion des Sessions et Sécurité",
+      "contenu": [
+        "Sessions PHP : Techniques pour gérer les sessions utilisateur.",
+        "Sécurité des Applications : Stratégies pour sécuriser les applications PHP contre les attaques courantes."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Programmation PHP : Exercices pratiques pour créer des scripts PHP dynamiques.",
+        "Simulations d’Interaction avec MySQL : Jeux de rôle pour pratiquer les interactions avec les bases de données."
+      ]
+    },
+    {
+      "titre": "8. Frameworks PHP",
+      "contenu": [
+        "Introduction à Laravel et autres Frameworks : Présentation des frameworks PHP populaires pour simplifier le développement."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Programmation Python",
-  "objectifs": [
-    "Maîtriser les paradigmes Python",
-    "Automatiser des tâches",
-    "Analyser des données"
+  "titreFormation": "Fiche Technique de Formation : Python",
+  "objectif": [
+    "Apprendre les concepts de base de Python pour la programmation.",
+    "Développer des compétences pour automatiser les tâches et manipuler les données.",
+    "Maîtriser les techniques de développement d’applications et de scripts."
   ],
   "publicCible": [
-    "Débutants en programmation",
-    "Data analysts",
-    "DevOps engineers"
+    "Développeurs débutants",
+    "Data scientists",
+    "Toute personne souhaitant apprendre la programmation en Python"
   ],
-  "prerequis": "Aucun",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
-      "module": 1,
-      "titre": "Fondamentaux Python",
+      "titre": "1. Introduction à Python",
       "contenu": [
-        "Structures de données",
-        "Compréhensions de listes",
-        "Gestion des exceptions"
+        "Concepts de Base : Comprendre la syntaxe et les structures de base de Python.",
+        "Installation et Configuration : Techniques pour installer et configurer l’environnement Python."
       ]
     },
     {
-      "module": 2,
-      "titre": "Applications Pratiques",
+      "titre": "2. Variables et Types de Données",
       "contenu": [
-        "Scripting système",
-        "Web scraping",
-        "Automatisation"
+        "Déclaration de Variables : Utilisation des variables et des types de données.",
+        "Opérateurs et Expressions : Manipulation des données avec les opérateurs."
       ]
+    },
+    {
+      "titre": "3. Contrôle de Flux",
+      "contenu": [
+        "Structures Conditionnelles : Utilisation des structures conditionnelles pour le contrôle du flux.",
+        "Boucles et Itérations : Techniques pour itérer sur les données avec les boucles."
+      ]
+    },
+    {
+      "titre": "4. Fonctions et Modules",
+      "contenu": [
+        "Déclaration de Fonctions : Création et utilisation de fonctions.",
+        "Importation de Modules : Techniques pour importer et utiliser des modules Python."
+      ]
+    },
+    {
+      "titre": "5. Gestion des Données",
+      "contenu": [
+        "Listes et Dictionnaires : Utilisation des structures de données Python pour organiser les informations.",
+        "Manipulation de Fichiers : Techniques pour lire et écrire des fichiers."
+      ]
+    },
+    {
+      "titre": "6. Programmation Orientée Objet",
+      "contenu": [
+        "Classes et Objets : Introduction à la programmation orientée objet en Python.",
+        "Héritage et Polymorphisme : Techniques pour créer des classes héritées et polymorphes."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Programmation Python : Exercices pratiques pour développer des scripts Python.",
+        "Simulations de Manipulation de Données : Jeux de rôle pour pratiquer la manipulation de données."
+      ]
+    },
+    {
+      "titre": "8. Bibliothèques et Frameworks Python",
+      "contenu": [
+        "Introduction à NumPy, Pandas et Matplotlib : Présentation des bibliothèques pour la manipulation des données et la visualisation.",
+        "Introduction à Flask et Django : Présentation des frameworks pour le développement web."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
   ]
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
 {
-  "titreFormation": "Programmation Java",
-  "objectifs": [
-    "Comprendre la POO en Java",
-    "Développer des applications robustes",
-    "Utiliser les collections Java"
+  "titreFormation": "Fiche Technique de Formation : Java",
+  "objectif": [
+    "Apprendre les concepts de base de Java pour le développement d’applications.",
+    "Développer des compétences pour créer des applications orientées objet.",
+    "Maîtriser les techniques de gestion des exceptions et des collections."
   ],
   "publicCible": [
-    "Développeurs back-end",
-    "Étudiants en informatique",
-    "Ingénieurs logiciel"
+    "Développeurs débutants",
+    "Toute personne souhaitant apprendre le développement en Java"
   ],
-  "prerequis": "Logique algorithmique",
-  "duree": "5 jours (35 heures)",
+  "prerequis": "Connaissances de base en programmation recommandées.",
   "programme": [
     {
-      "module": 1,
-      "titre": "Java Core",
+      "titre": "1. Introduction à Java",
       "contenu": [
-        "JVM architecture",
-        "Garbage collection",
-        "Multithreading"
+        "Concepts de Base : Comprendre la syntaxe et les structures de base de Java.",
+        "Installation et Configuration : Techniques pour installer et configurer l’environnement Java (JDK)."
       ]
     },
     {
-      "module": 2,
-      "titre": "Écosystème Java",
+      "titre": "2. Variables et Types de Données",
       "contenu": [
-        "Spring Framework",
-        "Hibernate/JPA",
-        "Maven/Gradle"
+        "Déclaration de Variables : Utilisation des variables et des types de données.",
+        "Opérateurs et Expressions : Manipulation des données avec les opérateurs."
       ]
+    },
+    {
+      "titre": "3. Contrôle de Flux",
+      "contenu": [
+        "Structures Conditionnelles : Utilisation des structures conditionnelles pour le contrôle du flux.",
+        "Boucles et Itérations : Techniques pour itérer sur les données avec les boucles."
+      ]
+    },
+    {
+      "titre": "4. Programmation Orientée Objet",
+      "contenu": [
+        "Classes et Objets : Création et utilisation de classes et d’objets.",
+        "Encapsulation et Héritage : Techniques pour encapsuler les données et créer des classes héritées."
+      ]
+    },
+    {
+      "titre": "5. Gestion des Exceptions",
+      "contenu": [
+        "Try-Catch-Finally : Utilisation des blocs try-catch-finally pour gérer les exceptions.",
+        "Création d’Exceptions Personnalisées : Techniques pour créer des exceptions personnalisées."
+      ]
+    },
+    {
+      "titre": "6. Collections Java",
+      "contenu": [
+        "Listes, Sets et Maps : Utilisation des collections Java pour organiser les données.",
+        "Itération et Manipulation des Collections : Techniques pour itérer et manipuler les collections."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Programmation Java : Exercices pratiques pour développer des applications Java.",
+        "Simulations de Gestion des Exceptions : Jeux de rôle pour pratiquer la gestion des exceptions."
+      ]
+    },
+    {
+      "titre": "8. Frameworks et Outils Java",
+      "contenu": [
+        "Introduction à Spring et Hibernate : Présentation des frameworks pour le développement d’applications Java.",
+        "Outils de Développement Java : Utilisation des IDE comme Eclipse et IntelliJ IDEA."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
   ]
 }
+
 
   ]
 }
