@@ -216,7 +216,6 @@ textarea:focus {
 .copyPhone {
   cursor: pointer;
   user-select: none;
-  color: #1877f2;
   transition: color 0.2s ease;
 }
 
