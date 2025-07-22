@@ -6,14 +6,22 @@ import Footer from '../../components/Footer';
 
 import formationsStyles from '../../styles/NosFormations.module.css'; 
 
-import management from '../../assets/image/management-svgrepo-com (1).svg';
-import hr from '../../assets/image/human-resources-search-svgrepo-com.svg';
-import finance from '../../assets/image/finance-svgrepo-com.svg';
-import marketing from '../../assets/image/marketing-bill-payment-invoice-receipt-svgrepo-com (1).svg';
-import it from '../../assets/image/computer-14-svgrepo-com.svg';
-import qhse from '../../assets/image/environment-nature-environmental-protection-trees-svgrepo-com.svg';
-import langues from '../../assets/image/language-translation-svgrepo-com (1).svg';
+import management from '../../assets/image/icons/newicon/managment.png';
+
+import hr from '../../assets/image/icons/newicon/informatiquenoire.png';
+
+import finance from '../../assets/image/icons/newicon/finance.png';
+
+import marketing from '../../assets/image/icons/newicon/marketing.png';
+
+import it from '../../assets/image/icons/newicon/computer1.png';
+
+import qhse from '../../assets/image/icons/newicon/computer2.png';
+
+import langues from '../../assets/image/icons/newicon/computer3.png';
+
 import catalogueIcon from '../../assets/image/icons/catalog2.svg';
+
 
 export default function NosFormationsPage() {
   return (
@@ -21,6 +29,7 @@ export default function NosFormationsPage() {
       <Header page="entreprise" />
 
       <main className={formationsStyles.sectionFormations}>
+        <div className={formationsStyles.overlay}></div>
         <div className={formationsStyles.horizontalContainer}>
 
           {/* Left Section */}
@@ -36,7 +45,7 @@ export default function NosFormationsPage() {
               </Link>
 
               <Link to="/formations/grh" className={formationsStyles.formationCard}>
-                <img src={hr} alt="HR Icon" className={formationsStyles.formationIcon} />
+                <img src={hr} alt="HR Icon"  className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>GRH : Ressources Humaines</h3>
               </Link>
 

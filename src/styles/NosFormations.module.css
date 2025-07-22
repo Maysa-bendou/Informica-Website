@@ -5,14 +5,33 @@ html, body {
 
 
 .sectionFormations {
-  padding: 140px 15px;
   position: relative;
+  padding: 140px 15px;
+  background-image: url('/assets/image/entreprise1.jpg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
-  background-color: #f1f5f9;
-
+  z-index: 1;
 }
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.7); /* ✅ Less transparent */
+  z-index: 2;
+}
+
+/* Ensure content appears above the overlay */
+.horizontalContainer {
+  position: relative;
+  z-index: 3;
+}
+
+
 
 .horizontalContainer {
   display: flex;
@@ -37,13 +56,26 @@ html, body {
   font-size: 24px;
   margin-bottom: 30px;
   color: #222;
+  font-family: 'Cairo', sans-serif;
+  font-weight: 900;
+  color: #000;
+   font-weight: bold;         
+  opacity: 1; 
  
 }
 .formationsSubtitle1 {
   font-size: 24px;
   margin-bottom: 10px;
   color: #222;
+   font-family: 'Cairo', sans-serif;
+  font-weight: 900;
+  color: #000;
+   font-weight: bold;         
+  opacity: 1; 
 }
+
+
+
 .formationsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -62,14 +94,14 @@ html, body {
   text-decoration: none;
   max-width: 230px;
   height: 180px;
-
   transition: transform 0.2s ease, box-shadow 0.4s ease;
 }
 
 .formationCard:hover {
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
-  background-color:rgb(182, 194, 207);
+  background-color:rgba(255, 255, 255, 0.557);
+  border-radius: 10px;
 }
 
 
@@ -100,7 +132,8 @@ html, body {
 .formationCardd:hover {
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
-  background-color:rgb(182, 194, 207);
+  background-color:rgba(255, 255, 255, 0.253);
+  border-radius: 10px;
 }
 
 
@@ -142,6 +175,7 @@ html, body {
 .formationIcon {
   width: 50px;
   height: 50px;
+ 
 }
 
 
