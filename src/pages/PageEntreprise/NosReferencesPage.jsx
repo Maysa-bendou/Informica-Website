@@ -1,122 +1,57 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React from 'react';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 import styles from '../../styles/NosReferences.module.css';
 
 // Images
-import rrrr1 from '../../assets/image/colab/rrrr1.png';
-import rrrr2 from '../../assets/image/colab/rrrr2.png';
-import rrrr3 from '../../assets/image/colab/rrrr3.png';
-import rrr4 from '../../assets/image/colab/rrr4.png';
-import rrr5 from '../../assets/image/colab/rrr5.png';
-import rrr6 from '../../assets/image/colab/rrr6.png';
-import fef21 from '../../assets/image/colab/fef2_1.png';
-import fef22 from '../../assets/image/colab/fef2_2.png';
-import fef23 from '../../assets/image/colab/fef2_3.png';
-import fef24 from '../../assets/image/colab/fef2_4.png';
+import refo1 from '../../assets/image/colab/refo1.jpg';
+import refo2 from '../../assets/image/colab/refo2.jpg';
+import refo3 from '../../assets/image/colab/refo3.jpg';
+import refo4 from '../../assets/image/colab/refo4.jpg';
+import refo5 from '../../assets/image/colab/refo5.jpg';
+import refo6 from '../../assets/image/colab/refo6.jpg';
+import refo7 from '../../assets/image/colab/refo7.jpg';
+import refo8 from '../../assets/image/colab/refo8.jpg';
+import refo9 from '../../assets/image/colab/refo9.jpg';
+import refo10 from '../../assets/image/colab/refo10.jpg';
+import refo11 from '../../assets/image/colab/refo11.jpg';
+import refo12 from '../../assets/image/colab/refo12.jpg';
+import refo13 from '../../assets/image/colab/refo13.jpg';
+import refo14 from '../../assets/image/colab/refo14.jpg';
+import refo15 from '../../assets/image/colab/refo15.jpg';
+import refo16 from '../../assets/image/colab/refo16.jpg';
+import refo17 from '../../assets/image/colab/refo17.jpg';
+import refo18 from '../../assets/image/colab/refo18.jpg';
+import refo19 from '../../assets/image/colab/refo19.jpg';
+import refo20 from '../../assets/image/colab/refo20.jpg';
+import refo21 from '../../assets/image/colab/refo21.jpg';
+import refo22 from '../../assets/image/colab/refo22.jpg';
+import refo23 from '../../assets/image/colab/refo23.jpg';
+import refo24 from '../../assets/image/colab/refo24.jpg';
+import refo25 from '../../assets/image/colab/refo25.jpg';
+import refo26 from '../../assets/image/colab/refo26.jpg';
+import refo27 from '../../assets/image/colab/refo27.jpg';
+import refo28 from '../../assets/image/colab/refo28.jpg';
 
-import leftArrow from '../../assets/image/icons/before.svg';
-import rightArrow from '../../assets/image/icons/next.svg';
-
-const images = [rrrr1, rrrr2, rrrr3, rrr4, rrr5, rrr6, fef21, fef22, fef23, fef24];
+const images = [
+  refo1, refo2, refo3, refo4, refo5, refo6, refo7, refo8,
+  refo9, refo10, refo11, refo12, refo13, refo14, refo15, refo16,
+  refo17, refo18, refo19, refo20, refo21, refo22, refo23, refo24,
+  refo25, refo26, refo27, refo28,
+];
 
 export default function NosReferencesPage() {
-  const trackRef = useRef(null);
-  const [current, setCurrent] = useState(0);
-  const [autoSlide, setAutoSlide] = useState(null);
-  const [pauseTimer, setPauseTimer] = useState(null);
-
-  const startAutoSlide = () => {
-    stopAutoSlide();
-    const slideInterval = setInterval(() => {
-      setCurrent((prev) => (prev < images.length - 1 ? prev + 1 : prev));
-    }, 3000);
-    setAutoSlide(slideInterval);
-  };
-
-  const stopAutoSlide = () => {
-    if (autoSlide) clearInterval(autoSlide);
-    if (pauseTimer) clearTimeout(pauseTimer);
-  };
-
-  const pauseThenResume = () => {
-    stopAutoSlide();
-    const timer = setTimeout(() => {
-      startAutoSlide();
-    }, 10000);
-    setPauseTimer(timer);
-  };
-
-  const next = () => {
-    if (current < images.length - 1) {
-      setCurrent(current + 1);
-      pauseThenResume();
-    }
-  };
-
-  const prev = () => {
-    if (current > 0) {
-      setCurrent(current - 1);
-      pauseThenResume();
-    }
-  };
-
-  useEffect(() => {
-    startAutoSlide();
-    return stopAutoSlide;
-  }, []);
-
-  useEffect(() => {
-    if (trackRef.current) {
-      trackRef.current.style.transform = `translateX(-${current * 100}%)`;
-    }
-  }, [current]);
-
   return (
     <>
       <Header page="entreprise" />
       <div className={styles.pageContainer}>
         <section id="Nos_Références" className={styles.sectionReferences}>
           <h2 className={styles.sectionTitleref}>Nos Références</h2>
-
-          <div className={styles.referencesSliderContainer}>
-            {current > 0 && (
-              <button className={`${styles.sliderArrow} ${styles.prevArrow}`} onClick={prev}>
-                <img src={leftArrow} alt="Previous" className={styles.arrowIcon} />
-              </button>
-            )}
-
-            <div
-              className={styles.referencesSlider}
-              onMouseEnter={stopAutoSlide}
-              onMouseLeave={startAutoSlide}
-            >
-              <div className={styles.sliderTrack} ref={trackRef}>
-                {images.map((img, i) => (
-                  <div key={i} className={styles.slide}>
-                    <img src={img} alt={`Référence ${i + 1}`} className={styles.slideImg} />
-                  </div>
-                ))}
+          <div className={styles.referencesGrid}>
+            {images.map((img, index) => (
+              <div key={index} className={styles.gridItem}>
+                <img src={img} alt={`Référence ${index + 1}`} className={styles.logoImg} />
               </div>
-            </div>
-
-            {current < images.length - 1 && (
-              <button className={`${styles.sliderArrow} ${styles.nextArrow}`} onClick={next}>
-                <img src={rightArrow} alt="Next" className={styles.arrowIcon} />
-              </button>
-            )}
-          </div>
-
-          <div className={styles.sliderDots}>
-            {images.map((_, i) => (
-              <div
-                key={i}
-                className={`${styles.dot} ${i === current ? styles.dotActive : ''}`}
-                onClick={() => {
-                  setCurrent(i);
-                  pauseThenResume();
-                }}
-              />
             ))}
           </div>
         </section>
@@ -125,4 +60,5 @@ export default function NosReferencesPage() {
     </>
   );
 }
+
 

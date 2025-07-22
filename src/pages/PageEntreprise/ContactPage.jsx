@@ -94,7 +94,7 @@ export default function ContactPage() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Voir sur la carte
+                View en map
               </a>
             </div>
 

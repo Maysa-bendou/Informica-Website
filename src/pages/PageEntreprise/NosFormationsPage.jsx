@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
-import formationsStyles from '../../styles/NosFormations.module.css'; // Use module CSS correctly
+import formationsStyles from '../../styles/NosFormations.module.css'; 
 
 import management from '../../assets/image/management-svgrepo-com (1).svg';
 import hr from '../../assets/image/human-resources-search-svgrepo-com.svg';
