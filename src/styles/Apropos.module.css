@@ -1,37 +1,31 @@
-/* === A PROPOS SECTION === */
-html, body {
-  scroll-behavior: auto !important;
-}
-
+/* Apropos.module.css */
 
 .aproposPage {
-  width: 100%;
-  min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  background-image: linear-gradient(to right, rgba(170, 170, 170, 0.95) 40%, rgba(0, 0.1, 0.2, 0.3) 100%), url('/assets/image/entreprise1.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 120px 20px;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 100px 60px;
+  background-color: 	#f0f0f0; /* Soft comfy background */
+  box-sizing: border-box;
 }
 
-.aproposContainer {
-  max-width: 650px;
-  background-color: transparent; 
-  padding: 40px;
-  border-radius: 8px;
-  color: #031b3a;
-  margin: 0 10px;
+
+.leftContent {
+  flex: 1;
+  max-width: 55%;
+  padding-right: 40px;
+  color: #1B365D;
 }
 
 .aproposTittle {
-  font-size: 48px;
+  font-size: 3.5rem;
   color: #032047;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  font-weight: 700;
+    margin-top: 15px;
   position: relative;
   padding-left: 15px;
-  margin-top: 3px;
 }
 
 .aproposTittle::before {
@@ -40,45 +34,92 @@ html, body {
   left: 0;
   top: 0;
   height: 100%;
-  width: 5px;
+  width: 6px;
   background-color: #F26722;
+  border-radius: 2px;
 }
+.sectionSubTitle {
+  font-size: 1.5rem;
+  color: #032047;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
 
 .sectionText {
-  line-height: 1.7;
+  font-size: 1.125rem;
   color: #333;
-  margin-top: 0px;
-  font-size: 18px;
+  line-height: 1.8;
 }
 
-@media (max-width: 768px) {
+.rightImageWrapper {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Remove wave divider completely */
+.waveDivider {
+  display: none;
+}
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animateLeft {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animateRight {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
   .aproposPage {
     flex-direction: column;
-    align-items: center;
+    padding: 60px 20px;
   }
-  .aproposContainer {
-    padding: 30px;
+
+  .leftContent,
+  .rightImageWrapper {
+    max-width: 100%;
   }
-  .aproposTittle {
-    font-size: 2rem;
+
+  .leftContent {
+    padding-right: 0;
+    margin-bottom: 30px;
   }
-  .sectionText {
-    font-size: 16px;
+
+  .rightImage {
+    width: 100%;
+    height: auto;
   }
 }
-
-@media (max-width: 576px) {
-  .aproposContainer {
-    padding: 25px;
-  }
-  .aproposTittle {
-    font-size: 1.8rem;
-  }
-  .sectionText {
-    font-size: 1rem;
-  }
-}
-
-
-
-

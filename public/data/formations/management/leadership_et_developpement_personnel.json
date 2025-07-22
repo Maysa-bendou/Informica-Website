@@ -2,7 +2,7 @@
   "title": "Leadership et développement personnel",
   "formations": [
     {
-      "titreFormation": "Développer son Leadership",
+      "titreFormation": "Fiche Technique de Formation : Développer son Leadership",
       "objectifs": [
         "Améliorer les compétences en leadership.",
         "Renforcer la capacité à gérer les équipes de manière efficace.",
@@ -14,45 +14,42 @@
         {
           "titre": "1. Introduction au Leadership",
           "contenu": [
-            "Théories et Styles de Leadership",
-            "Auto-évaluation : outils pour mieux se connaître."
+            "Théories et Styles de Leadership : Exploration des principales théories du leadership (théorie des traits, comportementale, situationnelle, et transformationnelle) et analyse des différents styles de leadership.",
+            "Auto-évaluation : Outils et techniques pour auto-évaluer ses compétences et styles de leadership afin de mieux comprendre ses forces et ses axes d’amélioration."
           ]
         },
         {
           "titre": "2. Communication Efficace",
           "contenu": [
-            "Techniques de Communication : écoute active, assertivité.",
-            "Gestion des Conflits : médiation et négociation.",
-            "Écoute Active : comprendre et interagir."
+            "Techniques de Communication : Apprentissage des techniques de communication essentielles telles que l’écoute active, la communication non verbale, et l'assertivité.",
+            "Gestion des Conflits : Méthodes de gestion et de résolution des conflits, y compris les techniques de médiation et de négociation.",
+            "Écoute Active : Développement des compétences en écoute active pour améliorer la compréhension et l'interaction avec les membres de l'équipe."
           ]
         },
         {
           "titre": "3. Gestion du Stress",
           "contenu": [
-            "Identification des Sources de Stress",
-            "Techniques de Relaxation : respiration, méditation.",
-            "Gestion du Temps : priorisation, outils numériques."
+            "Identification des Sources de Stress : Techniques pour identifier les sources de stress dans le milieu professionnel et personnel.",
+            "Techniques de Relaxation : Introduction à diverses techniques de relaxation comme la respiration profonde, la méditation, et la visualisation.",
+            "Gestion du Temps : Outils et méthodes pour une gestion efficace du temps, incluant la priorisation des tâches et l’utilisation des outils de gestion du temps."
           ]
         },
         {
           "titre": "4. Développement de la Créativité",
           "contenu": [
-            "Brainstorming : techniques pour l'équipe.",
-            "Résolution Créative : design thinking.",
-            "Innovation : encourager la pensée créative."
+            "Techniques de Brainstorming : Apprentissage de diverses techniques de brainstorming pour stimuler la créativité et l'innovation au sein de l'équipe.",
+            "Résolution de Problèmes Créative : Méthodes pour aborder et résoudre les problèmes de manière innovante, en utilisant des approches telles que le design thinking.",
+            "Innovation : Encouragement de la pensée créative pour développer des solutions innovantes et améliorer les processus organisationnels."
           ]
         },
         {
           "titre": "5. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, bilan personnel et remise d'attestation."
-          ]
+          "contenu": []
         }
       ]
     },
     {
-      "titreFormation": "Développer son Intelligence Émotionnelle",
-      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/2.Developper_Son_Intelligence_Emotionnelle.pdf",
+      "titreFormation": "Fiche Technique de Formation : Développer son Intelligence Émotionnelle",
       "objectifs": [
         "Comprendre les principes de l'intelligence émotionnelle.",
         "Améliorer la gestion des émotions personnelles et professionnelles.",
@@ -91,14 +88,13 @@
         },
         {
           "titre": "5. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, retour d'expérience, remise d'attestation."
-          ]
+          "contenu": []
         }
       ]
     },
     {
-      "titreFormation": "Gérer son Stress et celui de ses Collaborateurs","pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/3.Gerer_Son_Stress_Et_Celui_De_Ses_Collaborateurs.pdf",
+      "titreFormation": "Gérer son Stress et celui de ses Collaborateurs",
+      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/3.Gerer_Son_Stress_Et_Celui_De_Ses_Collaborateurs.pdf",
       "objectifs": [
         "Identifier les sources de stress au travail.",
         "Apprendre des techniques efficaces pour gérer le stress personnel.",
@@ -139,15 +135,12 @@
         },
         {
           "titre": "5. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, discussion collective, remise des attestations."
-          ]
+          "contenu": []
         }
       ]
     },
     {
       "titreFormation": "S'affirmer dans la Vie Professionnelle",
-      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/4.S_Affirmer_Dans_La_Vie_Professionnelle.pdf",
       "objectifs": [
         "Développer la confiance en soi et l'assertivité au travail.",
         "Apprendre à exprimer ses opinions et besoins de manière claire et respectueuse.",
@@ -186,15 +179,12 @@
         },
         {
           "titre": "5. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, échanges en groupe, conclusion de la formation."
-          ]
+          "contenu": []
         }
       ]
     },
     {
       "titreFormation": "Développer sa Créativité",
-      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/5.Technique_Developper_Sa_Creativite.pdf",
       "objectifs": [
         "Stimuler la pensée créative et l'innovation.",
         "Apprendre des techniques pour générer de nouvelles idées.",
@@ -221,15 +211,15 @@
         {
           "titre": "3. Résolution Créative de Problèmes",
           "contenu": [
-            "Approches Innovantes : Techniques pour aborder les problèmes de manière innovante, y compris le design thinking.",
+            "Approches Innovantes : Techniques pour aborder les problèmes de manière innovante, y compris le design thinking",
             "Analyse et Réorganisation : Méthodes pour analyser et réorganiser les problèmes afin de trouver des solutions créatives."
           ]
         },
         {
           "titre": "4. Développement de la Pensée Innovante",
           "contenu": [
-            "Cultiver la Curiosité : Stratégies pour encourager la curiosité et l'ouverture d'esprit.",
-            "Environnement Créatif : Création d'un environnement de travail propice à l'innovation et à la créativité."
+            "Cultiver la Curiosité : Stratégies pour encourager la curiosité et l’ouverture d’esprit",
+            "Environnement Créatif : Création d’un environnement de travail propice à l’innovation et à la créativité."
           ]
         },
         {
@@ -241,15 +231,12 @@
         },
         {
           "titre": "6. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, feedback sur les projets réalisés, perspectives de développement futur."
-          ]
+          "contenu": []
         }
       ]
     },
     {
       "titreFormation": "Prévenir et Gérer les Situations Difficiles",
-      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/1.Leadership et développement personnel/6.Prevenir_Et_Gerer_Les_Situations_Difficiles.pdf",
       "objectifs": [
         "Identifier les situations difficiles et les anticiper.",
         "Développer des compétences pour gérer efficacement les conflits et les crises.",
@@ -282,7 +269,7 @@
         {
           "titre": "4. Gestion des Crises",
           "contenu": [
-            "Planification de la Réponse aux Crises : Élaboration de plans d'action pour faire face aux crises.",
+            "Planification de la Réponse aux Crises : Élaboration de plans d’action pour faire face aux crises.",
             "Techniques de Dé-escalade : Méthodes pour réduire la tension et contrôler les situations de crise."
           ]
         },
@@ -296,15 +283,13 @@
         {
           "titre": "6. Applications Pratiques",
           "contenu": [
-            "Simulations de Conflits : Jeux de rôle et simulations pour pratiquer la gestion des conflits.",
-            "Études de Cas : Analyse de cas réels pour développer des stratégies de gestion des crises."
+            "Simulations de Conflits : Jeux de rôle et simulations pour pratiquer la gestion des conflits",
+            "Études de Cas : Analyse de cas réels pour développer des stratégies de gestion des crises"
           ]
         },
         {
           "titre": "7. Évaluation Finale",
-          "contenu": [
-            "Évaluation des compétences acquises, bilan personnel et plan d'amélioration continue."
-          ]
+          "contenu": []
         }
       ]
     }
