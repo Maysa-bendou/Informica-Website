@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-background: linear-gradient(to right, #f8fafc, #eceff3);
+background: linear-gradient(to right, #f8fafc, #f0f0f0);
   z-index: 999;
   border-bottom: 1px solid #cbd5e1;
   transition: all 0.3s ease;
