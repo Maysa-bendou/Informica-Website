@@ -52,8 +52,12 @@ html, body {
   max-height:1000px ;
   margin: 0 20px;
   flex-shrink: 0;
+<<<<<<< HEAD
   margin-top: -24px;
   margin-bottom: -130px;
+=======
+  margin-top: 10px;
+>>>>>>> 7d0dbe3a015108cf3ab33f8492ed6e58e2b808f8
 }
 
 
@@ -80,7 +84,10 @@ html, body {
   align-items: center;
   text-align: center;
   margin-bottom: 10.3px;
+<<<<<<< HEAD
   
+=======
+>>>>>>> 7d0dbe3a015108cf3ab33f8492ed6e58e2b808f8
  
 }
 .formationsSubtitle0{
@@ -88,11 +95,18 @@ html, body {
   align-items: center;
   text-align: center;
   color: #000;
+<<<<<<< HEAD
   margin-bottom: 25px;
 }
 .formationsSubtitle1 {
   font-size: 24px;
   margin-bottom: 25px;
+=======
+}
+.formationsSubtitle1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+>>>>>>> 7d0dbe3a015108cf3ab33f8492ed6e58e2b808f8
   color: #222;
   font-family: 'Cairo', sans-serif;
   font-weight: 900;
