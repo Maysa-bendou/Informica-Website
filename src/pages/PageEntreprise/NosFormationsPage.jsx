@@ -14,9 +14,9 @@ import finance from '../../assets/image/icons/newicon/finance.png';
 
 import marketing from '../../assets/image/icons/newicon/marketing.png';
 
-import it from '../../assets/image/icons/newicon/computer1.png';
+import it from '../../assets/image/icons/newicon/computer.png';
 
-import qhse from '../../assets/image/icons/newicon/computer2.png';
+import qhse from '../../assets/image/icons/newicon/computer1.png';
 
 import langues from '../../assets/image/icons/newicon/computer3.png';
 
@@ -90,19 +90,20 @@ export default function NosFormationsPage() {
               Savoir-faire de nos formateurs à travers nos catalogues
             </h2>
             <div className={formationsStyles.formationsGridd}>
-              <Link to="/formations/catalogues/hse" className={formationsStyles.formationCardd}>
-                <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
-                <h3 className={formationsStyles.formationTitle}>
-                  HSE : Hygiène, Sécurité et Environnement
-                </h3>
-              </Link>
 
               <Link to="/formations/catalogues/general" className={formationsStyles.formationCardd}>
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>
-                  Management & Leadership<br />
-                  Développement Personnel et Professionnel<br />
-                  Gestion Commerciale & Relation Client
+                  -Management & Leadership.<br />
+                  -Développement Personnel et Professionnel.<br />
+                  -Gestion Commerciale & Relation Client.
+                </h3>
+              </Link>
+
+              <Link to="/formations/catalogues/hse" className={formationsStyles.formationCardd}>
+                <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
+                <h3 className={formationsStyles.formationTitle}>
+                  HSE : Hygiène, Sécurité et Environnement
                 </h3>
               </Link>
             </div>
