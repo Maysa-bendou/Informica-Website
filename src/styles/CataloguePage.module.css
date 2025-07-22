@@ -1,0 +1,43 @@
+.cataloguePage {
+  background-color: #f9f8f8;
+  min-height: calc(100vh - 160px); /* adjust to your header/footer height */
+  padding: 90px 1rem 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.innerContent {
+  width: 100%;
+  max-width: 1100px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.iframeContainer {
+
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f9f8f8;
+}
+
+.iframe {
+  width: 80%;
+  height: 120vh;
+  border: none;
+}
+
+.errorMessage {
+  color: #e74c3c;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
+
+  .iframe {
+    height: 70vh;
+  }
+}

@@ -10,6 +10,7 @@ import AproposPage from './pages/PageEntreprise/AproposPage';
 import NosFormationsPage from './pages/PageEntreprise/NosFormationsPage';
 import NosReferencesPage from './pages/PageEntreprise/NosReferencesPage';
 import ContactPage from './pages/PageEntreprise/ContactPage';
+import CataloguePage from './pages/CataloguePage';
 
 // ✅ Inline ScrollToTop logic
 function ScrollToTopOnRouteChange() {
@@ -49,6 +50,7 @@ function App() {
         <Route path="/formations/:categoryId" element={<FormationsPage />} />
         <Route path="/formations/:categoryId/:subcategoryId/:formationId" element={<FormationDetailsPage />} />
         <Route path="/formations/:categoryId/:formationId" element={<FormationDetailsPage />} />
+        <Route path="/formations/catalogues/:id" element={<CataloguePage />} />
 
         {/* Public Page */}
         <Route path="/public" element={<PagePublic />} />

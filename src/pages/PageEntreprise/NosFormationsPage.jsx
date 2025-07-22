@@ -6,19 +6,19 @@ import Footer from '../../components/Footer';
 
 import formationsStyles from '../../styles/NosFormations.module.css'; 
 
-import management from '../../assets/image/icons/newicon/managment.png';
+import management from '../../assets/image/icons/newicon/formation1bleu.png';
 
-import hr from '../../assets/image/icons/newicon/informatiquenoire.png';
+import hr from '../../assets/image/icons/newicon/formation2bleu.png';
 
-import finance from '../../assets/image/icons/newicon/finance.png';
+import finance from '../../assets/image/icons/newicon/formation3bleu.png';
 
-import marketing from '../../assets/image/icons/newicon/marketing.png';
+import marketing from '../../assets/image/icons/newicon/formation4bleu.png';
 
-import it from '../../assets/image/icons/newicon/computer.png';
+import it from '../../assets/image/icons/newicon/formation5bleu.png';
 
-import qhse from '../../assets/image/icons/newicon/computer1.png';
+import qhse from '../../assets/image/icons/newicon/formation6bleu.png';
 
-import langues from '../../assets/image/icons/newicon/computer3.png';
+import langues from '../../assets/image/icons/newicon/formation7bleu.png';
 
 import catalogueIcon from '../../assets/image/icons/catalog2.svg';
 

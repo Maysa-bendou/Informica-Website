@@ -192,12 +192,12 @@
       {
         "id": "hse",
         "title": "HSE : Hygiène, Sécurité et Environnement",
-        "pdf": "/pdf/catalogues/Catalogue de formations HSE.pdf"
+        "pdf": "/catalogue_pdf/Catalogue de formations HSE.pdf"
       },
       {
         "id": "general",
         "title": "Catalogue général",
-        "pdf": "/pdf/catalogues/Catalogue de formations M.D.C - V site web.pdf"
+        "pdf": "/catalogue_pdf/Catalogue de formations M.D.C - V site web.pdf"
       }
     ]
   }
