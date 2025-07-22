@@ -3,7 +3,6 @@
   "formations": [
     {
       "titreFormation": "Bâtir et Piloter ses Tableaux de Bord",
-       "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/1.Batir_Et_Piloter_Ses_Tableaux_De_Bord.pdf",
       "objectifs": [
         "Concevoir et utiliser des tableaux de bord efficaces.",
         "Améliorer la prise de décision grâce aux indicateurs de performance.",
@@ -22,7 +21,7 @@
         {
           "titre": "2. Conception des Tableaux de Bord",
           "contenu": [
-            "Sélection des Indicateurs : Critères de sélection des indicateurs de performance (KPIs).",
+            "Sélection des Indicateurs : Critères de sélection des indicateurs de performance (KPIs)",
             "Structuration des Données : Organisation et présentation des données pour une lecture efficace."
           ]
         },
@@ -55,7 +54,6 @@
     },
     {
       "titreFormation": "Déléguer Efficacement",
-             "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/3.Management d’équipe/2.Deleguer_Efficacement.pdf",
       "objectifs": [
         "Comprendre les principes de la délégation efficace.",
         "Développer des compétences pour identifier les tâches à déléguer.",

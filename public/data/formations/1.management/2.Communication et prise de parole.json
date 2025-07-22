@@ -3,7 +3,6 @@
   "formations": [
     {
       "titreFormation": "Renforcer son Impact Professionnel à l'Oral",
-      "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/2.Communication et prise de parole/1.Renforcer_Son_Impact_Professionnel_A_L_Oral.pdf",
       "objectifs": [
         "Améliorer les compétences en prise de parole en public.",
         "Développer une communication claire et persuasive.",
@@ -56,15 +55,12 @@
         },
         {
           "titre": "7. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, retour d'expérience, remise d'attestation."
-          ]
+          "contenu": [ ]
         }
       ]
     },
     {
       "titreFormation": "Prendre la Parole en Public",
-            "pdf": "/pdf/1.MANAGEMENT - DÉVELOPPEMENT PERSONNEL/2.Communication et prise de parole/2.Prendre_La_Parole_En_Public.pdf",
       "objectifs": [
         "Améliorer les compétences en prise de parole devant un public.",
         "Développer la capacité à communiquer de manière claire et efficace.",
@@ -117,9 +113,7 @@
         },
         {
           "titre": "7. Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis, retour d’expérience, remise des attestations."
-          ]
+          "contenu":[]
         }
       ]
     }
