@@ -14,9 +14,9 @@ import finance from '../../assets/image/icons/newicon/finance.png';
 
 import marketing from '../../assets/image/icons/newicon/marketing.png';
 
-import it from '../../assets/image/icons/newicon/computer1.png';
+import it from '../../assets/image/icons/newicon/computer.png';
 
-import qhse from '../../assets/image/icons/newicon/computer2.png';
+import qhse from '../../assets/image/icons/newicon/computer1.png';
 
 import langues from '../../assets/image/icons/newicon/computer3.png';
 
@@ -35,9 +35,9 @@ export default function NosFormationsPage() {
           {/* Left Section */}
           <div className={formationsStyles.leftSection}>
             <h2 className={formationsStyles.formationsSubtitle}>
-              Formations Par Domaine - Fiches techniques standard, modulables selon les besoins de votre entreprise
+              Formations Par Domaine
             </h2>
-
+            <h3 className={formationsStyles.formationsSubtitle0}> Fiches techniques standard, modulables selon les besoins de votre entreprise</h3>
             <div className={formationsStyles.formationsGrid}>
               <Link to="/formations/management" className={formationsStyles.formationCard}>
                 <img src={management} alt="Management Icon" className={formationsStyles.formationIcon} />
@@ -78,6 +78,12 @@ export default function NosFormationsPage() {
             </div>
           </div>
 
+
+          
+          <div className={formationsStyles.verticalSeparator}></div>
+
+
+
           {/* Right Section */}
           <div className={formationsStyles.rightSection}>
             <h2 className={formationsStyles.formationsSubtitle1}>
@@ -109,4 +115,3 @@ export default function NosFormationsPage() {
     </div>
   );
 }
-
