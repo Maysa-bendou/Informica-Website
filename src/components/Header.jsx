@@ -14,31 +14,31 @@ function Header({ page }) {
               to="/"
               className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
-              Accueil
+              <span>Accueil</span>
             </NavLink>
             <NavLink
               to="/entreprise/a-propos"
               className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
-              À propos
+             <span>À propos</span>
             </NavLink>
             <NavLink
               to="/entreprise/nos-formations"
               className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
-              Nos Formations
+             <span> Nos Formations</span>
             </NavLink>
             <NavLink
               to="/entreprise/nos-references"
               className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
-              Nos Références
+              <span>Nos Références</span>
             </NavLink>
             <NavLink
               to="/entreprise/contact"
               className={({ isActive }) => `${styles.navLink} ${isActive ? styles.active : ''}`}
             >
-              Contact
+              <span>Contact</span>
             </NavLink>
           </>
         )}

@@ -4,7 +4,7 @@
   top: 0;
   left: 0;
   width: 100%;
-background: linear-gradient(to right, #f8fafc, #e2e8f0);
+background: linear-gradient(to right, #f8fafc, #eceff3);
   z-index: 999;
   border-bottom: 1px solid #cbd5e1;
   transition: all 0.3s ease;
@@ -43,32 +43,35 @@ background: linear-gradient(to right, #f8fafc, #e2e8f0);
   color: #012169;
   text-decoration: none;
   padding: 8px 15px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
   transition: color 0.3s ease;
 }
-
-.navLink:hover {
+.navLink span {
+  position: relative;
+  display: inline-block;
+  color: #012169;
+}
+.navLink:hover span{
   color: #007dfb;
 }
 
-.navLink.active {
+.navLink.active span {
   color: #027cf7;
 }
 
-.navLink::after {
+.navLink span::after {
   content: '';
   position: absolute;
   left: 0;
-  bottom: 4px;
-  width: 0;
+  bottom: -2px;
   height: 2px;
+  width: 0;
   background-color: #1388fd;
   transition: width 0.3s ease;
 }
-
-.navLink:hover::after,
-.navLink.active::after {
+.navLink:hover span::after,
+.navLink.active span::after {
   width: 100%;
 }
 
@@ -134,5 +137,37 @@ background: linear-gradient(to right, #f8fafc, #e2e8f0);
 @media (max-width: 600px) {
   header {
     height: 100px;
+  }
+}  
+
+@media (max-width: 480px) {
+  .mainHeader {
+    padding: 10px 16px;
+  }
+
+  .logo {
+    width: 120px;
+  }
+
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+
+  .navLink {
+    font-size: 14px;
+    padding: 4px 6px;
+  }
+}
+
+@media (max-width: 360px) {
+  .navLink span {
+    font-size: 13px;
+    white-space: nowrap;
+  }
+
+  .logo {
+    width: 100px;
   }
 }
