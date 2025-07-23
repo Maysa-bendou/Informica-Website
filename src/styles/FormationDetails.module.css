@@ -43,18 +43,19 @@
 /* Formation Details section */
 .formationDetails {
   max-width: 900px;
-  width: 90%;
+  width: 70%;
   box-sizing: border-box;
 }
 
-/* Titles */
 .title {
   font-size: 34px;
   font-weight: 700;
   color: black;
   text-align: left;
-  margin-bottom: 0px;
+  margin-top: 100px; /* Add this */
+  margin-bottom: 20px; /* Improve spacing */
 }
+
 
 .subTitlle {
   font-size: 30px;
