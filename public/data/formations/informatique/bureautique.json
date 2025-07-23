@@ -2,7 +2,7 @@
   "title": "Bureautique",
   "formations":[
 {
-  "titreFormation": "Fiche Technique de Formation : Microsoft Word",
+  "titreFormation": " Microsoft Word",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Word.",
     "Développer des compétences pour créer, modifier et mettre en forme des documents professionnels.",
@@ -80,7 +80,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Microsoft Excel",
+  "titreFormation": "Microsoft Excel",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Excel.",
     "Développer des compétences pour analyser, organiser et présenter des données.",
@@ -154,7 +154,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Microsoft PowerPoint",
+  "titreFormation": "Microsoft PowerPoint",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft PowerPoint.",
     "Développer des compétences pour créer des présentations professionnelles et impactantes.",
@@ -242,7 +242,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Microsoft Outlook",
+  "titreFormation": "Microsoft Outlook",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Outlook.",
     "Développer des compétences pour gérer efficacement les courriels, les calendriers et les tâches.",
@@ -325,7 +325,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Microsoft Access",
+  "titreFormation": "Microsoft Access",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités de base et avancées de Microsoft Access.",
     "Développer des compétences pour créer et gérer des bases de données relationnelles.",
@@ -407,7 +407,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Google Workspace (Google Docs, Google Sheets, Google Slides, Gmail, Google Drive)",
+  "titreFormation": "Google Workspace (Google Docs, Google Sheets, Google Slides, Gmail, Google Drive)",
   "objectifs": [
     "Apprendre à utiliser les fonctionnalités des applications Google Workspace.",
     "Développer des compétences pour collaborer et partager des documents en ligne.",
@@ -490,7 +490,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Gestion Électronique de Documents et Archivage Électronique",
+  "titreFormation": "Gestion Électronique de Documents et Archivage Électronique",
   "objectifs": [
     "Comprendre les principes de la gestion électronique de documents (GED) et de l’archivage électronique (AE).",
     "Apprendre à mettre en place et gérer des systèmes de GED et d’AE.",

@@ -2,7 +2,7 @@
   "title": "devloppement Web",
   "formations":[
 {
-  "titreFormation": "Fiche Technique de Formation : HTML/CSS",
+  "titreFormation": "HTML/CSS",
   "objectif": [
     "Apprendre à utiliser HTML pour structurer des pages web.",
     "Maîtriser les techniques de CSS pour styliser et mettre en forme des pages web.",
@@ -92,7 +92,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : JavaScript",
+  "titreFormation": "JavaScript",
   "objectif": [
     "Apprendre les concepts de base de JavaScript pour dynamiser les pages web.",
     "Développer des compétences pour manipuler le DOM et interagir avec les utilisateurs.",
@@ -181,7 +181,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : PHP/MySQL",
+  "titreFormation": "PHP/MySQL",
   "objectif": [
     "Apprendre les concepts de base de PHP pour créer des pages web dynamiques.",
     "Développer des compétences pour interagir avec des bases de données MySQL.",
@@ -265,7 +265,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Python",
+  "titreFormation": "Python",
   "objectif": [
     "Apprendre les concepts de base de Python pour la programmation.",
     "Développer des compétences pour automatiser les tâches et manipuler les données.",
@@ -354,7 +354,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Java",
+  "titreFormation": "Java",
   "objectif": [
     "Apprendre les concepts de base de Java pour le développement d’applications.",
     "Développer des compétences pour créer des applications orientées objet.",

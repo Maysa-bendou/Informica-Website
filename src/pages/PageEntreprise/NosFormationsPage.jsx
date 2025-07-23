@@ -5,13 +5,14 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 import formationsStyles from '../../styles/NosFormations.module.css'; 
-import management from '../../assets/image/icons/newicon/formation1noire.png';
 
-import hr from '../../assets/image/icons/newicon/formation2noire.png';
+import management from '../../assets/image/icons/newicon/formation1bleu.png';
 
-import finance from '../../assets/image/icons/newicon/formation3noire.png';
+import hr from '../../assets/image/icons/newicon/formation2bleu.png';
 
-import marketing from '../../assets/image/icons/newicon/formation4noire.png';
+import finance from '../../assets/image/icons/newicon/formation3bleu.png';
+
+import marketing from '../../assets/image/icons/newicon/formation4bleu.png';
 
 import it from '../../assets/image/icons/newicon/formation5bleu.png';
 

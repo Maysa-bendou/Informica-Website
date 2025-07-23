@@ -2,7 +2,7 @@
   "title": "Cybersécurité et Sécurité de l'Information",
   "formations": [
 {
-  "titreFormation": "Fiche Technique de Formation : Introduction à la Cybersécurité",
+  "titreFormation": "Introduction à la Cybersécurité",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la cybersécurité.",
     "Développer des compétences pour identifier et gérer les menaces de cybersécurité.",
@@ -91,7 +91,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Analyse des Risques",
+  "titreFormation": "Analyse des Risques",
   "objectifs": [
     "Comprendre les principes de l’analyse des risques en cybersécurité.",
     "Développer des compétences pour identifier, évaluer et gérer les risques.",
@@ -181,7 +181,7 @@
 
 
  {
-  "titreFormation": "Fiche Technique de Formation : Cryptographie",
+  "titreFormation": "Cryptographie",
   "objectif": [
     "Comprendre les concepts et les techniques de la cryptographie.",
     "Développer des compétences pour sécuriser les données avec des méthodes cryptographiques.",
@@ -272,7 +272,7 @@
 
 
 {
-  "titreFormation": "FICHE TECHNIQUE DE FORMATION : Pentesting (Tests d’Intrusion)",
+  "titreFormation": " Pentesting (Tests d’Intrusion)",
   "objectifs": [
     "Comprendre les principes et les méthodologies des tests d’intrusion.",
     "Développer des compétences pour identifier et exploiter les vulnérabilités des systèmes.",
@@ -358,7 +358,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Réponse aux Incidents",
+  "titreFormation": "Réponse aux Incidents",
   "objectifs": [
     "Comprendre les principes et les méthodologies de réponse aux incidents.",
     "Développer des compétences pour détecter, analyser et répondre aux incidents de sécurité.",
@@ -462,7 +462,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Gouvernance en Matière de Cybersécurité",
+  "titreFormation": "Gouvernance en Matière de Cybersécurité",
   "objectifs": [
     "Comprendre les principes de gouvernance en cybersécurité.",
     "Développer des compétences pour élaborer et mettre en œuvre des stratégies de gouvernance.",
@@ -568,7 +568,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : ISO 27001 - Gestion de la Sécurité de l'Information",
+  "titreFormation": "ISO 27001 - Gestion de la Sécurité de l'Information",
   "objectifs": [
     "Comprendre les exigences de la norme ISO 27001.",
     "Développer des compétences pour établir et maintenir un système de gestion de la sécurité de l’information (SGSI).",
@@ -674,7 +674,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : ISO 27002 – Contrôles de Sécurité de l'Information en Cybersécurité",
+  "titreFormation": " ISO 27002 – Contrôles de Sécurité de l'Information en Cybersécurité",
   "objectifs": [
     "Comprendre les recommandations de la norme ISO 27002 pour les contrôles de sécurité.",
     "Développer des compétences pour mettre en œuvre les contrôles de sécurité de l’information.",
@@ -779,7 +779,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : PCI DSS – Normes de Sécurité des Données pour les Transactions par Carte de Crédit",
+  "titreFormation": "PCI DSS – Normes de Sécurité des Données pour les Transactions par Carte de Crédit",
   "objectifs": [
     "Comprendre les exigences des normes PCI DSS.",
     "Développer des compétences pour sécuriser les transactions par carte de crédit.",

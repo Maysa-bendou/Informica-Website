@@ -2,7 +2,7 @@
   "title": "Logiciels Professionnels",
   "formations": [
 {
-  "titreFormation": "Fiche Technique de Formation : Logiciels de Business Intelligence et de Gestion de Données : Microsoft Power BI",
+  "titreFormation": "Logiciels de Business Intelligence et de Gestion de Données : Microsoft Power BI",
   "objectifs": [
     "Comprendre les fonctionnalités de Microsoft Power BI pour la Business Intelligence.",
     "Développer des compétences pour créer des rapports et des tableaux de bord interactifs.",
@@ -111,7 +111,7 @@
 
 
  {
-  "titreFormation": "Fiche Technique de Formation : Gestion de Projets avec MS Project",
+  "titreFormation": " Gestion de Projets avec MS Project",
   "objectifs": [
     "Cette formation a pour objectif de permettre aux participants de maîtriser les techniques de gestion de projets à l'aide du logiciel Microsoft Project. À l'issue de cette formation, les participants seront capables de :",
     "Comprendre les principes de base de la gestion de projet",
@@ -242,7 +242,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Gestion de Projets avec Primavera",
+  "titreFormation": "Gestion de Projets avec Primavera",
   "objectifs": [
     "Cette formation vise à doter les participants des compétences nécessaires pour planifier, exécuter et suivre des projets en utilisant le logiciel Primavera. À l'issue de cette formation, les participants seront capables de :",
     "Comprendre les concepts et principes de la gestion de projet.",
@@ -367,7 +367,7 @@
 
 
  {
-  "titreFormation": "Fiche Technique de Formation : Logiciels de Reporting et d’Analyse - Crystal Reports",
+  "titreFormation": "Logiciels de Reporting et d’Analyse - Crystal Reports",
   "objectifs": [
     "Comprendre les fonctionnalités de Crystal Reports pour le reporting et l’analyse.",
     "Développer des compétences pour créer et personnaliser des rapports interactifs.",
@@ -468,7 +468,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Sage - Gestion Comptable et Financière",
+  "titreFormation": "Sage - Gestion Comptable et Financière",
   "objectifs": [
     "Comprendre les principes de base de la comptabilité.",
     "Utiliser les fonctionnalités de Sage pour la gestion des opérations comptables et financières.",
@@ -589,7 +589,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Pc Compta",
+  "titreFormation": "Pc Compta",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la comptabilité.",
     "Utiliser les fonctionnalités de Pc Compta pour la gestion des opérations comptables quotidiennes.",
@@ -696,7 +696,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Pc Paie",
+  "titreFormation": "Pc Paie",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la gestion de la paie.",
     "Utiliser les fonctionnalités de Pc Paie pour le traitement des paies.",
@@ -808,7 +808,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : AutoCAD",
+  "titreFormation": "AutoCAD",
   "objectifs": [
     "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités de base et avancées du logiciel AutoCAD pour la création et la gestion de dessins techniques. À l'issue de cette formation, les participants seront capables de :",
     "Comprendre les concepts fondamentaux du dessin assisté par ordinateur (DAO).",
@@ -954,7 +954,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : AutoCAD Structural Detailing",
+  "titreFormation": "AutoCAD Structural Detailing",
   "objectifs": [
     "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités d'AutoCAD Structural Detailing pour la création et la gestion de dessins techniques de structures. À l'issue de cette formation, les participants seront capables de :",
     "Comprendre les concepts fondamentaux du dessin assisté par ordinateur (DAO) appliqués aux structures.",
@@ -1106,7 +1106,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : ETABS",
+  "titreFormation": "ETABS",
   "objectif": [
     "Comprendre les concepts fondamentaux de l'analyse structurale.",
     "Utiliser ETABS pour modéliser, analyser et concevoir des structures.",
@@ -1256,7 +1256,7 @@
 
 
  {
-  "titreFormation": "Fiche Technique de Formation : Robot Structural Analysis",
+  "titreFormation": "Robot Structural Analysis",
   "objectif": [
     "Comprendre les concepts fondamentaux de l'analyse structurale.",
     "Utiliser Robot Structural Analysis pour modéliser, analyser et concevoir des structures.",
@@ -1405,7 +1405,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Tekla Structures",
+  "titreFormation": "Tekla Structures",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la modélisation des informations du bâtiment (BIM) appliqués aux structures.",
     "Utiliser Tekla Structures pour modéliser, analyser et concevoir des structures.",
@@ -1556,7 +1556,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : AMETank",
+  "titreFormation": "AMETank",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la conception et de l'analyse des réservoirs de stockage.",
     "Utiliser AMETank pour modéliser et concevoir des réservoirs de stockage.",
@@ -1666,7 +1666,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : SolidWorks",
+  "titreFormation": "SolidWorks",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la modélisation 3D.",
     "Utiliser SolidWorks pour créer des modèles 3D de pièces et d'assemblages.",
@@ -1804,7 +1804,7 @@
 
 
  {
-  "titreFormation": "Fiche Technique de Formation : Adobe Photoshop",
+  "titreFormation": "Adobe Photoshop",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la manipulation d'images numériques.",
     "Utiliser les outils de base et avancés de Photoshop pour la retouche photo.",
@@ -1954,7 +1954,7 @@
 
 
   {
-  "titreFormation": "Fiche Technique de Formation : Adobe Illustrator",
+  "titreFormation": "Adobe Illustrator",
   "objectifs": [
     "Comprendre les concepts fondamentaux du graphisme vectoriel.",
     "Utiliser les outils de base et avancés d'Illustrator pour créer des illustrations vectorielles.",
@@ -2100,7 +2100,7 @@
 
 
 {
-  "titre": "Fiche Technique de Formation : InDesign",
+  "titre": "InDesign",
   "objectifs": [
     "Comprendre les concepts fondamentaux de la mise en page.",
     "Utiliser les outils de base et avancés d'InDesign pour créer des documents professionnels.",
@@ -2245,7 +2245,7 @@
 
 
 {
-  "titre": "Fiche Technique de Formation : Adobe Premiere Pro",
+  "titre": "Adobe Premiere Pro",
   "objectifs": [
     "Comprendre les concepts fondamentaux du montage vidéo.",
     "Utiliser les outils de base et avancés de Premiere Pro pour éditer des vidéos.",
@@ -2395,7 +2395,7 @@
 
 
 {
-  "titre": "Fiche Technique de Formation : Adobe After Effects",
+  "titre": "Adobe After Effects",
   "objectifs": [
     "Comprendre les concepts fondamentaux de l'animation et des effets visuels.",
     "Utiliser les outils de base et avancés d'After Effects pour créer des animations.",

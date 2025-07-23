@@ -2,7 +2,7 @@
   "title": "GRH : Gestion des Ressources Humaines",
   "formations": [
     {
-      "titreFormation": "Fiche Technique de Formation : Gestion Administrative des Ressources Humaines",
+      "titreFormation": "Gestion Administrative des Ressources Humaines",
       "objectifs": [
         "Comprendre les principes de la gestion administrative des ressources humaines.",
         "Maîtriser les processus administratifs liés à la gestion du personnel.",
@@ -69,7 +69,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation :Gestion Opérationnelle des Ressources Humaines",
+      "titreFormation": "Gestion Opérationnelle des Ressources Humaines",
       "objectifs": [
         "Optimiser les processus opérationnels des ressources humaines.",
         "Développer des compétences pour gérer les opérations quotidiennes des RH.",
@@ -137,7 +137,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Tableau de Bord des Ressources Humaines",
+      "titreFormation": "Tableau de Bord des Ressources Humaines",
       "objectifs": [
         "Concevoir et utiliser des tableaux de bord RH efficaces.",
         "Améliorer la prise de décision grâce aux indicateurs de performance RH.",
@@ -195,7 +195,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Gestion Prévisionnelle des Emplois et des Compétences",
+      "titreFormation": "Gestion Prévisionnelle des Emplois et des Compétences",
       "objectifs": [
         "Comprendre les principes de la gestion prévisionnelle des emplois et des compétences (GPEC).",
         "Développer des compétences pour anticiper les besoins en compétences.",
@@ -262,7 +262,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Règlementation et Relation de Travail",
+      "titreFormation": "Règlementation et Relation de Travail",
       "objectifs": [
         "Comprendre les principes de la réglementation du travail.",
         "Développer des compétences pour gérer les relations de travail conformément aux lois et régulations.",
@@ -325,7 +325,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Gestion des Recrutements et des Contrats de Travail",
+      "titreFormation": "Gestion des Recrutements et des Contrats de Travail",
       "objectifs": [
         "Maîtriser les processus de recrutement de l'identification des besoins à la sélection finale.",
         "Comprendre les différents types de contrats de travail et leurs spécificités.",
@@ -390,7 +390,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : La Gestion de la Rémunération",
+      "titreFormation": "La Gestion de la Rémunération",
       "objectifs": [
         "Comprendre les principes de la gestion de la rémunération.",
         "Développer des compétences pour élaborer et gérer des politiques de rémunération efficaces.",
@@ -458,7 +458,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Droit de la Sécurité Sociale",
+      "titreFormation": "Droit de la Sécurité Sociale",
       "objectifs": [
         "Comprendre les principes du droit de la sécurité sociale.",
         "Développer des compétences pour gérer les obligations légales en matière de sécurité sociale.",
@@ -525,7 +525,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Gestion des Carrières",
+      "titreFormation": "Gestion des Carrières",
       "objectifs": [
         "Comprendre les principes de la gestion des carrières.",
         "Développer des compétences pour planifier et gérer les parcours professionnels des employés.",
@@ -592,7 +592,7 @@
 
 
     {
-      "titreFormation": "Fiche Technique de Formation : Gestion Stratégique de la Formation : Analyse des Besoins et Évaluation",
+      "titreFormation": "Gestion Stratégique de la Formation : Analyse des Besoins et Évaluation",
       "objectifs": [
         "Comprendre les principes de la gestion stratégique de la formation.",
         "Développer des compétences pour analyser les besoins en formation.",
