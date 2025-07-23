@@ -9,7 +9,7 @@ html, body {
 .sectionContact {
   padding: 2rem 2rem;
  /*  background-color: #def4ecaf; */
-  color: #333;
+  color: #333333;
 }
 
 .sectionTitle {
@@ -33,7 +33,7 @@ html, body {
 
 .contactHeader {
   /* background-color: #a39a9a44; */
-  background-color: #b7a8a844;
+  background-color: #daedff44;
   border-radius: 8px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 0.6rem 0.4rem;
