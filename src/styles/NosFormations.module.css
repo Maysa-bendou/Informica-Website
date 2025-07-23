@@ -117,7 +117,7 @@ html, body {
 /* Animated Vertical Separator */
 .verticalSeparator {
   width: 2.5px;
-  background-color: var(--primary-orange);
+  background-color: #7e7777; /* Fully opaque, bold color */
   flex-shrink: 0;
   margin: -24px 20px -130px;
   animation: growHeight 0.8s ease-out 0.5s forwards;
@@ -125,6 +125,7 @@ html, body {
   opacity: 0;
   max-height: 0;
 }
+
 
 /* Section Columns with Entrance Animations */
 .leftSection {
