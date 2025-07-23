@@ -175,8 +175,17 @@ html, body {
   gap: 10px;
 }
 
-/* Animated Cards */
-.formationCard, .formationCardd {
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.formationCard,
+.formationCardd {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -185,12 +194,25 @@ html, body {
   background: var(--card-bg);
   border-radius: var(--card-radius);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  transition: all var(--transition-duration) ease;
-  cursor: pointer;
-  animation: slideUp 0.5s ease-out forwards;
-  opacity: 0;
   border: 1px solid rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  opacity: 0;
+
+  /* Animation only affects opacity now */
+  animation: fadeInUp 0.5s ease-out forwards;
+
+  /* Prepare for hover transform */
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
 }
+
+.formationCard:hover,
+.formationCardd:hover {
+  transform: scale(1.15) translateY(-10px);
+  box-shadow: 0 20px 40px var(--hover-shadow);
+  background-color: var(--hover-bg);
+  z-index: 2;
+}
+
 
 .formationCard {
   max-width: 230px;
@@ -202,6 +224,7 @@ html, body {
   height: 180px;
   margin-top: 18px;
 }
+
 
 /* Staggered Card Animations */
 .formationCard:nth-child(1) { animation-delay: 0.6s; }

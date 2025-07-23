@@ -71,7 +71,7 @@ function Footer() {
           <nav style={footerStyles.footerNav}>
             <Link to="/" style={footerStyles.footerLink}>Accueil</Link>
             <Link to="/public" style={footerStyles.footerLink}>Grand Public</Link>
-            <Link to="/entreprise" style={footerStyles.footerLink}>Entreprise</Link>
+            <Link to="/entreprise/a-propos" style={footerStyles.footerLink}>Entreprise</Link>
           </nav>
         </div>
       </div>
