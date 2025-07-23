@@ -12,6 +12,12 @@
   text-align: center;
   margin-top: 30px;
 }
+.pdfViewerWrapper {
+  border-radius: 10px;
+
+  padding: 10px;
+
+}
 
 .iframeContainer {
 
@@ -20,11 +26,6 @@
   background: #f9f8f8;
 }
 
-.iframe {
-  width: 80%;
-  height: 120vh;
-  border: none;
-}
 
 .errorMessage {
   color: #e74c3c;

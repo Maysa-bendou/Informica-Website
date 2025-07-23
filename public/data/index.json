@@ -198,6 +198,11 @@
         "id": "general",
         "title": "Catalogue général",
         "pdf": "/catalogue_pdf/Catalogue de formations M.D.C - V site web.pdf"
+      },
+      {
+        "id": "catalogue3",
+        "title": "Catalogue Cyber Security",
+        "pdf": "/catalogue_pdf/Catalogue F. Cybersécurité 2025.pdf"
       }
     ]
   }

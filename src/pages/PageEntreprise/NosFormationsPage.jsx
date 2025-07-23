@@ -98,7 +98,12 @@ export default function NosFormationsPage() {
                   -Gestion Commerciale & Relation Client.
                 </h3>
               </Link>
-
+               <Link to="/formations/catalogues/catalogue3" className={formationsStyles.formationCardd}>
+                <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
+                <h3 className={formationsStyles.formationTitle}>
+                  CATALOGUE DE FORMATION Cyber Securité
+                </h3>
+              </Link>
               <Link to="/formations/catalogues/hse" className={formationsStyles.formationCardd}>
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>

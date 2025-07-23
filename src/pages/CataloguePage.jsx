@@ -5,6 +5,9 @@ import styles from '../styles/CataloguePage.module.css';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
+
 const catalogueData = {
   hse: {
     title: 'HSE : Hygiène, Sécurité et Environnement',
@@ -13,6 +16,10 @@ const catalogueData = {
   general: {
     title: 'Catalogue général',
     pdf: '/catalogue_pdf/Catalogue de formations M.D.C - V site web.pdf',
+  },
+  catalogue3: {
+    title: 'Catalogue Cyber Security',
+    pdf: '/catalogue_pdf/Catalogue F. Cybersécurité 2025.pdf',
   },
 };
 
@@ -25,15 +32,16 @@ export default function CataloguePage() {
       <Header page="entreprise" />
       <main className={styles.cataloguePage}>
         <div className={styles.innerContent}>
-          
-
           {catalogue ? (
-            <div className={styles.iframeContainer}>
-              <iframe
-                src={`${catalogue.pdf}#toolbar=0&zoom=100`}
-                className={styles.iframe}
-                allowFullScreen
-              ></iframe>
+            <div className={styles.pdfViewerWrapper}>
+          <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+  <div style={{ height: '90vh', display: 'flex', justifyContent: 'center' }}>
+    <div style={{ width: '60%' }}>
+      <Viewer fileUrl={catalogue.pdf} />
+    </div>
+  </div>
+</Worker>
+
             </div>
           ) : (
             <p className={styles.errorMessage}>
