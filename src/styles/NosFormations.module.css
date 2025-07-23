@@ -145,8 +145,8 @@ html, body {
 .formationsSubtitle,
 .formationsSubtitle1 {
   font-size: 24px;
-  font-weight: 900;
-  color: var(--accent-dark);
+  font-weight: 600;
+  color: #002252;
   text-align: center;
   margin-bottom: 30px;
   animation: fadeIn 0.6s ease-out 0.6s forwards;
@@ -160,6 +160,7 @@ html, body {
   margin-bottom: 40px;
   animation: fadeIn 0.6s ease-out 0.6s forwards;
   opacity: 0;
+  color:  #4B5563;
 }
 
 /* Grid Layouts */
@@ -217,12 +218,15 @@ html, body {
 .formationCard {
   max-width: 230px;
   height: 180px;
+    background-color: #FCFCFC;
 }
 
 .formationCardd {
   width: 230px;
   height: 180px;
   margin-top: 18px;
+    background-color: #FCFCFC;
+ 
 }
 
 
@@ -260,7 +264,7 @@ html, body {
 .formationTitle {
   font-size: 16px;
   font-weight: 600;
-  color: #000053;
+  color: #282e35;
   margin-top: 10px;
   transition: color var(--transition-duration) ease;
 }
@@ -268,8 +272,8 @@ html, body {
 .formationTitle1 {
   font-size: 12px;
   font-weight: 600;
-  color: #000053;
   margin-top: 10px;
+   color: #282e35;
 }
 
 .formationIcon {
@@ -291,7 +295,7 @@ html, body {
 
 /* Centered Wide Card */
 .singleCardWrapper {
-  grid-column: 1 / -1;
+  grid-column: 1 -1;
   display: flex;
   justify-content: center;
 }
