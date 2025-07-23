@@ -1,4 +1,9 @@
 import React, { useEffect, useState } from 'react';
+
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+
 import { useParams, useNavigate } from 'react-router-dom';
 import styles from '../styles/FormationDetails.module.css';
 import retourIcon from '../assets/image/icons/back2.svg';
@@ -14,20 +19,17 @@ export default function FormationDetailsPage() {
     async function fetchData() {
       setLoading(true);
       try {
-        // Determine the correct path based on whether there's a subcategory
         const filePath = subcategoryId
           ? `/data/formations/${categoryId}/${subcategoryId}.json`
           : `/data/formations/${categoryId}/formations.json`;
 
         const res = await fetch(filePath);
-        
         if (!res.ok) {
           throw new Error(`Fichier introuvable : ${filePath}`);
         }
 
         const data = await res.json();
-        
-        // If there's a subcategory, we need to find the specific formation by index
+
         if (subcategoryId) {
           if (data.formations && data.formations[formationId]) {
             setFormation(data.formations[formationId]);
@@ -35,7 +37,6 @@ export default function FormationDetailsPage() {
             throw new Error('Formation introuvable dans le fichier JSON');
           }
         } else {
-          // For categories without subcategories
           if (data.formations && data.formations[formationId]) {
             setFormation(data.formations[formationId]);
           } else {
@@ -60,6 +61,9 @@ export default function FormationDetailsPage() {
   }
 
   return (
+  <div className={styles.pageWrapper}>
+   <Header page="entreprise" />
+   <main className={styles.sectionFormations}>
     <div className={styles.pageContainer}>
       <button
         onClick={() => {
@@ -75,30 +79,64 @@ export default function FormationDetailsPage() {
       </button>
 
       <div className={styles.formationDetails}>
-        <h1 className={styles.title}>{formation.titreFormation || formation.titre}</h1>
+        <h1 className={styles.title}>
+          Fiche Technique de Formation :
+        </h1>
+        <h2 className={styles.subTitlle}>
+          {formation.titreFormation?.replace('Fiche Technique de Formation :', '').trim() || formation.titre}
+        </h2>
 
-        <h2 className={styles.sectionTitle}>🎯 Objectifs</h2>
+
+        <h2 className={styles.sectionTitle}>Objectifs</h2>
         <ul className={styles.list}>
           {(formation.objectifs || []).map((obj, i) => (
             <li key={i}>{obj}</li>
           ))}
         </ul>
 
-        <h2 className={styles.sectionTitle}>👥 Public Cible</h2>
+        <h2 className={styles.sectionTitle}>Public Cible</h2>
         <p>{formation.publicCible || formation.public_cible}</p>
 
-        <h2 className={styles.sectionTitle}>🧠 Prérequis</h2>
-        <p>{formation.prerequis || formation.prérequis}</p>
+        <h2 className={styles.sectionTitle}>Prérequis</h2>
+        {Array.isArray(formation.prerequis || formation.prérequis) ? (
+          <ul className={styles.list}>
+            {(formation.prerequis || formation.prérequis || []).map((p, i) => (
+              <li key={i}>{p}</li>
+            ))}
+          </ul>
+        ) : (
+          <p>{formation.prerequis || formation.prérequis}</p>
+        )}
 
-        <h2 className={styles.sectionTitle}>🗂️ Programme</h2>
+        <h2 className={styles.sectionTitle}>Programme de la formation</h2>
         {(formation.programme || []).map((section, i) => (
           <div key={i} className={styles.programSection}>
             <h3>{section.titre}</h3>
-            <ul>
-              {(section.contenu || []).map((item, j) => (
-                <li key={j}>{item}</li>
-              ))}
-            </ul>
+
+            {/* Case 1: Flat list of strings */}
+            {Array.isArray(section.contenu) && typeof section.contenu[0] === 'string' && (
+              <ul>
+                {section.contenu.map((item, j) => (
+                  <li key={j}>{item}</li>
+                ))}
+              </ul>
+            )}
+
+            {/* Case 2: Nested sousTitre/details structure */}
+            {Array.isArray(section.contenu) && typeof section.contenu[0] === 'object' && (
+              <div>
+                {section.contenu.map((sousSection, k) => (
+                  <div key={k} className={styles.subSection}>
+                    <h4 className={styles.subTitle}>{sousSection.sousTitre}</h4>
+                    <ul>
+                      {(sousSection.details || []).map((detail, l) => (
+                        <li key={l}>{detail}</li>
+                      ))}
+                    </ul>
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         ))}
 
@@ -107,5 +145,8 @@ export default function FormationDetailsPage() {
         )}
       </div>
     </div>
+   </main>
+   <Footer />
+  </div>
   );
 }

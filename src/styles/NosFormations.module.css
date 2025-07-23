@@ -1,9 +1,84 @@
-/* Nos Formations Section */
-html, body {
-  scroll-behavior: auto !important;
+/* Root Variables */
+:root {
+  --primary-accent: #FF7D33;
+  --primary-orange: #f26722;
+  --accent-dark: #000;
+  --text-dark: #2D3748;
+  --text-light: #F7FAFC;
+  --card-bg: rgba(255, 255, 255, 0.92);
+  --overlay-bg: rgba(237, 242, 247, 0.9);
+  --hover-bg: rgba(255, 255, 255, 0.7);
+  --hover-shadow: rgba(0, 0, 0, 0.1);
+  --card-radius: 12px;
+  --transition-duration: 0.4s;
+  --font-main: 'Cairo', sans-serif;
+  --animation-duration: 0.6s;
 }
 
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes growHeight {
+  from {
+    opacity: 0;
+    transform: scaleY(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+    max-height: 1000px;
+  }
+}
+
+@keyframes pulse {
+  0% { transform: scale(1.03); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1.03); }
+}
+
+/* Base Styles */
+html, body {
+  scroll-behavior: auto !important;
+  font-family: var(--font-main);
+}
+
+/* Section with Background */
 .sectionFormations {
   position: relative;
   padding: 140px 15px;
@@ -13,141 +88,86 @@ html, body {
   background-repeat: no-repeat;
   overflow: hidden;
   z-index: 1;
+  animation: fadeIn 0.8s ease-out forwards;
 }
 
+/* Animated Overlay */
 .overlay {
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(250, 250, 250, 0.85); 
+  inset: 0;
+  background-color: var(--overlay-bg);
   z-index: 2;
+  animation: fadeIn 0.6s ease-out 0.2s forwards;
+  opacity: 0;
 }
 
-/* Ensure content appears above the overlay */
-.separator {
-  width: 100%;
-  height: 1.5px;
-  
-  opacity: 0.8;
-  margin: 10px 0; 
-  background-color: #F26722;
-}
-
-
+/* Main Container with Animation */
 .horizontalContainer {
   display: flex;
   flex-direction: row;
-  align-items: stretch; /* This is KEY to make the separator stretch vertically */
+  align-items: stretch;
   position: relative;
-  z-index: 3; /* Make sure it's above the overlay */
-  
+  z-index: 3;
+  max-width: 1200px;
+  margin: 0 auto;
+  animation: slideUp 0.8s ease-out 0.3s forwards;
+  opacity: 0;
 }
 
-
+/* Animated Vertical Separator */
 .verticalSeparator {
   width: 2.5px;
-   background-color: #F26722;
-  max-height:1000px ;
-  margin: 0 20px;
+  background-color: var(--primary-orange);
   flex-shrink: 0;
-  margin-top: -24px;
-  margin-bottom: -130px;
- 
-
+  margin: -24px 20px -130px;
+  animation: growHeight 0.8s ease-out 0.5s forwards;
+  transform-origin: top;
+  opacity: 0;
+  max-height: 0;
 }
 
-
+/* Section Columns with Entrance Animations */
+.leftSection {
+  flex: 1;
+  max-width: 700px;
+  animation: slideLeft 0.6s ease-out 0.4s forwards;
+  opacity: 0;
+}
 
 .rightSection {
   flex: 1;
   max-width: 500px;
+  animation: slideRight 0.6s ease-out 0.4s forwards;
+  opacity: 0;
 }
 
-.leftSection {
-  flex: 1;
-  max-width: 700px;
-}
-
-.formationsSubtitle {
+/* Animated Titles */
+.formationsSubtitle,
+.formationsSubtitle1 {
   font-size: 24px;
+  font-weight: 900;
+  color: var(--accent-dark);
+  text-align: center;
   margin-bottom: 30px;
-  color: #222;
-  font-family: 'Cairo', sans-serif;
-  font-weight: 900;
-  color: #000;
-  font-weight: bold;         
-  opacity: 1; 
-  align-items: center;
-  text-align: center;
-  margin-bottom: 10.3px;
-
- 
+  animation: fadeIn 0.6s ease-out 0.6s forwards;
+  opacity: 0;
 }
-.formationsSubtitle0{
+
+.formationsSubtitle0 {
   font-size: 16px;
-  align-items: center;
   text-align: center;
-  color: #000;
-
-
+  color: var(--accent-dark);
   margin-bottom: 40px;
-}
-.formationsSubtitle1 {
-  font-size: 24px;
-  margin-bottom: 25px;
-
-}
-.formationsSubtitle1 {
-  font-size: 24px;
-  margin-bottom: 40px;
-
-  color: #222;
-  font-family: 'Cairo', sans-serif;
-  font-weight: 900;
-  color: #000;
-  font-weight: bold;         
-  opacity: 1; 
-  align-items: center;
-  text-align: center;
+  animation: fadeIn 0.6s ease-out 0.6s forwards;
+  opacity: 0;
 }
 
-
-
+/* Grid Layouts */
 .formationsGrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-
 }
-
-
-.formationCard{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-  text-align: center;
-  background: transparent;
-  text-decoration: none;
-  max-width: 230px;
-  height: 180px;
-  transition: transform 0.2s ease, box-shadow 0.4s ease;
-  
-  
-
-}
-
-.formationCard:hover {
-  transform: scale(1.05) translateY(-10px);
-  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
-  background-color:rgba(255, 255, 255, 0.557);
-  border-radius: 10px;
-}
-
-
-
 
 .formationsGridd {
   display: grid;
@@ -155,86 +175,168 @@ html, body {
   gap: 10px;
 }
 
-.formationCardd {
+/* Animated Cards */
+.formationCard, .formationCardd {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  padding: 20px;
   text-align: center;
-  background: transparent;
-  text-decoration: none;
-  width: 245px;
-  height: 200px;
-  transition: transform 0.2s ease, box-shadow 0.4s ease;
+  background: var(--card-bg);
+  border-radius: var(--card-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: all var(--transition-duration) ease;
+  cursor: pointer;
+  animation: slideUp 0.5s ease-out forwards;
+  opacity: 0;
+  border: 1px solid rgba(0, 0, 0, 0.05);
 }
 
+.formationCard {
+  max-width: 230px;
+  height: 180px;
+}
+
+.formationCardd {
+  width: 230px;
+  height: 180px;
+  margin-top: 18px;
+}
+
+/* Staggered Card Animations */
+.formationCard:nth-child(1) { animation-delay: 0.6s; }
+.formationCard:nth-child(2) { animation-delay: 0.7s; }
+.formationCard:nth-child(3) { animation-delay: 0.8s; }
+.formationCard:nth-child(4) { animation-delay: 0.9s; }
+.formationCard:nth-child(5) { animation-delay: 1.0s; }
+.formationCard:nth-child(6) { animation-delay: 1.1s; }
+
+.formationCardd:nth-child(1) { animation-delay: 0.7s; }
+.formationCardd:nth-child(2) { animation-delay: 0.8s; }
+.formationCardd:nth-child(3) { animation-delay: 0.9s; }
+
+/* Card Hover Effects */
+.formationCard:hover,
 .formationCardd:hover {
   transform: scale(1.05) translateY(-10px);
-  box-shadow: 0 20px 40px rgba(148, 145, 144, 0.719);
-  background-color:rgba(255, 255, 255, 0.253);
-  border-radius: 10px;
+  box-shadow: 0 20px 40px var(--hover-shadow);
+  background-color: var(--hover-bg);
 }
 
-
+/* Active Card Animation */
 .active {
   background-color: #f0f8ff;
   border: 2px solid #007bff;
   transform: scale(1.03);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
-  transition: all 0.3s ease;
+  transition: all var(--transition-duration) ease;
+  animation: pulse 2s infinite;
 }
 
-
-
-
-
-
-
-.separator {
-  margin-top: 5px;
-  height: 2px;
-  width: 100%;
-  background: linear-gradient(to right, #ccc, #eee, #ccc); /* Soft gradient line */
-  border: none;
-  border-radius: 2px;
-}
-
-
-
-
-
+/* Card Content */
 .formationTitle {
   font-size: 16px;
   font-weight: 600;
-  color: #333;
+  color: #000053;
   margin-top: 10px;
+  transition: color var(--transition-duration) ease;
 }
 
+.formationTitle1 {
+  font-size: 12px;
+  font-weight: 600;
+  color: #000053;
+  margin-top: 10px;
+}
 
 .formationIcon {
   width: 50px;
   height: 50px;
- 
+  transition: transform var(--transition-duration) ease;
 }
 
+.formationIcon2 {
+  width: 40px;
+  height: 40px;
+  transition: transform var(--transition-duration) ease;
+}
 
+.formationCard:hover .formationIcon,
+.formationCardd:hover .formationIcon2 {
+  transform: scale(1.1);
+}
+
+/* Centered Wide Card */
 .singleCardWrapper {
-  grid-column: 1 / -1; 
+  grid-column: 1 / -1;
   display: flex;
   justify-content: center;
 }
 
-
-@media (max-width: 768px) {
+/* Responsive Design */
+@media (max-width: 1024px) {
   .formationsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .formationsGridd {
     grid-template-columns: 1fr;
     justify-items: center;
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
+  .sectionFormations {
+    padding: 80px 15px;
+  }
+  
+  .horizontalContainer {
+    flex-direction: column;
+    animation-name: fadeIn;
+    animation-delay: 0.3s;
+  }
+  
+  .verticalSeparator {
+    width: 80%;
+    height: 2px;
+    margin: 30px auto;
+    animation-name: growWidth;
+    transform-origin: left;
+  }
+  
+  .formationsGrid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
   .formationsSubtitle,
   .formationsSubtitle1 {
     font-size: 20px;
+  }
+
+  .formationCard,
+  .formationCardd {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .leftSection,
+  .rightSection {
+    max-width: 100%;
+    animation-name: slideUp;
+    animation-delay: 0.4s;
+  }
+}
+
+/* Mobile-specific animations */
+@keyframes growWidth {
+  from {
+    opacity: 0;
+    transform: scaleX(0);
+  }
+  to {
+    opacity: 1;
+    transform: scaleX(1);
   }
 }

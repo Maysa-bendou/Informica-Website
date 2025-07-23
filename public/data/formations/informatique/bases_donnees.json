@@ -2,7 +2,7 @@
   "title": "basses de données",
   "formations":[
 {
-  "titreFormation": "Fiche Technique de Formation : MySQL",
+  "titreFormation": " MySQL",
   "objectifs": [
     "Apprendre les concepts de base et avancés de MySQL.",
     "Développer des compétences pour créer et gérer des bases de données MySQL.",
@@ -86,7 +86,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : SQL",
+  "titreFormation": " SQL",
   "objectifs": [
       "Comprendre les principes du langage SQL.",
       "Développer des compétences pour créer, manipuler et interroger des bases de données relationnelles.",
@@ -181,7 +181,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : NoSQL ",
+  "titreFormation": "NoSQL ",
   "objectifs": [
 "Comprendre les principes des bases de données NoSQL.",
     "Développer des compétences pour travailler avec différents types de bases de données NoSQL.",
@@ -283,7 +283,7 @@
 
 
 {
-  "titreFormation": "Fiche Technique de Formation : Big Data",
+  "titreFormation": "Big Data",
   "objectifs": [
  "Comprendre les concepts et les technologies du Big Data.",
     "Développer des compétences pour manipuler et analyser de grandes quantités de données.",
