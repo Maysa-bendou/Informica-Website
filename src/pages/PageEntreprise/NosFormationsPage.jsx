@@ -5,14 +5,13 @@ import Header from '../../components/Header';
 import Footer from '../../components/Footer';
 
 import formationsStyles from '../../styles/NosFormations.module.css'; 
+import management from '../../assets/image/icons/newicon/formation1noire.png';
 
-import management from '../../assets/image/icons/newicon/formation1bleu.png';
+import hr from '../../assets/image/icons/newicon/formation2noire.png';
 
-import hr from '../../assets/image/icons/newicon/formation2bleu.png';
+import finance from '../../assets/image/icons/newicon/formation3noire.png';
 
-import finance from '../../assets/image/icons/newicon/formation3bleu.png';
-
-import marketing from '../../assets/image/icons/newicon/formation4bleu.png';
+import marketing from '../../assets/image/icons/newicon/formation4noire.png';
 
 import it from '../../assets/image/icons/newicon/formation5bleu.png';
 
@@ -90,19 +89,20 @@ export default function NosFormationsPage() {
               Savoir-faire de nos formateurs à travers nos catalogues
             </h2>
             <div className={formationsStyles.formationsGridd}>
-              <Link to="/formations/catalogues/hse" className={formationsStyles.formationCardd}>
-                <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
-                <h3 className={formationsStyles.formationTitle}>
-                  HSE : Hygiène, Sécurité et Environnement
-                </h3>
-              </Link>
 
               <Link to="/formations/catalogues/general" className={formationsStyles.formationCardd}>
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>
-                  Management & Leadership<br />
-                  Développement Personnel et Professionnel<br />
-                  Gestion Commerciale & Relation Client
+                  -Management & Leadership.<br />
+                  -Développement Personnel et Professionnel.<br />
+                  -Gestion Commerciale & Relation Client.
+                </h3>
+              </Link>
+
+              <Link to="/formations/catalogues/hse" className={formationsStyles.formationCardd}>
+                <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon} />
+                <h3 className={formationsStyles.formationTitle}>
+                  HSE : Hygiène, Sécurité et Environnement
                 </h3>
               </Link>
             </div>
