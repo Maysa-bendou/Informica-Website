@@ -6,7 +6,6 @@ import retourIcon from '../assets/image/icons/back2.svg';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
-
 export default function FormationsPage() {
   const { categoryId } = useParams();
   const [category, setCategory] = useState(null);
@@ -64,7 +63,6 @@ export default function FormationsPage() {
           <div className={styles.leftColumn}>
             <Link to="/entreprise/nos-formations" className={styles.backButton}>
               <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-              
             </Link>
           </div>
           
@@ -72,6 +70,7 @@ export default function FormationsPage() {
             <div className={styles.formationsHeader}>
               <div className={styles.headerLeft}>
                 <h1 className={styles.formationsMainTitle}>{category.title}</h1>
+                <p className={styles.clickHint}>(Cliquer pour voir les détails)</p>
               </div>
             </div>
 
@@ -123,7 +122,7 @@ export default function FormationsPage() {
           </div>
         </div>
       </div>
-       <Footer />
+      <Footer />
     </div>
   );
 }
