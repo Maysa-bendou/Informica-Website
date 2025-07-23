@@ -3,6 +3,9 @@ import { useParams, Link } from 'react-router-dom';
 import styles from '../styles/FormationsPage.module.css';
 import logo from '../assets/image/new_logo.png';
 import retourIcon from '../assets/image/icons/back2.svg';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
 
 export default function FormationsPage() {
   const { categoryId } = useParams();
@@ -55,6 +58,7 @@ export default function FormationsPage() {
 
   return (
     <div className={styles.pageFormations}>
+      <Header page="entreprise" />
       <div className={styles.formationsContainer}>
         <div className={styles.layoutContainer}>
           <div className={styles.leftColumn}>
@@ -119,6 +123,7 @@ export default function FormationsPage() {
           </div>
         </div>
       </div>
+       <Footer />
     </div>
   );
 }
