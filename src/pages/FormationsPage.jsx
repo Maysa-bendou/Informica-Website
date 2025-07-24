@@ -77,17 +77,6 @@ export default function FormationsPage() {
       <Header page="entreprise" />
       <div className={styles.formationsContainer}>
         <div className={styles.layoutContainer}>
-
-
-          <div className={styles.leftColumn}>
-            <Link 
-              to="/entreprise/nos-formations" 
-              onClick={() => localStorage.removeItem('lastFormationCategory')}
-              className={styles.backButton}
-            >
-              <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-            </Link>
-          </div>
           
           <div className={styles.rightColumn}>
 <div className={styles.formationsHeader}>

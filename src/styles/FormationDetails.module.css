@@ -160,9 +160,7 @@
   transition: all 0.2s;
 }
 
-.backButton:hover {
-  background: #2980b9; /* Darker blue on hover */
-}
+
 
 .retourIcon {
   width: 16px;

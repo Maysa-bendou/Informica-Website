@@ -65,6 +65,7 @@ export default function FormationDetailsPage() {
    <Header page="entreprise" />
    <main className={styles.sectionFormations}>
     <div className={styles.pageContainer}>
+     <div className={styles.formationDetaills}>
       <button
         onClick={() => {
           if (categoryId === 'catalogues') {
@@ -77,7 +78,7 @@ export default function FormationDetailsPage() {
       >
         <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
       </button>
-
+     </div>
       <div className={styles.formationDetails}>
         <h1 className={styles.title}>
           Fiche Technique de Formation :
