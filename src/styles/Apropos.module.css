@@ -19,7 +19,7 @@
 }
 
 .leftContent {
-  flex: 0.9;
+  flex: 0.95;
    padding: 0 30px;
   z-index: 2;
   display: flex;
@@ -67,7 +67,7 @@
 }
 
 .rightImageContainer {
-   flex: 1.1;
+   flex: 1.05;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -78,7 +78,7 @@
   width: 100%;
   height: 100%;
   display: flex;
-  margin-right: 10px;
+
   justify-content: flex-end;
   align-items: stretch;
 }
