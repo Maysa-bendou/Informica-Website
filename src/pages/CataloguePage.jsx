@@ -28,7 +28,7 @@ export default function CataloguePage() {
   const catalogue = catalogueData[id];
 
   return (
-    <div>
+    <div className="pageWrapper"> 
       <Header page="entreprise" />
       <main className={styles.cataloguePage}>
         <div className={styles.innerContent}>
