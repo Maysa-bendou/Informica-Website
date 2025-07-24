@@ -18,12 +18,41 @@
   background-color: #f9f9f9; /* Light gray background like PDF */
 }
 
+
+/* Back button */
+.backButton {
+  position: absolute;
+  align-items: center;
+  top: 180px;
+  left: 20px;
+  cursor: pointer;
+  border: none !important;
+
+}
+.backButton:hover {
+  background-color: transparent !important;
+  transform: none !important;
+  border: none !important;
+}
+
+.retourIcon {
+  width: 35px;
+  height: 35px;
+}
+
+/* Formation Details section */
+.formationDetails {
+  max-width: 900px;
+  width: 70%;
+  box-sizing: border-box;
+}
 .pageContainer {
   max-width: 210mm;
   margin: 0 auto;
   padding: 20px 30px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow like printed page */
+
 }
 
 /* Header Styles */

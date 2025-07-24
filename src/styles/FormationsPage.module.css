@@ -17,32 +17,37 @@
 }
 
 /* ============ Simplified Return Button ============ */
-.backButton {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.6rem 1rem;
-  border-radius: 6px;
-  color: #1e40af;
-  background-color: #eff6ff;
-  text-decoration: none;
-  font-weight: 500;
-  margin-bottom: 2rem;
-  transition: all 0.2s ease;
-  border: 1px solid #dbeafe;
+
+
+
+
+/* ============ Centered Titles ============ */
+.formationsHeader {
+  display: flex;
+  align-items: center; /* Aligns items vertically on the same line */
+  gap: 16px; /* Space between icon and title */
+  margin-bottom: 20px;
 }
 
-.backButton:hover {
-  background-color: #dbeafe;
-  transform: translateY(-1px);
+.backButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+ 
 }
 
 .retourIcon {
-  width: 16px;
-  height: 16px;
+  width: 32px;
+  height: 32px;
 }
 
-/* ============ Centered Titles ============ */
+.formationsMainTitle {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+}
+
 .formationsHeader {
   text-align: center;
   margin-bottom: 3rem;
@@ -56,6 +61,7 @@
   position: relative;
   display: inline-block;
   padding: 0 1.5rem;
+  margin-top: 80px;
 }
 
 .formationsMainTitle::after {
@@ -69,6 +75,7 @@
   background: #3b82f6;
   border-radius: 3px;
 }
+
 
 /* ============ Subcategory Sections ============ */
 .formationsCategory {
@@ -167,6 +174,8 @@
 
 
 /* ============ Responsive Design ============ */
+
+
 @media (max-width: 768px) {
   .formationsContainer {
     padding: 1.5rem 1rem;
@@ -174,6 +183,7 @@
   
   .formationsMainTitle {
     font-size: 1.7rem;
+    margin-top: 70px;
   }
   
   .formationsSubtitle {
