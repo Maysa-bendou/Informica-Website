@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import styles from '../styles/FormationsPage.module.css';
 import logo from '../assets/image/new_logo.png';
-import retourIcon from '../assets/image/icons/back2.svg';
+import retourIcon from '../assets/image/icons/back-button.png';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 
@@ -60,19 +60,15 @@ export default function FormationsPage() {
       <Header page="entreprise" />
       <div className={styles.formationsContainer}>
         <div className={styles.layoutContainer}>
-          <div className={styles.leftColumn}>
-            <Link to="/entreprise/nos-formations" className={styles.backButton}>
-              <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-            </Link>
-          </div>
           
           <div className={styles.rightColumn}>
-            <div className={styles.formationsHeader}>
-              <div className={styles.headerLeft}>
-                <h1 className={styles.formationsMainTitle}>{category.title}</h1>
-                <p className={styles.clickHint}>(Cliquer pour voir les détails)</p>
-              </div>
-            </div>
+<div className={styles.formationsHeader}>
+  <Link to="/entreprise/nos-formations" className={styles.backButton}>
+    <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
+  </Link>
+  <h1 className={styles.formationsMainTitle}>{category.title}</h1>
+</div>
+
 
             {/* Formations Content */}
             <div className={styles.formationsRow}>

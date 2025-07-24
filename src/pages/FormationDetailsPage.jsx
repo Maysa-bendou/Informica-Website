@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 import { useParams, useNavigate } from 'react-router-dom';
 import styles from '../styles/FormationDetails.module.css';
-import retourIcon from '../assets/image/icons/back2.svg';
+import retourIcon from '../assets/image/icons/back-button.png';
 
 export default function FormationDetailsPage() {
   const { categoryId, subcategoryId, formationId } = useParams();

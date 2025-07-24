@@ -28,16 +28,22 @@
 /* Back button */
 .backButton {
   position: absolute;
+  align-items: center;
   top: 180px;
   left: 20px;
-  background: none;
-  border: none;
   cursor: pointer;
+  border: none !important;
+
+}
+.backButton:hover {
+  background-color: transparent !important;
+  transform: none !important;
+  border: none !important;
 }
 
 .retourIcon {
-  width: 28px;
-  height: 28px;
+  width: 35px;
+  height: 35px;
 }
 
 /* Formation Details section */
