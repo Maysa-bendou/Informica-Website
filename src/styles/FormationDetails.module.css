@@ -1,6 +1,6 @@
 /* FormationDetails.module.css */
 
-/* Base Page Styles */
+/* Base Page Styles with Animation Prep */
 .pageWrapper {
   min-height: 100vh;
   display: flex;
@@ -11,164 +11,196 @@
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .sectionFormations {
   flex: 1;
-  background-color: #f9f9f9; /* Light gray background like PDF */
+  background-color: #f9f9f9;
+  position: relative;
 }
 
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 
-/* Back button */
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Back button with Animation */
 .backButton {
   position: absolute;
-  align-items: center;
-  top: 180px;
-  left: 20px;
+  top: 120px;
+  left: 60px;
   cursor: pointer;
   border: none !important;
-
-}
-.backButton:hover {
-  background-color: transparent !important;
-  transform: none !important;
-  border: none !important;
+  animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
+  opacity: 0;
+  z-index: 10;
+  background: none;
+  padding: 0;
 }
 
 .retourIcon {
   width: 35px;
   height: 35px;
+  transition: transform 0.3s ease;
+}
+
+.backButton:hover .retourIcon {
+  transform: scale(1.1);
 }
 
 /* Formation Details section */
 .formationDetails {
-  max-width: 900px;
-  width: 70%;
+  max-width: 1000px;
+  width: 95%;
   box-sizing: border-box;
 }
+
 .pageContainer {
   max-width: 210mm;
   margin: 0 auto;
-  padding: 20px 30px;
+  padding: 20px 0 10px 20px;
   background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow like printed page */
-
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  animation: fadeIn 0.8s ease-out;
 }
 
-/* Header Styles */
+/* Animated Header Styles */
 .title {
   font-size: 22pt;
   font-weight: 600;
-  color: #2c3e50; /* Dark blue-gray like PDF title */
+  color: #2c3e50;
   margin-bottom: 10px;
   text-align: left;
-  margin-top: 90px;
-  text-transform: uppercase;
-  letter-spacing: 1px;
+  margin-top: 100px;
+  letter-spacing: 0.5px;
+  animation: slideInFromTop 0.6s ease-out 0.3s forwards;
+  opacity: 0;
 }
 
 .subTitlle {
   font-size: 18pt;
   font-weight: bold;
-  color: #2980b9; /* Medium blue like PDF subtitle */
+  color: #2980b9;
   margin-bottom: 30px;
   text-align: left;
-  border-bottom: 2px solid #3498db; /* Light blue border */
+  border-bottom: 2px solid #3498db;
   padding-bottom: 10px;
+  animation: slideInFromTop 0.6s ease-out 0.4s forwards;
+  opacity: 0;
 }
 
-/* Section Headers */
+/* Animated Section Headers */
 .sectionTitle {
   font-size: 14pt;
   font-weight: bold;
-  color: #16a085; /* Teal-green like PDF section headers */
+  color: #16a085;
   margin: 25px 0 15px 0;
   text-transform: uppercase;
-  border-bottom: 1px solid #bdc3c7; /* Light gray border */
+  border-bottom: 1px solid #bdc3c7;
   padding-bottom: 5px;
+  animation: fadeIn 0.6s ease-out 0.5s forwards;
+  opacity: 0;
 }
 
-/* List Styles */
+/* Animated List Styles */
 .list {
   margin-left: 20px;
   margin-bottom: 20px;
+  animation: fadeIn 0.8s ease-out 0.6s forwards;
+  opacity: 0;
 }
 
 .list li {
   margin-bottom: 8px;
-  color: #34495e; /* Dark slate gray for content */
+  color: #34495e;
+  position: relative;
+  left: -10px;
+  animation: slideInFromLeft 0.5s ease-out forwards;
+  opacity: 0;
 }
 
-/* Program Sections */
+/* Stagger list items */
+.list li:nth-child(1) { animation-delay: 0.7s; }
+.list li:nth-child(2) { animation-delay: 0.8s; }
+.list li:nth-child(3) { animation-delay: 0.9s; }
+/* Continue pattern for more items */
+
+/* Animated Program Sections */
 .programSection {
   margin-bottom: 5px;
-  padding: 10px;
   gap: 10px;
- 
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
 }
+
+/* Stagger program sections */
+.programSection:nth-child(1) { animation-delay: 0.6s; }
+.programSection:nth-child(2) { animation-delay: 0.7s; }
+.programSection:nth-child(3) { animation-delay: 0.8s; }
 
 .programSection h3 {
   font-size: 13pt;
   font-weight: bold;
-  color: #2c3e50; /* Dark blue-gray */
+  color: #2c3e50;
   margin-bottom: 10px;
   text-decoration: underline;
-  text-decoration-color: #3498db; /* Blue underline */
+  text-decoration-color: #3498db;
 }
 
-/* Sub-sections */
+/* Animated Sub-sections */
 .subSection {
   margin-bottom: 5px;
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0;
 }
 
 .subTitle {
   font-size: 12pt;
   font-weight: bold;
-  color: #2980b9; /* Medium blue */
+  color: #2980b9;
   margin: 15px 0 5px 0;
   font-style: italic;
 }
 
-
-/* Evaluation Notice */
+/* Animated Evaluation Notice */
 .eval {
   font-weight: bold;
   margin-top: 15px;
   padding: 8px 15px;
-  background-color: #e8f4fc; /* Light blue background */
-  color: #2980b9; /* Medium blue text */
+  background-color: #e8f4fc;
+  color: #2980b9;
   display: inline-block;
   border-radius: 4px;
-  border-left: 4px solid #3498db; /* Blue accent */
+  border-left: 4px solid #3498db;
+  animation: slideInFromLeft 0.6s ease-out 0.8s forwards;
+  opacity: 0;
 }
 
-/* Back Button */
-.backButton {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  background: #3498db; /* Blue background */
-  color: white;
-  border: none;
-  padding: 8px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  font-weight: 500;
-  transition: all 0.2s;
-}
-
-
-
-.retourIcon {
-  width: 16px;
-  height: 16px;
-  filter: brightness(0) invert(1); /* Make white */
-}
-
-/* Print Styles */
+/* Print Styles (unchanged) */
 @media print {
   .pageWrapper {
     padding: 0;
@@ -191,7 +223,6 @@
     display: none;
   }
   
-  /* Ensure colors print correctly */
   .title, .subTitlle, .sectionTitle, 
   .programSection h3, .subTitle, strong {
     -webkit-print-color-adjust: exact;
@@ -206,5 +237,51 @@
   
   .eval {
     background-color: #e8f4fc !important;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .backButton {
+    top: 100px;
+    left: 30px;
+  }
+  
+  .title {
+    margin-top: 80px;
+    font-size: 20pt;
+  }
+  
+  .subTitlle {
+    font-size: 16pt;
+  }
+  
+  .pageContainer {
+    padding: 15px 0 10px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .backButton {
+    top: 80px;
+    left: 20px;
+  }
+  
+  .retourIcon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .title {
+    font-size: 18pt;
+    margin-top: 70px;
+  }
+  
+  .subTitlle {
+    font-size: 14pt;
+  }
+  
+  .sectionTitle {
+    font-size: 12pt;
   }
 }

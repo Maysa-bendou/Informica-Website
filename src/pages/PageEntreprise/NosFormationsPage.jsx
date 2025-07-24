@@ -150,7 +150,7 @@ export default function NosFormationsPage() {
               >
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon2} />
                 <h3 className={formationsStyles.formationTitle1}>
-                  Catalogue de formation cyber sécurité
+                  Catalogue de Formation Cyber Sécurité
                 </h3>
               </Link>
 

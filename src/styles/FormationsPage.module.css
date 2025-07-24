@@ -7,6 +7,35 @@
   color: #1e293b;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.5;
+  overflow-x: hidden; /* For animations */
+}
+
+/* ============ Animation Keyframes ============ */
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 /* ============ Main Container ============ */
@@ -14,19 +43,17 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2.8rem 1.5rem;
+  animation: fadeIn 0.5s ease-out;
 }
 
-/* ============ Simplified Return Button ============ */
-
-
-
-
-/* ============ Centered Titles ============ */
+/* ============ Header with Animations ============ */
 .formationsHeader {
   display: flex;
-  align-items: center; /* Aligns items vertically on the same line */
-  gap: 16px; /* Space between icon and title */
-  margin-bottom: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .backButton {
@@ -34,34 +61,30 @@
   align-items: center;
   justify-content: center;
   margin-top: 60px;
- 
+  animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
+  opacity: 0;
 }
 
 .retourIcon {
   width: 32px;
   height: 32px;
+  transition: transform 0.3s ease;
 }
 
-.formationsMainTitle {
-  font-size: 28px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.formationsHeader {
-  text-align: center;
-  margin-bottom: 3rem;
+.backButton:hover .retourIcon {
+  transform: scale(1.1);
 }
 
 .formationsMainTitle {
   font-size: 2rem;
   font-weight: 700;
   color: #1e3a8a;
-  margin: 0 auto 1rem;
+  margin: 80px auto 1rem;
   position: relative;
   display: inline-block;
   padding: 0 1.5rem;
-  margin-top: 80px;
+  animation: slideInFromTop 0.6s ease-out 0.3s forwards;
+  opacity: 0;
 }
 
 .formationsMainTitle::after {
@@ -74,14 +97,22 @@
   height: 3px;
   background: #3b82f6;
   border-radius: 3px;
+  animation: fadeIn 0.8s ease-out 0.6s forwards;
+  opacity: 0;
 }
 
-
-/* ============ Subcategory Sections ============ */
+/* ============ Animated Subcategory Sections ============ */
 .formationsCategory {
   margin-bottom: 3rem;
   text-align: center;
+  animation: slideInFromTop 0.6s ease-out forwards;
+  opacity: 0;
 }
+
+/* Stagger category animations */
+.formationsCategory:nth-child(1) { animation-delay: 0.4s; }
+.formationsCategory:nth-child(2) { animation-delay: 0.5s; }
+.formationsCategory:nth-child(3) { animation-delay: 0.6s; }
 
 .formationsSubtitle {
   font-size: 1.4rem;
@@ -93,7 +124,7 @@
   border-bottom: 2px solid #bfdbfe;
 }
 
-/* ============ Formations Grid ============ */
+/* ============ Animated Formations Grid ============ */
 .formationsList {
   list-style: none;
   padding: 0;
@@ -106,7 +137,18 @@
 
 .formationItem {
   margin-bottom: 0;
+  animation: slideInFromLeft 0.5s ease-out forwards;
+  opacity: 0;
 }
+
+/* Stagger grid item animations */
+.formationItem:nth-child(1) { animation-delay: 0.5s; }
+.formationItem:nth-child(2) { animation-delay: 0.6s; }
+.formationItem:nth-child(3) { animation-delay: 0.7s; }
+.formationItem:nth-child(4) { animation-delay: 0.8s; }
+.formationItem:nth-child(5) { animation-delay: 0.9s; }
+.formationItem:nth-child(6) { animation-delay: 1.0s; }
+/* Add more nth-child rules if you have more items */
 
 .formationLink {
   display: flex;
@@ -119,15 +161,16 @@
   border: 1px solid #e2e8f0;
   text-decoration: none;
   color: #334155;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .formationLink:hover {
   border-color: #bfdbfe;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transform: translateY(-4px);
   color: #0059e9;
 }
+
 .activeFormation {
   background-color: #fafcff;
   border-color: #6fa2f3;
@@ -160,8 +203,8 @@
   height: 100vh;
   font-size: 1rem;
   color: #64748b;
+  animation: fadeIn 0.5s ease-out;
 }
-/* Add to your FormationsPage.module.css */
 
 .clickHint {
   color: #64748b;
@@ -169,13 +212,11 @@
   margin-top: 0.5rem;
   font-style: italic;
   text-align: center;
+  animation: fadeIn 1s ease-out 1s forwards;
+  opacity: 0;
 }
 
-
-
 /* ============ Responsive Design ============ */
-
-
 @media (max-width: 768px) {
   .formationsContainer {
     padding: 1.5rem 1rem;
@@ -193,16 +234,29 @@
   .formationsList {
     grid-template-columns: 1fr;
   }
+
+  /* Adjust animation delays for mobile */
+  .formationItem {
+    animation-delay: 0.3s !important;
+  }
+  .formationItem:nth-child(n+2) {
+    animation-delay: 0.4s !important;
+  }
 }
 
 @media (max-width: 480px) {
   .formationsMainTitle {
     font-size: 1.5rem;
     padding: 0 1rem;
+    margin-top: 60px;
   }
   
   .formationLink {
     height: 110px;
     padding: 1rem;
+  }
+
+  .backButton {
+    margin-top: 50px;
   }
 }

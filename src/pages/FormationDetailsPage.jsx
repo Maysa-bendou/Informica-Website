@@ -66,22 +66,23 @@ export default function FormationDetailsPage() {
    <main className={styles.sectionFormations}>
     <div className={styles.pageContainer}>
      <div className={styles.formationDetaills}>
-      <button
-        onClick={() => {
-          if (categoryId === 'catalogues') {
-            navigate('/entreprise#Nos_formations');
-          } else {
-            navigate(-1);
-          }
-        }}
-        className={styles.backButton}
-      >
-        <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-      </button>
+<button
+  onClick={() => {
+    if (categoryId === 'catalogues') {
+      navigate('/entreprise#Nos_formations');
+    } else {
+      navigate(-1);
+    }
+  }}
+  className={styles.backButton}
+>
+  <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
+</button>
+
      </div>
       <div className={styles.formationDetails}>
         <h1 className={styles.title}>
-          Fiche Technique de Formation :
+          FICHE TECHNIQUE DE FORMATION :
         </h1>
         <h2 className={styles.subTitlle}>
           {formation.titreFormation?.replace('Fiche Technique de Formation :', '').trim() || formation.titre}
