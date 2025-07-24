@@ -208,3 +208,18 @@
     background-color: #e8f4fc !important;
   }
 }
+@media (max-width: 768px){
+  .title{
+    margin-top: 150px;
+  }
+}
+@media(max-width: 1024px){
+  .title{
+    margin-top: 170px;
+  }
+}
+@media(max-width: 468px){
+  .title{
+    margin-top: 60px;
+  }
+}
