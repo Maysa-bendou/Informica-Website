@@ -120,7 +120,9 @@ export default function ContactPage() {
               <img src={emailIcon} alt="Email" className={styles.contactIcon} />
               <h3 className={styles.contactTitle}>Email</h3>
               <a
-                href="mailto:efp.informica@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=efp.informica@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={styles.emailLink}
                 title="Cliquez pour envoyer un email"
               >

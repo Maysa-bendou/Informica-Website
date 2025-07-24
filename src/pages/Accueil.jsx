@@ -34,7 +34,6 @@ function Accueil() {
         </main>
       </div>
 
-      <Footer />
     </div>
   );
 }
