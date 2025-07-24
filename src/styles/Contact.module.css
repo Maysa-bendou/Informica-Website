@@ -86,7 +86,7 @@ html, body {
 }
 
 .mapLink:hover {
-  color: #e0bf00;
+  color: #0073e6;
 }
 
 .copyPhone {
@@ -98,7 +98,7 @@ html, body {
 }
 
 .copyPhone:hover {
-  color: #e0bf00;
+  color: #0073e6;
   text-decoration: underline;
 }
 
@@ -111,7 +111,7 @@ html, body {
 }
 
 .emailLink:hover {
-  color: #e0bf00;
+  color: #0073e6;
   text-decoration: underline;
 }
 

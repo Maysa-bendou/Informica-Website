@@ -216,11 +216,17 @@ html, body {
 }
 
 .formationCard:hover,
-.formationCardd:hover,
-.activeCard {
+.formationCardd:hover{
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 20px 40px var(--hover-shadow);
   background-color: var(--hover-bg);
+  z-index: 1;
+   border: 1px solid rgba(0, 0, 0, 0.05);
+}
+.activeCard {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 20px 40px var(--hover-shadow);
+
   z-index: 1;
    border: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -236,7 +242,7 @@ html, body {
   width: 230px;
   height: 180px;
   margin-top: 18px;
-    background-color: #FCFCFC;
+   background-color: #FCFCFC;
  
 }
 
@@ -261,16 +267,14 @@ html, body {
   background-color: var(--hover-bg);
 }
 
-/* Active Card Animation */
 .active {
-  background-color: #f0f8ff;
+  background-color: #c6e4ff;
   border: 2px solid #007bff;
   transform: scale(1.03);
   box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
   transition: all var(--transition-duration) ease;
   animation: pulse 2s infinite;
 }
-
 /* Card Content */
 .formationTitle {
   font-size: 16px;

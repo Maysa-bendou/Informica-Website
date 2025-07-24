@@ -28,7 +28,7 @@ export default function AproposPage() {
 
 <div className={`${aproposStyles.rightImageWrapper} ${aproposStyles.animateRight}`}>
   <img 
-    src="/assets/image/testapropos.svg" 
+    src="/assets/image/apropostestimage2.jpg" 
     alt="EFP INFORMICA" 
     className={aproposStyles.rightImage}
   />

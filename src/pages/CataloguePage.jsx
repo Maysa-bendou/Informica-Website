@@ -34,13 +34,15 @@ export default function CataloguePage() {
         <div className={styles.innerContent}>
           {catalogue ? (
             <div className={styles.pdfViewerWrapper}>
-          <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
-  <div style={{ height: '90vh', display: 'flex', justifyContent: 'center' }}>
-    <div style={{ width: '60%' }}>
-      <Viewer fileUrl={catalogue.pdf} />
-    </div>
+         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
+  <div style={{ height: '100vh', width: '100%', margin: 0, padding: 0 }}>
+    <Viewer
+      fileUrl={catalogue.pdf}
+      defaultScale={1.5} // Optional: enlarge the PDF view
+    />
   </div>
 </Worker>
+
 
             </div>
           ) : (
@@ -50,7 +52,7 @@ export default function CataloguePage() {
           )}
         </div>
       </main>
-      <Footer />
+      
     </div>
   );
 }

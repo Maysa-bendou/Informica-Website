@@ -63,6 +63,7 @@
   margin-top: 60px;
   animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
   opacity: 0;
+  
 }
 
 .retourIcon {
@@ -172,10 +173,11 @@
 }
 
 .activeFormation {
-  background-color: #fafcff;
-  border-color: #6fa2f3;
+  background-color: #dfecff;
+  
   box-shadow: 0 6px 12px rgba(118, 118, 118, 0.2);
   transform: translateY(-2px);
+  color: #0059e9;
 }
 
 .formationNumber {
