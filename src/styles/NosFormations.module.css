@@ -195,12 +195,11 @@ html, body {
 }
 
 .formationCard,
-.formationCardd {
+.formationCardd{
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  text-align: center;
   background: var(--card-bg);
   border-radius: var(--card-radius);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -235,16 +234,19 @@ html, body {
 .formationCard {
   max-width: 230px;
   height: 180px;
-    background-color: #FCFCFC;
+  background-color: #FCFCFC;
+    text-align: center;
 }
 
 .formationCardd {
   width: 230px;
   height: 180px;
   margin-top: 18px;
-   background-color: #FCFCFC;
- 
+  background-color: #FCFCFC;
+    text-align: center;
+
 }
+
 
 
 /* Staggered Card Animations */
@@ -267,19 +269,19 @@ html, body {
   background-color: var(--hover-bg);
 }
 
-.active {
-  background-color: #c6e4ff;
-  border: 2px solid #007bff;
-  transform: scale(1.03);
-  box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
-  transition: all var(--transition-duration) ease;
-  animation: pulse 2s infinite;
+.activeCard {
+  background-color: #bedbf9; 
+ 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.525);
+  transition: all 0.3s ease;
 }
+
+
 /* Card Content */
 .formationTitle {
   font-size: 16px;
   font-weight: 600;
-  color: #282e35;
+  color: #000307;
   margin-top: 10px;
   transition: color var(--transition-duration) ease;
 }
