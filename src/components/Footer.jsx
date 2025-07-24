@@ -8,7 +8,7 @@ function Footer() {
       padding: '40px 20px',
       textAlign: 'center',
       width: '100%',
-      marginTop: 'auto'
+      marginTop: '0'
     },
     footerRow: {
       maxWidth: '1200px',
