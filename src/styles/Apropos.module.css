@@ -89,39 +89,42 @@
   object-fit: cover;
   border-radius: 0;
 
- mask-image: linear-gradient(
+  mask-image: linear-gradient(
     to right, 
     transparent 0%, 
-    rgba(0,0,0,0.1) 10%,
-    rgba(0,0,0,0.3) 20%,
-    rgba(0,0,0,0.7) 35%,
-    black 50%,
+    rgba(0,0,0,0.2) 20%,
+    rgba(0,0,0,0.5) 40%,
+    black 60%,
     black 100%
   );
   -webkit-mask-image: linear-gradient(
     to right, 
     transparent 0%, 
-    rgba(0,0,0,0.1) 5%,
-    rgba(0,0,0,0.2) 8%,
-    rgba(0,0,0,0.2) 15%,
-    black 50%,
+    rgba(0,0,0,0.2) 20%,
+    rgba(0,0,0,0.5) 40%,
+    black 60%,
     black 100%
   );
-  mask-size: 200% 100%;
-  -webkit-mask-size: 200% 100%;
-  mask-position: 100% 0;
-  -webkit-mask-position: 100% 0;
-  transition: 
-    mask-position 1.2s cubic-bezier(0.16, 0.84, 0.44, 1),
-    -webkit-mask-position 1.2s cubic-bezier(0.16, 0.84, 0.44, 1),
-    transform 0.8s cubic-bezier(0.16, 0.84, 0.44, 1);
+
+  mask-size: 100% 100%;
+  -webkit-mask-size: 100% 100%;
+  mask-position: 0 0;
+  -webkit-mask-position: 0 0;
+
+  opacity: 0;
+  transform: scale(1.05); /* subtle zoom for effect */
+  transition:
+    opacity 1s ease-out,
+    transform 1.2s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
+
 
 /* Animation when visible */
 .contentWrapper.in-view .rightImage {
   mask-position: 0 0;
   -webkit-mask-position: 0 0;
-  transform: translateX(0);
+  opacity: 1;
+  transform: scale(1);
 }
 
 /* Background extension */
@@ -146,7 +149,7 @@
 @keyframes fadeInUp {
   from {
     opacity: 0;
-    transform: translateY(30px);
+    transform: translateY(20px);
   }
   to {
     opacity: 1;
@@ -154,8 +157,9 @@
   }
 }
 
+
 .contentWrapper.in-view .leftContent {
-  animation: fadeInUp 0.8s cubic-bezier(0.165, 0.84, 0.44, 1) forwards;
+  animation: fadeInUp 1s ease-out forwards;
 }
 
 /* Responsive Design */
