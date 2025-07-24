@@ -11,6 +11,7 @@ export default function FormationsPage() {
   const [category, setCategory] = useState(null);
   const [formations, setFormations] = useState({});
   const [loading, setLoading] = useState(true);
+  const [activeFormationKey, setActiveFormationKey] = useState(null);
 
   // Load formations when categoryId changes
   useEffect(() => {
@@ -53,6 +54,22 @@ export default function FormationsPage() {
     loadFormations();
   }, [categoryId]);
 
+  // Restore active card & listen for outside clicks
+  useEffect(() => {
+    const stored = localStorage.getItem('activeFormationKey');
+    if (stored) setActiveFormationKey(stored);
+
+    const handleClickOutside = (e) => {
+      if (!e.target.closest(`.${styles.formationLink}`)) {
+        setActiveFormationKey(null);
+        localStorage.removeItem('activeFormationKey');
+      }
+    };
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
+
   if (loading) return <div className={styles.loadingSpinner}>Chargement...</div>;
 
   return (
@@ -60,6 +77,17 @@ export default function FormationsPage() {
       <Header page="entreprise" />
       <div className={styles.formationsContainer}>
         <div className={styles.layoutContainer}>
+
+
+          <div className={styles.leftColumn}>
+            <Link 
+              to="/entreprise/nos-formations" 
+              onClick={() => localStorage.removeItem('lastFormationCategory')}
+              className={styles.backButton}
+            >
+              <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
+            </Link>
+          </div>
           
           <div className={styles.rightColumn}>
 <div className={styles.formationsHeader}>
@@ -74,39 +102,57 @@ export default function FormationsPage() {
             <div className={styles.formationsRow}>
               <div className={styles.formationsContent}>
                 {category.hasSubcategories ? (
-                  // If category has subcategories
                   Object.values(formations).map((sub) => (
                     <section key={sub.id} className={styles.formationsCategory}>
                       <h2 className={styles.formationsSubtitle}>{sub.title}</h2>
                       <ul className={styles.formationsList}>
-                        {sub.formations.map((f, i) => (
-                          <li key={i} className={styles.formationItem}>
-                            <Link to={`/formations/${categoryId}/${sub.id}/${i}`} className={styles.formationLink}>
-                              <span className={styles.formationNumber}>
-                                {String(i + 1).padStart(2, '0')}.
-                              </span>
-                              <span className={styles.formationText}>{f.titreFormation}</span>
-                            </Link>
-                          </li>
-                        ))}
+                        {sub.formations.map((f, i) => {
+                          const key = `${categoryId}/${sub.id}/${i}`;
+                          return (
+                            <li key={i} className={styles.formationItem}>
+                              <Link 
+                                to={`/formations/${categoryId}/${sub.id}/${i}`}
+                                onClick={() => {
+                                  localStorage.setItem('activeFormationKey', key);
+                                  setActiveFormationKey(key);
+                                }}
+                                className={`${styles.formationLink} ${activeFormationKey === key ? styles.activeFormation : ''}`}
+                              >
+                                <span className={styles.formationNumber}>
+                                  {String(i + 1).padStart(2, '0')}.
+                                </span>
+                                <span className={styles.formationText}>{f.titreFormation}</span>
+                              </Link>
+                            </li>
+                          );
+                        })}
                       </ul>
                     </section>
                   ))
                 ) : (
-                  // If category has no subcategories
                   <section className={styles.formationsCategory}>
                     <ul className={styles.formationsList}>
                       {formations.formations?.length > 0 ? (
-                        formations.formations.map((f, i) => (
-                          <li key={i} className={styles.formationItem}>
-                            <Link to={`/formations/${categoryId}/${i}`} className={styles.formationLink}>
-                              <span className={styles.formationNumber}>
-                                {String(i + 1).padStart(2, '0')}.
-                              </span>
-                              <span className={styles.formationText}>{f.titreFormation}</span>
-                            </Link>
-                          </li>
-                        ))
+                        formations.formations.map((f, i) => {
+                          const key = `${categoryId}/${i}`;
+                          return (
+                            <li key={i} className={styles.formationItem}>
+                              <Link 
+                                to={`/formations/${categoryId}/${i}`}
+                                onClick={() => {
+                                  localStorage.setItem('activeFormationKey', key);
+                                  setActiveFormationKey(key);
+                                }}
+                                className={`${styles.formationLink} ${activeFormationKey === key ? styles.activeFormation : ''}`}
+                              >
+                                <span className={styles.formationNumber}>
+                                  {String(i + 1).padStart(2, '0')}.
+                                </span>
+                                <span className={styles.formationText}>{f.titreFormation}</span>
+                              </Link>
+                            </li>
+                          );
+                        })
                       ) : (
                         <p>Aucune formation disponible.</p>
                       )}

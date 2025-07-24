@@ -126,6 +126,13 @@
   border-color: #bfdbfe;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
+  color: #0059e9;
+}
+.activeFormation {
+  background-color: #fafcff;
+  border-color: #6fa2f3;
+  box-shadow: 0 6px 12px rgba(118, 118, 118, 0.2);
+  transform: translateY(-2px);
 }
 
 .formationNumber {

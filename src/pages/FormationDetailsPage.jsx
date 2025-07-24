@@ -87,7 +87,7 @@ export default function FormationDetailsPage() {
         </h2>
 
 
-        <h2 className={styles.sectionTitle}>Objectifs</h2>
+        <h2 className={styles.sectionTitle}>Objectifs de la Formation</h2>
         <ul className={styles.list}>
           {(formation.objectifs || []).map((obj, i) => (
             <li key={i}>{obj}</li>
