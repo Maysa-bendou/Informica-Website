@@ -11,9 +11,9 @@ import contactStyles from '../../styles/Contact.module.css';
 import referencesStyles from '../../styles/NosReferences.module.css';
 import formationsStyles from '../../styles/NosFormations.module.css';
 
-import telephoneIcon from '../../assets/image/icons/telephone-svgrepo-com.svg';
-import emailIcon from '../../assets/image/icons/gmail-svgrepo-com.svg';
-import locationIcon from '../../assets/image/icons/location-pin-svgrepo-com.svg';
+import telephoneIcon from '../../assets/image/icons/telephone-call.png';
+import emailIcon from '../../assets/image/icons/gm.png';
+import locationIcon from '../../assets/image/icons/maps-and-flags.png';
 
 // Merge all styles into one object
 const styles = {

@@ -5,7 +5,7 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  background-color: white;
+  background-color: #f9f8f8;
   color: #333;
   font-family: 'Arial', sans-serif;
   line-height: 1.5;
@@ -15,35 +15,35 @@
 
 .sectionFormations {
   flex: 1;
-  padding: 40px 0;
   background-color: #f9f9f9; /* Light gray background like PDF */
 }
 
 .pageContainer {
   max-width: 210mm;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 20px 30px;
   background-color: white;
   box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Subtle shadow like printed page */
 }
 
 /* Header Styles */
 .title {
-  font-size: 18pt;
-  font-weight: bold;
+  font-size: 22pt;
+  font-weight: 600;
   color: #2c3e50; /* Dark blue-gray like PDF title */
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
+  margin-top: 90px;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .subTitlle {
-  font-size: 16pt;
+  font-size: 18pt;
   font-weight: bold;
   color: #2980b9; /* Medium blue like PDF subtitle */
   margin-bottom: 30px;
-  text-align: center;
+  text-align: left;
   border-bottom: 2px solid #3498db; /* Light blue border */
   padding-bottom: 10px;
 }
@@ -72,10 +72,10 @@
 
 /* Program Sections */
 .programSection {
-  margin-bottom: 25px;
-  background-color: #f8f9fa; /* Very light gray background */
-  padding: 15px;
-  border-left: 4px solid #3498db; /* Blue accent bar */
+  margin-bottom: 5px;
+  padding: 10px;
+  gap: 10px;
+ 
 }
 
 .programSection h3 {
@@ -89,26 +89,22 @@
 
 /* Sub-sections */
 .subSection {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .subTitle {
   font-size: 12pt;
   font-weight: bold;
   color: #2980b9; /* Medium blue */
-  margin: 15px 0 8px 0;
+  margin: 15px 0 5px 0;
   font-style: italic;
 }
 
-/* Content Highlighting */
-strong {
-  color: #e74c3c; /* Red for emphasis like in PDF */
-}
 
 /* Evaluation Notice */
 .eval {
   font-weight: bold;
-  margin-top: 20px;
+  margin-top: 15px;
   padding: 8px 15px;
   background-color: #e8f4fc; /* Light blue background */
   color: #2980b9; /* Medium blue text */
