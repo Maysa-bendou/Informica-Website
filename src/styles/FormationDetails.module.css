@@ -240,48 +240,69 @@
   }
 }
 
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-  .backButton {
-    top: 100px;
-    left: 30px;
-  }
-  
-  .title {
-    margin-top: 80px;
-    font-size: 20pt;
-  }
-  
-  .subTitlle {
-    font-size: 16pt;
-  }
-  
-  .pageContainer {
-    padding: 15px 0 10px 15px;
+@media (max-width: 768px){
+  .title{
+    margin-top: 150px;
   }
 }
 
-@media (max-width: 480px) {
-  .backButton {
-    top: 80px;
-    left: 20px;
+@media(max-width: 1024px){
+  .title{
+    margin-top: 170px;
   }
-  
-  .retourIcon {
-    width: 30px;
-    height: 30px;
-  }
-  
-  .title {
-    font-size: 18pt;
-    margin-top: 70px;
-  }
-  
-  .subTitlle {
-    font-size: 14pt;
-  }
-  
-  .sectionTitle {
-    font-size: 12pt;
+    .backButton{
+    left:700px;
+     margin-top: 60px;
   }
 }
+
+@media(max-width: 468px){
+  .title{
+    margin-top: 60px;
+  }
+}
+
+/* Responsive Adjustments */
+
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 18pt;
+    margin-top: 100px;
+  }
+    .backButton{
+    left:100px;
+     margin-top: 60px;
+  }
+
+
+}
+@media (max-width: 768px) { 
+    .formationDetails{
+      max-width: 900px;
+    width: 75%;
+  }
+  .backButton{
+    left:700px;
+     margin-top: 60px;
+  }
+  .title{
+    margin-top: 200px;
+  }
+
+ }
+@media (max-width: 767px) { 
+    .formationDetails{
+      max-width: 900px;
+    width: 75%;
+  }
+  .backButton{
+    left:500px;
+  }
+  .title{
+    margin-top: 150px;
+  }
+  .backButton{
+    margin-top: 60px;
+  }
+ }

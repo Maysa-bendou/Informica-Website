@@ -219,6 +219,18 @@
 }
 
 /* ============ Responsive Design ============ */
+
+
+@media(max-width: 1024px) { 
+  .formationsMainTitle {
+    font-size: 1.7rem;
+    margin-top: 150px;
+  }
+  .backButton {
+  margin-top: 150px;
+  }
+}
+
 @media (max-width: 768px) {
   .formationsContainer {
     padding: 1.5rem 1rem;
@@ -226,7 +238,7 @@
   
   .formationsMainTitle {
     font-size: 1.7rem;
-    margin-top: 70px;
+    margin-top: 150px;
   }
   
   .formationsSubtitle {
@@ -258,7 +270,9 @@
     padding: 1rem;
   }
 
+
   .backButton {
     margin-top: 50px;
   }
+
 }
