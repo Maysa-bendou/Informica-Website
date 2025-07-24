@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import styles from '../styles/FormationsPage.module.css';
 import logo from '../assets/image/new_logo.png';
 import retourIcon from '../assets/image/icons/back-button.png';
@@ -8,6 +8,8 @@ import Footer from '../components/Footer';
 
 export default function FormationsPage() {
   const { categoryId } = useParams();
+  const navigate = useNavigate();
+
   const [category, setCategory] = useState(null);
   const [formations, setFormations] = useState({});
   const [loading, setLoading] = useState(true);
@@ -54,21 +56,31 @@ export default function FormationsPage() {
     loadFormations();
   }, [categoryId]);
 
-  // Restore active card & listen for outside clicks
-  useEffect(() => {
-    const stored = localStorage.getItem('activeFormationKey');
-    if (stored) setActiveFormationKey(stored);
+  // Restore active card & scroll to it
+useEffect(() => {
+  const stored = localStorage.getItem('activeFormationKey');
+  if (stored) setActiveFormationKey(stored);
 
-    const handleClickOutside = (e) => {
-      if (!e.target.closest(`.${styles.formationLink}`)) {
-        setActiveFormationKey(null);
-        localStorage.removeItem('activeFormationKey');
-      }
-    };
+  const handleClickOutside = (e) => {
+    if (!e.target.closest(`.${styles.formationLink}`)) {
+      setActiveFormationKey(null);
+      localStorage.removeItem('activeFormationKey');
+    }
+  };
 
-    document.addEventListener('click', handleClickOutside);
-    return () => document.removeEventListener('click', handleClickOutside);
-  }, []);
+  document.addEventListener('click', handleClickOutside);
+
+  // Scroll to active formation after slight delay
+  setTimeout(() => {
+    const activeEl = document.querySelector(`.${styles.activeFormation}`);
+    if (activeEl) {
+      activeEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }, 100);
+
+  return () => document.removeEventListener('click', handleClickOutside);
+}, []);
+
 
   if (loading) return <div className={styles.loadingSpinner}>Chargement...</div>;
 
@@ -77,15 +89,13 @@ export default function FormationsPage() {
       <Header page="entreprise" />
       <div className={styles.formationsContainer}>
         <div className={styles.layoutContainer}>
-          
           <div className={styles.rightColumn}>
-<div className={styles.formationsHeader}>
-  <Link to="/entreprise/nos-formations" className={styles.backButton}>
-    <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
-  </Link>
-  <h1 className={styles.formationsMainTitle}>{category.title}</h1>
-</div>
-
+            <div className={styles.formationsHeader}>
+              <button onClick={() => navigate(-1)} className={styles.backButton}>
+                <img src={retourIcon} alt="Retour" className={styles.retourIcon} />
+              </button>
+              <h1 className={styles.formationsMainTitle}>{category.title}</h1>
+            </div>
 
             {/* Formations Content */}
             <div className={styles.formationsRow}>
@@ -99,13 +109,15 @@ export default function FormationsPage() {
                           const key = `${categoryId}/${sub.id}/${i}`;
                           return (
                             <li key={i} className={styles.formationItem}>
-                              <Link 
+                              <Link
                                 to={`/formations/${categoryId}/${sub.id}/${i}`}
                                 onClick={() => {
                                   localStorage.setItem('activeFormationKey', key);
                                   setActiveFormationKey(key);
                                 }}
-                                className={`${styles.formationLink} ${activeFormationKey === key ? styles.activeFormation : ''}`}
+                                className={`${styles.formationLink} ${
+                                  activeFormationKey === key ? styles.activeFormation : ''
+                                }`}
                               >
                                 <span className={styles.formationNumber}>
                                   {String(i + 1).padStart(2, '0')}.
@@ -126,13 +138,15 @@ export default function FormationsPage() {
                           const key = `${categoryId}/${i}`;
                           return (
                             <li key={i} className={styles.formationItem}>
-                              <Link 
+                              <Link
                                 to={`/formations/${categoryId}/${i}`}
                                 onClick={() => {
                                   localStorage.setItem('activeFormationKey', key);
                                   setActiveFormationKey(key);
                                 }}
-                                className={`${styles.formationLink} ${activeFormationKey === key ? styles.activeFormation : ''}`}
+                                className={`${styles.formationLink} ${
+                                  activeFormationKey === key ? styles.activeFormation : ''
+                                }`}
                               >
                                 <span className={styles.formationNumber}>
                                   {String(i + 1).padStart(2, '0')}.
