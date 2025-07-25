@@ -50,28 +50,26 @@
 
 /* Back button with Animation */
 .backButton {
-  position: absolute;
   top: 120px;
-  left: 60px;
+ left: 1.6rem;
   cursor: pointer;
-  border: none !important;
   animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
   opacity: 0;
   z-index: 10;
-  background: none;
-  padding: 0;
+ 
   position: fixed;
 }
 
 .retourIcon {
-  width: 35px;
-  height: 35px;
+  width: 32px;
+  height: 32px;
   transition: transform 0.3s ease;
 }
 
 .backButton:hover .retourIcon {
   transform: scale(1.1);
 }
+
 
 /* Formation Details section */
 .formationDetails {

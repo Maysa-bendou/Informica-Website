@@ -1,8 +1,20 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import retourIcon from '../assets/image/icons/back-button.png'; // adjust path as needed
 
 function PagePublic() {
+  const navigate = useNavigate();
+
+  const handleBack = () => {
+    navigate(-1); // Navigate to the previous page
+  };
+
   return (
     <div style={styles.container}>
+      <button onClick={handleBack} style={styles.backButton}>
+        <img src={retourIcon} alt="Retour" style={styles.retourIcon} />
+      </button>
+
       <div style={styles.left}>
         <h1 style={styles.text}>Maintenance en cours</h1>
         <p style={styles.subtext}>
@@ -30,11 +42,12 @@ const styles = {
     backgroundColor: "#fff",
     gap: "20px",
     flexWrap: "wrap",
+    position: "relative",
   },
   left: {
     flex: 1,
     maxWidth: "600px",
-     marginLeft: "50px", 
+    marginLeft: "50px",
   },
   right: {
     flex: 1,
@@ -48,7 +61,7 @@ const styles = {
   text: {
     fontSize: "clamp(2rem, 5vw, 3rem)",
     marginBottom: "1.5rem",
-    textAlign:"center",
+    textAlign: "center",
   },
   subtext: {
     fontSize: "clamp(1.2rem, 3.5vw, 1rem)",
@@ -56,12 +69,38 @@ const styles = {
     backgroundColor: "rgba(255, 255, 255, 0.8)",
     padding: "10px",
     borderRadius: "8px",
-    textAlign:"center",
+    textAlign: "center",
+  },
+  backButton: {
+    position: "fixed",
+    top: "100px",
+    left: "1.6rem",
+    zIndex: 1000,
+    background: "none",
+    border: "none",
+    cursor: "pointer",
+    animation: "slideInFromLeft 0.5s ease-out",
+  },
+  retourIcon: {
+    width: "32px",
+    height: "32px",
+    transition: "transform 0.3s ease",
   },
 };
 
+// Add keyframes animation
+const styleSheet = document.styleSheets[0];
+styleSheet.insertRule(`
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+`, styleSheet.cssRules.length);
+
 export default PagePublic;
-
-
-
-

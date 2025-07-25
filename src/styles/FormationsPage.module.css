@@ -44,26 +44,26 @@
   margin: 0 auto;
   padding: 2.8rem 1.5rem;
   animation: fadeIn 0.5s ease-out;
+  position: relative; /* Added for proper positioning */
 }
 
 /* ============ Header with Animations ============ */
 .formationsHeader {
   display: flex;
-  align-items: center;
   justify-content: center;
-  gap: 16px;
   margin-bottom: 3rem;
   text-align: center;
+  position: relative;
+  padding-top: 60px; /* Added to make space for fixed button */
 }
 
 .backButton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
+  position: fixed;
+  left: 1.6rem;
+  top: 120px; /* Adjust this value based on your header height */
+  z-index: 10;
   animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
   opacity: 0;
-  
 }
 
 .retourIcon {
@@ -80,7 +80,7 @@
   font-size: 2rem;
   font-weight: 700;
   color: #1e3a8a;
-  margin: 80px auto 1rem;
+  margin: 0 auto 1rem;
   position: relative;
   display: inline-block;
   padding: 0 1.5rem;
@@ -174,7 +174,6 @@
 
 .activeFormation {
   background-color: #dfecff;
-  
   box-shadow: 0 6px 12px rgba(118, 118, 118, 0.2);
   transform: translateY(-2px);
   color: #0059e9;
@@ -219,15 +218,17 @@
 }
 
 /* ============ Responsive Design ============ */
-
-
 @media(max-width: 1024px) { 
   .formationsMainTitle {
     font-size: 1.7rem;
-    margin-top: 150px;
   }
+  
   .backButton {
-  margin-top: 150px;
+    top: 150px;
+  }
+  
+  .formationsHeader {
+    padding-top: 80px;
   }
 }
 
@@ -238,7 +239,6 @@
   
   .formationsMainTitle {
     font-size: 1.7rem;
-    margin-top: 150px;
   }
   
   .formationsSubtitle {
@@ -247,6 +247,11 @@
   
   .formationsList {
     grid-template-columns: 1fr;
+  }
+
+  .backButton {
+    top: 150px;
+    left: 1rem;
   }
 
   /* Adjust animation delays for mobile */
@@ -262,7 +267,6 @@
   .formationsMainTitle {
     font-size: 1.5rem;
     padding: 0 1rem;
-    margin-top: 60px;
   }
   
   .formationLink {
@@ -270,9 +274,12 @@
     padding: 1rem;
   }
 
-
   .backButton {
-    margin-top: 50px;
+    top: 100px;
+    left: 1rem;
   }
-
+  
+  .formationsHeader {
+    padding-top: 60px;
+  }
 }
