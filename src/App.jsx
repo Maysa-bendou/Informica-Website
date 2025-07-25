@@ -1,16 +1,19 @@
 import React, { useLayoutEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
 
-import Accueil from './pages/Accueil';
-import FormationsPage from './pages/FormationsPage';
-import FormationDetailsPage from './pages/FormationDetailsPage';
-import PagePublic from './pages/PagePublic';
+//pages
+import Accueil from './pages/Accueil/Accueil';
+import PagePublic from './pages/PagePublic/PagePublic';
+import CataloguePage from './pages/CataloguePage/CataloguePage';
+import FormationsPage from './pages/FormationPage/FormationsPage';
+import FormationDetailsPage from './pages/FormationDetails/FormationDetailsPage';
 
-import AproposPage from './pages/PageEntreprise/AproposPage';
-import NosFormationsPage from './pages/PageEntreprise/NosFormationsPage';
-import NosReferencesPage from './pages/PageEntreprise/NosReferencesPage';
-import ContactPage from './pages/PageEntreprise/ContactPage';
-import CataloguePage from './pages/CataloguePage';
+// Entreprise sub-pages
+import AproposPage from './pages/PageEntreprise/AproposPage/AproposPage';
+import ContactPage from './pages/PageEntreprise/ContactPage/ContactPage';
+import NosFormationsPage from './pages/PageEntreprise/NosFormationsPage/NosFormationsPage';
+import NosReferencesPage from './pages/PageEntreprise/NosReferencesPage/NosReferencesPage';
+
 
 // ✅ Inline ScrollToTop logic
 function ScrollToTopOnRouteChange() {

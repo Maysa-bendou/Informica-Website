@@ -1,0 +1,190 @@
+/* ========== GENERAL RESET ========== */
+.container {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+}
+
+/* ========== BACKGROUND WRAPPER ========== */
+.backgroundWrapper {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)),
+    url('/assets/image/formation1.jpg');
+;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 110px 0 0 0;
+  width: 100%;
+  height: 593px;
+
+}
+
+/* ========== PAGE WRAPPER ========== */
+.pageWrapper {
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ========== TITLE SECTION ========== */
+.titleCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 20px;
+  animation: fadeInDown 1s ease;
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.titleCenter h1 {
+  margin-bottom: 12px;
+  font-size: 40px;
+  color: #162757;
+  text-shadow:
+    1px 0px 1px rgba(106, 106, 236, 0.783),
+   -1px 0px 1px rgba(106, 106, 236, 0.783),
+    0px 1px 1px rgba(106, 106, 236, 0.783),
+    0px -1px 1px rgba(106, 106, 236, 0.783);
+}
+
+.titleCenter p {
+  font-size: 18px;
+  color: #2b2a2a;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+/* ========== BUTTON SECTION ========== */
+.buttonSection {
+  display: flex;
+  gap: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.btnBox {
+  position: relative;
+  width: 380px;
+  height: 120px;
+  padding: 20px 30px;
+  border-radius: 12px;
+  color: white;
+  box-shadow: 0 6px 20px rgba(7, 34, 78, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+/* First button (Entreprise) */
+.btnBoxEnterprise {
+  composes: btnBox;
+  background: linear-gradient(135deg, #0049be, #023e8a);
+}
+
+.btnBoxEnterprise:hover {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+}
+
+/* Second button (Grand Public) */
+.btnBoxPublic {
+  composes: btnBox;
+  background: linear-gradient(135deg, #f59e0b, #ef4444);
+}
+
+.btnBox:hover {
+  align-items: flex-start;
+  text-align: left;
+  padding-top: 7px;
+  transform: scale(1.15);
+}
+
+.btnTitle {
+  font-size: 23px;
+  font-weight: 600;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.btnBox:hover .btnTitle {
+  transform: translateY(-4px);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+/* Description */
+.desc {
+  max-height: 0;
+  opacity: 0;
+  color: white;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.4;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  margin-bottom: 10px;
+  align-self: flex-start2
+}
+
+.btnBox:hover .desc {
+  max-height: 80px;
+  opacity: 1;
+}
+/* ========== RESPONSIVE ========== */
+@media (max-width: 900px) {
+  .buttonSection {
+    gap: 30px;
+  }
+
+  .btnBox {
+    width: 280px;
+  }
+}
+
+@media (max-width: 600px) {
+  .titleCenter h1 {
+    font-size: 28px;
+  }
+
+  .titleCenter p {
+    font-size: 16px;
+  }
+
+  .btnBox {
+    width: 90%;
+    padding: 18px;
+  }
+
+  .btnTitle {
+    font-size: 20px;
+  }
+
+  .desc {
+    font-size: 13px;
+  }
+}
