@@ -286,7 +286,7 @@ textarea:focus {
 
 @media (max-width: 992px) {
   .sectionTitle {
-    margin-top: 6rem;
+    margin-top: 180px;
     font-size: 30px;
   }
   
@@ -313,7 +313,7 @@ textarea:focus {
   
   .sectionTitle {
     font-size: 26px;
-    margin-top: 5rem;
+    margin-top: 160px;
   }
   
   .contactHeader {
@@ -329,7 +329,7 @@ textarea:focus {
 @media (max-width: 576px) {
   .sectionTitle {
     font-size: 24px;
-    margin-top: 4rem;
+    margin-top: 100px;
   }
   
   .formRow {

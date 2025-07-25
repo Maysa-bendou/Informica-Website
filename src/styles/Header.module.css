@@ -126,7 +126,7 @@ background: linear-gradient(to right, #f8fafc, #f0f0f0);
   }
 
   .nav {
-    gap: 6px;
+    gap: 3px;
   }
 
   .navLink {
@@ -152,7 +152,7 @@ background: linear-gradient(to right, #f8fafc, #f0f0f0);
   .nav {
     flex-direction: column;
     align-items: center;
-    gap: 4px;
+    gap: 2px;
   }
 
   .navLink {
@@ -167,7 +167,11 @@ background: linear-gradient(to right, #f8fafc, #f0f0f0);
     white-space: nowrap;
   }
 
-  .logo {
-    width: 100px;
+}
+
+@media (max-width: 480px) {
+  .mainHeader {
+    padding: 6px 5px;
+    min-height: 50px; /* enough to show all nav links stacked */
   }
 }

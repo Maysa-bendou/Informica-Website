@@ -104,7 +104,7 @@
 @media (max-width: 992px) {
   .sectionTitleref {
     font-size: 24px;
-    margin-top: 5rem;
+    margin-top: 150px;
   }
 }
 
@@ -115,6 +115,7 @@
 
   .sectionTitleref {
     font-size: 22px;
+    margin-top: 140px;
   }
 
   .gridItem img.logoImg {
@@ -131,7 +132,7 @@
 
   .sectionTitleref {
     font-size: 20px;
-    margin-top: 4rem;
+    margin-top: 100px;
   }
 
   .gridItem img.logoImg {
