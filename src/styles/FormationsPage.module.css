@@ -60,7 +60,7 @@
 .backButton {
   position: fixed;
   left: 1.6rem;
-  top: 120px; /* Adjust this value based on your header height */
+  top: 100px; 
   z-index: 10;
   animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
   opacity: 0;
@@ -86,6 +86,7 @@
   padding: 0 1.5rem;
   animation: slideInFromTop 0.6s ease-out 0.3s forwards;
   opacity: 0;
+  margin-top: 30px;
 }
 
 .formationsMainTitle::after {
@@ -221,6 +222,7 @@
 @media(max-width: 1024px) { 
   .formationsMainTitle {
     font-size: 1.7rem;
+    margin-top: 50px;
   }
   
   .backButton {
@@ -238,6 +240,7 @@
   }
   
   .formationsMainTitle {
+    margin-top: 50px;
     font-size: 1.7rem;
   }
   
@@ -267,6 +270,7 @@
   .formationsMainTitle {
     font-size: 1.5rem;
     padding: 0 1rem;
+    margin-top: 50px;
   }
   
   .formationLink {

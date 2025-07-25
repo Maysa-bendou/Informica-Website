@@ -353,6 +353,10 @@ html, body {
     justify-items: center;
   }
 
+  .formationsSubtitle {
+    margin-top: 100px;
+  } 
+
   .formationsSubtitle,
   .formationsSubtitle1 {
     font-size: 20px;
@@ -372,6 +376,11 @@ html, body {
     animation-delay: 0.4s;
   }
 }
+@media (max-width: 600px) {
+  .formationsSubtitle {
+    margin-top: 50px;
+  } 
+}
 
 /* Mobile-specific animations */
 @keyframes growWidth {
@@ -383,4 +392,5 @@ html, body {
     opacity: 1;
     transform: scaleX(1);
   }
+  
 }
