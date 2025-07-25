@@ -140,3 +140,9 @@
     max-height: 90px;
   }
 }
+@media (max-width: 600px) {
+  .sectionTitleref {
+   
+    margin-top: 140px;
+  }
+}

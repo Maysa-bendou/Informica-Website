@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 function Header({ page }) {
   return (
     <header className={`${styles.mainHeader} ${page === 'accueil' ? styles.accueilHeader : ''}`}>
-<img src="/assets/image/new_logo.png" alt="Logo Informica" className={styles.logo} />
+      <img src="/assets/image/new_logo.png" alt="Logo Informica" className={styles.logo} />
 
 
       <nav className={styles.nav}>
