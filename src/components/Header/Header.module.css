@@ -165,10 +165,9 @@
   }
 
 }
-
 @media (max-width: 480px) {
   .mainHeader {
     padding: 6px 5px;
     min-height: 50px; /* enough to show all nav links stacked */
   }
-}
+} 
