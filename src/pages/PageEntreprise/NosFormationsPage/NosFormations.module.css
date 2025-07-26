@@ -381,8 +381,9 @@ html, body {
 }
 @media (max-width: 600px) {
   .formationsSubtitle {
-    margin-top: 50px;
+    margin-top: 80px;
   } 
+
 }
 
 /* Mobile-specific animations */
