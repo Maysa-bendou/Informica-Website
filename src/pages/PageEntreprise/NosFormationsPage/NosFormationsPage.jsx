@@ -15,26 +15,34 @@ import catalogueIcon from '../../../assets/image/icons/iconbleucatalogue.svg';
 
 export default function NosFormationsPage() {
   const [activeCard, setActiveCard] = useState(null);
+  const [isHovering, setIsHovering] = useState(false); // 👈 NEW
 
   useEffect(() => {
-  const last = localStorage.getItem('lastFormationCategory');
-  if (last) setActiveCard(last);
+    const last = localStorage.getItem('lastFormationCategory');
+    if (last) setActiveCard(last);
 
-  const handleClickOutside = (e) => {
-    // If clicked element doesn't match any of the card classes
-    if (!e.target.closest(`.${formationsStyles.formationCard}`) && 
-        !e.target.closest(`.${formationsStyles.formationCardd}`)) {
-      setActiveCard(null);
-      localStorage.removeItem('lastFormationCategory');
-    }
-  };
-  document.addEventListener('click', handleClickOutside);
-  return () => document.removeEventListener('click', handleClickOutside);
-}, []);
+    const handleClickOutside = (e) => {
+  if (
+    !e.target.closest(`.${formationsStyles.formationCard}`) &&
+    !e.target.closest(`.${formationsStyles.formationCardd}`) &&
+    !e.target.closest(`.${formationsStyles.formationCarddd}`)
+  ) {
+    setActiveCard(null);
+    localStorage.removeItem('lastFormationCategory');
+  }
+};
+
+    document.addEventListener('click', handleClickOutside);
+    return () => document.removeEventListener('click', handleClickOutside);
+  }, []);
 
   const handleClick = (category) => {
     localStorage.setItem('lastFormationCategory', category);
     setActiveCard(category);
+  };
+
+  const getCardClass = (cardName, baseClass) => {
+    return `${baseClass} ${activeCard === cardName && !isHovering ? formationsStyles.activeCard : ''}`;
   };
 
   return (
@@ -55,54 +63,66 @@ export default function NosFormationsPage() {
             </h3>
             <div className={formationsStyles.formationsGrid}>
               <Link 
-                to="/formations/management" 
+                to="/formations/management"
                 onClick={() => handleClick('management')}
-                className={`${formationsStyles.formationCard} ${activeCard === 'management' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('management', formationsStyles.formationCard)}
               >
                 <img src={management} alt="Management Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>Management / Développement Personnel</h3>
               </Link>
 
               <Link 
-                to="/formations/grh" 
+                to="/formations/grh"
                 onClick={() => handleClick('grh')}
-                className={`${formationsStyles.formationCard} ${activeCard === 'grh' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('grh', formationsStyles.formationCard)}
               >
                 <img src={hr} alt="HR Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>GRH : Ressources Humaines</h3>
               </Link>
 
               <Link 
-                to="/formations/comptabilite" 
+                to="/formations/comptabilite"
                 onClick={() => handleClick('comptabilite')}
-                className={`${formationsStyles.formationCard} ${activeCard === 'comptabilite' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('comptabilite', formationsStyles.formationCard)}
               >
                 <img src={finance} alt="Comptabilité Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>Comptabilité / Finance / Juridique</h3>
               </Link>
 
               <Link 
-                to="/formations/marketing" 
+                to="/formations/marketing"
                 onClick={() => handleClick('marketing')}
-                className={`${formationsStyles.formationCard} ${activeCard === 'marketing' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('marketing', formationsStyles.formationCard)}
               >
                 <img src={marketing} alt="Marketing Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>Commercial / Marketing</h3>
               </Link>
 
               <Link 
-                to="/formations/informatique" 
+                to="/formations/informatique"
                 onClick={() => handleClick('informatique')}
-                className={`${formationsStyles.formationCard} ${activeCard === 'informatique' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('informatique', formationsStyles.formationCard)}
               >
                 <img src={it} alt="IT Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>Informatique / Télécommunication</h3>
               </Link>
 
               <Link 
-                to="/formations/qhse" 
+                to="/formations/qhse"
                 onClick={() => handleClick('qhse')}
-                className={`${formationsStyles.formationCard} ${activeCard === 'qhse' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('qhse', formationsStyles.formationCard)}
               >
                 <img src={qhse} alt="QHSE Icon" className={formationsStyles.formationIcon} />
                 <h3 className={formationsStyles.formationTitle}>QHSE : Qualité, Sécurité, Environnement</h3>
@@ -110,9 +130,11 @@ export default function NosFormationsPage() {
 
               <div className={formationsStyles.singleCardWrapper}>
                 <Link 
-                  to="/formations/langues" 
+                  to="/formations/langues"
                   onClick={() => handleClick('langues')}
-                  className={`${formationsStyles.formationCard} ${activeCard === 'langues' ? formationsStyles.activeCard : ''}`}
+                  onMouseEnter={() => setIsHovering(true)}
+                  onMouseLeave={() => setIsHovering(false)}
+                  className={getCardClass('langues', formationsStyles.formationCard)}
                 >
                   <img src={langues} alt="Langues Icon" className={formationsStyles.formationIcon} />
                   <h3 className={formationsStyles.formationTitle}>Langues à des fins spécifiques</h3>
@@ -131,9 +153,11 @@ export default function NosFormationsPage() {
             </h2>
             <div className={formationsStyles.formationsGridd}>
               <Link 
-                to="/formations/catalogues/general" 
+                to="/formations/catalogues/general"
                 onClick={() => handleClick('catalogue-general')}
-                className={`${formationsStyles.formationCarddd} ${activeCard === 'catalogue-general' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('catalogue-general', formationsStyles.formationCarddd)}
               >
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon2} />
                 <h3 className={formationsStyles.formationTitlle1}>
@@ -144,9 +168,11 @@ export default function NosFormationsPage() {
               </Link>
 
               <Link 
-                to="/formations/catalogues/catalogue3" 
+                to="/formations/catalogues/catalogue3"
                 onClick={() => handleClick('catalogue3')}
-                className={`${formationsStyles.formationCardd} ${activeCard === 'catalogue3' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('catalogue3', formationsStyles.formationCardd)}
               >
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon2} />
                 <h3 className={formationsStyles.formationTitle1}>
@@ -155,9 +181,11 @@ export default function NosFormationsPage() {
               </Link>
 
               <Link 
-                to="/formations/catalogues/hse" 
+                to="/formations/catalogues/hse"
                 onClick={() => handleClick('hse')}
-                className={`${formationsStyles.formationCardd} ${activeCard === 'hse' ? formationsStyles.activeCard : ''}`}
+                onMouseEnter={() => setIsHovering(true)}
+                onMouseLeave={() => setIsHovering(false)}
+                className={getCardClass('hse', formationsStyles.formationCardd)}
               >
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon2} />
                 <h3 className={formationsStyles.formationTitle1}>
