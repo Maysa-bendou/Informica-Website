@@ -32,11 +32,14 @@ import refo25 from '../../../assets/image/colab/refo25.jpg';
 import refo26 from '../../../assets/image/colab/refo26.jpg';
 import refo27 from '../../../assets/image/colab/refo27.jpg';
 import refo28 from '../../../assets/image/colab/refo28.jpg';
+import refo29 from '../../../assets/image/colab/refo29.png';
+import refo30 from '../../../assets/image/colab/refo30.png';
+import refo31 from '../../../assets/image/colab/refo31.png';
 const images = [
   refo1, refo2, refo3, refo4, refo5, refo6, refo7, refo8,
   refo9, refo10, refo11, refo12, refo13, refo14, refo15, refo16,
   refo17, refo18, refo19, refo20, refo21, refo22, refo23, refo24,
-  refo25, refo26, refo27, refo28,
+  refo25, refo26, refo27, refo28, refo29, refo30, refo31
 ];
 
 export default function NosReferencesPage() {
