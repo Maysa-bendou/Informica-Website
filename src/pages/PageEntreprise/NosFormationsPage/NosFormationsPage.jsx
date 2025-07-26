@@ -133,10 +133,10 @@ export default function NosFormationsPage() {
               <Link 
                 to="/formations/catalogues/general" 
                 onClick={() => handleClick('catalogue-general')}
-                className={`${formationsStyles.formationCardd} ${activeCard === 'catalogue-general' ? formationsStyles.activeCard : ''}`}
+                className={`${formationsStyles.formationCarddd} ${activeCard === 'catalogue-general' ? formationsStyles.activeCard : ''}`}
               >
                 <img src={catalogueIcon} alt="Catalogue Icon" className={formationsStyles.formationIcon2} />
-                <h3 className={formationsStyles.formationTitle1}>
+                <h3 className={formationsStyles.formationTitlle1}>
                   -Management & Leadership.<br />
                   -Développement Personnel et Professionnel.<br />
                   -Gestion Commerciale & Relation Client.

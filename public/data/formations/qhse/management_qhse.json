@@ -1,108 +1,283 @@
 {
   "title": "Management QHSE",
   "formations": [
+ {
+  "titreFormation": "Mettre en Place un Système de Management QHSE",
+  "objectifs": [
+    "Comprendre les principes et les exigences des systèmes de management QHSE (Qualité, Hygiène, Sécurité, Environnement).",
+    "Développer des compétences pour concevoir et mettre en œuvre un système de management QHSE.",
+    "Maîtriser les techniques pour maintenir et améliorer un système QHSE intégré."
+  ],
+  "publicCible": [
+    "Responsables QHSE",
+    "Coordinateurs QHSE",
+    "Auditeurs internes",
+    "Toute personne impliquée dans la mise en place et la gestion d’un système de management QHSE"
+  ],
+  "prerequis": "Connaissances de base en gestion de la qualité, de la sécurité, et de l’environnement.",
+  "programme": [
     {
-      "titreFormation": "Communication QHSE",
-      "objectifs": [
-        "Comprendre l’importance de la communication dans la gestion QHSE",
-        "Développer des compétences pour élaborer et mettre en œuvre des stratégies de communication QHSE efficaces",
-        "Maîtriser les techniques pour sensibiliser et impliquer le personnel dans les initiatives QHSE"
-      ],
-      "publicCible": [
-        "Responsables QHSE",
-        "Coordinateurs QHSE",
-        "Formateurs",
-        "Toute personne impliquée dans la communication et la sensibilisation QHSE"
-      ],
-      "prerequis": "Connaissances de base en gestion QHSE",
-      "duree": "5 jours (35 heures)",
-      "methodePedagogique": [
-        "Exposés théoriques",
-        "Études de cas",
-        "Ateliers interactifs",
-        "Simulations"
-      ],
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction à la Communication QHSE",
-          "contenu": [
-            "Comprendre les principes de la communication QHSE",
-            "Exploration du rôle de la communication dans la gestion QHSE"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Stratégies de Communication QHSE",
-          "contenu": [
-            "Techniques pour élaborer une stratégie de communication QHSE",
-            "Développement d’un plan de communication pour les initiatives QHSE"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Outils de Communication QHSE",
-          "contenu": [
-            "Utilisation des supports de communication : affiches, newsletters, e-mails",
-            "Introduction aux technologies : intranets, applications mobiles"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Sensibilisation et Formation QHSE",
-          "contenu": [
-            "Développement de programmes de sensibilisation aux enjeux QHSE",
-            "Techniques pour organiser et animer des sessions de formation QHSE"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Communication en Situation de Crise",
-          "contenu": [
-            "Stratégies pour gérer la communication en situation de crise QHSE",
-            "Élaboration d’un plan de communication de crise"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Engagement et Participation du Personnel",
-          "contenu": [
-            "Techniques pour engager et impliquer le personnel dans les initiatives QHSE",
-            "Stratégies pour recueillir et gérer les feedbacks des employés"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Surveillance et Évaluation de la Communication QHSE",
-          "contenu": [
-            "Définition et suivi des indicateurs de performance",
-            "Techniques pour améliorer continuellement les stratégies de communication QHSE"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Exercices pratiques pour élaborer des stratégies et plans de communication",
-            "Jeux de rôle pour pratiquer la communication en situation de crise"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Outils et Techniques de Communication",
-          "contenu": [
-            "Introduction aux outils pour la gestion des communications QHSE"
-          ]
-        },
-        {
-          "module": 10,
-          "titre": "Évaluation Finale",
-          "contenu": [
-            "Évaluation des acquis théoriques et pratiques",
-            "Retour d'expérience et feedback collectif"
-          ]
-        }
+      "titre": "1. Introduction au Système de Management QHSE",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes et les objectifs du management QHSE.",
+        "Normes et Référentiels : Présentation des normes ISO 9001, ISO 14001, ISO 45001."
       ]
+    },
+    {
+      "titre": "2. Planification du Système QHSE",
+      "contenu": [
+        "Analyse du Contexte : Techniques pour analyser le contexte interne et externe.",
+        "Identification des Parties Prenantes : Méthodes pour identifier et gérer les attentes des parties prenantes."
+      ]
+    },
+    {
+      "titre": "3. Élaboration de la Politique QHSE",
+      "contenu": [
+        "Définition des Objectifs QHSE : Stratégies pour définir des objectifs QHSE alignés avec la stratégie de l’entreprise.",
+        "Développement de la Politique QHSE : Techniques pour rédiger et communiquer la politique QHSE."
+      ]
+    },
+    {
+      "titre": "4. Gestion des Risques et des Opportunités",
+      "contenu": [
+        "Identification des Risques et Opportunités : Techniques pour identifier et évaluer les risques et les opportunités QHSE.",
+        "Plans de Traitement des Risques : Élaboration de plans pour traiter les risques identifiés."
+      ]
+    },
+    {
+      "titre": "5. Mise en Œuvre du Système QHSE",
+      "contenu": [
+        "Développement des Procédures : Techniques pour développer des procédures et des instructions QHSE.",
+        "Formation et Sensibilisation : Stratégies pour former et sensibiliser le personnel aux exigences QHSE."
+      ]
+    },
+    {
+      "titre": "6. Surveillance et Mesure de la Performance QHSE",
+      "contenu": [
+        "Indicateurs de Performance : Définition et suivi des indicateurs de performance QHSE.",
+        "Audits Internes : Techniques pour planifier et réaliser des audits internes QHSE."
+      ]
+    },
+    {
+      "titre": "7. Amélioration Continue",
+      "contenu": [
+        "Analyse des Non-conformités : Techniques pour analyser et traiter les non-conformités.",
+        "Actions Correctives et Préventives : Stratégies pour mettre en œuvre des actions correctives et préventives."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Planification QHSE : Exercices pratiques pour planifier un système de management QHSE.",
+        "Simulations d’Audit Interne : Jeux de rôle pour pratiquer les audits internes QHSE."
+      ]
+    },
+    {
+      "titre": "9. Outils et Techniques QHSE",
+      "contenu": [
+        "Outils de Gestion QHSE : Introduction aux outils pour la gestion des systèmes QHSE (logiciels, tableaux de bord)."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
     }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "La Réglementation et la Législation HSE",
+  "objectifs": [
+    "Comprendre les exigences réglementaires et législatives en matière de santé, sécurité, et environnement (HSE).",
+    "Développer des compétences pour assurer la conformité avec les régulations HSE.",
+    "Maîtriser les techniques pour intégrer les exigences légales dans les systèmes de management HSE."
+  ],
+  "publicCible": [
+    "Responsables HSE",
+    "Coordinateurs HSE",
+    "Auditeurs internes",
+    "Toute personne impliquée dans la gestion de la conformité HSE"
+  ],
+  "prerequis": "Connaissances de base en gestion de la sécurité et de l’environnement.",
+  "programme": [
+    {
+      "titre": "1. Introduction à la Réglementation HSE",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la réglementation HSE.",
+        "Cadre Législatif : Présentation des principales lois et régulations en matière de HSE."
+      ]
+    },
+    {
+      "titre": "2. Exigences Légales en Sécurité au Travail",
+      "contenu": [
+        "Normes de Sécurité : Exploration des normes et exigences en matière de sécurité au travail.",
+        "Gestion des Risques Professionnels : Techniques pour gérer les risques professionnels selon les exigences légales."
+      ]
+    },
+    {
+      "titre": "3. Exigences Légales en Environnement",
+      "contenu": [
+        "Normes Environnementales : Présentation des normes et exigences en matière de protection de l’environnement.",
+        "Gestion des Déchets et des Émissions : Stratégies pour gérer les déchets et les émissions conformément aux régulations."
+      ]
+    },
+    {
+      "titre": "4. Exigences Légales en Santé",
+      "contenu": [
+        "Normes de Santé au Travail : Exploration des normes et exigences en matière de santé au travail.",
+        "Surveillance de la Santé : Techniques pour surveiller et gérer la santé des travailleurs."
+      ]
+    },
+    {
+      "titre": "5. Intégration des Exigences Légales dans le Système HSE",
+      "contenu": [
+        "Conformité Réglementaire : Méthodes pour intégrer les exigences légales dans le système de management HSE.",
+        "Suivi des Régulations : Techniques pour surveiller et mettre à jour les régulations HSE."
+      ]
+    },
+    {
+      "titre": "6. Audit de Conformité HSE",
+      "contenu": [
+        "Planification des Audits : Techniques pour planifier et réaliser des audits de conformité HSE.",
+        "Évaluation de la Conformité : Stratégies pour évaluer la conformité aux exigences légales."
+      ]
+    },
+    {
+      "titre": "7. Gestion des Non-conformités Légales",
+      "contenu": [
+        "Identification des Non-conformités : Techniques pour identifier les non-conformités légales.",
+        "Plans de Correction : Élaboration de plans pour corriger les non-conformités légales."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Conformité Légale : Exercices pratiques pour assurer la conformité aux régulations HSE.",
+        "Simulations d’Audit de Conformité : Jeux de rôle pour pratiquer les audits de conformité HSE."
+      ]
+    },
+    {
+      "titre": "9. Outils et Techniques HSE",
+      "contenu": [
+        "Outils de Suivi Réglementaire : Introduction aux outils pour le suivi des régulations HSE."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Communication QHSE",
+  "objectifs": [
+    "Comprendre l’importance de la communication dans la gestion QHSE.",
+    "Développer des compétences pour élaborer et mettre en œuvre des stratégies de communication QHSE efficaces.",
+    "Maîtriser les techniques pour sensibiliser et impliquer le personnel dans les initiatives QHSE."
+  ],
+  "publicCible": [
+    "Responsables QHSE",
+    "Coordinateurs QHSE",
+    "Formateurs",
+    "Toute personne impliquée dans la communication et la sensibilisation QHSE"
+  ],
+  "prerequis": "Connaissances de base en gestion QHSE.",
+  "programme": [
+    {
+      "titre": "1. Introduction à la Communication QHSE",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la communication QHSE.",
+        "Rôle de la Communication : Exploration du rôle de la communication dans la gestion QHSE."
+      ]
+    },
+    {
+      "titre": "2. Stratégies de Communication QHSE",
+      "contenu": [
+        "Élaboration de la Stratégie : Techniques pour élaborer une stratégie de communication QHSE.",
+        "Plan de Communication : Développement d’un plan de communication pour les initiatives QHSE."
+      ]
+    },
+    {
+      "titre": "3. Outils de Communication QHSE",
+      "contenu": [
+        "Supports de Communication : Utilisation des supports de communication pour diffuser les informations QHSE (affiches, newsletters, e-mails).",
+        "Technologies de Communication : Introduction aux technologies pour faciliter la communication QHSE (intranets, applications mobiles)."
+      ]
+    },
+    {
+      "titre": "4. Sensibilisation et Formation QHSE",
+      "contenu": [
+        "Programmes de Sensibilisation : Développement de programmes de sensibilisation aux enjeux QHSE.",
+        "Sessions de Formation : Techniques pour organiser et animer des sessions de formation QHSE."
+      ]
+    },
+    {
+      "titre": "5. Communication en Situation de Crise",
+      "contenu": [
+        "Gestion de la Communication de Crise : Stratégies pour gérer la communication en situation de crise QHSE.",
+        "Plan de Communication de Crise : Élaboration d’un plan de communication de crise."
+      ]
+    },
+    {
+      "titre": "6. Engagement et Participation du Personnel",
+      "contenu": [
+        "Techniques d’Engagement : Techniques pour engager et impliquer le personnel dans les initiatives QHSE.",
+        "Gestion des Feedbacks : Stratégies pour recueillir et gérer les feedbacks des employés sur les pratiques QHSE."
+      ]
+    },
+    {
+      "titre": "7. Surveillance et Évaluation de la Communication QHSE",
+      "contenu": [
+        "Indicateurs de Performance : Définition et suivi des indicateurs de performance de la communication QHSE.",
+        "Amélioration Continue : Techniques pour améliorer continuellement les stratégies de communication QHSE."
+      ]
+    },
+    {
+      "titre": "8. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Communication QHSE : Exercices pratiques pour élaborer des stratégies et des plans de communication.",
+        "Simulations de Communication de Crise : Jeux de rôle pour pratiquer la communication en situation de crise."
+      ]
+    },
+    {
+      "titre": "9. Outils et Techniques de Communication",
+      "contenu": [
+        "Outils de Gestion de la Communication : Introduction aux outils pour la gestion des communications QHSE."
+      ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+
   ]
 }
