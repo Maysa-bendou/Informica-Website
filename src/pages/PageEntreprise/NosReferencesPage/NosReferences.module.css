@@ -94,7 +94,9 @@
 .gridItem:nth-child(26) { animation-delay: 2.7s; }
 .gridItem:nth-child(27) { animation-delay: 2.8s; }
 .gridItem:nth-child(28) { animation-delay: 2.9s; }
-
+.gridItem:nth-child(29) { animation-delay: 3.0s; }
+.gridItem:nth-child(30) { animation-delay: 3.1s; }
+.gridItem:nth-child(31) { animation-delay: 3.2s; }
 /* Hover Effect */
 .gridItem:hover img.logoImg {
   transform: scale(1.1);

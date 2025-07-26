@@ -227,7 +227,7 @@ html, body {
   box-shadow: 0 20px 40px var(--hover-shadow);
 
   z-index: 1;
-   border: 1px solid rgba(0, 0, 0, 0.05);
+   border: 1px solid rgb(0, 0, 0);
 }
 
 
@@ -266,7 +266,8 @@ html, body {
 .formationCardd:hover {
   transform: scale(1.05) translateY(-10px);
   box-shadow: 0 20px 40px var(--hover-shadow);
-  background-color: var(--hover-bg);
+   background-color: #e9f3ff; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.525);
 }
 
 .activeCard {
@@ -279,7 +280,6 @@ html, body {
 .activeCard .formationTitle1 {
   color: #3085e0; 
 }
-/* Card Content */
 .formationTitle {
   font-size: 16px;
   font-weight: 600;
