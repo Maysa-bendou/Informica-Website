@@ -8,17 +8,11 @@
     "Apprendre les techniques de secourisme fondamentales pour intervenir efficacement en attendant l'arrivée des secours professionnels.",
     "Prévenir les accidents : Promouvoir une culture de prévention des accidents et des gestes qui sauvent au sein de l'entreprise."
   ],
-  "publicCible": [
-    "Tous les employés, superviseurs, responsables HSE, toute personne souhaitant acquérir des compétences en premiers secours."
-  ],
+  "publicCible": "Tous les employés, superviseurs, responsables HSE, toute personne souhaitant acquérir des compétences en premiers secours.",
   "prerequis": [
     "Aucun."
   ],
-  "methodologie": [
-    "Approche interactive : Combinaison de cours théoriques et de mises en situation pratiques.",
-    "Simulations réalistes : Utilisation de mannequins et d'équipements de secourisme pour des simulations proches de la réalité.",
-    "Évaluations continues : Tests et évaluations pratiques tout au long de la formation pour assurer la compréhension et la maîtrise des techniques enseignées."
-  ],
+  "methodologie": "Approche interactive : Combinaison de cours théoriques et de mises en situation pratiques.\nSimulations réalistes : Utilisation de mannequins et d'équipements de secourisme pour des simulations proches de la réalité.\nÉvaluations continues : Tests et évaluations pratiques tout au long de la formation pour assurer la compréhension et la maîtrise des techniques enseignées.",
   "materielPedagogique": [
     "Boite à pharmacie complète.",
     "Ballon insufflateur Adulte.",
@@ -76,10 +70,58 @@
             "Bandages et pansements",
             "Gestion des hémorragies"
           ]
+        },
+        {
+          "sousTitre": "2.2 Interventions en cas de fractures et traumatismes",
+          "details": [
+            "Immobilisation des fractures",
+            "Premiers soins en cas de choc"
+          ]
+        },
+        {
+          "sousTitre": "2.3 Gestion des brûlures et intoxications",
+          "details": [
+            "Types de brûlures et traitements",
+            "Premiers secours en cas d'intoxication"
+          ]
+        },
+        {
+          "sousTitre": "2.4 Secours aux personnes inconscientes",
+          "details": [
+            "Position latérale de sécurité",
+            "Techniques de déplacement sécurisées"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "3. Pratique et simulations de situations d'urgence",
+      "contenu": [
+        {
+          "sousTitre": "3.1 Mise en pratique des compétences",
+          "details": [
+            "Scénarios et exercices pratiques",
+            "Simulations de situations d'urgence"
+          ]
+        },
+        {
+          "sousTitre": "3.2 Évaluation des compétences acquises",
+          "details": [
+            "Tests pratiques et théoriques",
+            "Retours d'expérience et amélioration continue"
+          ]
+        },
+        {
+          "sousTitre": "3.3 Conclusion et retour d'expérience",
+          "details": [
+            "Discussions de groupe sur les apprentissages",
+            "Conseils pour maintenir et améliorer les compétences de secourisme"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "galerie": "Voici quelques moments capturés durant nos sessions de formation, illustrant l'engagement et la rigueur avec lesquels nos participants apprennent et appliquent les techniques de secourisme. Ces photos témoignent de l'ambiance dynamique et interactive de notre programme de formation."
 }
 ,
 

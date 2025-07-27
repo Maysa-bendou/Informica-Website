@@ -150,7 +150,14 @@ export default function FormationDetailsPage() {
                 </ul>
               </>
             )}
-          
+ {/* Galerie de la Formation */}
+{formation.galerie && (
+  <>
+    <h2 className={styles.sectionTitle}>Galerie de la Formation</h2>
+    <p>{formation.galerie}</p>
+  </>
+)}
+
         <h2 className={styles.sectionTitle}>Programme de la formation</h2>
         {(formation.programme || []).map((section, i) => (
           <div key={i} className={styles.programSection}>
