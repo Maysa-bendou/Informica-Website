@@ -171,6 +171,7 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
   transform: translateY(-4px);
   color: #0059e9;
+    background-color: #dfecff;
 }
 
 .activeFormation {
