@@ -9,19 +9,13 @@
     "Maîtriser les techniques d’analyse et de visualisation des données avec Power BI."
   ],
   "publicCible": [
-    "Analystes de données",
-    "Responsables BI",
-    "Décideurs d’entreprise",
-    "Toute personne souhaitant utiliser Power BI pour l’analyse des données"
+    "Analystes de données, responsables BI, décideurs d’entreprise, toute personne souhaitant utiliser Power BI pour l’analyse des données"
   ],
   "prerequis": [
     "Connaissances de base en gestion des données et en analyse de données."
   ],
   "methodologie": [
-    "Exposés théoriques",
-    "Démonstrations pratiques",
-    "Ateliers interactifs",
-    "Études de cas"
+    "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas"
   ],
   "programme": [
     {
@@ -109,27 +103,27 @@
 
 
 
-
- {
-  "titreFormation": " Gestion de Projets avec MS Project",
+{
+  "titreFormation": "Gestion de Projets avec MS Project",
   "objectifs": [
-    "Cette formation a pour objectif de permettre aux participants de maîtriser les techniques de gestion de projets à l'aide du logiciel Microsoft Project. À l'issue de cette formation, les participants seront capables de :",
-    "Comprendre les principes de base de la gestion de projet",
-    "Utiliser Microsoft Project pour planifier, exécuter et suivre un projet",
-    "Créer et gérer un calendrier de projet",
-    "Allouer et gérer les ressources",
-    "Suivre l'avancement du projet et générer des rapports"
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les techniques de gestion de projets à l'aide du logiciel Microsoft Project.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les principes de base de la gestion de projet.",
+    "- Utiliser Microsoft Project pour planifier, exécuter et suivre un projet.",
+    "- Créer et gérer un calendrier de projet.",
+    "- Allouer et gérer les ressources.",
+    "- Suivre l'avancement du projet et générer des rapports."
   ],
   "publicCible": "Cette formation s'adresse aux chefs de projet, coordinateurs de projet, membres d'une équipe de projet et toute personne impliquée dans la planification et la gestion de projets qui souhaite utiliser Microsoft Project pour améliorer l'efficacité de leur gestion.",
   "prerequis": [
-    "Connaissance de base de la gestion de projet",
-    "Maîtrise de l'environnement Windows",
-    "Familiarité avec les applications Microsoft Office"
+    "Connaissance de base de la gestion de projet.",
+    "Maîtrise de l'environnement Windows.",
+    "Familiarité avec les applications Microsoft Office."
   ],
-  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "1. Introduction à la Gouvernance en Cybersécurité",
+      "titre": "Introduction à la Gestion de Projet et Microsoft Project",
       "contenu": [
         {
           "sousTitre": "1. Introduction à la gestion de projet",
@@ -158,7 +152,7 @@
       ]
     },
     {
-      "titre": "2. Planification et Gestion des Ressources",
+      "titre": "Planification et Gestion des Ressources",
       "contenu": [
         {
           "sousTitre": "4. Planification des tâches",
@@ -187,7 +181,7 @@
       ]
     },
     {
-      "titre": "3. Suivi, Analyse et Reporting",
+      "titre": "Suivi, Analyse et Reporting",
       "contenu": [
         {
           "sousTitre": "7. Suivi des performances",
@@ -219,9 +213,7 @@
       ]
     }
   ]
-}
-,
-
+},
 
 
 
@@ -244,12 +236,13 @@
 {
   "titreFormation": "Gestion de Projets avec Primavera",
   "objectifs": [
-    "Cette formation vise à doter les participants des compétences nécessaires pour planifier, exécuter et suivre des projets en utilisant le logiciel Primavera. À l'issue de cette formation, les participants seront capables de :",
-    "Comprendre les concepts et principes de la gestion de projet.",
-    "Utiliser Primavera pour planifier et gérer des projets complexes.",
-    "Créer et gérer des calendriers de projet.",
-    "Allouer et gérer les ressources de manière efficace.",
-    "Suivre l'avancement des projets et générer des rapports détaillés."
+    "Cette formation vise à doter les participants des compétences nécessaires pour planifier, exécuter et suivre des projets en utilisant le logiciel Primavera.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts et principes de la gestion de projet.",
+    "- Utiliser Primavera pour planifier et gérer des projets complexes.",
+    "- Créer et gérer des calendriers de projet.",
+    "- Allouer et gérer les ressources de manière efficace.",
+    "- Suivre l'avancement des projets et générer des rapports détaillés."
   ],
   "publicCible": "Cette formation s'adresse aux chefs de projet, planificateurs, ingénieurs, coordinateurs de projet et toute personne impliquée dans la gestion de projets complexes souhaitant utiliser Primavera pour améliorer l'efficacité de leur gestion de projet.",
   "prerequis": [
@@ -260,7 +253,7 @@
   "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "Module 1 : Introduction à la Gestion de Projet et Primavera",
+      "titre": "Introduction à la Gestion de Projet et Primavera",
       "contenu": [
         {
           "sousTitre": "1. Introduction à la gestion de projet",
@@ -289,7 +282,7 @@
       ]
     },
     {
-      "titre": "Module 2 : Planification et Gestion des Ressources",
+      "titre": "Planification et Gestion des Ressources",
       "contenu": [
         {
           "sousTitre": "4. Planification des activités",
@@ -318,7 +311,7 @@
       ]
     },
     {
-      "titre": "Module 3 : Suivi, Analyse et Reporting",
+      "titre": "Suivi, Analyse et Reporting",
       "contenu": [
         {
           "sousTitre": "7. Suivi des performances",
@@ -342,15 +335,16 @@
             "Simulation de gestion d’un projet de bout en bout",
             "Analyse et discussion des résultats"
           ]
-        },
-        {
-          "sousTitre": "10. Évaluation Finale",
-          "details": []
         }
       ]
+    },
+    {
+      "titre": "10. Évaluation Finale",
+      "contenu": []
     }
   ]
-},
+}
+,
 
 
 
@@ -362,87 +356,77 @@
 
 
 
-
-
-
-
- {
-  "titreFormation": "Logiciels de Reporting et d’Analyse - Crystal Reports",
+{
+  "titreFormation": "Logiciels de Reporting et d’Analyse : Crystal Reports",
   "objectifs": [
     "Comprendre les fonctionnalités de Crystal Reports pour le reporting et l’analyse.",
     "Développer des compétences pour créer et personnaliser des rapports interactifs.",
     "Maîtriser les techniques d’intégration et de visualisation des données avec Crystal Reports."
   ],
   "publicCible": [
-    "Analystes de données",
-    "Responsables BI",
-    "Développeurs",
-    "Toute personne impliquée dans le reporting et l’analyse des données"
+    "Analystes de données, responsables BI, développeurs, toute personne impliquée dans le reporting et l’analyse des données"
   ],
   "prerequis": [
-    "Connaissances de base en gestion des données et en reporting"
+    "Connaissances de base en gestion des données et en reporting."
   ],
   "methodologie": [
-    "Exposés théoriques",
-    "Démonstrations pratiques",
-    "Ateliers interactifs",
-    "Études de cas"
+    "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas"
   ],
   "programme": [
     {
       "titre": "1. Introduction à Crystal Reports",
       "contenu": [
-        "Concepts de Base : Comprendre les principes du reporting avec Crystal Reports",
-        "Interface Crystal Reports : Présentation de l’interface et des fonctionnalités de base"
+        "Concepts de Base : Comprendre les principes du reporting avec Crystal Reports.",
+        "Interface Crystal Reports : Présentation de l’interface et des fonctionnalités de base."
       ]
     },
     {
       "titre": "2. Création de Rapports",
       "contenu": [
-        "Sources de Données : Techniques pour connecter Crystal Reports à diverses sources de données",
-        "Conception des Rapports : Techniques pour concevoir des rapports interactifs"
+        "Sources de Données : Techniques pour connecter Crystal Reports à diverses sources de données.",
+        "Conception des Rapports : Techniques pour concevoir des rapports interactifs."
       ]
     },
     {
       "titre": "3. Personnalisation des Rapports",
       "contenu": [
-        "Formatage des Données : Techniques pour formater et personnaliser les données dans les rapports",
-        "Utilisation des Sections : Gestion des sections et des sous-rapports"
+        "Formatage des Données : Techniques pour formater et personnaliser les données dans les rapports.",
+        "Utilisation des Sections : Gestion des sections et des sous-rapports."
       ]
     },
     {
       "titre": "4. Fonctionnalités Avancées",
       "contenu": [
-        "Formules et Fonctions : Utilisation des formules et fonctions pour enrichir les rapports",
-        "Graphiques et Visualisations : Création de graphiques et de visualisations dans les rapports"
+        "Formules et Fonctions : Utilisation des formules et fonctions pour enrichir les rapports.",
+        "Graphiques et Visualisations : Création de graphiques et de visualisations dans les rapports."
       ]
     },
     {
       "titre": "5. Intégration avec d’Autres Outils",
       "contenu": [
-        "Exportation des Rapports : Techniques pour exporter les rapports vers différents formats",
-        "Intégration avec Applications : Stratégies pour intégrer Crystal Reports avec d’autres applications"
+        "Exportation des Rapports : Techniques pour exporter les rapports vers différents formats.",
+        "Intégration avec Applications : Stratégies pour intégrer Crystal Reports avec d’autres applications."
       ]
     },
     {
       "titre": "6. Sécurité et Distribution des Rapports",
       "contenu": [
-        "Contrôles d’Accès : Gestion des contrôles d’accès pour les rapports",
-        "Distribution des Rapports : Techniques pour distribuer les rapports aux utilisateurs"
+        "Contrôles d’Accès : Gestion des contrôles d’accès pour les rapports.",
+        "Distribution des Rapports : Techniques pour distribuer les rapports aux utilisateurs."
       ]
     },
     {
       "titre": "7. Applications Pratiques",
       "contenu": [
-        "Ateliers de Création de Rapports : Exercices pratiques pour créer et personnaliser des rapports",
-        "Simulations d’Intégration : Jeux de rôle pour pratiquer l’intégration des rapports avec d’autres systèmes"
+        "Ateliers de Création de Rapports : Exercices pratiques pour créer et personnaliser des rapports.",
+        "Simulations d’Intégration : Jeux de rôle pour pratiquer l’intégration des rapports avec d’autres systèmes."
       ]
     },
     {
       "titre": "8. Outils et Extensions Crystal Reports",
       "contenu": [
-        "Outils de Visualisation : Introduction aux outils et extensions pour améliorer les visualisations",
-        "Automatisation des Tâches de Reporting : Techniques pour automatiser les tâches de reporting"
+        "Outils de Visualisation : Introduction aux outils et extensions pour améliorer les visualisations.",
+        "Automatisation des Tâches de Reporting : Techniques pour automatiser les tâches de reporting."
       ]
     },
     {
@@ -450,9 +434,9 @@
       "contenu": []
     }
   ]
-},
+}
 
-
+,
 
 
 
@@ -470,210 +454,105 @@
 {
   "titreFormation": "Sage - Gestion Comptable et Financière",
   "objectifs": [
-    "Comprendre les principes de base de la comptabilité.",
-    "Utiliser les fonctionnalités de Sage pour la gestion des opérations comptables et financières.",
-    "Saisir et traiter les écritures comptables.",
-    "Gérer les immobilisations, les stocks et les budgets.",
-    "Générer des états financiers et des rapports comptables."
+    "Cette formation vise à doter les participants des compétences nécessaires pour utiliser efficacement le logiciel Sage dans la gestion comptable et financière de leur entreprise.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les principes de base de la comptabilité.",
+    "- Utiliser les fonctionnalités de Sage pour la gestion des opérations comptables et financières.",
+    "- Saisir et traiter les écritures comptables.",
+    "- Gérer les immobilisations, les stocks et les budgets.",
+    "- Générer des états financiers et des rapports comptables."
   ],
-  "publicCible": [
-    "Comptables",
-    "Responsables financiers",
-    "Gestionnaires de paie",
-    "Toute personne impliquée dans la gestion comptable et financière souhaitant utiliser le logiciel Sage"
-  ],
+  "publicCible": "Cette formation s'adresse aux comptables, responsables financiers, gestionnaires de paie, et toute personne impliquée dans la gestion comptable et financière qui souhaite utiliser le logiciel Sage pour améliorer l'efficacité et la précision de leurs opérations.",
   "prerequis": [
-    "Connaissance de base en comptabilité",
-    "Familiarité avec l'environnement Windows",
-    "Expérience préalable avec des logiciels de comptabilité est un plus"
-  ],
-  "methodologie": [
-    "Présentations théoriques",
-    "Démonstrations pratiques",
-    "Exercices d'application",
-    "Études de cas",
-    "Ateliers pratiques"
-  ],
-  "programme": [
-    {
-      "titre": "1. Introduction à la comptabilité",
-      "contenu": [
-        "Concepts de base de la comptabilité",
-        "Principes comptables généraux"
-      ]
-    },
-    {
-      "titre": "2. Introduction à Sage",
-      "contenu": [
-        "Présentation de l'interface utilisateur",
-        "Paramétrage initial du logiciel",
-        "Création d'un nouveau dossier comptable"
-      ]
-    },
-    {
-      "titre": "3. Saisie des opérations comptables",
-      "contenu": [
-        "Saisie des écritures comptables",
-        "Gestion des journaux et des pièces comptables",
-        "Lettrage des comptes"
-      ]
-    },
-    {
-      "titre": "4. Gestion des immobilisations",
-      "contenu": [
-        "Création et suivi des fiches d'immobilisations",
-        "Calcul et comptabilisation des amortissements",
-        "Suivi des cessions et sorties d'immobilisations"
-      ]
-    },
-    {
-      "titre": "5. Gestion des stocks",
-      "contenu": [
-        "Paramétrage des articles et des familles d'articles",
-        "Suivi des entrées et sorties de stocks",
-        "Valorisation des stocks et inventaires"
-      ]
-    },
-    {
-      "titre": "6. Gestion des budgets",
-      "contenu": [
-        "Création et suivi des budgets",
-        "Analyse des écarts entre prévisions et réalisations"
-      ]
-    },
-    {
-      "titre": "7. Suivi des comptes clients et fournisseurs",
-      "contenu": [
-        "Gestion des comptes clients",
-        "Gestion des comptes fournisseurs",
-        "Relance et suivi des créances et dettes"
-      ]
-    },
-    {
-      "titre": "8. Génération des états financiers",
-      "contenu": [
-        "Bilan et compte de résultat",
-        "Tableau de flux de trésorerie",
-        "Autres états financiers"
-      ]
-    },
-    {
-      "titre": "9. Reporting et analyse",
-      "contenu": [
-        "Création de rapports personnalisés",
-        "Exportation des données vers Excel",
-        "Utilisation des tableaux de bord"
-      ]
-    },
-    {
-      "titre": "10. Évaluation Finale",
-      "contenu": []
-    }
-  ]
-},
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-{
-  "titreFormation": "Pc Compta",
-  "objectifs": [
-    "Comprendre les concepts fondamentaux de la comptabilité.",
-    "Utiliser les fonctionnalités de Pc Compta pour la gestion des opérations comptables quotidiennes.",
-    "Saisir et traiter les écritures comptables.",
-    "Gérer les comptes clients et fournisseurs.",
-    "Générer des états financiers et des rapports comptables détaillés."
-  ],
-  "publicCible": "Comptables, responsables financiers, gestionnaires de paie, et toute personne impliquée dans la gestion comptable souhaitant améliorer leur efficacité en utilisant Pc Compta.",
-  "prerequis": [
-    "Connaissances de base en comptabilité.",
+    "Connaissance de base en comptabilité.",
     "Familiarité avec l'environnement Windows.",
     "Expérience préalable avec des logiciels de comptabilité est un plus."
   ],
-  "methodologie": "Présentations théoriques, démonstrations pratiques, exercices d'application, études de cas et ateliers pratiques.",
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "1. Introduction à la comptabilité",
+      "titre": "Introduction à Sage et Principes Comptables",
       "contenu": [
-        "Concepts de base de la comptabilité",
-        "Principes comptables généraux"
+        {
+          "sousTitre": "1. Introduction à la comptabilité",
+          "details": [
+            "Concepts de base de la comptabilité",
+            "Principes comptables généraux"
+          ]
+        },
+        {
+          "sousTitre": "2. Introduction à Sage",
+          "details": [
+            "Présentation de l'interface utilisateur",
+            "Paramétrage initial du logiciel",
+            "Création d'un nouveau dossier comptable"
+          ]
+        },
+        {
+          "sousTitre": "3. Saisie des opérations comptables",
+          "details": [
+            "Saisie des écritures comptables",
+            "Gestion des journaux et des pièces comptables",
+            "Lettrage des comptes"
+          ]
+        }
       ]
     },
     {
-      "titre": "2. Introduction à Pc Compta",
+      "titre": "Gestion des Immobilisations et des Stocks",
       "contenu": [
-        "Présentation de l'interface utilisateur",
-        "Paramétrage initial du logiciel",
-        "Création d'un nouveau dossier comptable"
+        {
+          "sousTitre": "4. Gestion des immobilisations",
+          "details": [
+            "Création et suivi des fiches d'immobilisations",
+            "Calcul et comptabilisation des amortissements",
+            "Suivi des cessions et sorties d'immobilisations"
+          ]
+        },
+        {
+          "sousTitre": "5. Gestion des stocks",
+          "details": [
+            "Paramétrage des articles et des familles d'articles",
+            "Suivi des entrées et sorties de stocks",
+            "Valorisation des stocks et inventaires"
+          ]
+        },
+        {
+          "sousTitre": "6. Gestion des budgets",
+          "details": [
+            "Création et suivi des budgets",
+            "Analyse des écarts entre prévisions et réalisations"
+          ]
+        }
       ]
     },
     {
-      "titre": "3. Saisie des opérations comptables",
+      "titre": "Suivi Financier et Reporting",
       "contenu": [
-        "Saisie des écritures comptables",
-        "Gestion des journaux et des pièces comptables",
-        "Lettrage des comptes"
-      ]
-    },
-    {
-      "titre": "4. Gestion des comptes clients et fournisseurs",
-      "contenu": [
-        "Création et suivi des fiches clients et fournisseurs",
-        "Gestion des factures et des paiements",
-        "Relance des créances et gestion des dettes"
-      ]
-    },
-    {
-      "titre": "5. Gestion des immobilisations",
-      "contenu": [
-        "Création et suivi des fiches d'immobilisations",
-        "Calcul et comptabilisation des amortissements",
-        "Suivi des cessions et sorties d'immobilisations"
-      ]
-    },
-    {
-      "titre": "6. Gestion des budgets et des stocks",
-      "contenu": [
-        "Création et suivi des budgets",
-        "Paramétrage et suivi des stocks",
-        "Analyse des écarts entre prévisions et réalisations"
-      ]
-    },
-    {
-      "titre": "7. Suivi des opérations bancaires",
-      "contenu": [
-        "Rapprochement bancaire",
-        "Gestion des relevés bancaires",
-        "Suivi des flux de trésorerie"
-      ]
-    },
-    {
-      "titre": "8. Génération des états financiers",
-      "contenu": [
-        "Bilan et compte de résultat",
-        "Tableau de flux de trésorerie",
-        "Autres états financiers"
-      ]
-    },
-    {
-      "titre": "9. Reporting et analyse",
-      "contenu": [
-        "Création de rapports personnalisés",
-        "Exportation des données vers Excel",
-        "Utilisation des tableaux de bord"
+        {
+          "sousTitre": "7. Suivi des comptes clients et fournisseurs",
+          "details": [
+            "Gestion des comptes clients",
+            "Gestion des comptes fournisseurs",
+            "Relance et suivi des créances et dettes"
+          ]
+        },
+        {
+          "sousTitre": "8. Génération des états financiers",
+          "details": [
+            "Bilan et compte de résultat",
+            "Tableau de flux de trésorerie",
+            "Autres états financiers"
+          ]
+        },
+        {
+          "sousTitre": "9. Reporting et analyse",
+          "details": [
+            "Création de rapports personnalisés",
+            "Exportation des données vers Excel",
+            "Utilisation des tableaux de bord"
+          ]
+        }
       ]
     },
     {
@@ -695,103 +574,114 @@
 
 
 
+
+
+
+
+
 {
-  "titreFormation": "Pc Paie",
+  "titreFormation": "Pc Compta",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de la gestion de la paie.",
-    "Utiliser les fonctionnalités de Pc Paie pour le traitement des paies.",
-    "Gérer les bulletins de paie et les déclarations sociales.",
-    "Automatiser les processus de gestion de la paie.",
-    "Générer des rapports et des états de paie."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités de base et avancées du logiciel Pc Compta pour une gestion comptable efficace.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la comptabilité.",
+    "- Utiliser les fonctionnalités de Pc Compta pour la gestion des opérations comptables quotidiennes.",
+    "- Saisir et traiter les écritures comptables.",
+    "- Gérer les comptes clients et fournisseurs.",
+    "- Générer des états financiers et des rapports comptables détaillés."
   ],
-  "publicCible": [
-    "Responsables de la paie",
-    "Gestionnaires des ressources humaines",
-    "Comptables",
-    "Toute personne impliquée dans la gestion de la paie"
-  ],
+  "publicCible": "Cette formation s'adresse aux comptables, responsables financiers, gestionnaires de paie, et toute personne impliquée dans la gestion comptable souhaitant améliorer leur efficacité en utilisant Pc Compta.",
   "prerequis": [
-    "Connaissances de base en gestion de la paie",
-    "Familiarité avec l'environnement Windows",
-    "Expérience préalable avec des logiciels de gestion de la paie est un plus"
+    "Connaissances de base en comptabilité.",
+    "Familiarité avec l'environnement Windows.",
+    "Expérience préalable avec des logiciels de comptabilité est un plus."
   ],
-  "methodologie": [
-    "Présentations théoriques",
-    "Démonstrations pratiques",
-    "Exercices d'application",
-    "Études de cas",
-    "Ateliers pratiques"
-  ],
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "1. Introduction à la gestion de la paie",
+      "titre": "Introduction à Pc Compta et Principes Comptables",
       "contenu": [
-        "Concepts de base de la paie",
-        "Principes généraux de la gestion de la paie"
+        {
+          "sousTitre": "1. Introduction à la comptabilité",
+          "details": [
+            "Concepts de base de la comptabilité",
+            "Principes comptables généraux"
+          ]
+        },
+        {
+          "sousTitre": "2. Introduction à Pc Compta",
+          "details": [
+            "Présentation de l'interface utilisateur",
+            "Paramétrage initial du logiciel",
+            "Création d'un nouveau dossier comptable"
+          ]
+        },
+        {
+          "sousTitre": "3. Saisie des opérations comptables",
+          "details": [
+            "Saisie des écritures comptables",
+            "Gestion des journaux et des pièces comptables",
+            "Lettrage des comptes"
+          ]
+        }
       ]
     },
     {
-      "titre": "2. Introduction à Pc Paie",
+      "titre": "Gestion des Clients, Fournisseurs et Immobilisations",
       "contenu": [
-        "Présentation de l'interface utilisateur",
-        "Paramétrage initial du logiciel",
-        "Création d'un nouveau dossier de paie"
+        {
+          "sousTitre": "4. Gestion des comptes clients et fournisseurs",
+          "details": [
+            "Création et suivi des fiches clients et fournisseurs",
+            "Gestion des factures et des paiements",
+            "Relance des créances et gestion des dettes"
+          ]
+        },
+        {
+          "sousTitre": "5. Gestion des immobilisations",
+          "details": [
+            "Création et suivi des fiches d'immobilisations",
+            "Calcul et comptabilisation des amortissements",
+            "Suivi des cessions et sorties d'immobilisations"
+          ]
+        },
+        {
+          "sousTitre": "6. Gestion des budgets et des stocks",
+          "details": [
+            "Création et suivi des budgets",
+            "Paramétrage et suivi des stocks",
+            "Analyse des écarts entre prévisions et réalisations"
+          ]
+        }
       ]
     },
     {
-      "titre": "3. Saisie des éléments de paie",
+      "titre": "Suivi Financier et Reporting",
       "contenu": [
-        "Saisie des informations des salariés",
-        "Gestion des variables de paie (heures, primes, absences)",
-        "Calcul des bulletins de paie"
-      ]
-    },
-    {
-      "titre": "4. Gestion des déclarations sociales",
-      "contenu": [
-        "Paramétrage des organismes sociaux",
-        "Génération des déclarations sociales (URSSAF, caisses de retraite, etc.)",
-        "Transmission dématérialisée des déclarations"
-      ]
-    },
-    {
-      "titre": "5. Automatisation des processus de paie",
-      "contenu": [
-        "Paramétrage des règles de paie",
-        "Automatisation des calculs de paie",
-        "Gestion des régularisations et des rappels de paie"
-      ]
-    },
-    {
-      "titre": "6. Gestion des absences et des congés",
-      "contenu": [
-        "Suivi des absences et des congés",
-        "Calcul des droits aux congés",
-        "Intégration des absences dans les bulletins de paie"
-      ]
-    },
-    {
-      "titre": "7. Suivi des paies",
-      "contenu": [
-        "Analyse et validation des bulletins de paie",
-        "Gestion des retenues sur salaire",
-        "Suivi des paiements des salaires"
-      ]
-    },
-    {
-      "titre": "8. Reporting et analyse",
-      "contenu": [
-        "Création de rapports personnalisés",
-        "Exportation des données vers Excel",
-        "Utilisation des tableaux de bord"
-      ]
-    },
-    {
-      "titre": "9. Cas pratique et atelier",
-      "contenu": [
-        "Mise en pratique des connaissances acquises",
-        "Simulation de gestion complète d’un cycle de paie",
-        "Analyse et discussion des résultats"
+        {
+          "sousTitre": "7. Suivi des opérations bancaires",
+          "details": [
+            "Rapprochement bancaire",
+            "Gestion des relevés bancaires",
+            "Suivi des flux de trésorerie"
+          ]
+        },
+        {
+          "sousTitre": "8. Génération des états financiers",
+          "details": [
+            "Bilan et compte de résultat",
+            "Tableau de flux de trésorerie",
+            "Autres états financiers"
+          ]
+        },
+        {
+          "sousTitre": "9. Reporting et analyse",
+          "details": [
+            "Création de rapports personnalisés",
+            "Exportation des données vers Excel",
+            "Utilisation des tableaux de bord"
+          ]
+        }
       ]
     },
     {
@@ -799,7 +689,134 @@
       "contenu": []
     }
   ]
-},
+}
+
+,
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Pc Paie",
+  "objectifs": [
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités de base et avancées du logiciel Pc Paie pour une gestion efficace des paies.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la gestion de la paie.",
+    "- Utiliser les fonctionnalités de Pc Paie pour le traitement des paies.",
+    "- Gérer les bulletins de paie et les déclarations sociales.",
+    "- Automatiser les processus de gestion de la paie.",
+    "- Générer des rapports et des états de paie."
+  ],
+  "publicCible": "Cette formation s'adresse aux responsables de la paie, gestionnaires des ressources humaines, comptables et toute personne impliquée dans la gestion de la paie souhaitant améliorer leur efficacité en utilisant Pc Paie.",
+  "prerequis": [
+    "Connaissances de base en gestion de la paie.",
+    "Familiarité avec l'environnement Windows.",
+    "Expérience préalable avec des logiciels de gestion de la paie est un plus."
+  ],
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
+  "programme": [
+    {
+      "titre": "Introduction à Pc Paie et Principes de la Gestion de la Paie",
+      "contenu": [
+        {
+          "sousTitre": "1. Introduction à la gestion de la paie",
+          "details": [
+            "Concepts de base de la paie",
+            "Principes généraux de la gestion de la paie"
+          ]
+        },
+        {
+          "sousTitre": "2. Introduction à Pc Paie",
+          "details": [
+            "Présentation de l'interface utilisateur",
+            "Paramétrage initial du logiciel",
+            "Création d'un nouveau dossier de paie"
+          ]
+        },
+        {
+          "sousTitre": "3. Saisie des éléments de paie",
+          "details": [
+            "Saisie des informations des salariés",
+            "Gestion des variables de paie (heures, primes, absences)",
+            "Calcul des bulletins de paie"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Gestion des Déclarations Sociales et Automatisation",
+      "contenu": [
+        {
+          "sousTitre": "4. Gestion des déclarations sociales",
+          "details": [
+            "Paramétrage des organismes sociaux",
+            "Génération des déclarations sociales (URSSAF, caisses de retraite, etc.)",
+            "Transmission dématérialisée des déclarations"
+          ]
+        },
+        {
+          "sousTitre": "5. Automatisation des processus de paie",
+          "details": [
+            "Paramétrage des règles de paie",
+            "Automatisation des calculs de paie",
+            "Gestion des régularisations et des rappels de paie"
+          ]
+        },
+        {
+          "sousTitre": "6. Gestion des absences et des congés",
+          "details": [
+            "Suivi des absences et des congés",
+            "Calcul des droits aux congés",
+            "Intégration des absences dans les bulletins de paie"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Jour 3 : Reporting et Suivi des Paies",
+      "contenu": [
+        {
+          "sousTitre": "7. Suivi des paies",
+          "details": [
+            "Analyse et validation des bulletins de paie",
+            "Gestion des retenues sur salaire",
+            "Suivi des paiements des salaires"
+          ]
+        },
+        {
+          "sousTitre": "8. Reporting et analyse",
+          "details": [
+            "Création de rapports personnalisés",
+            "Exportation des données vers Excel",
+            "Utilisation des tableaux de bord"
+          ]
+        },
+        {
+          "sousTitre": "9. Cas pratique et atelier",
+          "details": [
+            "Mise en pratique des connaissances acquises",
+            "Simulation de gestion complète d’un cycle de paie",
+            "Analyse et discussion des résultats"
+          ]
+        },
+        {
+          "sousTitre": "10. Évaluation Finale",
+          "details": []
+        }
+      ]
+    }
+  ]
+}
+,
+
 
 
 
@@ -810,12 +827,13 @@
 {
   "titreFormation": "AutoCAD",
   "objectifs": [
-    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités de base et avancées du logiciel AutoCAD pour la création et la gestion de dessins techniques. À l'issue de cette formation, les participants seront capables de :",
-    "Comprendre les concepts fondamentaux du dessin assisté par ordinateur (DAO).",
-    "Utiliser les fonctionnalités de base et avancées d'AutoCAD.",
-    "Créer, modifier et gérer des dessins techniques en 2D.",
-    "Utiliser les outils de cotation, de mise en page et d'impression.",
-    "Gérer les calques, les blocs et les références externes."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités de base et avancées du logiciel AutoCAD pour la création et la gestion de dessins techniques.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux du dessin assisté par ordinateur (DAO).",
+    "- Utiliser les fonctionnalités de base et avancées d'AutoCAD.",
+    "- Créer, modifier et gérer des dessins techniques en 2D.",
+    "- Utiliser les outils de cotation, de mise en page et d'impression.",
+    "- Gérer les calques, les blocs et les références externes."
   ],
   "publicCible": "Cette formation s'adresse aux dessinateurs, architectes, ingénieurs, techniciens et toute personne impliquée dans la création et la gestion de dessins techniques souhaitant améliorer leur efficacité en utilisant AutoCAD.",
   "prerequis": [
@@ -826,7 +844,7 @@
   "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "1. Introduction à la Gouvernance en Cybersécurité",
+      "titre": "Introduction à AutoCAD et Principes de Base",
       "contenu": [
         {
           "sousTitre": "1. Introduction à AutoCAD",
@@ -847,13 +865,13 @@
       ]
     },
     {
-      "titre": "2. Création et Modification de Dessins",
+      "titre": "Création et Modification de Dessins",
       "contenu": [
         {
           "sousTitre": "3. Outils de modification",
           "details": [
-            "Déplacement, copie, rotation et mise à l’échelle",
-            "Outils d’édition avancée (découpe, prolongation, ajustement)",
+            "Déplacement, copie, rotation et mise à l'échelle",
+            "Outils d'édition avancée (découpe, prolongation, ajustement)",
             "Utilisation des poignées de modification"
           ]
         },
@@ -861,14 +879,14 @@
           "sousTitre": "4. Cotation et annotations",
           "details": [
             "Création et modification des cotes",
-            "Ajout de textes et d’annotations",
+            "Ajout de textes et d'annotations",
             "Styles de cotation et de texte"
           ]
         }
       ]
     },
     {
-      "titre": "3. Gestion des Calques, Blocs et Références Externes",
+      "titre": "Gestion des Calques, Blocs et Références Externes",
       "contenu": [
         {
           "sousTitre": "5. Gestion des calques",
@@ -897,13 +915,13 @@
       ]
     },
     {
-      "titre": "4. Outils de Productivité et Mise en Page",
+      "titre": "Outils de Productivité et Mise en Page",
       "contenu": [
         {
           "sousTitre": "8. Outils de productivité",
           "details": [
-            "Palettes d’outils et de propriétés",
-            "Personnalisation de l’interface utilisateur",
+            "Palettes d'outils et de propriétés",
+            "Personnalisation de l'interface utilisateur",
             "Utilisation des macros et scripts"
           ]
         },
@@ -912,37 +930,37 @@
           "details": [
             "Création et gestion des présentations",
             "Paramétrage des styles de tracé",
-            "Préparation des dessins pour l’impression"
+            "Préparation des dessins pour l'impression"
           ]
         }
       ]
     },
     {
-      "titre": "5. Atelier Pratique et Projets Avancés",
+      "titre": "Atelier Pratique et Projets Avancés",
       "contenu": [
         {
           "sousTitre": "10. Atelier pratique",
           "details": [
-            "Réalisation d’un projet complet de dessin technique",
+            "Réalisation d'un projet complet de dessin technique",
             "Application des connaissances acquises"
           ]
         },
         {
           "sousTitre": "11. Projets avancés",
           "details": [
-            "Introduction aux fonctionnalités 3D d’AutoCAD",
+            "Introduction aux fonctionnalités 3D d'AutoCAD",
             "Utilisation des outils de rendu et de visualisation"
           ]
-        },
-        {
-          "sousTitre": "12. Évaluation Finale",
-          "details": []
         }
       ]
+    },
+    {
+      "titre": "12. Évaluation Finale",
+      "contenu": []
     }
   ]
-},
-
+}
+,
 
 
 
@@ -956,12 +974,13 @@
 {
   "titreFormation": "AutoCAD Structural Detailing",
   "objectifs": [
-    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités d'AutoCAD Structural Detailing pour la création et la gestion de dessins techniques de structures. À l'issue de cette formation, les participants seront capables de :",
-    "Comprendre les concepts fondamentaux du dessin assisté par ordinateur (DAO) appliqués aux structures.",
-    "Utiliser les fonctionnalités d'AutoCAD Structural Detailing pour la création de dessins de structures.",
-    "Créer, modifier et gérer des dessins techniques de structures en 2D et 3D.",
-    "Utiliser les outils de cotation, de mise en page et d'impression spécifiques aux structures.",
-    "Gérer les calques, les blocs, et les références externes appliqués aux dessins de structures."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités d'AutoCAD Structural Detailing pour la création et la gestion de dessins techniques de structures.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux du dessin assisté par ordinateur (DAO) appliqués aux structures.",
+    "- Utiliser les fonctionnalités d'AutoCAD Structural Detailing pour la création de dessins de structures.",
+    "- Créer, modifier et gérer des dessins techniques de structures en 2D et 3D.",
+    "- Utiliser les outils de cotation, de mise en page et d'impression spécifiques aux structures.",
+    "- Gérer les calques, les blocs, et les références externes appliqués aux dessins de structures."
   ],
   "publicCible": "Cette formation s'adresse aux dessinateurs, ingénieurs en structures, techniciens et toute personne impliquée dans la création et la gestion de dessins techniques de structures souhaitant améliorer leur efficacité en utilisant AutoCAD Structural Detailing.",
   "prerequis": [
@@ -972,7 +991,7 @@
   "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "Module 1 : Introduction à AutoCAD Structural Detailing et Principes de Base",
+      "titre": "Introduction à AutoCAD Structural Detailing et Principes de Base",
       "contenu": [
         {
           "sousTitre": "1. Introduction à AutoCAD Structural Detailing",
@@ -993,7 +1012,7 @@
       ]
     },
     {
-      "titre": "Module 2 : Création et Modification de Dessins de Structures",
+      "titre": "Création et Modification de Dessins de Structures",
       "contenu": [
         {
           "sousTitre": "3. Outils de modification appliqués aux structures",
@@ -1014,7 +1033,7 @@
       ]
     },
     {
-      "titre": "Module 3 : Gestion des Calques, Blocs et Références Externes",
+      "titre": "Gestion des Calques, Blocs et Références Externes",
       "contenu": [
         {
           "sousTitre": "5. Gestion des calques pour les structures",
@@ -1043,7 +1062,7 @@
       ]
     },
     {
-      "titre": "Module 4 : Outils de Productivité et Mise en Page",
+      "titre": "Outils de Productivité et Mise en Page",
       "contenu": [
         {
           "sousTitre": "8. Outils de productivité pour les dessins de structures",
@@ -1064,7 +1083,7 @@
       ]
     },
     {
-      "titre": "Module 5 : Atelier Pratique et Projets Avancés",
+      "titre": "Atelier Pratique et Projets Avancés",
       "contenu": [
         {
           "sousTitre": "10. Atelier pratique",
@@ -1081,15 +1100,14 @@
           ]
         },
         {
-          "sousTitre": "12. Évaluation finale",
+          "sousTitre": "12. Évaluation Finale",
           "details": []
         }
       ]
     }
   ]
-},
-
-
+}
+,
 
 
 
@@ -1106,13 +1124,15 @@
 
 
 {
-  "titreFormation": "ETABS",
-  "objectif": [
-    "Comprendre les concepts fondamentaux de l'analyse structurale.",
-    "Utiliser ETABS pour modéliser, analyser et concevoir des structures.",
-    "Créer et gérer des modèles 3D de bâtiments.",
-    "Effectuer des analyses statiques et dynamiques.",
-    "Générer des rapports et des dessins de conception."
+  "titreFormation": "Etabs",
+  "objectifs": [
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel ETABS pour l'analyse et la conception de structures.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de l'analyse structurale.",
+    "- Utiliser ETABS pour modéliser, analyser et concevoir des structures.",
+    "- Créer et gérer des modèles 3D de bâtiments.",
+    "- Effectuer des analyses statiques et dynamiques.",
+    "- Générer des rapports et des dessins de conception."
   ],
   "publicCible": "Cette formation s'adresse aux ingénieurs civils, ingénieurs en structures, techniciens et toute personne impliquée dans l'analyse et la conception de structures souhaitant améliorer leur efficacité en utilisant ETABS.",
   "prerequis": [
@@ -1124,26 +1144,26 @@
   "programme": [
     {
       "titre": "Introduction à ETABS et Modélisation de Base",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "1. Introduction à ETABS",
-          "contenu": [
+          "sousTitre": "1. Introduction à ETABS",
+          "details": [
             "Présentation de l'interface utilisateur",
             "Paramétrage initial du logiciel",
             "Navigation et outils de base"
           ]
         },
         {
-          "titre": "2. Modélisation de base",
-          "contenu": [
+          "sousTitre": "2. Modélisation de base",
+          "details": [
             "Création de modèles 3D",
             "Définition des matériaux et des sections",
             "Modélisation des éléments de structure (poutres, colonnes, dalles)"
           ]
         },
         {
-          "titre": "3. Gestion des charges",
-          "contenu": [
+          "sousTitre": "3. Gestion des charges",
+          "details": [
             "Application des charges statiques",
             "Combinaisons de charges",
             "Introduction aux charges dynamiques"
@@ -1153,17 +1173,17 @@
     },
     {
       "titre": "Analyse Statique et Dynamique",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "4. Analyse statique",
-          "contenu": [
+          "sousTitre": "4. Analyse statique",
+          "details": [
             "Méthodes d'analyse statique",
             "Vérification et interprétation des résultats"
           ]
         },
         {
-          "titre": "5. Analyse dynamique",
-          "contenu": [
+          "sousTitre": "5. Analyse dynamique",
+          "details": [
             "Introduction à l'analyse dynamique",
             "Analyse des vibrations et des modes propres",
             "Réponse aux séismes et analyse spectrale"
@@ -1173,24 +1193,24 @@
     },
     {
       "titre": "Conception et Dimensionnement des Éléments",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "6. Conception des éléments en béton armé",
-          "contenu": [
+          "sousTitre": "6. Conception des éléments en béton armé",
+          "details": [
             "Normes et codes de conception",
             "Dimensionnement des poutres, colonnes et dalles"
           ]
         },
         {
-          "titre": "7. Conception des éléments en acier",
-          "contenu": [
+          "sousTitre": "7. Conception des éléments en acier",
+          "details": [
             "Normes et codes de conception",
             "Dimensionnement des poutres et des colonnes en acier"
           ]
         },
         {
-          "titre": "8. Vérification et optimisation de la conception",
-          "contenu": [
+          "sousTitre": "8. Vérification et optimisation de la conception",
+          "details": [
             "Utilisation des outils de vérification d'ETABS",
             "Optimisation des sections et des matériaux"
           ]
@@ -1199,18 +1219,18 @@
     },
     {
       "titre": "Gestion des Charges et Combinaisons",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "9. Charges de vent et de neige",
-          "contenu": [
+          "sousTitre": "9. Charges de vent et de neige",
+          "details": [
             "Modélisation des charges de vent",
             "Modélisation des charges de neige",
             "Combinaisons de charges complexes"
           ]
         },
         {
-          "titre": "10. Charges sismiques",
-          "contenu": [
+          "sousTitre": "10. Charges sismiques",
+          "details": [
             "Modélisation des charges sismiques",
             "Utilisation des spectres de réponse",
             "Analyse pushover"
@@ -1220,30 +1240,31 @@
     },
     {
       "titre": "Atelier Pratique et Rapports",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "11. Atelier pratique",
-          "contenu": [
+          "sousTitre": "11. Atelier pratique",
+          "details": [
             "Réalisation d'un projet complet d'analyse et de conception de structure",
             "Application des connaissances acquises"
           ]
         },
         {
-          "titre": "12. Génération de rapports et dessins",
-          "contenu": [
+          "sousTitre": "12. Génération de rapports et dessins",
+          "details": [
             "Création de rapports détaillés",
             "Génération de dessins de conception",
             "Exportation des résultats et des dessins"
           ]
         },
         {
-          "titre": "13. Évaluation Finale",
-          "contenu": []
+          "sousTitre": "13. Évaluation Finale",
+          "details": []
         }
       ]
     }
   ]
-},
+}
+,
 
 
 
@@ -1253,16 +1274,16 @@
 
 
 
-
-
- {
+{
   "titreFormation": "Robot Structural Analysis",
-  "objectif": [
-    "Comprendre les concepts fondamentaux de l'analyse structurale.",
-    "Utiliser Robot Structural Analysis pour modéliser, analyser et concevoir des structures.",
-    "Créer et gérer des modèles 3D de bâtiments.",
-    "Effectuer des analyses statiques et dynamiques.",
-    "Générer des rapports et des dessins de conception."
+  "objectifs": [
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Robot Structural Analysis pour l'analyse et la conception de structures.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de l'analyse structurale.",
+    "- Utiliser Robot Structural Analysis pour modéliser, analyser et concevoir des structures.",
+    "- Créer et gérer des modèles 3D de bâtiments.",
+    "- Effectuer des analyses statiques et dynamiques.",
+    "- Générer des rapports et des dessins de conception."
   ],
   "publicCible": "Cette formation s'adresse aux ingénieurs civils, ingénieurs en structures, techniciens et toute personne impliquée dans l'analyse et la conception de structures souhaitant améliorer leur efficacité en utilisant Robot Structural Analysis.",
   "prerequis": [
@@ -1274,26 +1295,26 @@
   "programme": [
     {
       "titre": "Introduction à Robot Structural Analysis et Modélisation de Base",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "1. Introduction à Robot Structural Analysis",
-          "contenu": [
+          "sousTitre": "1. Introduction à Robot Structural Analysis",
+          "details": [
             "Présentation de l'interface utilisateur",
             "Paramétrage initial du logiciel",
             "Navigation et outils de base"
           ]
         },
         {
-          "titre": "2. Modélisation de base",
-          "contenu": [
+          "sousTitre": "2. Modélisation de base",
+          "details": [
             "Création de modèles 3D",
             "Définition des matériaux et des sections",
             "Modélisation des éléments de structure (poutres, colonnes, dalles)"
           ]
         },
         {
-          "titre": "3. Gestion des charges",
-          "contenu": [
+          "sousTitre": "3. Gestion des charges",
+          "details": [
             "Application des charges statiques",
             "Combinaisons de charges",
             "Introduction aux charges dynamiques"
@@ -1303,17 +1324,17 @@
     },
     {
       "titre": "Analyse Statique et Dynamique",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "4. Analyse statique",
-          "contenu": [
+          "sousTitre": "4. Analyse statique",
+          "details": [
             "Méthodes d'analyse statique",
             "Vérification et interprétation des résultats"
           ]
         },
         {
-          "titre": "5. Analyse dynamique",
-          "contenu": [
+          "sousTitre": "5. Analyse dynamique",
+          "details": [
             "Introduction à l'analyse dynamique",
             "Analyse des vibrations et des modes propres",
             "Réponse aux séismes et analyse spectrale"
@@ -1323,24 +1344,24 @@
     },
     {
       "titre": "Conception et Dimensionnement des Éléments",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "6. Conception des éléments en béton armé",
-          "contenu": [
+          "sousTitre": "6. Conception des éléments en béton armé",
+          "details": [
             "Normes et codes de conception",
             "Dimensionnement des poutres, colonnes et dalles"
           ]
         },
         {
-          "titre": "7. Conception des éléments en acier",
-          "contenu": [
+          "sousTitre": "7. Conception des éléments en acier",
+          "details": [
             "Normes et codes de conception",
             "Dimensionnement des poutres et des colonnes en acier"
           ]
         },
         {
-          "titre": "8. Vérification et optimisation de la conception",
-          "contenu": [
+          "sousTitre": "8. Vérification et optimisation de la conception",
+          "details": [
             "Utilisation des outils de vérification de Robot Structural Analysis",
             "Optimisation des sections et des matériaux"
           ]
@@ -1349,18 +1370,18 @@
     },
     {
       "titre": "Gestion des Charges et Combinaisons",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "9. Charges de vent et de neige",
-          "contenu": [
+          "sousTitre": "9. Charges de vent et de neige",
+          "details": [
             "Modélisation des charges de vent",
             "Modélisation des charges de neige",
             "Combinaisons de charges complexes"
           ]
         },
         {
-          "titre": "10. Charges sismiques",
-          "contenu": [
+          "sousTitre": "10. Charges sismiques",
+          "details": [
             "Modélisation des charges sismiques",
             "Utilisation des spectres de réponse",
             "Analyse pushover"
@@ -1370,34 +1391,31 @@
     },
     {
       "titre": "Atelier Pratique et Rapports",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "11. Atelier pratique",
-          "contenu": [
+          "sousTitre": "11. Atelier pratique",
+          "details": [
             "Réalisation d'un projet complet d'analyse et de conception de structure",
             "Application des connaissances acquises"
           ]
         },
         {
-          "titre": "12. Génération de rapports et dessins",
-          "contenu": [
+          "sousTitre": "12. Génération de rapports et dessins",
+          "details": [
             "Création de rapports détaillés",
             "Génération de dessins de conception",
             "Exportation des résultats et des dessins"
           ]
         },
         {
-          "titre": "13. Évaluation Finale",
-          "contenu": []
+          "sousTitre": "13. Évaluation Finale",
+          "details": []
         }
       ]
     }
   ]
-},
-
-
-
-
+}
+,
 
 
 
@@ -1407,11 +1425,13 @@
 {
   "titreFormation": "Tekla Structures",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de la modélisation des informations du bâtiment (BIM) appliqués aux structures.",
-    "Utiliser Tekla Structures pour modéliser, analyser et concevoir des structures.",
-    "Créer et gérer des modèles 3D détaillés de structures.",
-    "Effectuer des analyses et générer des dessins de fabrication.",
-    "Gérer les projets de construction de manière collaborative."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Tekla Structures pour la modélisation, l'analyse et la conception de structures.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la modélisation des informations du bâtiment (BIM) appliqués aux structures.",
+    "- Utiliser Tekla Structures pour modéliser, analyser et concevoir des structures.",
+    "- Créer et gérer des modèles 3D détaillés de structures.",
+    "- Effectuer des analyses et générer des dessins de fabrication.",
+    "- Gérer les projets de construction de manière collaborative."
   ],
   "publicCible": "Cette formation s'adresse aux ingénieurs civils, ingénieurs en structures, techniciens et toute personne impliquée dans la modélisation, l'analyse et la conception de structures souhaitant améliorer leur efficacité en utilisant Tekla Structures.",
   "prerequis": [
@@ -1423,26 +1443,26 @@
   "programme": [
     {
       "titre": "Introduction à Tekla Structures et Modélisation de Base",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "1. Introduction à Tekla Structures",
-          "contenu": [
+          "sousTitre": "1. Introduction à Tekla Structures",
+          "details": [
             "Présentation de l'interface utilisateur",
             "Paramétrage initial du logiciel",
             "Navigation et outils de base"
           ]
         },
         {
-          "titre": "2. Modélisation de base",
-          "contenu": [
+          "sousTitre": "2. Modélisation de base",
+          "details": [
             "Création de modèles 3D",
             "Définition des matériaux et des sections",
             "Modélisation des éléments de structure (poutres, colonnes, dalles)"
           ]
         },
         {
-          "titre": "3. Gestion des charges",
-          "contenu": [
+          "sousTitre": "3. Gestion des charges",
+          "details": [
             "Application des charges statiques",
             "Combinaisons de charges",
             "Introduction aux charges dynamiques"
@@ -1452,18 +1472,18 @@
     },
     {
       "titre": "Modélisation Avancée et Analyse",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "4. Modélisation avancée",
-          "contenu": [
+          "sousTitre": "4. Modélisation avancée",
+          "details": [
             "Utilisation des composants système et personnalisés",
             "Modélisation des connexions et des détails",
             "Création de macros et d'automatisation"
           ]
         },
         {
-          "titre": "5. Analyse structurale",
-          "contenu": [
+          "sousTitre": "5. Analyse structurale",
+          "details": [
             "Méthodes d'analyse",
             "Vérification et interprétation des résultats",
             "Optimisation des éléments structuraux"
@@ -1473,24 +1493,24 @@
     },
     {
       "titre": "Conception et Dessins de Fabrication",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "6. Conception des éléments en béton armé",
-          "contenu": [
+          "sousTitre": "6. Conception des éléments en béton armé",
+          "details": [
             "Normes et codes de conception",
             "Dimensionnement des poutres, colonnes et dalles"
           ]
         },
         {
-          "titre": "7. Conception des éléments en acier",
-          "contenu": [
+          "sousTitre": "7. Conception des éléments en acier",
+          "details": [
             "Normes et codes de conception",
             "Dimensionnement des poutres et des colonnes en acier"
           ]
         },
         {
-          "titre": "8. Génération des dessins de fabrication",
-          "contenu": [
+          "sousTitre": "8. Génération des dessins de fabrication",
+          "details": [
             "Création de plans d'ensemble et de détails",
             "Listes de matériaux et nomenclatures",
             "Préparation des fichiers pour la fabrication"
@@ -1500,18 +1520,18 @@
     },
     {
       "titre": "Gestion de Projet et Collaboration",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "9. Gestion de projet avec Tekla Structures",
-          "contenu": [
+          "sousTitre": "9. Gestion de projet avec Tekla Structures",
+          "details": [
             "Suivi de l'avancement des projets",
             "Coordination et gestion des modifications",
             "Collaboration avec d'autres logiciels BIM"
           ]
         },
         {
-          "titre": "10. Travail collaboratif",
-          "contenu": [
+          "sousTitre": "10. Travail collaboratif",
+          "details": [
             "Utilisation des outils de collaboration de Tekla",
             "Partage de modèles et coordination",
             "Gestion des conflits et des interférences"
@@ -1521,31 +1541,32 @@
     },
     {
       "titre": "Atelier Pratique et Rapports",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "11. Atelier pratique",
-          "contenu": [
+          "sousTitre": "11. Atelier pratique",
+          "details": [
             "Réalisation d'un projet complet de modélisation et de conception de structure",
             "Application des connaissances acquises"
           ]
         },
         {
-          "titre": "12. Génération de rapports et dessins",
-          "contenu": [
+          "sousTitre": "12. Génération de rapports et dessins",
+          "details": [
             "Création de rapports détaillés",
             "Génération de dessins de conception",
             "Exportation des résultats et des dessins"
           ]
         },
         {
-          "titre": "13. Évaluation Finale",
-          "contenu": []
+          "sousTitre": "13. Évaluation Finale",
+          "details": []
         }
       ]
     }
   ]
-},
+}
 
+,
 
 
 
@@ -1558,11 +1579,13 @@
 {
   "titreFormation": "AMETank",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de la conception et de l'analyse des réservoirs de stockage.",
-    "Utiliser AMETank pour modéliser et concevoir des réservoirs de stockage.",
-    "Créer et gérer des modèles 3D de réservoirs.",
-    "Effectuer des analyses de contraintes et de stabilité.",
-    "Générer des rapports et des dessins de fabrication."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel AMETank pour la conception, l'analyse et la fabrication de réservoirs de stockage.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la conception et de l'analyse des réservoirs de stockage.",
+    "- Utiliser AMETank pour modéliser et concevoir des réservoirs de stockage.",
+    "- Créer et gérer des modèles 3D de réservoirs.",
+    "- Effectuer des analyses de contraintes et de stabilité.",
+    "- Générer des rapports et des dessins de fabrication."
   ],
   "publicCible": "Cette formation s'adresse aux ingénieurs, concepteurs, techniciens et toute personne impliquée dans la conception et la fabrication de réservoirs de stockage souhaitant améliorer leur efficacité en utilisant AMETank.",
   "prerequis": [
@@ -1573,85 +1596,104 @@
   "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "1. Introduction à AMETank",
-      "soustitres": [
-        "Présentation de l'interface utilisateur",
-        "Paramétrage initial du logiciel",
-        "Navigation et outils de base"
+      "titre": "Introduction à AMETank et Modélisation de Base",
+      "contenu": [
+        {
+          "sousTitre": "1. Introduction à AMETank",
+          "details": [
+            "Présentation de l'interface utilisateur",
+            "Paramétrage initial du logiciel",
+            "Navigation et outils de base"
+          ]
+        },
+        {
+          "sousTitre": "2. Modélisation de base",
+          "details": [
+            "Création de modèles 3D de réservoirs",
+            "Définition des matériaux et des sections",
+            "Modélisation des éléments de structure (fond, parois, toit)"
+          ]
+        },
+        {
+          "sousTitre": "3. Gestion des charges",
+          "details": [
+            "Application des charges statiques et dynamiques",
+            "Combinaisons de charges",
+            "Introduction aux charges environnementales"
+          ]
+        }
       ]
     },
     {
-      "titre": "2. Modélisation de base",
-      "soustitres": [
-        "Création de modèles 3D de réservoirs",
-        "Définition des matériaux et des sections",
-        "Modélisation des éléments de structure (fond, parois, toit)"
+      "titre": "Conception et Analyse",
+      "contenu": [
+        {
+          "sousTitre": "4. Conception des réservoirs",
+          "details": [
+            "Normes et codes de conception (API 650, API 620)",
+            "Dimensionnement des éléments structuraux",
+            "Vérification des contraintes et des déformations"
+          ]
+        },
+        {
+          "sousTitre": "5. Analyse structurale",
+          "details": [
+            "Analyse des contraintes et de la stabilité",
+            "Simulation des conditions de charge",
+            "Optimisation des éléments structuraux"
+          ]
+        }
       ]
     },
     {
-      "titre": "3. Gestion des charges",
-      "soustitres": [
-        "Application des charges statiques et dynamiques",
-        "Combinaisons de charges",
-        "Introduction aux charges environnementales"
+      "titre": "Détails de Fabrication et Dessins",
+      "contenu": [
+        {
+          "sousTitre": "6. Détails de fabrication",
+          "details": [
+            "Création de plans d'ensemble et de détails",
+            "Listes de matériaux et nomenclatures",
+            "Préparation des fichiers pour la fabrication"
+          ]
+        },
+        {
+          "sousTitre": "7. Dessins de fabrication",
+          "details": [
+            "Génération de dessins détaillés",
+            "Utilisation des outils de cotation et d'annotation",
+            "Préparation des dessins pour l'impression"
+          ]
+        }
       ]
     },
     {
-      "titre": "4. Conception des réservoirs",
-      "soustitres": [
-        "Normes et codes de conception (API 650, API 620)",
-        "Dimensionnement des éléments structuraux",
-        "Vérification des contraintes et des déformations"
-      ]
-    },
-    {
-      "titre": "5. Analyse structurale",
-      "soustitres": [
-        "Analyse des contraintes et de la stabilité",
-        "Simulation des conditions de charge",
-        "Optimisation des éléments structuraux"
-      ]
-    },
-    {
-      "titre": "6. Détails de fabrication",
-      "soustitres": [
-        "Création de plans d'ensemble et de détails",
-        "Listes de matériaux et nomenclatures",
-        "Préparation des fichiers pour la fabrication"
-      ]
-    },
-    {
-      "titre": "7. Dessins de fabrication",
-      "soustitres": [
-        "Génération de dessins détaillés",
-        "Utilisation des outils de cotation et d'annotation",
-        "Préparation des dessins pour l'impression"
-      ]
-    },
-    {
-      "titre": "8. Atelier pratique",
-      "soustitres": [
-        "Réalisation d'un projet complet de modélisation et de conception de réservoir",
-        "Application des connaissances acquises"
-      ]
-    },
-    {
-      "titre": "9. Génération de rapports et dessins",
-      "soustitres": [
-        "Création de rapports détaillés",
-        "Génération de dessins de conception et de fabrication",
-        "Exportation des résultats et des dessins"
+      "titre": "Atelier Pratique et Rapports",
+      "contenu": [
+        {
+          "sousTitre": "8. Atelier pratique",
+          "details": [
+            "Réalisation d'un projet complet de modélisation et de conception de réservoir",
+            "Application des connaissances acquises"
+          ]
+        },
+        {
+          "sousTitre": "9. Génération de rapports et dessins",
+          "details": [
+            "Création de rapports détaillés",
+            "Génération de dessins de conception et de fabrication",
+            "Exportation des résultats et des dessins"
+          ]
+        }
       ]
     },
     {
       "titre": "10. Évaluation Finale",
-      "soustitres": []
+      "contenu": []
     }
   ]
 }
+
 ,
-
-
 
 
 
@@ -1668,13 +1710,15 @@
 {
   "titreFormation": "SolidWorks",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de la modélisation 3D.",
-    "Utiliser SolidWorks pour créer des modèles 3D de pièces et d'assemblages.",
-    "Effectuer des simulations et des analyses de contraintes.",
-    "Générer des dessins techniques et des plans de fabrication.",
-    "Optimiser les conceptions pour la fabrication et l'assemblage."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel SolidWorks pour la conception, la modélisation et l'assemblage de pièces et de systèmes mécaniques.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la modélisation 3D.",
+    "- Utiliser SolidWorks pour créer des modèles 3D de pièces et d'assemblages.",
+    "- Effectuer des simulations et des analyses de contraintes.",
+    "- Générer des dessins techniques et des plans de fabrication.",
+    "- Optimiser les conceptions pour la fabrication et l'assemblage."
   ],
-  "publicCible": "Ingénieurs, concepteurs, techniciens et toute personne impliquée dans la conception et la fabrication de pièces et de systèmes mécaniques souhaitant améliorer leur efficacité en utilisant SolidWorks.",
+  "publicCible": "Cette formation s'adresse aux ingénieurs, concepteurs, techniciens et toute personne impliquée dans la conception et la fabrication de pièces et de systèmes mécaniques souhaitant améliorer leur efficacité en utilisant SolidWorks.",
   "prerequis": [
     "Connaissances de base en génie mécanique.",
     "Familiarité avec l'environnement Windows.",
@@ -1684,18 +1728,18 @@
   "programme": [
     {
       "titre": "Introduction à SolidWorks et Modélisation de Base",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "1. Introduction à SolidWorks",
-          "contenu": [
+          "sousTitre": "1. Introduction à SolidWorks",
+          "details": [
             "Présentation de l'interface utilisateur",
             "Paramétrage initial du logiciel",
             "Navigation et outils de base"
           ]
         },
         {
-          "titre": "2. Modélisation de base",
-          "contenu": [
+          "sousTitre": "2. Modélisation de base",
+          "details": [
             "Création de pièces simples",
             "Utilisation des esquisses 2D et 3D",
             "Fonctionnalités de base (extrusion, révolution, balayage)"
@@ -1705,18 +1749,18 @@
     },
     {
       "titre": "Modélisation Avancée",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "3. Modélisation avancée",
-          "contenu": [
+          "sousTitre": "3. Modélisation avancée",
+          "details": [
             "Création de pièces complexes",
             "Utilisation des fonctionnalités avancées (coque, nervure, congé)",
             "Création de configurations et de familles de pièces"
           ]
         },
         {
-          "titre": "4. Assemblages",
-          "contenu": [
+          "sousTitre": "4. Assemblages",
+          "details": [
             "Création et gestion des assemblages",
             "Contraintes et relations d'assemblage",
             "Vérification et analyse des assemblages"
@@ -1726,18 +1770,18 @@
     },
     {
       "titre": "Simulation et Analyse",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "5. Simulation de contraintes",
-          "contenu": [
+          "sousTitre": "5. Simulation de contraintes",
+          "details": [
             "Introduction à la simulation",
             "Définition des matériaux et des propriétés mécaniques",
             "Analyse de contraintes statiques"
           ]
         },
         {
-          "titre": "6. Optimisation de la conception",
-          "contenu": [
+          "sousTitre": "6. Optimisation de la conception",
+          "details": [
             "Utilisation des outils d'optimisation",
             "Analyse des résultats de simulation",
             "Itérations de conception pour améliorer les performances"
@@ -1747,18 +1791,18 @@
     },
     {
       "titre": "Dessins Techniques et Plans de Fabrication",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "7. Génération de dessins techniques",
-          "contenu": [
+          "sousTitre": "7. Génération de dessins techniques",
+          "details": [
             "Création de vues projetées et de coupes",
             "Ajout de cotations et d'annotations",
             "Utilisation des formats de feuilles et des cartouches"
           ]
         },
         {
-          "titre": "8. Plans de fabrication",
-          "contenu": [
+          "sousTitre": "8. Plans de fabrication",
+          "details": [
             "Création de plans détaillés pour la fabrication",
             "Listes de matériaux et nomenclatures",
             "Préparation des fichiers pour l'impression et la fabrication"
@@ -1768,30 +1812,31 @@
     },
     {
       "titre": "Atelier Pratique et Projets Avancés",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "9. Atelier pratique",
-          "contenu": [
+          "sousTitre": "9. Atelier pratique",
+          "details": [
             "Réalisation d'un projet complet de modélisation et de conception",
             "Application des connaissances acquises"
           ]
         },
         {
-          "titre": "10. Projets avancés",
-          "contenu": [
+          "sousTitre": "10. Projets avancés",
+          "details": [
             "Utilisation des modules complémentaires (SolidWorks Simulation, SolidWorks Flow Simulation)",
             "Collaboration et gestion de projet avec SolidWorks PDM",
             "Introduction à la fabrication additive avec SolidWorks"
           ]
-        },
-        {
-          "titre": "11. Évaluation Finale",
-          "contenu": []
         }
       ]
+    },
+    {
+      "titre": "11. Évaluation Finale",
+      "contenu": []
     }
   ]
-},
+}
+,
 
 
 
@@ -1802,15 +1847,16 @@
 
 
 
-
- {
+{
   "titreFormation": "Adobe Photoshop",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de la manipulation d'images numériques.",
-    "Utiliser les outils de base et avancés de Photoshop pour la retouche photo.",
-    "Créer et éditer des graphiques, des illustrations et des maquettes.",
-    "Appliquer des effets spéciaux et des filtres.",
-    "Préparer des fichiers pour l'impression et le web."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Adobe Photoshop pour la retouche d'images, la création graphique et le design visuel.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la manipulation d'images numériques.",
+    "- Utiliser les outils de base et avancés de Photoshop pour la retouche photo.",
+    "- Créer et éditer des graphiques, des illustrations et des maquettes.",
+    "- Appliquer des effets spéciaux et des filtres.",
+    "- Préparer des fichiers pour l'impression et le web."
   ],
   "publicCible": "Cette formation s'adresse aux graphistes, photographes, designers, et toute personne souhaitant acquérir des compétences en retouche photo et en création graphique avec Adobe Photoshop.",
   "prerequis": [
@@ -1822,18 +1868,18 @@
   "programme": [
     {
       "titre": "Introduction à Adobe Photoshop et Outils de Base",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "1. Introduction à Adobe Photoshop",
-          "contenu": [
+          "sousTitre": "1. Introduction à Adobe Photoshop",
+          "details": [
             "Présentation de l'interface utilisateur",
             "Paramétrage initial du logiciel",
             "Navigation et outils de base"
           ]
         },
         {
-          "titre": "2. Outils de sélection et manipulation",
-          "contenu": [
+          "sousTitre": "2. Outils de sélection et manipulation",
+          "details": [
             "Outils de sélection (rectangle, lasso, baguette magique)",
             "Outils de déplacement et de transformation",
             "Utilisation des calques"
@@ -1843,18 +1889,18 @@
     },
     {
       "titre": "Retouche Photo et Corrections d'Image",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "3. Retouche photo",
-          "contenu": [
+          "sousTitre": "3. Retouche photo",
+          "details": [
             "Réglages de base (luminosité, contraste, niveaux)",
             "Utilisation des outils de retouche (tampon de duplication, correcteur)",
             "Correction des couleurs et balance des blancs"
           ]
         },
         {
-          "titre": "4. Amélioration de l'image",
-          "contenu": [
+          "sousTitre": "4. Amélioration de l'image",
+          "details": [
             "Réduction du bruit et amélioration de la netteté",
             "Utilisation des filtres et des effets spéciaux",
             "Techniques de masquage et d'ajustement"
@@ -1864,18 +1910,18 @@
     },
     {
       "titre": "Création Graphique et Illustrations",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "5. Création graphique",
-          "contenu": [
+          "sousTitre": "5. Création graphique",
+          "details": [
             "Utilisation des formes vectorielles et des tracés",
             "Dessin et peinture avec les pinceaux",
             "Création de dégradés et de motifs"
           ]
         },
         {
-          "titre": "6. Texte et typographie",
-          "contenu": [
+          "sousTitre": "6. Texte et typographie",
+          "details": [
             "Ajout et modification de texte",
             "Effets de texte et styles",
             "Utilisation des polices et des typographies"
@@ -1885,18 +1931,18 @@
     },
     {
       "titre": "Techniques Avancées et Effets Spéciaux",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "7. Techniques avancées",
-          "contenu": [
+          "sousTitre": "7. Techniques avancées",
+          "details": [
             "Utilisation des objets dynamiques",
             "Montage photo et composition",
             "Techniques de détourage et de fusion"
           ]
         },
         {
-          "titre": "8. Effets spéciaux",
-          "contenu": [
+          "sousTitre": "8. Effets spéciaux",
+          "details": [
             "Application des filtres et effets",
             "Création d'effets de lumière et d'ombre",
             "Utilisation des styles de calque"
@@ -1906,18 +1952,18 @@
     },
     {
       "titre": "Préparation pour l'Impression et le Web",
-      "soustitres": [
+      "contenu": [
         {
-          "titre": "9. Préparation des fichiers pour l'impression",
-          "contenu": [
+          "sousTitre": "9. Préparation des fichiers pour l'impression",
+          "details": [
             "Paramètres de résolution et de taille d'image",
             "Utilisation des profils colorimétriques",
             "Préparation des fichiers PDF pour l'impression"
           ]
         },
         {
-          "titre": "10. Préparation des fichiers pour le web",
-          "contenu": [
+          "sousTitre": "10. Préparation des fichiers pour le web",
+          "details": [
             "Optimisation des images pour le web",
             "Utilisation des formats d'image appropriés (JPEG, PNG, GIF)",
             "Exportation et sauvegarde des fichiers"
@@ -1926,167 +1972,15 @@
       ]
     },
     {
-      "titre": "Évaluation Finale",
-      "soustitres": [
-        {
-          "titre": "11. Évaluation Finale",
-          "contenu": []
-        }
-      ]
+      "titre": "11. Évaluation Finale",
+      "contenu": []
     }
   ]
 }
+
 ,
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  {
-  "titreFormation": "Adobe Illustrator",
-  "objectifs": [
-    "Comprendre les concepts fondamentaux du graphisme vectoriel.",
-    "Utiliser les outils de base et avancés d'Illustrator pour créer des illustrations vectorielles.",
-    "Concevoir des logos, des icônes, des illustrations et des maquettes.",
-    "Travailler avec les calques, les chemins et les formes.",
-    "Préparer des fichiers pour l'impression et le web."
-  ],
-  "publicCible": "Graphistes, illustrateurs, designers, et toute personne souhaitant acquérir des compétences en création graphique vectorielle avec Adobe Illustrator.",
-  "prerequis": [
-    "Connaissances de base en informatique.",
-    "Familiarité avec l'environnement Windows ou macOS.",
-    "Expérience préalable avec des logiciels de graphisme est un plus."
-  ],
-  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application. Des études de cas et des ateliers pratiques permettent une mise en œuvre concrète des compétences.",
-  "programme": [
-    {
-      "titre": "Introduction à Adobe Illustrator et Outils de Base",
-      "soustitres": [
-        {
-          "titre": "1. Introduction à Adobe Illustrator",
-          "contenu": [
-            "Présentation de l'interface utilisateur",
-            "Paramétrage initial du logiciel",
-            "Navigation et outils de base"
-          ]
-        },
-        {
-          "titre": "2. Outils de dessin et de sélection",
-          "contenu": [
-            "Outils de dessin (plume, pinceau, crayon)",
-            "Outils de sélection et de manipulation",
-            "Utilisation des calques et des groupes"
-          ]
-        }
-      ]
-    },
-    {
-      "titre": "Création de Formes et Tracé",
-      "soustitres": [
-        {
-          "titre": "3. Création et manipulation de formes",
-          "contenu": [
-            "Création de formes de base",
-            "Utilisation des outils de transformation",
-            "Création de formes complexes avec Pathfinder"
-          ]
-        },
-        {
-          "titre": "4. Tracé et courbes de Bézier",
-          "contenu": [
-            "Utilisation de l'outil Plume",
-            "Tracé de courbes et segments droits",
-            "Modification des tracés et des points d'ancrage"
-          ]
-        }
-      ]
-    },
-    {
-      "titre": "Couleur, Dégradés et Styles",
-      "soustitres": [
-        {
-          "titre": "5. Couleur et remplissage",
-          "contenu": [
-            "Utilisation des palettes de couleurs",
-            "Création et application de dégradés",
-            "Utilisation des motifs et des textures"
-          ]
-        },
-        {
-          "titre": "6. Styles et effets",
-          "contenu": [
-            "Application des styles de calque",
-            "Utilisation des effets de transformation",
-            "Création d'ombres portées et de lueurs"
-          ]
-        }
-      ]
-    },
-    {
-      "titre": "Texte et Typographie",
-      "soustitres": [
-        {
-          "titre": "7. Texte et typographie",
-          "contenu": [
-            "Ajout et modification de texte",
-            "Utilisation des polices et typographies",
-            "Effets de texte et styles de paragraphe"
-          ]
-        },
-        {
-          "titre": "8. Mise en page et composition",
-          "contenu": [
-            "Création de maquettes et de compositions",
-            "Utilisation des grilles et des guides",
-            "Alignement et distribution des objets"
-          ]
-        }
-      ]
-    },
-    {
-      "titre": "Préparation pour l'Impression et le Web",
-      "soustitres": [
-        {
-          "titre": "9. Préparation des fichiers pour l'impression",
-          "contenu": [
-            "Paramètres de résolution et de taille d'image",
-            "Utilisation des profils colorimétriques",
-            "Préparation des fichiers PDF pour l'impression"
-          ]
-        },
-        {
-          "titre": "10. Préparation des fichiers pour le web",
-          "contenu": [
-            "Optimisation des images pour le web",
-            "Utilisation des formats d'image appropriés (SVG, PNG, JPEG)",
-            "Exportation et sauvegarde des fichiers"
-          ]
-        }
-      ]
-    },
-    {
-      "titre": "Évaluation Finale",
-      "soustitres": [
-        {
-          "titre": "11. Évaluation Finale",
-          "contenu": []
-        }
-      ]
-    }
-  ]
-}
-,
 
 
 
@@ -2100,21 +1994,164 @@
 
 
 {
-  "titre": "InDesign",
+  "titreFormation": "Adobe Illustrator",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de la mise en page.",
-    "Utiliser les outils de base et avancés d'InDesign pour créer des documents professionnels.",
-    "Concevoir des brochures, des magazines, des affiches et des livres.",
-    "Travailler avec les styles, les calques et les gabarits.",
-    "Préparer des fichiers pour l'impression et le web."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Adobe Illustrator pour la création de graphiques vectoriels, d'illustrations et de conceptions créatives.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux du graphisme vectoriel.",
+    "- Utiliser les outils de base et avancés d'Illustrator pour créer des illustrations vectorielles.",
+    "- Concevoir des logos, des icônes, des illustrations et des maquettes.",
+    "- Travailler avec les calques, les chemins et les formes.",
+    "- Préparer des fichiers pour l'impression et le web."
   ],
-  "publicCible": "Graphistes, designers, maquettistes, et toute personne souhaitant acquérir des compétences en mise en page avec InDesign.",
+  "publicCible": "Cette formation s'adresse aux graphistes, illustrateurs, designers, et toute personne souhaitant acquérir des compétences en création graphique vectorielle avec Adobe Illustrator.",
   "prerequis": [
     "Connaissances de base en informatique.",
     "Familiarité avec l'environnement Windows ou macOS.",
     "Expérience préalable avec des logiciels de graphisme est un plus."
   ],
-  "methodologie": "Présentations théoriques, démonstrations pratiques, études de cas, et ateliers.",
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
+  "programme": [
+    {
+      "titre": "Introduction à Adobe Illustrator et Outils de Base",
+      "contenu": [
+        {
+          "sousTitre": "1. Introduction à Adobe Illustrator",
+          "details": [
+            "Présentation de l'interface utilisateur",
+            "Paramétrage initial du logiciel",
+            "Navigation et outils de base"
+          ]
+        },
+        {
+          "sousTitre": "2. Outils de dessin et de sélection",
+          "details": [
+            "Outils de dessin (plume, pinceau, crayon)",
+            "Outils de sélection et de manipulation",
+            "Utilisation des calques et des groupes"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Création de Formes et Tracé",
+      "contenu": [
+        {
+          "sousTitre": "3. Création et manipulation de formes",
+          "details": [
+            "Création de formes de base",
+            "Utilisation des outils de transformation",
+            "Création de formes complexes avec Pathfinder"
+          ]
+        },
+        {
+          "sousTitre": "4. Tracé et courbes de Bézier",
+          "details": [
+            "Utilisation de l'outil Plume",
+            "Tracé de courbes et segments droits",
+            "Modification des tracés et des points d'ancrage"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Couleur, Dégradés et Styles",
+      "contenu": [
+        {
+          "sousTitre": "5. Couleur et remplissage",
+          "details": [
+            "Utilisation des palettes de couleurs",
+            "Création et application de dégradés",
+            "Utilisation des motifs et des textures"
+          ]
+        },
+        {
+          "sousTitre": "6. Styles et effets",
+          "details": [
+            "Application des styles de calque",
+            "Utilisation des effets de transformation",
+            "Création d'ombres portées et de lueurs"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Texte et Typographie",
+      "contenu": [
+        {
+          "sousTitre": "7. Texte et typographie",
+          "details": [
+            "Ajout et modification de texte",
+            "Utilisation des polices et typographies",
+            "Effets de texte et styles de paragraphe"
+          ]
+        },
+        {
+          "sousTitre": "8. Mise en page et composition",
+          "details": [
+            "Création de maquettes et de compositions",
+            "Utilisation des grilles et des guides",
+            "Alignement et distribution des objets"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Préparation pour l'Impression et le Web",
+      "contenu": [
+        {
+          "sousTitre": "9. Préparation des fichiers pour l'impression",
+          "details": [
+            "Paramètres de résolution et de taille d'image",
+            "Utilisation des profils colorimétriques",
+            "Préparation des fichiers PDF pour l'impression"
+          ]
+        },
+        {
+          "sousTitre": "10. Préparation des fichiers pour le web",
+          "details": [
+            "Optimisation des images pour le web",
+            "Utilisation des formats d'image appropriés (SVG, PNG, JPEG)",
+            "Exportation et sauvegarde des fichiers"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "11. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+
+,
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Adobe InDesign",
+  "objectifs": [
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Adobe InDesign pour la mise en page, la conception de documents imprimés et numériques.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de la mise en page.",
+    "- Utiliser les outils de base et avancés d'InDesign pour créer des documents professionnels.",
+    "- Concevoir des brochures, des magazines, des affiches et des livres.",
+    "- Travailler avec les styles, les calques et les gabarits.",
+    "- Préparer des fichiers pour l'impression et le web."
+  ],
+  "publicCible": "Cette formation s'adresse aux graphistes, designers, maquettistes, et toute personne souhaitant acquérir des compétences en mise en page et en conception de documents avec Adobe InDesign.",
+  "prerequis": [
+    "Connaissances de base en informatique.",
+    "Familiarité avec l'environnement Windows ou macOS.",
+    "Expérience préalable avec des logiciels de graphisme est un plus."
+  ],
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
       "titre": "Introduction à Adobe InDesign et Outils de Base",
@@ -2225,17 +2262,17 @@
             "Utilisation des formats d'image appropriés (JPEG, PNG, GIF)",
             "Exportation et sauvegarde des fichiers"
           ]
-        },
-        {
-          "sousTitre": "12. Évaluation Finale",
-          "details": []
         }
       ]
+    },
+    {
+      "titre": "12. Évaluation Finale",
+      "contenu": []
     }
   ]
-},
+}
 
-
+,
 
 
 
@@ -2245,24 +2282,26 @@
 
 
 {
-  "titre": "Adobe Premiere Pro",
+  "titreFormation": "Adobe Premiere Pro",
   "objectifs": [
-    "Comprendre les concepts fondamentaux du montage vidéo.",
-    "Utiliser les outils de base et avancés de Premiere Pro pour éditer des vidéos.",
-    "Importer et organiser des séquences vidéo.",
-    "Appliquer des effets visuels et des transitions.",
-    "Exporter des vidéos pour différentes plateformes et formats."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Adobe Premiere Pro pour le montage vidéo professionnel.",
+    "À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux du montage vidéo.",
+    "- Utiliser les outils de base et avancés de Premiere Pro pour éditer des vidéos.",
+    "- Importer et organiser des séquences vidéo.",
+    "- Appliquer des effets visuels et des transitions.",
+    "- Exporter des vidéos pour différentes plateformes et formats."
   ],
-  "publicCible": "Monteurs vidéo, réalisateurs, producteurs, et toute personne souhaitant acquérir des compétences en montage vidéo professionnel avec Adobe Premiere Pro.",
+  "publicCible": "Cette formation s'adresse aux monteurs vidéo, réalisateurs, producteurs, et toute personne souhaitant acquérir des compétences en montage vidéo professionnel avec Adobe Premiere Pro.",
   "prerequis": [
     "Connaissances de base en informatique.",
     "Familiarité avec l'environnement Windows ou macOS.",
     "Expérience préalable avec des logiciels de montage vidéo est un plus."
   ],
-  "methodologie": "Présentations théoriques, démonstrations pratiques, exercices d'application, études de cas et ateliers.",
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
     {
-      "titre": "Module 1 : Introduction à Adobe Premiere Pro et Outils de Base",
+      "titre": "Introduction à Adobe Premiere Pro et Outils de Base",
       "contenu": [
         {
           "sousTitre": "1. Introduction à Adobe Premiere Pro",
@@ -2283,7 +2322,7 @@
       ]
     },
     {
-      "titre": "Module 2 : Montage et Édition de Séquences",
+      "titre": "Montage et Édition de Séquences",
       "contenu": [
         {
           "sousTitre": "3. Montage de base",
@@ -2304,7 +2343,7 @@
       ]
     },
     {
-      "titre": "Module 3 : Audio et Correction des Couleurs",
+      "titre": "Audio et Correction des Couleurs",
       "contenu": [
         {
           "sousTitre": "5. Montage audio",
@@ -2325,7 +2364,7 @@
       ]
     },
     {
-      "titre": "Module 4 : Effets Avancés et Titres",
+      "titre": "Effets Avancés et Titres",
       "contenu": [
         {
           "sousTitre": "7. Effets visuels avancés",
@@ -2346,7 +2385,7 @@
       ]
     },
     {
-      "titre": "Module 5 : Exportation et Flux de Travail",
+      "titre": "Exportation et Flux de Travail",
       "contenu": [
         {
           "sousTitre": "9. Exportation des projets",
@@ -2367,17 +2406,12 @@
       ]
     },
     {
-      "titre": "Module 6 : Évaluation Finale",
-      "contenu": [
-        {
-          "sousTitre": "11. Évaluation Finale",
-          "details": []
-        }
-      ]
+      "titre": "11. Évaluation Finale",
+      "contenu": []
     }
   ]
-},
-
+}
+,
 
 
 
@@ -2395,19 +2429,20 @@
 
 
 {
-  "titre": "Adobe After Effects",
+  "titreFormation": "Adobe After Effects",
   "objectifs": [
-    "Comprendre les concepts fondamentaux de l'animation et des effets visuels.",
-    "Utiliser les outils de base et avancés d'After Effects pour créer des animations.",
-    "Importer et organiser des séquences vidéo et des éléments graphiques.",
-    "Appliquer des effets visuels, des transitions et des animations.",
-    "Exporter des vidéos pour différentes plateformes et formats."
+    "Cette formation a pour objectif de permettre aux participants de maîtriser les fonctionnalités du logiciel Adobe After Effects pour la création d'animations et d'effets visuels. À l'issue de cette formation, les participants seront capables de :",
+    "- Comprendre les concepts fondamentaux de l'animation et des effets visuels.",
+    "- Utiliser les outils de base et avancés d'After Effects pour créer des animations.",
+    "- Importer et organiser des séquences vidéo et des éléments graphiques.",
+    "- Appliquer des effets visuels, des transitions et des animations.",
+    "- Exporter des vidéos pour différentes plateformes et formats."
   ],
   "publicCible": "Cette formation s'adresse aux monteurs vidéo, animateurs, graphistes, et toute personne souhaitant acquérir des compétences en création d'animations et d'effets visuels avec Adobe After Effects.",
   "prerequis": [
-    "Connaissances de base en informatique.",
-    "Familiarité avec l'environnement Windows ou macOS.",
-    "Expérience préalable avec des logiciels de montage vidéo ou de graphisme est un plus."
+    "- Connaissances de base en informatique.",
+    "- Familiarité avec l'environnement Windows ou macOS.",
+    "- Expérience préalable avec des logiciels de montage vidéo ou de graphisme est un plus."
   ],
   "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts et outils enseignés. Des études de cas et des ateliers pratiques permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
   "programme": [
@@ -2513,15 +2548,16 @@
             "Intégration avec d'autres logiciels Adobe (Premiere Pro, Photoshop)",
             "Techniques d'optimisation du flux de travail"
           ]
+        },
+        {
+          "sousTitre": "11. Évaluation Finale",
+          "details": []
         }
       ]
-    },
-    {
-      "titre": "Évaluation Finale",
-      "contenu": []
     }
   ]
 }
+
 
   ]
 }

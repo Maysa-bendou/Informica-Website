@@ -1,527 +1,506 @@
 {
   "title": "Réseaux et Télécommunications",
   "formations": [
+ {
+  "titreFormation": "Théorie des Réseaux : TCP/IP, OSI, Routage, Commutation",
+  "objectifs": [
+    "Comprendre les concepts fondamentaux des réseaux informatiques.",
+    "Développer des compétences pour configurer et gérer des réseaux basés sur les modèles TCP/IP et OSI.",
+    "Maîtriser les techniques de routage et de commutation dans les réseaux."
+  ],
+  "publicCible": [
+    "Administrateurs réseau, ingénieurs réseau, techniciens en informatique, toute personne impliquée dans la gestion des réseaux."
+  ],
+  "prerequis": "Connaissances de base en informatique et en réseaux.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
     {
-      "titreFormation": "Théorie des Réseaux : TCP/IP, OSI, Routage, Commutation",
-      "objectifs": [
-        "Comprendre les concepts fondamentaux des réseaux informatiques",
-        "Développer des compétences pour configurer et gérer des réseaux basés sur TCP/IP et OSI",
-        "Maîtriser les techniques de routage et de commutation"
-      ],
-      "publicCible": [
-        "Administrateurs réseau",
-        "Ingénieurs réseau",
-        "Techniciens en informatique"
-      ],
-      "prerequis": "Connaissances de base en informatique et en réseaux",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction aux Réseaux",
-          "contenu": [
-            "Concepts de Base",
-            "Topologies Réseau"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Modèle OSI",
-          "contenu": [
-            "Les 7 Couches OSI",
-            "Protocoles Associés"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Modèle TCP/IP",
-          "contenu": [
-            "Architecture TCP/IP",
-            "Protocoles TCP/IP (HTTP, FTP, SMTP)"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Routage des Réseaux",
-          "contenu": [
-            "Concepts de Routage",
-            "Protocoles (RIP, OSPF, BGP)"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Commutation des Réseaux",
-          "contenu": [
-            "Concepts de Commutation",
-            "Technologies (VLAN, STP)"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Sécurité des Réseaux",
-          "contenu": [
-            "Mesures de Sécurité",
-            "Outils de Sécurité"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Configuration",
-            "Simulations de Routage"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils de Gestion",
-          "contenu": [
-            "Outils de Surveillance (Wireshark, SolarWinds)",
-            "Automatisation des Réseaux"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "1. Introduction aux Réseaux Informatiques",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes des réseaux informatiques.",
+        "Topologies Réseau : Exploration des différentes topologies réseau."
       ]
     },
     {
-      "titreFormation": "Technologies Mobiles : 2G, 3G, 4G, 5G, LTE, NR",
-      "objectifs": [
-        "Comprendre les principes des technologies mobiles de la 2G à la 5G",
-        "Développer des compétences pour les réseaux LTE et NR",
-        "Maîtriser les techniques d'optimisation des réseaux mobiles"
-      ],
-      "publicCible": [
-        "Ingénieurs télécoms",
-        "Techniciens réseau",
-        "Consultants en télécommunications"
-      ],
-      "prerequis": "Connaissances de base en réseaux et télécommunications",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Évolution des Réseaux Mobiles",
-            "Principes Fondamentaux"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Technologies 2G et 3G",
-          "contenu": [
-            "Réseaux GSM et GPRS",
-            "Réseaux UMTS et HSPA"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Technologies 4G et LTE",
-          "contenu": [
-            "Architecture LTE",
-            "Fonctionnalités Avancées (MIMO, Carrier Aggregation)"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Technologies 5G et NR",
-          "contenu": [
-            "Architecture 5G NR",
-            "Cas d'Utilisation (IoT, véhicules connectés)"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Optimisation",
-          "contenu": [
-            "Optimisation des Performances",
-            "Gestion des Interférences"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Sécurité",
-          "contenu": [
-            "Protocoles de Sécurité",
-            "Challenges de Sécurité"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Configuration",
-            "Simulations d'Optimisation"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils de Gestion",
-          "contenu": [
-            "Outils de Surveillance",
-            "Solutions d'Analyse"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "2. Modèle OSI",
+      "contenu": [
+        "Les 7 Couches OSI : Description et fonction des couches du modèle OSI.",
+        "Protocoles Associés : Présentation des protocoles associés à chaque couche."
       ]
     },
     {
-      "titreFormation": "Administration Réseaux : Windows Server, Linux, Cisco",
-      "objectifs": [
-        "Comprendre l'administration des réseaux sous Windows Server, Linux et Cisco",
-        "Développer des compétences pour configurer serveurs et équipements réseau",
-        "Maîtriser les outils d'administration réseau"
-      ],
-      "publicCible": [
-        "Administrateurs réseau",
-        "Ingénieurs système",
-        "Techniciens IT"
-      ],
-      "prerequis": "Connaissances de base en systèmes d'exploitation et réseaux",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Environnements Réseau"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Windows Server",
-          "contenu": [
-            "Configuration des Serveurs",
-            "Services Réseau (DNS, DHCP, AD)"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Linux",
-          "contenu": [
-            "Gestion des Serveurs",
-            "Services Réseau (Apache, Nginx, SSH)"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Cisco",
-          "contenu": [
-            "Configuration Routeurs/Switches",
-            "Protocoles et Sécurité"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Gestion des Performances",
-          "contenu": [
-            "Surveillance des Réseaux",
-            "Outils de Monitoring (Nagios, Zabbix)"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Sécurité",
-          "contenu": [
-            "Firewall et VPN",
-            "Gestion des Menaces"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Configuration",
-            "Simulations Cisco"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils d'Administration",
-          "contenu": [
-            "Scripts et Automatisation",
-            "Solutions de Gestion (Cisco Prime, Ansible)"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "3. Modèle TCP/IP",
+      "contenu": [
+        "Architecture TCP/IP : Exploration des couches du modèle TCP/IP.",
+        "Protocoles TCP/IP : Description des principaux protocoles (HTTP, FTP, SMTP, etc.)."
       ]
     },
     {
-      "titreFormation": "Sécurité des Réseaux et des Systèmes : VPN, Firewalls, Intrusion Detection",
-      "objectifs": [
-        "Comprendre les principes de sécurité des réseaux et systèmes",
-        "Développer des compétences pour configurer VPN, firewalls et systèmes de détection",
-        "Maîtriser les techniques de protection des infrastructures"
-      ],
-      "publicCible": [
-        "Administrateurs réseau",
-        "Ingénieurs sécurité",
-        "Techniciens IT"
-      ],
-      "prerequis": "Connaissances de base en réseaux et sécurité informatique",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Menaces et Vulnérabilités"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "VPN",
-          "contenu": [
-            "Concepts et Types",
-            "Configuration (IPsec, SSL)"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Firewalls",
-          "contenu": [
-            "Types (stateful, stateless, UTM)",
-            "Configuration"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Intrusion Detection",
-          "contenu": [
-            "Concepts IDS/IPS",
-            "Configuration"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Sécurisation",
-          "contenu": [
-            "Stratégies de Sécurisation",
-            "Gestion des Accès"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Surveillance",
-          "contenu": [
-            "Outils (Snort, Suricata)",
-            "Analyse des Logs"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Configuration",
-            "Simulations d'Incidents"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils",
-          "contenu": [
-            "Outils SIEM",
-            "Scripts de Sécurité"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "4. Routage des Réseaux",
+      "contenu": [
+        "Concepts de Routage : Introduction aux principes de routage.",
+        "Protocoles de Routage : Exploration des protocoles de routage (RIP, OSPF, BGP)."
       ]
     },
     {
-      "titreFormation": "Cloud Computing pour les Télécoms : AWS, Azure, GCP",
-      "objectifs": [
-        "Comprendre le cloud computing et ses applications en télécoms",
-        "Développer des compétences pour utiliser AWS, Azure et GCP",
-        "Maîtriser le déploiement d'infrastructures cloud pour les télécoms"
-      ],
-      "publicCible": [
-        "Ingénieurs télécoms",
-        "Administrateurs cloud",
-        "Architectes cloud"
-      ],
-      "prerequis": "Connaissances de base en réseaux et cloud computing",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Modèles (IaaS, PaaS, SaaS)"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Cloud pour Télécoms",
-          "contenu": [
-            "Applications",
-            "Cas d'Utilisation"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "AWS",
-          "contenu": [
-            "Services (EC2, S3, VPC)",
-            "Déploiement"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Azure",
-          "contenu": [
-            "Services (VM, Blob Storage, VNets)",
-            "Déploiement"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "GCP",
-          "contenu": [
-            "Services (Compute Engine, Cloud Storage)",
-            "Déploiement"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Sécurité",
-          "contenu": [
-            "Sécurisation",
-            "Conformité"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Déploiement",
-            "Simulations"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils",
-          "contenu": [
-            "Terraform, Kubernetes",
-            "Automatisation CI/CD"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "5. Commutation des Réseaux",
+      "contenu": [
+        "Concepts de Commutation : Comprendre les principes de commutation.",
+        "Technologies de Commutation : Techniques pour configurer les commutateurs (VLAN, STP)."
       ]
     },
     {
-      "titreFormation": "SDN et NFV : Virtualisation des Réseaux et des Fonctions Réseau",
-      "objectifs": [
-        "Comprendre les principes de SDN et NFV",
-        "Développer des compétences pour déployer SDN/NFV",
-        "Maîtriser l'optimisation des réseaux virtualisés"
-      ],
-      "publicCible": [
-        "Ingénieurs réseau",
-        "Administrateurs télécoms",
-        "Architectes cloud"
-      ],
-      "prerequis": "Connaissances de base en réseaux et virtualisation",
-      "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas",
-      "duree": "5 jours (35 heures)",
-      "programme": [
-        {
-          "module": 1,
-          "titre": "Introduction",
-          "contenu": [
-            "Concepts de Base",
-            "Enjeux et Bénéfices"
-          ]
-        },
-        {
-          "module": 2,
-          "titre": "Architecture SDN",
-          "contenu": [
-            "Composants (control plane, data plane)",
-            "Protocoles (OpenFlow, NETCONF)"
-          ]
-        },
-        {
-          "module": 3,
-          "titre": "Architecture NFV",
-          "contenu": [
-            "Composants (NFVI, VNF, MANO)",
-            "Fonctions Virtualisées"
-          ]
-        },
-        {
-          "module": 4,
-          "titre": "Déploiement SDN",
-          "contenu": [
-            "Contrôleurs SDN",
-            "Configuration"
-          ]
-        },
-        {
-          "module": 5,
-          "titre": "Déploiement NFV",
-          "contenu": [
-            "Orchestrateurs",
-            "Services NFV"
-          ]
-        },
-        {
-          "module": 6,
-          "titre": "Sécurité",
-          "contenu": [
-            "Sécurisation",
-            "Gestion des Risques"
-          ]
-        },
-        {
-          "module": 7,
-          "titre": "Applications Pratiques",
-          "contenu": [
-            "Ateliers de Configuration",
-            "Simulations"
-          ]
-        },
-        {
-          "module": 8,
-          "titre": "Outils",
-          "contenu": [
-            "OpenStack, ONOS",
-            "Automatisation"
-          ]
-        },
-        {
-          "module": 9,
-          "titre": "Évaluation Finale",
-          "contenu": []
-        }
+      "titre": "6. Sécurité des Réseaux",
+      "contenu": [
+        "Mesures de Sécurité : Introduction aux mesures de sécurité des réseaux.",
+        "Outils de Sécurité : Utilisation des outils de sécurité pour protéger les réseaux."
       ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Configuration Réseau : Exercices pratiques pour configurer des réseaux TCP/IP et OSI.",
+        "Simulations de Routage et Commutation : Jeux de rôle pour pratiquer le routage et la commutation."
+      ]
+    },
+    {
+      "titre": "8. Outils de Gestion Réseau",
+      "contenu": [
+        "Outils de Surveillance : Introduction aux outils de surveillance réseau (Wireshark, SolarWinds).",
+        "Automatisation des Réseaux : Techniques pour automatiser la gestion des réseaux."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
     }
+  ]
+}
+,
+
+
+
+
+
+
+
+{
+  "titreFormation": "Technologies Mobiles : 2G, 3G, 4G, 5G, LTE, NR",
+  "objectifs": [
+    "Comprendre les principes des technologies mobiles de la 2G à la 5G.",
+    "Développer des compétences pour travailler avec les réseaux LTE et NR.",
+    "Maîtriser les techniques d’optimisation et de gestion des réseaux mobiles."
+  ],
+  "publicCible": [
+    "Ingénieurs télécoms, techniciens réseau, consultants en télécommunications, toute personne impliquée dans la gestion des réseaux mobiles."
+  ],
+  "prerequis": "Connaissances de base en réseaux et en télécommunications.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction aux Technologies Mobiles",
+      "contenu": [
+        "Évolution des Réseaux Mobiles : Exploration de l’évolution des technologies mobiles de la 2G à la 5G.",
+        "Principes Fondamentaux : Comprendre les principes des réseaux cellulaires."
+      ]
+    },
+    {
+      "titre": "2. Technologies 2G et 3G",
+      "contenu": [
+        "Réseaux GSM et GPRS : Concepts et architecture des réseaux 2G.",
+        "Réseaux UMTS et HSPA : Concepts et architecture des réseaux 3G."
+      ]
+    },
+    {
+      "titre": "3. Technologies 4G et LTE",
+      "contenu": [
+        "Architecture LTE : Exploration de l’architecture et des composants des réseaux LTE.",
+        "Fonctionnalités Avancées : Présentation des fonctionnalités avancées de la 4G (MIMO, Carrier Aggregation)."
+      ]
+    },
+    {
+      "titre": "4. Technologies 5G et NR",
+      "contenu": [
+        "Architecture 5G : Comprendre l’architecture des réseaux 5G NR (New Radio).",
+        "Cas d’Utilisation 5G : Exploration des cas d’utilisation et des applications de la 5G (IoT, véhicules connectés)."
+      ]
+    },
+    {
+      "titre": "5. Optimisation des Réseaux Mobiles",
+      "contenu": [
+        "Optimisation des Performances : Techniques pour optimiser les performances des réseaux mobiles.",
+        "Gestion des Interférences : Stratégies pour gérer les interférences dans les réseaux mobiles."
+      ]
+    },
+    {
+      "titre": "6. Sécurité des Réseaux Mobiles",
+      "contenu": [
+        "Protocoles de Sécurité : Présentation des protocoles de sécurité pour les réseaux mobiles.",
+        "Challenges de Sécurité : Exploration des défis de sécurité dans les réseaux 4G et 5G."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Configuration des Réseaux Mobiles : Exercices pratiques pour configurer et gérer les réseaux LTE et NR.",
+        "Simulations d’Optimisation des Réseaux : Jeux de rôle pour pratiquer l’optimisation des réseaux mobiles."
+      ]
+    },
+    {
+      "titre": "8. Outils de Gestion des Réseaux Mobiles",
+      "contenu": [
+        "Outils de Surveillance : Introduction aux outils de surveillance des réseaux mobiles.",
+        "Solutions d’Analyse des Performances : Utilisation des solutions d’analyse pour les réseaux mobiles."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+   {
+  "titreFormation": "Administration Réseaux : Windows Server, Linux, Cisco",
+  "objectifs": [
+    "Comprendre les principes d’administration des réseaux sous Windows Server, Linux et Cisco.",
+    "Développer des compétences pour configurer et gérer des serveurs et des équipements réseau.",
+    "Maîtriser les outils et les techniques d’administration réseau."
+  ],
+  "publicCible": [
+    "Administrateurs réseau, ingénieurs système, techniciens IT, toute personne impliquée dans l’administration des réseaux"
+  ],
+  "prerequis": "Connaissances de base en systèmes d’exploitation et en réseaux.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction à l’Administration Réseau",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de l’administration réseau.",
+        "Environnements Réseau : Présentation des environnements réseau Windows, Linux et Cisco."
+      ]
+    },
+    {
+      "titre": "2. Administration Windows Server",
+      "contenu": [
+        "Configuration des Serveurs : Techniques pour configurer et gérer les serveurs Windows.",
+        "Services Réseau Windows : Gestion des services réseau sous Windows (DNS, DHCP, AD)."
+      ]
+    },
+    {
+      "titre": "3. Administration Linux",
+      "contenu": [
+        "Gestion des Serveurs Linux : Techniques pour configurer et administrer les serveurs Linux.",
+        "Services Réseau Linux : Gestion des services réseau sous Linux (Apache, Nginx, SSH)."
+      ]
+    },
+    {
+      "titre": "4. Administration Cisco",
+      "contenu": [
+        "Configuration des Routeurs et Switches : Techniques pour configurer les équipements Cisco.",
+        "Protocoles et Sécurité : Gestion des protocoles et des mesures de sécurité sur les équipements Cisco."
+      ]
+    },
+    {
+      "titre": "5. Gestion des Performances Réseau",
+      "contenu": [
+        "Surveillance des Réseaux : Techniques pour surveiller et analyser les performances réseau.",
+        "Outils de Monitoring : Introduction aux outils de monitoring réseau (Nagios, Zabbix)."
+      ]
+    },
+    {
+      "titre": "6. Sécurité des Réseaux",
+      "contenu": [
+        "Firewall et VPN : Configuration des firewalls et des VPN pour sécuriser les réseaux.",
+        "Gestion des Menaces : Stratégies pour identifier et gérer les menaces réseau."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Configuration Serveur : Exercices pratiques pour configurer les serveurs Windows et Linux.",
+        "Simulations de Gestion des Réseaux Cisco : Jeux de rôle pour pratiquer la gestion des équipements Cisco."
+      ]
+    },
+    {
+      "titre": "8. Outils d’Administration Réseau",
+      "contenu": [
+        "Scripts et Automatisation : Techniques pour automatiser les tâches d’administration réseau.",
+        "Solutions de Gestion Réseau : Introduction aux solutions de gestion réseau (Cisco Prime, Ansible)."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+  "titreFormation": "Sécurité des Réseaux et des Systèmes : VPN, Firewalls, Intrusion Detection",
+  "objectifs": [
+    "Comprendre les principes de la sécurité des réseaux et des systèmes.",
+    "Développer des compétences pour configurer et gérer les VPN, les firewalls et les systèmes de détection d’intrusion.",
+    "Maîtriser les techniques de protection des infrastructures réseau et des données."
+  ],
+  "publicCible": [
+    "Administrateurs réseau, ingénieurs sécurité, techniciens IT, toute personne impliquée dans la sécurité des réseaux et des systèmes."
+  ],
+  "prerequis": "Connaissances de base en réseaux et en sécurité informatique.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction à la Sécurité des Réseaux et des Systèmes",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la sécurité des réseaux et des systèmes.",
+        "Menaces et Vulnérabilités : Identification des principales menaces et vulnérabilités."
+      ]
+    },
+    {
+      "titre": "2. VPN (Virtual Private Network)",
+      "contenu": [
+        "Concepts et Types de VPN : Présentation des concepts et des types de VPN.",
+        "Configuration des VPN : Techniques pour configurer les VPN (IPsec, SSL)."
+      ]
+    },
+    {
+      "titre": "3. Firewalls",
+      "contenu": [
+        "Types de Firewalls : Exploration des différents types de firewalls (stateful, stateless, UTM).",
+        "Configuration des Firewalls : Techniques pour configurer et gérer les firewalls."
+      ]
+    },
+    {
+      "titre": "4. Intrusion Detection Systems (IDS)",
+      "contenu": [
+        "Concepts IDS/IPS : Comprendre les systèmes de détection et de prévention d’intrusion.",
+        "Configuration IDS/IPS : Techniques pour configurer et gérer les systèmes IDS/IPS."
+      ]
+    },
+    {
+      "titre": "5. Sécurisation des Réseaux",
+      "contenu": [
+        "Stratégies de Sécurisation : Techniques pour sécuriser les réseaux contre les attaques.",
+        "Gestion des Accès : Méthodes pour gérer les accès et les permissions."
+      ]
+    },
+    {
+      "titre": "6. Surveillance et Analyse de Sécurité",
+      "contenu": [
+        "Outils de Surveillance : Introduction aux outils de surveillance de la sécurité réseau (Snort, Suricata).",
+        "Analyse des Logs : Techniques pour analyser les logs de sécurité."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Configuration de Sécurité : Exercices pratiques pour configurer les VPN, firewalls et IDS/IPS.",
+        "Simulations de Gestion des Incidents : Jeux de rôle pour pratiquer la gestion des incidents de sécurité."
+      ]
+    },
+    {
+      "titre": "8. Outils et Technologies de Sécurité",
+      "contenu": [
+        "Outils de Gestion de la Sécurité : Introduction aux outils de gestion de la sécurité (SIEM, firewalls de nouvelle génération).",
+        "Scripts de Sécurité : Utilisation des scripts pour automatiser les tâches de sécurité."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+{
+  "titreFormation": "Cloud Computing pour les Télécoms : AWS, Azure, GCP",
+  "objectifs": [
+    "Comprendre les principes du cloud computing et ses applications dans le secteur des télécoms.",
+    "Développer des compétences pour utiliser les services cloud d’AWS, Azure et GCP.",
+    "Maîtriser les techniques de déploiement et de gestion des infrastructures cloud pour les télécoms."
+  ],
+  "publicCible": [
+    "Ingénieurs télécoms, administrateurs cloud, architectes cloud, toute personne impliquée dans la gestion des infrastructures cloud pour les télécoms"
+  ],
+  "prerequis": "Connaissances de base en réseaux et en cloud computing.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction au Cloud Computing",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes fondamentaux du cloud computing.",
+        "Modèles de Service Cloud : Présentation des modèles IaaS, PaaS, SaaS."
+      ]
+    },
+    {
+      "titre": "2. Cloud Computing pour les Télécoms",
+      "contenu": [
+        "Applications Cloud dans les Télécoms : Exploration des applications du cloud computing dans les télécoms.",
+        "Cas d’Utilisation : Études de cas d’utilisation du cloud dans les télécoms."
+      ]
+    },
+    {
+      "titre": "3. AWS pour les Télécoms",
+      "contenu": [
+        "Services AWS : Présentation des services AWS pertinents pour les télécoms (EC2, S3, VPC).",
+        "Déploiement sur AWS : Techniques pour déployer des infrastructures télécoms sur AWS."
+      ]
+    },
+    {
+      "titre": "4. Azure pour les Télécoms",
+      "contenu": [
+        "Services Azure : Présentation des services Azure pertinents pour les télécoms (VM, Blob Storage, VNets).",
+        "Déploiement sur Azure : Techniques pour déployer des infrastructures télécoms sur Azure."
+      ]
+    },
+    {
+      "titre": "5. GCP pour les Télécoms",
+      "contenu": [
+        "Services GCP : Présentation des services GCP pertinents pour les télécoms (Compute Engine, Cloud Storage, VPC).",
+        "Déploiement sur GCP : Techniques pour déployer des infrastructures télécoms sur GCP."
+      ]
+    },
+    {
+      "titre": "6. Sécurité et Conformité Cloud",
+      "contenu": [
+        "Sécurisation des Infrastructures Cloud : Techniques pour sécuriser les infrastructures cloud.",
+        "Conformité Réglementaire : Stratégies pour assurer la conformité des infrastructures cloud avec les régulations."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Déploiement Cloud : Exercices pratiques pour déployer des services télécoms sur AWS, Azure, GCP.",
+        "Simulations de Gestion Cloud : Jeux de rôle pour pratiquer la gestion des infrastructures cloud."
+      ]
+    },
+    {
+      "titre": "8. Outils et Technologies Cloud",
+      "contenu": [
+        "Outils de Gestion Cloud : Introduction aux outils de gestion des infrastructures cloud (Terraform, Kubernetes).",
+        "Automatisation et CI/CD : Techniques pour automatiser les déploiements et les opérations cloud."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+{
+  "titreFormation": "SDN et NFV : Virtualisation des Réseaux et des Fonctions Réseau",
+  "objectifs": [
+    "Comprendre les principes de la virtualisation des réseaux (SDN) et des fonctions réseau (NFV).",
+    "Développer des compétences pour déployer et gérer des infrastructures SDN et NFV.",
+    "Maîtriser les outils et les techniques pour l’optimisation des réseaux virtualisés."
+  ],
+  "publicCible": [
+    "Ingénieurs réseau, administrateurs télécoms, architectes cloud, toute personne impliquée dans la virtualisation des réseaux"
+  ],
+  "prerequis": "Connaissances de base en réseaux et en virtualisation.",
+  "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",
+  "programme": [
+    {
+      "titre": "1. Introduction à SDN et NFV",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de la virtualisation des réseaux et des fonctions réseau.",
+        "Enjeux et Bénéfices : Exploration des enjeux et des bénéfices de l’adoption de SDN et NFV."
+      ]
+    },
+    {
+      "titre": "2. Architecture SDN",
+      "contenu": [
+        "Composants SDN : Présentation des composants de l’architecture SDN (control plane, data plane).",
+        "Protocoles SDN : Exploration des protocoles utilisés dans SDN (OpenFlow, NETCONF)."
+      ]
+    },
+    {
+      "titre": "3. Architecture NFV",
+      "contenu": [
+        "Composants NFV : Présentation des composants de l’architecture NFV (NFVI, VNF, MANO).",
+        "Fonctions Réseau Virtualisées : Techniques pour virtualiser les fonctions réseau (firewalls, load balancers)."
+      ]
+    },
+    {
+      "titre": "4. Déploiement SDN",
+      "contenu": [
+        "Contrôleurs SDN : Techniques pour déployer et gérer les contrôleurs SDN.",
+        "Réseaux SDN : Configuration des réseaux SDN pour optimiser les performances et la flexibilité."
+      ]
+    },
+    {
+      "titre": "5. Déploiement NFV",
+      "contenu": [
+        "Orchestrateurs NFV : Utilisation des orchestrateurs NFV pour gérer les fonctions réseau virtualisées.",
+        "Services NFV : Déploiement et gestion des services NFV dans l’infrastructure réseau."
+      ]
+    },
+    {
+      "titre": "6. Sécurité des Réseaux Virtualisés",
+      "contenu": [
+        "Sécurisation des Infrastructures SDN/NFV : Techniques pour sécuriser les infrastructures virtualisées.",
+        "Gestion des Risques : Stratégies pour identifier et gérer les risques dans les environnements SDN/NFV."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Configuration SDN/NFV : Exercices pratiques pour configurer et déployer des infrastructures SDN et NFV.",
+        "Simulations de Gestion des Réseaux Virtualisés : Jeux de rôle pour pratiquer la gestion des réseaux virtualisés."
+      ]
+    },
+    {
+      "titre": "8. Outils de Gestion SDN/NFV",
+      "contenu": [
+        "Outils de Virtualisation : Introduction aux outils de gestion et de virtualisation des réseaux (OpenStack, ONOS).",
+        "Automatisation des Réseaux : Techniques pour automatiser les tâches de gestion SDN/NFV."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+
   ]
 }

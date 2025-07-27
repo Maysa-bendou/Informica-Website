@@ -500,63 +500,63 @@
   "prerequis": "Connaissances de base en gestion de l’information.",
   "programme": [
     {
-      "module": "1.Introduction à la GED et AE",
+      "titre": "1.Introduction à la GED et AE",
       "contenu": [
         "Concepts de Base : Comprendre les principes et les objectifs de la GED et de l’AE.",
         "Cadre Réglementaire : Aperçu des régulations et des normes en matière de gestion et d’archivage électronique des documents."
       ]
     },
     {
-      "module": "2.Mise en Place d’un Système de GED",
+      "titre": "2.Mise en Place d’un Système de GED",
       "contenu": [
         "Évaluation des Besoins : Techniques pour évaluer les besoins en gestion de documents.",
         "Choix des Outils : Critères pour choisir les outils et les logiciels de GED."
       ]
     },
     {
-      "module": "3.Gestion des Documents Électroniques",
+      "titre": "3.Gestion des Documents Électroniques",
       "contenu": [
         "Cycle de Vie des Documents : Gestion du cycle de vie des documents, de la création à l’archivage.",
         "Classement et Indexation : Techniques pour classer et indexer les documents de manière efficace."
       ]
     },
     {
-      "module": "4.Archivage Électronique",
+      "titre": "4.Archivage Électronique",
       "contenu": [
         "Politiques d’Archivage : Définition des politiques et des procédures d’archivage électronique.",
         "Sécurité et Conformité : Stratégies pour assurer la sécurité et la conformité des archives électroniques."
       ]
     },
     {
-      "module": "5.Automatisation des Processus Documentaires",
+      "titre": "5.Automatisation des Processus Documentaires",
       "contenu": [
         "Workflow Documentaire : Mise en place de workflows pour automatiser les processus de gestion documentaire.",
         "Signatures Électroniques : Utilisation des signatures électroniques pour valider les documents."
       ]
     },
     {
-      "module": "6.Outils et Technologies GED/AE",
+      "titre": "6.Outils et Technologies GED/AE",
       "contenu": [
         "Solutions Logicielles : Introduction aux principales solutions logicielles de GED et d’AE.",
         "Intégration avec d’Autres Systèmes : Techniques pour intégrer les systèmes GED/AE avec d’autres systèmes d’information."
       ]
     },
     {
-      "module": "7.Applications Pratiques",
+      "titre": "7.Applications Pratiques",
       "contenu": [
         "Ateliers de Mise en Place de GED : Exercices pratiques pour configurer et gérer des systèmes GED.",
         "Simulations d’Archivage : Jeux de rôle pour pratiquer l’archivage et la gestion des documents électroniques."
       ]
     },
     {
-      "module": "8.Gestion des Projets GED/AE",
+      "titre": "8.Gestion des Projets GED/AE",
       "contenu": [
         "Planification des Projets : Techniques pour planifier et gérer des projets de GED et d’AE.",
         "Évaluation des Performances : Outils pour évaluer l’efficacité des systèmes GED/AE."
       ]
     },
     {
-      "module": "9.Évaluation Finale",
+      "titre": "9.Évaluation Finale",
       "contenu": []
     }
   ]

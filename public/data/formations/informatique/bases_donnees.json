@@ -9,9 +9,7 @@
     "Maîtriser les techniques d’optimisation et de sécurisation des bases de données."
   ],
   "publicCible": [
-    "Développeurs",
-    "Administrateurs de bases de données",
-    "Toute personne utilisant MySQL pour la gestion des données."
+    "Développeurs, administrateurs de bases de données, toute personne utilisant MySQL pour la gestion des données."
   ],
   "prerequis":  "Connaissances de base en SQL recommandées.",
   "duree": "4 jours (28 heures)",
@@ -93,10 +91,7 @@
       "Maîtriser les techniques d’optimisation des requêtes SQL."
   ],
   "publicCible": [
-      "Développeurs",
-      "Analystes de données",
-      "Administrateurs de bases de données",
-      "Toute personne utilisant SQL pour la gestion des données."
+      "Développeurs, analystes de données, administrateurs de bases de données, toute personne utilisant SQL pour la gestion des données."
   ],
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
@@ -188,10 +183,7 @@
     "Maîtriser les techniques de modélisation des données et d’interrogation dans un environnement NoSQL."
   ],
   "publicCible": [
-    "Développeurs",
-    "Architectes de bases de données",
-    "Data engineers",
-    "Toute personne utilisant des bases de données NoSQL pour la gestion des données."
+    "Développeurs, architectes de bases de données, data engineers, toute personne utilisant des bases de données NoSQL pour la gestion des données."
   ],
   "prerequis": "Connaissances de base en gestion des bases de données recommandées.",
   
@@ -290,11 +282,7 @@
     "Maîtriser les outils et les techniques pour le traitement et l’analyse des données à grande échelle."
   ],
   "publicCible": [
-    "Data engineers",
-    "Data scientists",
-    "Analystes de données",
-    "Architectes de données",
-    "Toute personne travaillant avec des données volumineuses."
+    "Data engineers, data scientists, analystes de données, architectes de données, toute personne travaillant avec des données volumineuses."
   ],
   "prerequis": "Connaissances de base en gestion des données et en programmation recommandées.",
   "programme": [

@@ -1,184 +1,196 @@
 {
   "title": "Environnement",
   "formations":[ 
+
+{
+  "titreFormation": "ISO 14001 : Système de Management Environnemental",
+  "objectifs": [
+    "Comprendre les exigences de la norme ISO 14001 pour le système de management environnemental (SME).",
+    "Développer des compétences pour établir, mettre en œuvre et maintenir un SME conforme à ISO 14001.",
+    "Maîtriser les techniques pour améliorer continuellement la performance environnementale de l’organisation."
+  ],
+  "publicCible": [
+    "Responsables environnement, auditeurs internes, consultants en gestion environnementale, toute personne impliquée dans la mise en place et la gestion d’un système de management environnemental."
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion environnementale."
+  ],
+  "programme": [
+    {
+      "titre": "Introduction à ISO 14001",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes et les objectifs de la norme ISO 14001.",
+        "Historique et Évolution : Exploration de l’évolution de la norme ISO 14001."
+      ]
+    },
+    {
+      "titre": "Contexte de l’Organisation",
+      "contenu": [
+        "Analyse du Contexte : Techniques pour analyser le contexte interne et externe de l’organisation.",
+        "Identification des Parties Prenantes : Méthodes pour identifier et comprendre les attentes des parties prenantes."
+      ]
+    },
+    {
+      "titre": "Leadership et Engagement",
+      "contenu": [
+        "Rôle de la Direction : Exploration des responsabilités de la direction dans le SME.",
+        "Politique Environnementale : Élaboration et communication de la politique environnementale de l’organisation."
+      ]
+    },
+    {
+      "titre": "Planification du SME",
+      "contenu": [
+        "Gestion des Risques et Opportunités : Techniques pour identifier et gérer les risques et opportunités environnementaux.",
+        "Objectifs Environnementaux : Définition et planification des objectifs environnementaux alignés avec la stratégie de l’organisation."
+      ]
+    },
+    {
+      "titre": "Support et Ressources",
+      "contenu": [
+        "Gestion des Ressources : Stratégies pour gérer les ressources nécessaires au SME.",
+        "Compétences et Formation : Techniques pour évaluer et développer les compétences du personnel en gestion environnementale."
+      ]
+    },
+    {
+      "titre": "Opérations",
+      "contenu": [
+        "Contrôle Opérationnel : Techniques pour planifier et contrôler les opérations ayant un impact environnemental.",
+        "Préparation et Réponse aux Situations d’Urgence : Méthodes pour préparer et répondre efficacement aux urgences environnementales."
+      ]
+    },
+    {
+      "titre": "Évaluation de la Performance",
+      "contenu": [
+        "Surveillance et Mesure : Techniques pour surveiller et mesurer la performance environnementale du SME.",
+        "Audit Interne : Planification et réalisation des audits internes environnementaux."
+      ]
+    },
+    {
+      "titre": "Amélioration Continue",
+      "contenu": [
+        "Analyse des Non-conformités : Techniques pour analyser et traiter les non-conformités environnementales.",
+        "Actions Correctives et Préventives : Stratégies pour mettre en œuvre des actions correctives et préventives."
+      ]
+    },
+    {
+      "titre": "Préparation à la Certification ISO 14001",
+      "contenu": [
+        "Processus de Certification : Présentation des étapes pour obtenir la certification ISO 14001.",
+        "Préparation à l’Audit Externe : Techniques pour se préparer à l’audit de certification."
+      ]
+    },
+    {
+      "titre": "Applications Pratiques",
+      "contenu": [
+        "Ateliers de Planification du SME : Exercices pratiques pour planifier et mettre en œuvre un SME.",
+        "Simulations d’Audit Interne : Jeux de rôle pour pratiquer les audits internes environnementaux."
+      ]
+    },
+    {
+      "titre": "Outils et Techniques de Gestion Environnementale",
+      "contenu": [
+        "Outils de Gestion Environnementale : Introduction aux outils pour la gestion environnementale (analyse du cycle de vie, audits environnementaux).",
+        "Automatisation des Processus Environnementaux : Techniques pour automatiser les processus de gestion environnementale."
+      ]
+    },
+    {
+      "titre": "Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+
+
+
+
   {
-    "titreFormation": "ISO 14001 : Système de Management Environnemental",
-    "objectifs": [
-      "Comprendre les exigences de la norme ISO 14001",
-      "Développer des compétences pour établir, mettre en œuvre et maintenir un SME conforme",
-      "Maîtriser les techniques d'amélioration continue de la performance environnementale"
-    ],
-    "publicCible": [
-      "Responsables environnement",
-      "Auditeurs internes",
-      "Consultants en gestion environnementale",
-      "Personnes impliquées dans la gestion d'un SME"
-    ],
-    "prerequis": "Connaissances de base en gestion environnementale",
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Introduction à ISO 14001",
-        "contenu": [
-          "Principes et objectifs de la norme",
-          "Historique et évolution de la norme ISO 14001"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Contexte de l'Organisation",
-        "contenu": [
-          "Analyse du contexte interne et externe",
-          "Identification des parties prenantes"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Leadership et Engagement",
-        "contenu": [
-          "Rôle de la direction dans le SME",
-          "Élaboration de la politique environnementale"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Planification du SME",
-        "contenu": [
-          "Gestion des risques et opportunités environnementaux",
-          "Définition des objectifs environnementaux"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Support et Ressources",
-        "contenu": [
-          "Gestion des ressources pour le SME",
-          "Développement des compétences du personnel"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Opérations",
-        "contenu": [
-          "Contrôle opérationnel des impacts environnementaux",
-          "Préparation et réponse aux urgences environnementales"
-        ]
-      },
-      {
-        "module": 7,
-        "titre": "Évaluation de la Performance",
-        "contenu": [
-          "Surveillance et mesure de la performance",
-          "Conduite des audits internes"
-        ]
-      },
-      {
-        "module": 8,
-        "titre": "Amélioration Continue",
-        "contenu": [
-          "Analyse et traitement des non-conformités",
-          "Mise en œuvre d'actions correctives et préventives"
-        ]
-      },
-      {
-        "module": 9,
-        "titre": "Préparation à la Certification",
-        "contenu": [
-          "Processus de certification ISO 14001",
-          "Préparation à l'audit externe"
-        ]
-      },
-      {
-        "module": 10,
-        "titre": "Applications Pratiques",
-        "contenu": [
-          "Ateliers de planification du SME",
-          "Simulations d'audit interne"
-        ]
-      }
-    ]
-  },
-  {
-    "titreFormation": "Gestion des Déchets Industriels",
-    "objectifs": [
-      "Comprendre les principes de gestion des déchets industriels",
-      "Développer des compétences pour identifier et réduire les déchets",
-      "Maîtriser les techniques de conformité réglementaire"
-    ],
-    "publicCible": [
-      "Responsables environnement",
-      "Gestionnaires de production",
-      "Opérateurs industriels",
-      "Personnes impliquées dans la gestion des déchets"
-    ],
-    "prerequis": "Connaissances de base en gestion environnementale",
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Introduction à la Gestion des Déchets Industriels",
-        "contenu": [
-          "Principes de gestion des déchets",
-          "Typologie des déchets industriels"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Réglementation et Conformité",
-        "contenu": [
-          "Cadre réglementaire applicable",
-          "Obligations de conformité"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Identification et Caractérisation",
-        "contenu": [
-          "Techniques d'identification des déchets",
-          "Caractérisation des déchets par dangerosité"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Réduction et Prévention",
-        "contenu": [
-          "Stratégies de réduction à la source",
-          "Initiatives de prévention des déchets"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Collecte et Transport",
-        "contenu": [
-          "Organisation des systèmes de collecte",
-          "Transport sécurisé des déchets"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Stockage et Traitement",
-        "contenu": [
-          "Conditions de stockage sécurisé",
-          "Méthodes de traitement (incinération, recyclage)"
-        ]
-      },
-      {
-        "module": 7,
-        "titre": "Élimination des Déchets",
-        "contenu": [
-          "Options d'élimination finale",
-          "Gestion écologique des décharges"
-        ]
-      },
-      {
-        "module": 8,
-        "titre": "Applications Pratiques",
-        "contenu": [
-          "Ateliers de gestion des déchets",
-          "Simulations de situations d'urgence"
-        ]
-      }
-    ]
-  }
-  
+  "titreFormation": "Gestion des Déchets Industriels",
+  "objectifs": [
+    "Comprendre les principes de gestion des déchets industriels.",
+    "Développer des compétences pour identifier, gérer et réduire les déchets industriels.",
+    "Maîtriser les techniques pour assurer la conformité aux réglementations environnementales."
+  ],
+  "publicCible": [
+    "Responsables environnement",
+    "Gestionnaires de production",
+    "Opérateurs industriels",
+    "Toute personne impliquée dans la gestion des déchets industriels"
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion environnementale."
+  ],
+  "methodologie": [],
+  "programme": [
+    {
+      "titre": "Introduction à la Gestion des Déchets Industriels",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de gestion des déchets industriels.",
+        "Types de Déchets Industriels : Présentation des différents types de déchets industriels (dangereux, non dangereux)."
+      ]
+    },
+    {
+      "titre": "Réglementation et Conformité",
+      "contenu": [
+        "Cadre Réglementaire : Exploration des principales réglementations sur la gestion des déchets industriels.",
+        "Obligations de Conformité : Techniques pour assurer la conformité aux réglementations environnementales."
+      ]
+    },
+    {
+      "titre": "Identification et Caractérisation des Déchets",
+      "contenu": [
+        "Techniques d’Identification : Méthodes pour identifier les types de déchets générés.",
+        "Caractérisation des Déchets : Stratégies pour caractériser les déchets selon leur nature et leur dangerosité."
+      ]
+    },
+    {
+      "titre": "Réduction et Prévention des Déchets",
+      "contenu": [
+        "Techniques de Réduction : Stratégies pour réduire la génération de déchets à la source.",
+        "Initiatives de Prévention : Techniques pour mettre en œuvre des initiatives de prévention des déchets."
+      ]
+    },
+    {
+      "titre": "Collecte et Transport des Déchets",
+      "contenu": [
+        "Systèmes de Collecte : Méthodes pour organiser la collecte des déchets industriels.",
+        "Transport Sécurisé : Stratégies pour transporter les déchets de manière sécurisée et conforme."
+      ]
+    },
+    {
+      "titre": "Stockage et Traitement des Déchets",
+      "contenu": [
+        "Conditions de Stockage : Techniques pour assurer un stockage sûr des déchets.",
+        "Méthodes de Traitement : Exploration des différentes méthodes de traitement des déchets (incinération, recyclage)."
+      ]
+    },
+    {
+      "titre": "Élimination des Déchets",
+      "contenu": [
+        "Options d’Élimination : Stratégies pour l’élimination finale des déchets industriels.",
+        "Gestion des Décharges : Techniques pour gérer les décharges de manière conforme et écologique."
+      ]
+    },
+    {
+      "titre": "Applications Pratiques",
+      "contenu": [
+        "Ateliers de Gestion des Déchets : Exercices pratiques pour gérer les déchets industriels en toute sécurité.",
+        "Simulations de Scénarios d’Urgence : Jeux de rôle pour pratiquer les procédures de réponse aux incidents liés aux déchets."
+      ]
+    },
+    {
+      "titre": "Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+
   ]
 }
