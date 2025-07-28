@@ -9,12 +9,14 @@
     "Maîtriser les techniques pour maintenir et améliorer un système QHSE intégré."
   ],
   "publicCible": [
-    "Responsables QHSE",
-    "Coordinateurs QHSE",
-    "Auditeurs internes",
-    "Toute personne impliquée dans la mise en place et la gestion d’un système de management QHSE"
+    "Responsables QHSE, coordinateurs QHSE, auditeurs internes, toute personne impliquée dans la mise en place et la gestion d’un système de management QHSE"
   ],
-  "prerequis": "Connaissances de base en gestion de la qualité, de la sécurité, et de l’environnement.",
+  "prerequis": [
+    "Connaissances de base en gestion de la qualité, de la sécurité, et de l’environnement."
+  ],
+  "methodologie": [
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
+  ],
   "programme": [
     {
       "titre": "1. Introduction au Système de Management QHSE",
@@ -94,9 +96,6 @@
 
 
 
-
-
-
 {
   "titreFormation": "La Réglementation et la Législation HSE",
   "objectifs": [
@@ -105,12 +104,14 @@
     "Maîtriser les techniques pour intégrer les exigences légales dans les systèmes de management HSE."
   ],
   "publicCible": [
-    "Responsables HSE",
-    "Coordinateurs HSE",
-    "Auditeurs internes",
-    "Toute personne impliquée dans la gestion de la conformité HSE"
+    "Responsables HSE, coordinateurs HSE, auditeurs internes, toute personne impliquée dans la gestion de la conformité HSE"
   ],
-  "prerequis": "Connaissances de base en gestion de la sécurité et de l’environnement.",
+  "prerequis": [
+    "Connaissances de base en gestion de la sécurité et de l’environnement."
+  ],
+  "methodologie": [
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
+  ],
   "programme": [
     {
       "titre": "1. Introduction à la Réglementation HSE",
@@ -179,7 +180,8 @@
       "contenu": []
     }
   ]
-},
+}
+,
 
 
 
@@ -192,10 +194,7 @@
 
 
 
-
-
-
-{
+ {
   "titreFormation": "Communication QHSE",
   "objectifs": [
     "Comprendre l’importance de la communication dans la gestion QHSE.",
@@ -208,7 +207,12 @@
     "Formateurs",
     "Toute personne impliquée dans la communication et la sensibilisation QHSE"
   ],
-  "prerequis": "Connaissances de base en gestion QHSE.",
+  "prerequis": [
+    "Connaissances de base en gestion QHSE."
+  ],
+  "methodologie": [
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
+  ],
   "programme": [
     {
       "titre": "1. Introduction à la Communication QHSE",

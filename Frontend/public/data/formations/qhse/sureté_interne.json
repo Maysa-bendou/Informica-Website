@@ -2,348 +2,443 @@
 {
   "title": "Sureté Interne",
   "formations":[ 
-  {
-    "titreFormation": "Plan de Sûreté Interne",
-    "objectifs": [
-      "Comprendre les principes et composantes d'un plan de sûreté interne",
-      "Développer des compétences pour élaborer et mettre en œuvre un plan efficace",
-      "Maîtriser les techniques pour améliorer la résilience organisationnelle"
-    ],
-    "publicCible": [
-      "Responsables de sécurité",
-      "Gestionnaires de risques",
-      "Superviseurs",
-      "Personnel impliqué dans la sûreté interne"
-    ],
-    "prerequis": "Connaissances de base en gestion de la sécurité",
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Introduction au Plan de Sûreté Interne",
-        "contenu": [
-          "Principes fondamentaux de la sûreté interne",
-          "Importance pour l'organisation"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Évaluation des Menaces et Risques",
-        "contenu": [
-          "Identification des menaces internes/externes",
-          "Méthodes d'évaluation des risques"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Élaboration du Plan",
-        "contenu": [
-          "Composantes essentielles du plan",
-          "Stratégies de prévention des risques"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Mise en Œuvre et Réponse",
-        "contenu": [
-          "Déploiement des mesures de sûreté",
-          "Plans d'urgence et gestion de crise"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Amélioration Continue",
-        "contenu": [
-          "Analyse des incidents",
-          "Actions correctives et préventives"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Applications Pratiques",
-        "contenu": [
-          "Ateliers de développement de plan",
-          "Simulations d'urgence"
-        ]
-      }
-    ]
-  },
-  {
-    "titreFormation": "Mesures de Sécurité des Installations",
-    "objectifs": [
-      "Comprendre les principes de sécurisation des installations",
-      "Développer des compétences pour identifier et mettre en œuvre des mesures de sécurité",
-      "Maîtriser les techniques de protection contre les menaces"
-    ],
-    "publicCible": [
-      "Responsables de sécurité",
-      "Gestionnaires de risques",
-      "Superviseurs",
-      "Personnel impliqué dans la sécurité des installations"
-    ],
-    "prerequis": "Connaissances de base en gestion de la sécurité",
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Introduction à la Sécurité des Installations",
-        "contenu": [
-          "Principes fondamentaux",
-          "Importance pour l'organisation"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Évaluation des Menaces",
-        "contenu": [
-          "Identification des menaces potentielles",
-          "Méthodes d'évaluation des risques"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Sécurisation des Périmètres",
-        "contenu": [
-          "Contrôle des accès",
-          "Installation de barrières physiques"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Surveillance et Protection",
-        "contenu": [
-          "Systèmes de surveillance (caméras, capteurs)",
-          "Sécurisation des équipements critiques"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Réponse aux Incidents",
-        "contenu": [
-          "Développement de plans de réponse",
-          "Gestion des incidents en temps réel"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Applications Pratiques",
-        "contenu": [
-          "Ateliers de sécurisation",
-          "Simulations d'incidents"
-        ]
-      }
-    ]
-  },
-  {
-    "titreFormation": "Contrôle d'Accès et Surveillance",
-    "objectifs": [
-      "Comprendre les principes du contrôle d'accès et de surveillance",
-      "Développer des compétences pour mettre en œuvre des systèmes efficaces",
-      "Maîtriser les techniques de renforcement de la sécurité"
-    ],
-    "publicCible": [
-      "Responsables de sécurité",
-      "Gestionnaires de risques",
-      "Superviseurs",
-      "Personnel impliqué dans le contrôle d'accès"
-    ],
-    "prerequis": "Connaissances de base en gestion de la sécurité",
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Introduction au Contrôle d'Accès",
-        "contenu": [
-          "Principes fondamentaux",
-          "Importance pour la sécurité"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Évaluation des Besoins",
-        "contenu": [
-          "Identification des points sensibles",
-          "Évaluation des risques"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Systèmes de Contrôle d'Accès",
-        "contenu": [
-          "Types de systèmes (badges, biométrie)",
-          "Installation et configuration"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Systèmes de Surveillance",
-        "contenu": [
-          "Technologies de surveillance",
-          "Gestion des enregistrements"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Gestion et Amélioration",
-        "contenu": [
-          "Politiques d'accès",
-          "Analyse des incidents"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Applications Pratiques",
-        "contenu": [
-          "Ateliers de contrôle d'accès",
-          "Simulations d'urgence"
-        ]
-      }
-    ]
-  },
-  {
-    "titreFormation": "Gestion des Incidents de Sûreté Interne",
-    "objectifs": [
-      "Comprendre les principes de gestion des incidents",
-      "Développer des compétences pour réagir efficacement",
-      "Maîtriser les techniques de minimisation des impacts"
-    ],
-    "publicCible": [
-      "Responsables de sécurité",
-      "Gestionnaires de risques",
-      "Superviseurs",
-      "Personnel impliqué dans la gestion des incidents"
-    ],
-    "prerequis": "Connaissances de base en gestion de la sécurité",
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Introduction à la Gestion des Incidents",
-        "contenu": [
-          "Principes fondamentaux",
-          "Importance de la réactivité"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Identification des Incidents",
-        "contenu": [
-          "Typologie des incidents",
-          "Évaluation des risques"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Préparation et Réaction",
-        "contenu": [
-          "Développement de plans d'urgence",
-          "Procédures de réponse immédiate"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Gestion des Conséquences",
-        "contenu": [
-          "Évaluation des dommages",
-          "Plans de rétablissement"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Amélioration Continue",
-        "contenu": [
-          "Analyse des incidents",
-          "Mise à jour des plans"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Applications Pratiques",
-        "contenu": [
-          "Ateliers de gestion d'incidents",
-          "Simulations de scénarios"
-        ]
-      }
-    ]
-  },
-  {
-    "titreFormation": "APS : Agent de Prévention et de Sécurité",
-    "objectifs": [
-      "Assurer la sécurité des biens et personnes",
-      "Prévenir les risques de malveillance",
-      "Intervenir en situation d'urgence",
-      "Appliquer les consignes de sécurité",
-      "Communiquer efficacement"
-    ],
-    "publicCible": [
-      "Aspirants APS",
-      "Professionnels de la sécurité en perfectionnement"
-    ],
-    "prerequis": [
-      "Casier judiciaire vierge",
-      "Aptitude médicale"
-    ],
-    "methodologie": [
-      "Présentations théoriques",
-      "Démonstrations pratiques",
-      "Exercices d'application",
-      "Études de cas",
-      "Simulations"
-    ],
-    "programme": [
-      {
-        "module": 1,
-        "titre": "Connaissances Théoriques",
-        "contenu": [
-          "Rôles et responsabilités de l'APS",
-          "Cadre législatif et réglementaire"
-        ]
-      },
-      {
-        "module": 2,
-        "titre": "Prévention des Risques",
-        "contenu": [
-          "Identification des risques",
-          "Techniques de prévention",
-          "Sécurité incendie"
-        ]
-      },
-      {
-        "module": 3,
-        "titre": "Sécurité et Surveillance",
-        "contenu": [
-          "Techniques de ronde",
-          "Systèmes de surveillance",
-          "Gestion des accès"
-        ]
-      },
-      {
-        "module": 4,
-        "titre": "Techniques d'Intervention",
-        "contenu": [
-          "Gestion des conflits",
-          "Communication et négociation",
-          "Secourisme et RCP"
-        ]
-      },
-      {
-        "module": 5,
-        "titre": "Urgences et Communication",
-        "contenu": [
-          "Plans d'intervention",
-          "Évacuation des personnes",
-          "Relation client"
-        ]
-      },
-      {
-        "module": 6,
-        "titre": "Clôture",
-        "contenu": [
-          "Synthèse des acquis",
-          "Évaluation finale"
-        ]
-      }
-    ]
-  }
+{
+  "titreFormation": "Plan de Sûreté Interne",
+  "objectifs": [
+    "Comprendre les principes et les composantes d’un plan de sûreté interne.",
+    "Développer des compétences pour élaborer et mettre en œuvre un plan de sûreté interne efficace.",
+    "Maîtriser les techniques pour améliorer la résilience de l’organisation face aux menaces internes et externes."
+  ],
+  "publicCible": [
+    "Responsables de sécurité",
+    "gestionnaires de risques",
+    "superviseurs",
+    "toute personne impliquée dans la gestion de la sûreté interne de l’organisation."
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion de la sécurité."
+  ],
+  "methodologie": [ ],
+  "programme": [
+    {
+      "titre": "1. Introduction au Plan de Sûreté Interne",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes d’un plan de sûreté interne.",
+        "Importance de la Sûreté Interne : Exploration de l’importance de la sûreté interne pour l’organisation."
+      ]
+    },
+    {
+      "titre": "2. Évaluation des Menaces et des Risques",
+      "contenu": [
+        "Identification des Menaces : Techniques pour identifier les menaces internes et externes.",
+        "Évaluation des Risques : Méthodes pour évaluer les risques associés aux menaces identifiées."
+      ]
+    },
+    {
+      "titre": "3. Élaboration du Plan de Sûreté Interne",
+      "contenu": [
+        "Composantes du Plan : Définition des composantes essentielles d’un plan de sûreté interne.",
+        "Stratégies de Prévention : Techniques pour élaborer des stratégies de prévention des risques."
+      ]
+    },
+    {
+      "titre": "4. Mise en Œuvre du Plan de Sûreté",
+      "contenu": [
+        "Déploiement des Mesures : Stratégies pour déployer les mesures de sûreté.",
+        "Coordination des Ressources : Techniques pour coordonner les ressources humaines et matérielles."
+      ]
+    },
+    {
+      "titre": "5. Réponse aux Incidents",
+      "contenu": [
+        "Plans d’Urgence : Développement de plans d’urgence pour répondre aux incidents de sûreté.",
+        "Gestion des Crises : Stratégies pour gérer les crises et les situations d’urgence."
+      ]
+    },
+    {
+      "titre": "6. Amélioration Continue",
+      "contenu": [
+        "Analyse des Incidents : Techniques pour analyser les incidents de sûreté.",
+        "Actions Correctives et Préventives : Stratégies pour mettre en œuvre des actions correctives et préventives."
+      ]
+    },
+    {
+      "titre": "7. Applications Pratiques",
+      "contenu": [
+        "Ateliers de Développement du Plan : Exercices pratiques pour développer un plan de sûreté interne.",
+        "Simulations de Scénarios d’Urgence : Jeux de rôle pour pratiquer les réponses aux incidents."
+      ]
+    },
+    {
+      "titre": "8. Outils et Techniques de Sûreté",
+      "contenu": [
+        "Outils de Gestion des Risques de Sûreté : Introduction aux outils pour la gestion des risques de sûreté."
+      ]
+    },
+    {
+      "titre": "9. Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
 
 
 
+
+
+
+{
+  "titreFormation": "Mesures de Sécurité des Installations",
+  "objectifs": [
+    "Comprendre les principes des mesures de sécurité des installations.",
+    "Développer des compétences pour identifier et mettre en œuvre des mesures de sécurité efficaces.",
+    "Maîtriser les techniques pour assurer la protection des installations contre les menaces internes et externes."
+  ],
+  "publicCible": [
+    "Responsables de sécurité, gestionnaires de risques, superviseurs, toute personne impliquée dans la gestion de la sécurité des installations."
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion de la sécurité."
+  ],
+  "methodologie": [ ],
+  "programme": [
+    {
+      "titre": "Introduction aux Mesures de Sécurité des Installations",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes des mesures de sécurité des installations.",
+        "Importance de la Sécurité des Installations : Exploration de l’importance de la sécurité des installations pour l’organisation."
+      ]
+    },
+    {
+      "titre": "Évaluation des Menaces et des Risques",
+      "contenu": [
+        "Identification des Menaces : Techniques pour identifier les menaces potentielles pour les installations.",
+        "Évaluation des Risques : Méthodes pour évaluer les risques associés aux menaces identifiées."
+      ]
+    },
+    {
+      "titre": "Sécurisation des Périmètres",
+      "contenu": [
+        "Contrôle des Accès : Stratégies pour contrôler l’accès aux installations.",
+        "Barrières Physiques : Techniques pour installer des barrières physiques de sécurité."
+      ]
+    },
+    {
+      "titre": "Surveillance et Détection",
+      "contenu": [
+        "Systèmes de Surveillance : Présentation des systèmes de surveillance (caméras, capteurs).",
+        "Technologies de Détection : Introduction aux technologies de détection des intrusions."
+      ]
+    },
+    {
+      "titre": "Protection des Actifs",
+      "contenu": [
+        "Sécurisation des Équipements : Techniques pour sécuriser les équipements critiques.",
+        "Gestion des Clés et des Accès : Stratégies pour gérer les clés et les accès aux zones sécurisées."
+      ]
+    },
+    {
+      "titre": "Réponse aux Incidents de Sécurité",
+      "contenu": [
+        "Plans de Réponse : Développement de plans de réponse aux incidents de sécurité.",
+        "Gestion des Incidents : Techniques pour gérer les incidents de sécurité en temps réel."
+      ]
+    },
+    {
+      "titre": "Amélioration Continue",
+      "contenu": [
+        "Analyse des Incidents : Techniques pour analyser les incidents de sécurité.",
+        "Actions Correctives et Préventives : Stratégies pour mettre en œuvre des actions correctives et préventives."
+      ]
+    },
+    {
+      "titre": "Applications Pratiques",
+      "contenu": [
+        "Ateliers de Sécurisation des Installations : Exercices pratiques pour sécuriser les installations.",
+        "Simulations de Scénarios d’Urgence : Jeux de rôle pour pratiquer les réponses aux incidents de sécurité."
+      ]
+    },
+    {
+      "titre": "Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+
+
+{
+  "titreFormation": "Contrôle d’Accès et Surveillance",
+  "objectifs": [
+    "Comprendre les principes du contrôle d’accès et de la surveillance.",
+    "Développer des compétences pour mettre en œuvre des systèmes de contrôle d’accès et de surveillance efficaces.",
+    "Maîtriser les techniques pour renforcer la sécurité des installations grâce à des mesures de contrôle d’accès et de surveillance."
+  ],
+  "publicCible": [
+    "Responsables de sécurité, gestionnaires de risques, superviseurs, toute personne impliquée dans la gestion du contrôle d’accès et de la surveillance."
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion de la sécurité."
+  ],
+  "methodologie": [ ],
+  "programme": [
+    {
+      "titre": "Introduction au Contrôle d’Accès et à la Surveillance",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes du contrôle d’accès et de la surveillance.",
+        "Importance du Contrôle d’Accès : Exploration de l’importance du contrôle d’accès pour la sécurité des installations."
+      ]
+    },
+    {
+      "titre": "Évaluation des Besoins en Sécurité",
+      "contenu": [
+        "Identification des Points Sensibles : Techniques pour identifier les points sensibles nécessitant un contrôle d’accès.",
+        "Évaluation des Risques : Méthodes pour évaluer les risques associés aux points sensibles."
+      ]
+    },
+    {
+      "titre": "Systèmes de Contrôle d’Accès",
+      "contenu": [
+        "Types de Systèmes : Présentation des différents types de systèmes de contrôle d’accès (badges, biométrie, codes).",
+        "Installation et Configuration : Techniques pour installer et configurer les systèmes de contrôle d’accès."
+      ]
+    },
+    {
+      "titre": "Systèmes de Surveillance",
+      "contenu": [
+        "Technologies de Surveillance : Introduction aux technologies de surveillance (vidéosurveillance, capteurs).",
+        "Gestion des Enregistrements : Stratégies pour gérer les enregistrements de surveillance."
+      ]
+    },
+    {
+      "titre": "Gestion des Accès",
+      "contenu": [
+        "Politique d’Accès : Développement de politiques de gestion des accès.",
+        "Contrôle des Clés et des Badges : Techniques pour contrôler les clés et les badges d’accès."
+      ]
+    },
+    {
+      "titre": "Surveillance Active et Réactive",
+      "contenu": [
+        "Surveillance en Temps Réel : Techniques pour effectuer une surveillance en temps réel.",
+        "Réaction aux Alertes : Stratégies pour réagir aux alertes de surveillance."
+      ]
+    },
+    {
+      "titre": "Amélioration Continue",
+      "contenu": [
+        "Analyse des Incidents : Techniques pour analyser les incidents de sécurité liés au contrôle d’accès.",
+        "Actions Correctives et Préventives : Stratégies pour mettre en œuvre des actions correctives et préventives."
+      ]
+    },
+    {
+      "titre": "Applications Pratiques",
+      "contenu": [
+        "Ateliers de Contrôle d’Accès : Exercices pratiques pour mettre en œuvre des systèmes de contrôle d’accès.",
+        "Simulations de Scénarios d’Urgence : Jeux de rôle pour pratiquer les réponses aux incidents de sécurité."
+      ]
+    },
+    {
+      "titre": "Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+ {
+  "titreFormation": "Gestion des Incidents de Sûreté Interne",
+  "objectifs": [
+    "Comprendre les principes de gestion des incidents de sûreté interne.",
+    "Développer des compétences pour réagir efficacement aux incidents de sûreté interne.",
+    "Maîtriser les techniques pour minimiser les impacts des incidents de sûreté sur l’organisation."
+  ],
+  "publicCible": [
+    "Responsables de sécurité, gestionnaires de risques, superviseurs, toute personne impliquée dans la gestion des incidents de sûreté interne."
+  ],
+  "prerequis": [
+    "Connaissances de base en gestion de la sécurité."
+  ],
+  "methodologie": [],
+  "programme": [
+    {
+      "titre": "Introduction à la Gestion des Incidents de Sûreté",
+      "contenu": [
+        "Concepts de Base : Comprendre les principes de gestion des incidents de sûreté.",
+        "Importance de la Réactivité : Exploration de l’importance d’une réponse rapide aux incidents de sûreté."
+      ]
+    },
+    {
+      "titre": "Identification des Incidents de Sûreté",
+      "contenu": [
+        "Types d’Incidents : Présentation des différents types d’incidents de sûreté (intrusion, vol, sabotage).",
+        "Évaluation des Risques : Techniques pour évaluer les risques associés aux incidents de sûreté."
+      ]
+    },
+    {
+      "titre": "Préparation à la Gestion des Incidents",
+      "contenu": [
+        "Plans d’Urgence : Développement de plans d’urgence pour gérer les incidents de sûreté.",
+        "Rôles et Responsabilités : Définition des rôles et des responsabilités dans la gestion des incidents."
+      ]
+    },
+    {
+      "titre": "Réaction Immédiate aux Incidents",
+      "contenu": [
+        "Procédures de Réponse : Techniques pour mettre en œuvre des procédures de réponse immédiate.",
+        "Coordination avec les Services de Sécurité : Stratégies pour coordonner les actions avec les services de sécurité."
+      ]
+    },
+    {
+      "titre": "Gestion des Conséquences",
+      "contenu": [
+        "Évaluation des Dommages : Techniques pour évaluer les dommages causés par les incidents.",
+        "Plan de Rétablissement : Développement de plans pour rétablir les opérations normales."
+      ]
+    },
+    {
+      "titre": "Surveillance et Amélioration",
+      "contenu": [
+        "Surveillance des Incidents : Techniques pour surveiller les incidents de sûreté.",
+        "Analyse des Incidents : Stratégies pour analyser les incidents et en tirer des leçons.",
+        "Actions Correctives et Préventives : Techniques pour mettre en œuvre des actions correctives et préventives.",
+        "Mise à Jour des Plans : Stratégies pour mettre à jour les plans d’urgence et de gestion des incidents."
+      ]
+    },
+    {
+      "titre": "Applications Pratiques",
+      "contenu": [
+        "Ateliers de Gestion des Incidents : Exercices pratiques pour gérer les incidents de sûreté.",
+        "Simulations de Scénarios d’Urgence : Jeux de rôle pour pratiquer les réponses aux incidents de sûreté."
+      ]
+    },
+    {
+      "titre": "Évaluation Finale",
+      "contenu": []
+    }
+  ]
+}
+,
+
+
+
+
+
+ {
+  "titreFormation": "APS : Agent de Prévention et de Sécurité",
+  "objectifs": [
+    "Cette formation a pour objectif de permettre aux participants d'acquérir les connaissances et compétences nécessaires pour exercer le métier d'Agent de Prévention et de Sécurité (APS). À l'issue de cette formation, les participants seront capables de :",
+    "Assurer la sécurité des biens et des personnes.",
+    "Prévenir les risques de malveillance et de vol.",
+    "Intervenir en cas de situation d'urgence.",
+    "Appliquer les consignes de sécurité et de surveillance.",
+    "Communiquer efficacement avec les différents acteurs de la sécurité."
+  ],
+  "publicCible": "Cette formation s'adresse aux personnes souhaitant devenir Agents de Prévention et de Sécurité, ainsi qu'aux professionnels de la sécurité désirant se perfectionner.",
+  "prerequis": [
+    "Casier judiciaire vierge.",
+    "Aptitude médicale à l'exercice de la profession d'APS."
+  ],
+  "methodologie": "La formation combine des présentations théoriques, des démonstrations pratiques et des exercices d'application pour assurer une compréhension approfondie des concepts enseignés. Des études de cas et des simulations permettront aux participants de mettre en œuvre les techniques apprises dans des situations réelles.",
+  "programme": [
+    {
+      "titre": "Introduction et Connaissances Théoriques",
+      "contenu": [
+        {
+          "sousTitre": "1. Introduction au métier d'APS",
+          "details": [
+            "Rôles et responsabilités de l'APS",
+            "Cadre législatif et réglementaire"
+          ]
+        },
+        {
+          "sousTitre": "2. Prévention des risques",
+          "details": [
+            "Identification des risques",
+            "Techniques de prévention et de surveillance",
+            "Règles de sécurité incendie"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Sécurité et Surveillance",
+      "contenu": [
+        {
+          "sousTitre": "3. Sécurité et surveillance",
+          "details": [
+            "Techniques de ronde et de surveillance",
+            "Utilisation des systèmes de surveillance (vidéosurveillance, alarmes)",
+            "Gestion des accès et contrôle des entrées et sorties"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Techniques d'Intervention",
+      "contenu": [
+        {
+          "sousTitre": "4. Gestion des situations conflictuelles",
+          "details": [
+            "Techniques de communication et de négociation",
+            "Gestion du stress et des conflits",
+            "Interventions en cas de trouble à l'ordre public"
+          ]
+        },
+        {
+          "sousTitre": "5. Secourisme et premiers secours",
+          "details": [
+            "Techniques de réanimation cardio-pulmonaire (RCP)",
+            "Utilisation du défibrillateur automatique externe (DAE)",
+            "Premiers secours en cas de blessure ou d'accident"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Intervention en Situation d'Urgence",
+      "contenu": [
+        {
+          "sousTitre": "6. Intervention en situation d'urgence",
+          "details": [
+            "Plan d'intervention en cas d'incendie",
+            "Évacuation des personnes",
+            "Intervention en cas de menace terroriste"
+          ]
+        }
+      ]
+    },
+    {
+      "titre": "Communication et Relation Client",
+      "contenu": [
+        {
+          "sousTitre": "7. Communication et relation client",
+          "details": [
+            "Techniques de communication avec les clients",
+            "Gestion des situations difficiles et conflictuelles",
+            "Travail en équipe et collaboration avec les forces de l'ordre"
+          ]
+        },
+        {
+          "sousTitre": "8. Clôture de la formation",
+          "details": [
+            "Synthèse et retour d'expérience",
+            "Évaluation des acquis"
+          ]
+        }
+      ]
+    }
+  ]
+}
 
   ]
 }

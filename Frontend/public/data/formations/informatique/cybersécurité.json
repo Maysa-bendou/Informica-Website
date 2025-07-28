@@ -182,7 +182,7 @@
 
  {
   "titreFormation": "Cryptographie",
-  "objectif": [
+  "objectifs": [
     "Comprendre les concepts et les techniques de la cryptographie.",
     "Développer des compétences pour sécuriser les données avec des méthodes cryptographiques.",
     "Maîtriser les outils et les pratiques pour implémenter la cryptographie dans les systèmes d’information."
@@ -365,19 +365,13 @@
     "Maîtriser les techniques et les outils pour une gestion efficace des incidents."
   ],
   "publicCible": [
-    "Responsables de la sécurité",
-    "Administrateurs réseau",
-    "Analystes SOC",
-    "Toute personne impliquée dans la gestion des incidents de sécurité"
+    "Responsables de la sécurité, administrateurs réseau, analystes SOC, toute personne impliquée dans la gestion des incidents de sécurité"
   ],
   "prerequis": [
     "Connaissances de base en cybersécurité et en gestion des systèmes d’information."
   ],
   "methodologie": [
-    "Exposés théoriques",
-    "Démonstrations pratiques",
-    "Ateliers interactifs",
-    "Études de cas"
+    "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas"
   ],
   "programme": [
     {
@@ -469,19 +463,13 @@
     "Maîtriser les techniques pour aligner la cybersécurité avec les objectifs stratégiques de l’entreprise."
   ],
   "publicCible": [
-    "Responsables de la sécurité",
-    "DSI",
-    "Consultants en gouvernance",
-    "Toute personne impliquée dans la gouvernance de la cybersécurité"
+    "Responsables de la sécurité, dSI, consultants en gouvernance, toute personne impliquée dans la gouvernance de la cybersécurité"
   ],
   "prerequis": [
     "Connaissances de base en gestion des systèmes d’information et en cybersécurité."
   ],
-  "methodePedagogique": [
-    "Exposés théoriques",
-    "Études de cas",
-    "Ateliers interactifs",
-    "Simulations"
+  "methodologie": [
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
   ],
   "programme": [
     {
@@ -575,19 +563,13 @@
     "Maîtriser les techniques pour assurer la conformité et améliorer la sécurité de l’information."
   ],
   "publicCible": [
-    "Responsables de la sécurité",
-    "Auditeurs internes",
-    "Consultants en sécurité",
-    "Toute personne impliquée dans la gestion de la sécurité de l’information"
+    "Responsables de la sécurité, auditeurs internes, consultants en sécurité, toute personne impliquée dans la gestion de la sécurité de l’information"
   ],
   "prerequis": [
     "Connaissances de base en gestion des systèmes d’information et en cybersécurité."
   ],
-  "methodePedagogique": [
-    "Exposés théoriques",
-    "Études de cas",
-    "Ateliers interactifs",
-    "Simulations"
+  "methodologie": [
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
   ],
   "programme": [
     {
@@ -681,17 +663,11 @@
     "Maîtriser les techniques pour améliorer la posture de sécurité de l’organisation."
   ],
   "publicCible": [
-    "Responsables de la sécurité",
-    "Consultants en sécurité",
-    "Auditeurs",
-    "Toute personne impliquée dans la mise en œuvre des contrôles de sécurité"
+    "Responsables de la sécurité, consultants en sécurité, auditeurs, toute personne impliquée dans la mise en œuvre des contrôles de sécurité"
   ],
   "prerequis": "Connaissances de base en gestion de la sécurité de l’information et en cybersécurité.",
   "methodologie": [
-    "Exposés théoriques",
-    "Études de cas",
-    "Ateliers interactifs",
-    "Simulations"
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
   ],
   "programme": [
     {
@@ -786,17 +762,11 @@
     "Maîtriser les techniques pour assurer la conformité aux normes PCI DSS."
   ],
   "publicCible": [
-    "Responsables de la sécurité",
-    "Gestionnaires de la conformité",
-    "Administrateurs réseau",
-    "Toute personne impliquée dans la gestion des paiements par carte"
+    "Responsables de la sécurité, gestionnaires de la conformité, administrateurs réseau, toute personne impliquée dans la gestion des paiements par carte"
   ],
   "prerequis": "Connaissances de base en sécurité des systèmes d’information et en transactions électroniques.",
   "methodologie": [
-    "Exposés théoriques",
-    "Études de cas",
-    "Ateliers interactifs",
-    "Simulations"
+    "Exposés théoriques, études de cas, ateliers interactifs, simulations"
   ],
   "programme": [
     {

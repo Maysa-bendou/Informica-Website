@@ -3,17 +3,13 @@
   "formations": [
 {
   "titreFormation": "L'Intelligence Artificielle (IA) – Maîtrisez les Outils de Recherche",
-  "objectif": [
+  "objectifs": [
     "Comprendre les principes fondamentaux de l’intelligence artificielle (IA).",
     "Développer des compétences pour utiliser les outils de recherche en IA.",
     "Maîtriser les techniques pour appliquer l’IA et transformer les visions en réalités connectées."
   ],
   "publicCible": [
-    "Data scientists",
-    "Ingénieurs en IA",
-    "Développeurs",
-    "Chercheurs",
-    "Toute personne intéressée par l’application de l’IA"
+    "Data scientists, ingénieurs en IA, développeurs, chercheurs, toute personne intéressée par l’application de l’IA"
   ],
   "prerequis": "Connaissances de base en programmation et en mathématiques.",
   "methodologie": "Exposés théoriques, démonstrations pratiques, ateliers interactifs, études de cas.",

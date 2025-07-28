@@ -3,16 +3,15 @@
   "formations":[
 {
   "titreFormation": "HTML/CSS",
-  "objectif": [
+  "objectifs": [
     "Apprendre à utiliser HTML pour structurer des pages web.",
     "Maîtriser les techniques de CSS pour styliser et mettre en forme des pages web.",
     "Développer des compétences pour créer des sites web attrayants et réactifs."
   ],
-  "publicCible": [
-    "Développeurs web débutants",
-    "Designers web",
-    "Toute personne souhaitant apprendre la création de sites web"
+  "publicCible": [ 
+    "Développeurs web débutants, designers web, toute personne souhaitant apprendre la création de sites web"
   ],
+
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
     {
@@ -93,14 +92,13 @@
 
 {
   "titreFormation": "JavaScript",
-  "objectif": [
+  "objectifs": [
     "Apprendre les concepts de base de JavaScript pour dynamiser les pages web.",
     "Développer des compétences pour manipuler le DOM et interagir avec les utilisateurs.",
     "Maîtriser les techniques de programmation asynchrone et les API web."
   ],
   "publicCible": [
-    "Développeurs web débutants",
-    "Designers web souhaitant ajouter de l’interactivité à leurs sites"
+    "Développeurs web débutants, designers web souhaitant ajouter de l’interactivité à leurs sites"
   ],
   "prerequis": "Connaissances de base en HTML/CSS recommandées.",
   "programme": [
@@ -182,14 +180,13 @@
 
 {
   "titreFormation": "PHP/MySQL",
-  "objectif": [
+  "objectifs": [
     "Apprendre les concepts de base de PHP pour créer des pages web dynamiques.",
     "Développer des compétences pour interagir avec des bases de données MySQL.",
     "Maîtriser les techniques de gestion de sessions et de sécurité."
   ],
   "publicCible": [
-    "Développeurs web débutants",
-    "Toute personne souhaitant créer des applications web dynamiques"
+    "Développeurs web débutants, toute personne souhaitant créer des applications web dynamiques"
   ],
   "prerequis": "Connaissances de base en HTML/CSS et JavaScript recommandées.",
   "programme": [
@@ -266,15 +263,13 @@
 
 {
   "titreFormation": "Python",
-  "objectif": [
+  "objectifs": [
     "Apprendre les concepts de base de Python pour la programmation.",
     "Développer des compétences pour automatiser les tâches et manipuler les données.",
     "Maîtriser les techniques de développement d’applications et de scripts."
   ],
   "publicCible": [
-    "Développeurs débutants",
-    "Data scientists",
-    "Toute personne souhaitant apprendre la programmation en Python"
+    "Développeurs débutants, data scientists, toute personne souhaitant apprendre la programmation en Python"
   ],
   "prerequis": "Aucun prérequis spécifique.",
   "programme": [
@@ -355,14 +350,13 @@
 
 {
   "titreFormation": "Java",
-  "objectif": [
+  "objectifs": [
     "Apprendre les concepts de base de Java pour le développement d’applications.",
     "Développer des compétences pour créer des applications orientées objet.",
     "Maîtriser les techniques de gestion des exceptions et des collections."
   ],
   "publicCible": [
-    "Développeurs débutants",
-    "Toute personne souhaitant apprendre le développement en Java"
+    "Développeurs débutants, toute personne souhaitant apprendre le développement en Java"
   ],
   "prerequis": "Connaissances de base en programmation recommandées.",
   "programme": [

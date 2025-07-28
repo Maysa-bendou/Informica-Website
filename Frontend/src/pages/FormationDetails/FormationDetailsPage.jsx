@@ -110,6 +110,54 @@ export default function FormationDetailsPage() {
           <p>{formation.prerequis || formation.prérequis}</p>
         )}
 
+
+
+          {/* Méthodologie Section */}
+ {formation.methodologie && (
+  <>
+    <h2 className={styles.sectionTitle}>Méthodologie</h2>
+    {Array.isArray(formation.methodologie) ? (
+      <ul className={styles.list}>
+        {formation.methodologie.map((item, i) => (
+          <li key={i}>{item}</li>
+        ))}
+      </ul>
+    ) : (
+      <p>{formation.methodologie}</p>
+    )}
+  </>
+)}
+
+           {/* Matériel Pédagogique Section */}
+           {formation.materielPedagogique && Array.isArray(formation.materielPedagogique) && (
+            <>
+              <h2 className={styles.sectionTitle}>Matériel Pédagogique</h2>
+               <ul className={styles.list}>
+               {formation.materielPedagogique.map((item, i) => (
+               <li key={i}>{item}</li>
+              ))}
+               </ul>
+            </>
+            )}
+            {/* Modalités d’Évaluation Section */}
+            {formation.modalitesEvaluation && Array.isArray(formation.modalitesEvaluation) && (
+              <>
+                <h2 className={styles.sectionTitle}>Modalités d’Évaluation</h2>
+                <ul className={styles.list}>
+                  {formation.modalitesEvaluation.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </>
+            )}
+ {/* Galerie de la Formation */}
+{formation.galerie && (
+  <>
+    <h2 className={styles.sectionTitle}>Galerie de la Formation</h2>
+    <p>{formation.galerie}</p>
+  </>
+)}
+
         <h2 className={styles.sectionTitle}>Programme de la formation</h2>
         {(formation.programme || []).map((section, i) => (
           <div key={i} className={styles.programSection}>
