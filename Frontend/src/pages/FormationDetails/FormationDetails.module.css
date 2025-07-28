@@ -1,0 +1,302 @@
+/* FormationDetails.module.css */
+
+/* Base Page Styles with Animation Prep */
+.pageWrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f8f8;
+  color: #333;
+  font-family: 'Arial', sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.sectionFormations {
+  flex: 1;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromTop {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Back button with Animation */
+.backButton {
+  top: 120px;
+ left: 0;
+  cursor: pointer;
+  animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
+  opacity: 0;
+  z-index: 10;
+ background-color: none;
+  position: fixed;
+}
+
+.retourIcon {
+  width: 32px;
+  height: 32px;
+  transition: transform 0.3s ease;
+}
+
+.backButton:hover .retourIcon {
+  transform: scale(1.1);
+}
+
+
+/* Formation Details section */
+.formationDetails {
+  max-width: 1000px;
+  width: 95%;
+  box-sizing: border-box;
+}
+
+.pageContainer {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 20px 0 10px 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  animation: fadeIn 0.8s ease-out;
+}
+
+/* Animated Header Styles */
+.title {
+  font-size: 22pt;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: -5px;
+  text-align: left;
+  margin-top: 100px;
+  letter-spacing: 0.5px;
+  animation: slideInFromTop 0.6s ease-out 0.3s forwards;
+  opacity: 0;
+}
+
+.subTitlle {
+  font-size: 20pt;
+  font-weight: bold;
+  color: #2980b9;
+  margin-bottom: 30px;
+  text-align: left;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+  animation: slideInFromTop 0.6s ease-out 0.4s forwards;
+  opacity: 0;
+}
+
+/* Animated Section Headers */
+.sectionTitle {
+  font-size: 14pt;
+  font-weight: bold;
+  color: #000000;
+  margin: 25px 0 15px 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid #bdc3c7;
+  padding-bottom: 1px;
+  animation: fadeIn 0.6s ease-out 0.5s forwards;
+  opacity: 0;
+}
+
+/* Animated List Styles */
+.list {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  animation: fadeIn 0.8s ease-out 0.6s forwards;
+  opacity: 0;
+}
+
+.list li {
+  margin-bottom: 8px;
+  color: #34495e;
+  position: relative;
+  left: -10px;
+  animation: slideInFromLeft 0.5s ease-out forwards;
+  opacity: 0;
+}
+
+/* Stagger list items */
+.list li:nth-child(1) { animation-delay: 0.7s; }
+.list li:nth-child(2) { animation-delay: 0.8s; }
+.list li:nth-child(3) { animation-delay: 0.9s; }
+/* Continue pattern for more items */
+
+/* Animated Program Sections */
+.programSection {
+  margin-bottom: 5px;
+  gap: 10px;
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Stagger program sections */
+.programSection:nth-child(1) { animation-delay: 0.6s; }
+.programSection:nth-child(2) { animation-delay: 0.7s; }
+.programSection:nth-child(3) { animation-delay: 0.8s; }
+
+.programSection h3 {
+  font-size: 13pt;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 10px;
+ 
+}
+
+/* Animated Sub-sections */
+.subSection {
+  margin-bottom: 5px;
+  animation: fadeIn 0.6s ease-out forwards;
+  opacity: 0;
+}
+
+.subTitle {
+  font-size: 12pt;
+  font-weight: bold;
+  color: #2980b9;
+  margin: 15px 0 5px 0;
+  font-style: italic;
+}
+
+/* Animated Evaluation Notice */
+.eval {
+  font-weight: bold;
+  margin-top: 15px;
+  padding: 8px 15px;
+  background-color: #e8f4fc;
+  color: #2980b9;
+  display: inline-block;
+  border-radius: 4px;
+  border-left: 4px solid #3498db;
+  animation: slideInFromLeft 0.6s ease-out 0.8s forwards;
+  opacity: 0;
+}
+
+/* Print Styles (unchanged) */
+@media print {
+  .pageWrapper {
+    padding: 0;
+    margin: 0;
+    background: none;
+  }
+  
+  .sectionFormations {
+    padding: 0;
+    background: none;
+  }
+  
+  .pageContainer {
+    padding: 20mm;
+    max-width: 100%;
+    box-shadow: none;
+  }
+  
+  .backButton {
+    display: none;
+  }
+  
+  .title, .subTitlle, .sectionTitle, 
+  .programSection h3, .subTitle, strong {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+    color: #2c3e50 !important;
+  }
+  
+  .programSection {
+    background-color: #f8f9fa !important;
+    border-left: 4px solid #3498db !important;
+  }
+  
+  .eval {
+    background-color: #e8f4fc !important;
+  }
+}
+
+
+@media(max-width: 1024px){
+  .title{
+    margin-top: 170px;
+  }
+    .backButton{
+    left:700px;
+     margin-top: 60px;
+  }
+}
+
+@media(max-width: 468px){
+  .title{
+    margin-top: 60px;
+  }
+}
+
+/* Responsive Adjustments */
+
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 18pt;
+    margin-top: 100px;
+  }
+  
+ .backButton {
+    left: 20px; 
+    top: 100px; 
+  }
+}
+@media (max-width: 768px) { 
+    .formationDetails{
+      max-width: 900px;
+    width: 75%;
+  }
+  .backButton{
+    left:700px;
+     margin-top: 60px;
+  }
+  .title{
+    margin-top: 200px;
+  }
+
+ }
+@media (max-width: 767px) { 
+    .formationDetails{
+      max-width: 900px;
+    width: 75%;
+  }
+  .backButton{
+    left:500px;
+
+  }
+  .title{
+    margin-top: 150px;
+  }
+  .backButton{
+    margin-top: 60px;
+  }
+ }
+

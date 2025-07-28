@@ -1,0 +1,251 @@
+/* Base Apropos styles */
+.aproposPage {
+  height: 100%;
+  padding: 100px 0 0 0;
+  background-color: #f9f8f8;
+  position: relative;
+  overflow: hidden;
+}
+
+.contentWrapper {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: stretch;
+  position: relative;
+}
+
+.leftContent {
+  flex: 1;
+  padding: 0 30px;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f9f8f8;
+  position: relative;
+}
+
+.leftContent::after {
+  content: '';
+  position: absolute;
+  top: -50px;
+  right: -100vw;
+  bottom: -50px;
+  left: 0;
+  background-color: #f9f8f8;
+  z-index: -1;
+  transform: translateX(0);
+  transition: transform 1s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+}
+
+.contentWrapper.in-view .leftContent::after {
+  transform: translateX(100vw);
+}
+
+.aproposTittle {
+  font-size: 3.3rem;
+  color: #001965;
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin-top: 0px;
+  position: relative;
+  padding-left: 15px;
+  line-height: 1.2;
+}
+
+.aproposTittle::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 6px;
+  background: linear-gradient(to bottom, #F26722, #ff8c42);
+  border-radius: 3px;
+}
+
+.sectionText {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.8;
+  margin-bottom: 20px;
+  margin-top: -10px;
+}
+
+.sectionText strong {
+  color: #001965;
+  font-weight: 600;
+}
+
+/* Image container */
+.rightImageContainer {
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: stretch;
+}
+
+.imageWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+/* Masked Image */
+.rightImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0;
+
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.0) 0%,
+    rgba(0, 0, 0, 0.3) 25%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.0) 0%,
+    rgba(0, 0, 0, 0.3) 25%,
+    rgba(0, 0, 0, 0.6) 50%,
+    rgba(0, 0, 0, 0.9) 75%,
+    rgba(0, 0, 0, 1) 100%
+  );
+
+  -webkit-mask-size: 100% 100%;
+  mask-size: 100% 100%;
+  -webkit-mask-position: 0 0;
+  mask-position: 0 0;
+
+  opacity: 1;
+  transform: none;
+  transition: none;
+}
+
+/* Animation when visible */
+.contentWrapper.in-view .leftContent {
+  animation: fadeInUp 1s ease-out forwards;
+}
+
+.contentWrapper.in-view .rightImage {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Fade-in Animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* -------------- RESPONSIVE DESIGN -------------- */
+
+/* Tablet & small desktop */
+@media (min-width: 1100px){
+  .leftContent {
+    margin-top:-50px;
+    margin-bottom: 30px;
+  }
+
+}
+
+/* Tablet & small desktop */
+@media (max-width: 1100px) {
+  .leftContent {
+    padding: 0 40px;
+  }
+}
+
+/* Tablet vertical & mobile landscape */
+@media (max-width: 900px) {
+  .contentWrapper {
+    flex-direction: column;
+  }
+
+  .leftContent {
+    padding: 0 30px;
+    margin-bottom: 30px;
+  }
+
+  .leftContent::after {
+    display: none;
+  }
+
+  .rightImageContainer {
+    height: 400px;
+  }
+
+  .rightImage {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  .aproposTittle {
+    margin-top: 20px;
+  }
+}
+
+
+@media (min-width: 768px){
+  .aproposTittle {
+    margin-top: 70px;
+  }
+}
+
+@media (min-width: 600px) {
+  .aproposTittle {
+    margin-top: 80px;
+  }
+}
+/* Mobile phones */
+@media (max-width: 600px) {
+  .aproposPage {
+    padding: 0 0;
+  }
+
+  .leftContent {
+    padding: 0 20px;
+  }
+
+  .aproposTittle {
+    font-size: 3rem;
+    margin-bottom: 15x;
+    margin-top: 150px;
+  }
+
+  .sectionText {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+
+
+}
+
+/* Small mobile */
+@media (max-width: 400px) {
+  .aproposTittle {
+    font-size: 2rem;
+    padding-left: 12px;
+  }
+
+  .sectionText {
+    font-size: 0.95rem;
+  }
+
+}
