@@ -155,13 +155,6 @@ export default function FormationDetailsPage() {
               </>
             )}
 
-            {/* Galerie de la Formation */}
-            {formation.galerie && (
-              <>
-                <h2 className={styles.sectionTitle}>Galerie de la Formation</h2>
-                <p>{formation.galerie}</p>
-              </>
-            )}
 
             <h2 className={styles.sectionTitle}>Programme de la formation</h2>
             {(formation.programme || []).map((section, i) => (
@@ -194,24 +187,30 @@ export default function FormationDetailsPage() {
                 )}
               </div>
             ))}
+{(formation.galerie || allImages.length > 0) && (
+  <>
+    <h2 className={styles.sectionTitle}>Galerie de la Formation</h2>
+    {formation.galerie && <p>{formation.galerie}</p>}
 
+    {allImages.length > 0 && (
+      <div className={styles.imageGallery}>
+        {allImages.map((imgUrl, index) => (
+          <img
+            key={index}
+            src={imgUrl}
+            alt={`Illustration ${index + 1}`}
+            className={styles.programImage}
+          />
+        ))}
+      </div>
+    )}
+  </>
+)}
             {formation.evaluationFinale && (
               <p className={styles.eval}><strong>✅ Évaluation finale incluse</strong></p>
             )}
 
-            {/* ✅ Render images after evaluationFinale with no title */}
-            {allImages.length > 0 && (
-              <div className={styles.imageGallery}>
-                {allImages.map((imgUrl, index) => (
-                  <img
-                    key={index}
-                    src={imgUrl}
-                    alt={`Illustration ${index + 1}`}
-                    className={styles.programImage}
-                  />
-                ))}
-              </div>
-            )}
+    
           </div>
         </div>
       </main>

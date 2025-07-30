@@ -213,6 +213,7 @@
   display: block;
   border: none; /* no border */
   margin: 0; /* no margin */
+  margin-top: 50px;
   padding: 0; /* no padding */
   background-color: white;
 }
