@@ -46,7 +46,9 @@ export default function NosFormationsPage() {
   };
 
   return (
+    <> 
     <div className={formationsStyles.container}>
+      
       <Header page="entreprise" />
 
       <main className={formationsStyles.sectionFormations}>
@@ -198,5 +200,5 @@ export default function NosFormationsPage() {
 
       <Footer />
     </div>
-  );
+  </>);
 }

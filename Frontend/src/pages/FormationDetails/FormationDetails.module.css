@@ -51,7 +51,7 @@
 /* Back button with Animation */
 .backButton {
   top: 120px;
- left: 0;
+ left: 2px;
   cursor: pointer;
   animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
   opacity: 0;
@@ -197,6 +197,26 @@
   animation: slideInFromLeft 0.6s ease-out 0.8s forwards;
   opacity: 0;
 }
+.imageGallery {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0; /* no margin around the container */
+  padding: 0; /* no padding around the container */
+  background-color: white; /* white background behind images */
+}
+
+.programImage {
+  width: 100%; /* full width */
+  max-width: 100%; /* ensure it doesn’t shrink */
+  height: auto; /* maintain aspect ratio */
+  display: block;
+  border: none; /* no border */
+  margin: 0; /* no margin */
+  padding: 0; /* no padding */
+  background-color: white;
+}
+
 
 /* Print Styles (unchanged) */
 @media print {

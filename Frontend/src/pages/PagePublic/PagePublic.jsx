@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+
 import retourIcon from '../../assets/image/icons/back-button.png';
 
 function PagePublic() {
@@ -8,8 +9,10 @@ function PagePublic() {
   const handleBack = () => {
     navigate(-1);
   };
+  
 
   return (
+
     <div style={styles.container}>
       <button onClick={handleBack} style={styles.backButton}>
         <img src={retourIcon} alt="Retour" style={styles.retourIcon} />
@@ -38,7 +41,7 @@ function PagePublic() {
         </div>
       </div>
     </div>
-  );
+);
 }
 
 const styles = {

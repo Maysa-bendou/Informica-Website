@@ -1,4 +1,5 @@
 import React, { useRef, useState } from 'react';
+import { Helmet } from 'react-helmet-async';
 import Header from '../../../components/Header/Header';
 import Footer from '../../../components/Footer/Footer';
 import axios from 'axios';
@@ -13,38 +14,73 @@ import locationIcon from '../../../assets/image/icons/maps-and-flags.png';
 export default function ContactPage() {
   const formRef = useRef();
   const [formErrors, setFormErrors] = useState({});
+  const [isSubmitting, setIsSubmitting] = useState(false);
+
+  const validateForm = (formData) => {
+    const errors = {};
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+    if (!formData.entreprise.trim()) {
+      errors.entreprise = "Le nom de l'entreprise est requis";
+    }
+    
+    if (!formData.fonction.trim()) {
+      errors.fonction = "La fonction est requise";
+    }
+    
+    if (!formData.telephone.trim()) {
+      errors.telephone = "Le téléphone est requis";
+    }
+    
+    if (!formData.email.trim()) {
+      errors.email = "L'email est requis";
+    } else if (!emailRegex.test(formData.email)) {
+      errors.email = "Veuillez entrer un email valide";
+    }
+    
+    if (!formData.demande.trim()) {
+      errors.demande = "La demande est requise";
+    }
+    
+    return errors;
+  };
 
   const sendEmail = async (e) => {
     e.preventDefault();
+    setIsSubmitting(true);
     const form = formRef.current;
 
-    const entreprise = form.entreprise.value.trim();
-    const fonction = form.fonction.value.trim();
-    const telephone = form.telephone.value.trim();
-    const email = form.email.value.trim();
-    const demande = form.demande.value.trim();
+    const formData = {
+      entreprise: form.entreprise.value,
+      fonction: form.fonction.value,
+      telephone: form.telephone.value,
+      email: form.email.value,
+      demande: form.demande.value
+    };
 
-    setFormErrors({});
+    const errors = validateForm(formData);
+    setFormErrors(errors);
+
+    if (Object.keys(errors).length > 0) {
+      setIsSubmitting(false);
+      return;
+    }
 
     try {
-      const response = await axios.post('http://localhost:5000/send-email', {
-        entreprise,
-        fonction,
-        telephone,
-        email,
-        demande
-      });
-
+      const response = await axios.post('http://localhost:5000/send-email', formData);
       toast.success(response.data.message);
       form.reset();
     } catch (error) {
       toast.error("Erreur lors de l'envoi");
       console.error(error);
+    } finally {
+      setIsSubmitting(false);
     }
   };
 
   return (
     <>
+
       <Header page="entreprise" />
 
       <main className={styles.mainContent}>
@@ -113,33 +149,74 @@ export default function ContactPage() {
                 <div className={styles.formRow}>
                   <div className={styles.formGroup}>
                     <label htmlFor="entreprise">Nom de l'entreprise</label>
-                    <input id="entreprise" name="entreprise" type="text" required />
+                    <input 
+                      id="entreprise" 
+                      name="entreprise" 
+                      type="text" 
+                      className={formErrors.entreprise ? styles.inputError : ''}
+                      required 
+                    />
+                    {formErrors.entreprise && <span className={styles.errorText}>{formErrors.entreprise}</span>}
                   </div>
                   <div className={styles.formGroup}>
                     <label htmlFor="fonction">Fonction</label>
-                    <input id="fonction" name="fonction" type="text" required />
+                    <input 
+                      id="fonction" 
+                      name="fonction" 
+                      type="text" 
+                      className={formErrors.fonction ? styles.inputError : ''}
+                      required 
+                    />
+                    {formErrors.fonction && <span className={styles.errorText}>{formErrors.fonction}</span>}
                   </div>
                 </div>
 
                 <div className={styles.formRow}>
                   <div className={styles.formGroup}>
                     <label htmlFor="telephone">Téléphone</label>
-                    <input id="telephone" name="telephone" type="tel" required />
+                    <input 
+                      id="telephone" 
+                      name="telephone" 
+                      type="tel" 
+                      className={formErrors.telephone ? styles.inputError : ''}
+                      required 
+                    />
+                    {formErrors.telephone && <span className={styles.errorText}>{formErrors.telephone}</span>}
                   </div>
                   <div className={styles.formGroup}>
                     <label htmlFor="email">Email</label>
-                    <input id="email" name="email" type="email" required />
+                    <input 
+                      id="email" 
+                      name="email" 
+                      type="email" 
+                      className={formErrors.email ? styles.inputError : ''}
+                      required 
+                    />
+                    {formErrors.email && <span className={styles.errorText}>{formErrors.email}</span>}
                   </div>
                 </div>
 
                 <div className={styles.formRow}>
                   <div className={styles.formGroup}>
                     <label htmlFor="demande">Demande</label>
-                    <textarea id="demande" name="demande" rows="4" required />
+                    <textarea 
+                      id="demande" 
+                      name="demande" 
+                      rows="4" 
+                      className={formErrors.demande ? styles.inputError : ''}
+                      required 
+                    />
+                    {formErrors.demande && <span className={styles.errorText}>{formErrors.demande}</span>}
                   </div>
                 </div>
 
-                <button type="submit" className={styles.submitButton}>Envoyer</button>
+                <button 
+                  type="submit" 
+                  className={styles.submitButton}
+                  disabled={isSubmitting}
+                >
+                  {isSubmitting ? 'Envoi en cours...' : 'Envoyer'}
+                </button>
               </form>
             </div>
 

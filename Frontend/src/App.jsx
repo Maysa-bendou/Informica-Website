@@ -1,7 +1,8 @@
-import React, { useLayoutEffect } from 'react';
-import { Routes, Route, useLocation } from 'react-router-dom';
+import React from 'react';
+import { Routes, Route } from 'react-router-dom';
+import ScrollToTop from './components/ScrollToTop';
 
-//pages
+// Pages
 import Accueil from './pages/Accueil/Accueil';
 import PagePublic from './pages/PagePublic/PagePublic';
 import CataloguePage from './pages/CataloguePage/CataloguePage';
@@ -14,32 +15,10 @@ import ContactPage from './pages/PageEntreprise/ContactPage/ContactPage';
 import NosFormationsPage from './pages/PageEntreprise/NosFormationsPage/NosFormationsPage';
 import NosReferencesPage from './pages/PageEntreprise/NosReferencesPage/NosReferencesPage';
 
-
-// ✅ Inline ScrollToTop logic
-function ScrollToTopOnRouteChange() {
-  const { pathname } = useLocation();
-
-  useLayoutEffect(() => {
-    if ('scrollRestoration' in window.history) {
-      window.history.scrollRestoration = 'manual';
-    }
-    window.scrollTo(0, 0);
-  }, [pathname]);
-
-  return null;
-}
-
-// ✅ Also handle scroll to top on full page reload
-if (typeof window !== 'undefined' && 'scrollRestoration' in window.history) {
-  window.history.scrollRestoration = 'manual';
-  window.scrollTo(0, 0);
-}
-
 function App() {
   return (
     <>
-      <ScrollToTopOnRouteChange />
-
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Accueil />} />
 
@@ -63,7 +42,3 @@ function App() {
 }
 
 export default App;
-
-
-
-

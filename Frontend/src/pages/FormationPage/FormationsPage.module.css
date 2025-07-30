@@ -59,7 +59,7 @@
 
 .backButton {
   position: fixed;
-  left: 0;
+  left: 2px;
   top: 120px; 
   z-index: 10;
   animation: slideInFromLeft 0.6s ease-out 0.2s forwards;
